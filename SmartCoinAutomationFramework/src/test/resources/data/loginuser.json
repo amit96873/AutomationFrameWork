@@ -1,0 +1,48 @@
+{
+
+"invalidusername":{
+"full_name": "A@ji#t 93singh",
+"Mobile_Number": "8073420765"
+     },
+   "invalidnamenumber":{
+"full_name": "A@ji#t 93singh",
+"Mobile_Number": "8073@&0765"
+     },
+     "invalidnumber":{
+"full_name": "Ajit singh",
+"Mobile_Number": "8073@&0765"
+     },
+     "invalidusernamebyspacealchar":{
+"full_name": "A@ji#t 93singh",
+"Mobile_Number": "8073420765"
+     },
+     "emptynameandnumber":{
+"full_name": "          ",
+"Mobile_Number": "          "
+     },
+     "emptynamevalidnumber":{
+"full_name": "          ",
+"Mobile_Number": "8073420765"
+     },
+     "emptynumbervalidname":{
+"full_name": "Ajit singh",
+"Mobile_Number": "          "
+     },
+     "spaceinnumber":{
+"full_name": "Ajit singh",
+"Mobile_Number": "8073  0765"
+     },
+     "lessthantendigitnumber":{
+"full_name": "        Ajit singh",
+"Mobile_Number": "80730765"
+     },
+    "validnameandnumber":{
+"full_name": "Ajit singh",
+"Mobile_Number": "8073420765"
+     }, 
+     "fbusernamepassword":{
+"username": "amit96873@gmail.com",
+"password": "8226993297"
+     } 
+
+}

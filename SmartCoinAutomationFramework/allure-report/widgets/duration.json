@@ -1,0 +1,91 @@
+[ {
+  "uid" : "8e235b5b9d610f06",
+  "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
+  "time" : {
+    "start" : 1583474122105,
+    "stop" : 1583474135556,
+    "duration" : 13451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1344ee9eb7d26372",
+  "name" : "Check Registration by enter invalid name and Valid Mobile Number",
+  "time" : {
+    "start" : 1583474058171,
+    "stop" : 1583474069873,
+    "duration" : 11702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "584774d75d855e8d",
+  "name" : "Check Registration by enter Empty name and Valid Mobile Number",
+  "time" : {
+    "start" : 1583474101355,
+    "stop" : 1583474110554,
+    "duration" : 9199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9ba9081f86e66d7",
+  "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
+  "time" : {
+    "start" : 1583474081499,
+    "stop" : 1583474091189,
+    "duration" : 9690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "296ca40bfba34380",
+  "name" : "Check Registration by enter Valid name and Empty Mobile Number",
+  "time" : {
+    "start" : 1583474110570,
+    "stop" : 1583474122074,
+    "duration" : 11504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a040808f665c49e3",
+  "name" : "Check Registration by enter Valid name and Eight Digits Mobile Number",
+  "time" : {
+    "start" : 1583474135586,
+    "stop" : 1583474147368,
+    "duration" : 11782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f4be3e93dce3b9b",
+  "name" : "Check Registration by enter Valid name and Valid Mobile Number",
+  "time" : {
+    "start" : 1583474147391,
+    "stop" : 1583474160493,
+    "duration" : 13102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fae56d3def1a4751",
+  "name" : "Check Registration by enter Empty name and Empty Mobile Number",
+  "time" : {
+    "start" : 1583474091210,
+    "stop" : 1583474101332,
+    "duration" : 10122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "878a6bfd22c0112a",
+  "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
+  "time" : {
+    "start" : 1583474069937,
+    "stop" : 1583474081455,
+    "duration" : 11518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

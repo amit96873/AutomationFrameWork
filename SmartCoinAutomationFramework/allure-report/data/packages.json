@@ -1,0 +1,126 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.qa.tests.SignUpTests",
+    "children" : [ {
+      "name" : "checkRegistrationInvalidName",
+      "uid" : "1344ee9eb7d26372",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474058171,
+        "stop" : 1583474069873,
+        "duration" : 11702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationInvalidNumber",
+      "uid" : "878a6bfd22c0112a",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474069937,
+        "stop" : 1583474081455,
+        "duration" : 11518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationInvalidNameBySpacelChar",
+      "uid" : "f9ba9081f86e66d7",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474081499,
+        "stop" : 1583474091189,
+        "duration" : 9690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationEmptyNameAndNumber",
+      "uid" : "fae56d3def1a4751",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474091210,
+        "stop" : 1583474101332,
+        "duration" : 10122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationEmptyNameValidNumber",
+      "uid" : "584774d75d855e8d",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474101355,
+        "stop" : 1583474110554,
+        "duration" : 9199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationEmptyNumberValidName",
+      "uid" : "296ca40bfba34380",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474110570,
+        "stop" : 1583474122074,
+        "duration" : 11504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationSpaceInNumber",
+      "uid" : "8e235b5b9d610f06",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474122105,
+        "stop" : 1583474135556,
+        "duration" : 13451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationEightDigitsNumber",
+      "uid" : "a040808f665c49e3",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474135586,
+        "stop" : 1583474147368,
+        "duration" : 11782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    }, {
+      "name" : "checkRegistrationWithValidNameAndNumber",
+      "uid" : "1f4be3e93dce3b9b",
+      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583474147391,
+        "stop" : 1583474160493,
+        "duration" : 13102
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+    } ],
+    "uid" : "com.qa.tests.SignUpTests"
+  } ]
+}

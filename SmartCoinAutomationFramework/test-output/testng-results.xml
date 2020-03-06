@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58598" started-at="2020-03-04T18:49:32 IST" finished-at="2020-03-04T18:50:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58598" started-at="2020-03-04T18:49:32 IST" finished-at="2020-03-04T18:50:31 IST">
+      <class name="com.qa.tests.HomePageTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTests@783ec989]" name="beforeTest" is-config="true" duration-ms="22729" started-at="2020-03-04T18:49:32 IST" finished-at="2020-03-04T18:49:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.HomePageTests@783ec989]" name="beforeClass" is-config="true" duration-ms="619" started-at="2020-03-04T18:49:55 IST" finished-at="2020-03-04T18:49:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageTests@783ec989]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2020-03-04T18:49:55 IST" finished-at="2020-03-04T18:49:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.HomePageTests.checkHomePageScrolling()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkHomePageScrolling()[pri:1, instance:com.qa.tests.HomePageTests@783ec989]" name="checkHomePageScrolling" duration-ms="34327" started-at="2020-03-04T18:49:56 IST" description="Verify Home Page Scrolling" finished-at="2020-03-04T18:50:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomePageScrolling -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageTests@783ec989]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-03-04T18:50:30 IST" finished-at="2020-03-04T18:50:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.HomePageTests@783ec989]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-03-04T18:50:30 IST" finished-at="2020-03-04T18:50:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.HomePageTests@783ec989]" name="afterTest" is-config="true" duration-ms="354" started-at="2020-03-04T18:50:30 IST" finished-at="2020-03-04T18:50:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.tests.HomePageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

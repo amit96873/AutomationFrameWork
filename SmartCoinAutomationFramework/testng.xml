@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+<listener class-name="com.qa.listeners.TestsListener"/>
+</listeners>
+  <test name="Test">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+      <class name="com.qa.tests.SignUpTests">
+      <methods>
+    <!--    <include name="checkSignInButton"/> 
+      <include name="checkEnglishLangButton"/> 
+       <include name="checkHindiLangButton"/> 
+       <include name="checkOtherLangButton"/> 
+      <include name="checkAgreeAndContinueButton"/>
+      <include name="checkSmsAllowButton"/>
+      <include name="checkContactsAllowButton"/>
+      <include name="checkManagePhoneCallsAllowButton"/>
+      <include name="checkLocationAllowButton"/>
+      <include name="checkFBLoginButton"/>
+      <include name="checkFBLoginPage"/>
+      <include name="checkContinueLoginWithFBBtn"/>
+      <include name="checkCreatePassword"/>
+      <include name="checkConfirmPassword"/> -->
+      </methods>
+        </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

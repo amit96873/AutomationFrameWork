@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/qa/pages/CameraPage.java=UTF-8
+encoding//src/main/java/com/qa/pages/ChatPage.java=UTF-8
+encoding//src/main/java/com/qa/pages/LanguagePage.java=UTF-8
+encoding//src/main/java/com/qa/pages/LanguageSettingPage.java=UTF-8
+encoding//src/main/java/com/qa/pages/PermissionPage.java=UTF-8
+encoding//src/main/java/com/qa/pages/PrivecyPolicyPage.java=UTF-8
+encoding//src/main/java/com/qa/pages/TermsAndConditionsPage.java=UTF-8
+encoding//src/test/java/com/qa/tests/SignUpPermissionPageTests.java=UTF-8
+encoding//src/test/java/com/qa/tests/SignUpTests.java=UTF-8
+encoding//src/test/java/com/qa/tests/SigninSigninButtonTests.java=UTF-8
+encoding//src/test/java/com/qa/tests/SigninTests.java=UTF-8

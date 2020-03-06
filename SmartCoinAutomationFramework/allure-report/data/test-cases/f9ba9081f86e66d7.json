@@ -1,0 +1,219 @@
+{
+  "uid" : "f9ba9081f86e66d7",
+  "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
+  "fullName" : "com.qa.tests.SignUpTests.checkRegistrationInvalidNameBySpacelChar",
+  "historyId" : "70cfef38119df62c4fcf2606ce93e4dd",
+  "time" : {
+    "start" : 1583474081499,
+    "stop" : 1583474091189,
+    "duration" : 9690
+  },
+  "description" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
+  "descriptionHtml" : "<p>Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583474081467,
+      "stop" : 1583474081467,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583474030192,
+      "stop" : 1583474048787,
+      "duration" : 18595
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583474048854,
+      "stop" : 1583474057163,
+      "duration" : 8309
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked Full Name Edit text with invalid data(invalid name by using Speacal charachter) and Mobile Number Edit Text With Valid Data",
+      "time" : {
+        "start" : 1583474081500,
+        "stop" : 1583474090610,
+        "duration" : 9110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2bbce372517aa49f",
+      "name" : "saveFailureScreenShot",
+      "source" : "2bbce372517aa49f.png",
+      "type" : "image/png",
+      "size" : 96205
+    }, {
+      "uid" : "658c01375f6b5cd3",
+      "name" : "checkRegistrationInvalidNameBySpacelCharPassed And Screenshot Taken",
+      "source" : "658c01375f6b5cd3.txt",
+      "type" : "text/plain",
+      "size" : 67
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583474091191,
+      "stop" : 1583474091191,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583474160519,
+      "stop" : 1583474161069,
+      "duration" : 550
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583474160518,
+      "stop" : 1583474160519,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.SignUpTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.SignUpTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkRegistrationInvalidNameBySpacelChar"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.SignUpTests"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "3304@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup"
+  }, {
+    "name" : "feature",
+    "value" : "Feature3: Verify Full Name Edit Text with invalid data(invalid name by using Speacal charachter) and Mobile Number Edit Text with valid data "
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9ba9081f86e66d7.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

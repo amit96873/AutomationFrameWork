@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="Language_Page_Title">Language</string>
+<string name="RegistrationFullnameMobilenumber_Page_Title">Need Instant Loan? Register with us...</string>
+<string name="Permission_Page_Title">Permissions</string>
+<string name="fullName_Error_text">Invalid Name</string>
+<string name="mobileNumber_Error_text">Invalid Mobile No.</string>
+<string name="SendSMS_Title_Text">Allow SmartCoin to send and view SMS messages?</string>
+<string name="Acces_Contacts_Title_Text">Allow SmartCoin to access your contacts?</string>
+<string name="managePhoneCalls_Title_Text">Allow SmartCoin to make and manage phone calls?</string>
+<string name="Location_Title_Text">Allow SmartCoin to access this device's location?</string>
+<string name="signinwithgmailfb_Title_Text">Sign in</string>
+<string name="facebookpage_Title_Text">facebook</string>
+<string name="ContinueLoginWithfacebookpage_Title_Text">Log in with Facebook</string>
+<string name="createpasswordPage_Title_Text">Create a 4-digit Pin</string>
+<string name="confirmpasswordPage_Title_Text">Confirm your 4-digit Pin</string>
+<string name="homePage_Title_Text">SmartCoin</string>
+<string name="menuPage_Title_Text">Welcome!</string>
+<string name="chatpage_Title_Text">SmartCoin Customer Support</string>
+<string name="numberverification_Title_Text">OTP Verification</string>
+<string name="bankstatementpage_Title_Text">Unlock Loan Offers</string>
+<string name="SmartCoinRewardsPage_Title_Text">Smartcoin Rewards</string>
+<string name="mykhataPage_Title_Text">Khata</string>
+<string name="myprofilePage_Title_Text">My Profile</string>
+<string name="helpandsupportPage_Title_Text">EMAIL US</string>
+<string name="myloansPage_Title_Text">My Loans</string>
+</resources>

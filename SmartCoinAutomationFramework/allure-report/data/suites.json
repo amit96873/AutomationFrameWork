@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "com.qa.tests.SignUpTests",
+        "children" : [ {
+          "name" : "Check Registration by enter invalid name and Valid Mobile Number",
+          "uid" : "1344ee9eb7d26372",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474058171,
+            "stop" : 1583474069873,
+            "duration" : 11702
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
+          "uid" : "878a6bfd22c0112a",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474069937,
+            "stop" : 1583474081455,
+            "duration" : 11518
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
+          "uid" : "f9ba9081f86e66d7",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474081499,
+            "stop" : 1583474091189,
+            "duration" : 9690
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter Empty name and Empty Mobile Number",
+          "uid" : "fae56d3def1a4751",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474091210,
+            "stop" : 1583474101332,
+            "duration" : 10122
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter Empty name and Valid Mobile Number",
+          "uid" : "584774d75d855e8d",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474101355,
+            "stop" : 1583474110554,
+            "duration" : 9199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter Valid name and Empty Mobile Number",
+          "uid" : "296ca40bfba34380",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474110570,
+            "stop" : 1583474122074,
+            "duration" : 11504
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
+          "uid" : "8e235b5b9d610f06",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474122105,
+            "stop" : 1583474135556,
+            "duration" : 13451
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter Valid name and Eight Digits Mobile Number",
+          "uid" : "a040808f665c49e3",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474135586,
+            "stop" : 1583474147368,
+            "duration" : 11782
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Check Registration by enter Valid name and Valid Mobile Number",
+          "uid" : "1f4be3e93dce3b9b",
+          "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583474147391,
+            "stop" : 1583474160493,
+            "duration" : 13102
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "8b50fb6dfb99a40a9fdea8058acb1efe"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}
