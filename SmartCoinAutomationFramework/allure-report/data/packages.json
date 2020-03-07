@@ -2,125 +2,397 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.qa.tests.SignUpTests",
+    "name" : "com.qa.tests",
     "children" : [ {
-      "name" : "checkRegistrationInvalidName",
-      "uid" : "1344ee9eb7d26372",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474058171,
-        "stop" : 1583474069873,
-        "duration" : 11702
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      "name" : "SignUpTests",
+      "children" : [ {
+        "name" : "checkRegistrationInvalidName",
+        "uid" : "58a6f4346fae65fa",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576919452,
+          "stop" : 1583576930832,
+          "duration" : 11380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationInvalidNumber",
+        "uid" : "59a7c57f995378bb",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576930867,
+          "stop" : 1583576940818,
+          "duration" : 9951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationInvalidNameBySpacelChar",
+        "uid" : "99b7477360251dc",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576940833,
+          "stop" : 1583576950478,
+          "duration" : 9645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationEmptyNameAndNumber",
+        "uid" : "1218f1ab77af4a91",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576950496,
+          "stop" : 1583576959581,
+          "duration" : 9085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationEmptyNameValidNumber",
+        "uid" : "d62884c06991e785",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576959599,
+          "stop" : 1583576968723,
+          "duration" : 9124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationEmptyNumberValidName",
+        "uid" : "4731c29f4e741ff3",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576968734,
+          "stop" : 1583576977575,
+          "duration" : 8841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationSpaceInNumber",
+        "uid" : "f3b89aaef13d9a0b",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576977588,
+          "stop" : 1583576986942,
+          "duration" : 9354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationEightDigitsNumber",
+        "uid" : "f5a832ac4b00c83a",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576986958,
+          "stop" : 1583576996013,
+          "duration" : 9055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkRegistrationWithValidNameAndNumber",
+        "uid" : "d010c5e731d9305b",
+        "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576996028,
+          "stop" : 1583577006711,
+          "duration" : 10683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "5964c48bd4d564cb09c90c9bf6ede885"
     }, {
-      "name" : "checkRegistrationInvalidNumber",
-      "uid" : "878a6bfd22c0112a",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474069937,
-        "stop" : 1583474081455,
-        "duration" : 11518
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      "name" : "MenuPageButtonTest",
+      "children" : [ {
+        "name" : "beforeTest",
+        "uid" : "b41a69cdb55b0f48",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583587011560,
+          "stop" : 1583587011568,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkHomePageScrolling",
+        "uid" : "e23790a5d79e0e5",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587633512,
+          "stop" : 1583587668127,
+          "duration" : 34615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageHomeButton",
+        "uid" : "9fdb72e815ff8aa0",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587668187,
+          "stop" : 1583587673848,
+          "duration" : 5661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageMyLoansButton",
+        "uid" : "26f5197f7a402f",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587673888,
+          "stop" : 1583587683810,
+          "duration" : 9922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageMyProfileButton",
+        "uid" : "43fb70eb0a856cc5",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587683830,
+          "stop" : 1583587697308,
+          "duration" : 13478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageAllTransactionButton",
+        "uid" : "161fc795d6d3edb8",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587697360,
+          "stop" : 1583587710350,
+          "duration" : 12990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageHelpAndSupportButton",
+        "uid" : "395c49fd21c83f94",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587710371,
+          "stop" : 1583587721450,
+          "duration" : 11079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageFAQButton",
+        "uid" : "4a03f438aaf7955b",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587721471,
+          "stop" : 1583587732760,
+          "duration" : 11289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageLanguageSettingButton",
+        "uid" : "ea6be892558e3db5",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587732784,
+          "stop" : 1583587745720,
+          "duration" : 12936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageTroubleshootButton",
+        "uid" : "ceb467d2134d8a0a",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587745734,
+          "stop" : 1583587756831,
+          "duration" : 11097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenuPageMyBankDetailsButton",
+        "uid" : "814d015750d02208",
+        "parentUid" : "eda75b6b191bc5890ba52cc614127d41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587756842,
+          "stop" : 1583587768585,
+          "duration" : 11743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "eda75b6b191bc5890ba52cc614127d41"
     }, {
-      "name" : "checkRegistrationInvalidNameBySpacelChar",
-      "uid" : "f9ba9081f86e66d7",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474081499,
-        "stop" : 1583474091189,
-        "duration" : 9690
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
-    }, {
-      "name" : "checkRegistrationEmptyNameAndNumber",
-      "uid" : "fae56d3def1a4751",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474091210,
-        "stop" : 1583474101332,
-        "duration" : 10122
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
-    }, {
-      "name" : "checkRegistrationEmptyNameValidNumber",
-      "uid" : "584774d75d855e8d",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474101355,
-        "stop" : 1583474110554,
-        "duration" : 9199
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
-    }, {
-      "name" : "checkRegistrationEmptyNumberValidName",
-      "uid" : "296ca40bfba34380",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474110570,
-        "stop" : 1583474122074,
-        "duration" : 11504
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
-    }, {
-      "name" : "checkRegistrationSpaceInNumber",
-      "uid" : "8e235b5b9d610f06",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474122105,
-        "stop" : 1583474135556,
-        "duration" : 13451
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
-    }, {
-      "name" : "checkRegistrationEightDigitsNumber",
-      "uid" : "a040808f665c49e3",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474135586,
-        "stop" : 1583474147368,
-        "duration" : 11782
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
-    }, {
-      "name" : "checkRegistrationWithValidNameAndNumber",
-      "uid" : "1f4be3e93dce3b9b",
-      "parentUid" : "5964c48bd4d564cb09c90c9bf6ede885",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583474147391,
-        "stop" : 1583474160493,
-        "duration" : 13102
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      "name" : "HomePageTests",
+      "children" : [ {
+        "name" : "checkHomePageScrolling",
+        "uid" : "520b13104f1a278f",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587132500,
+          "stop" : 1583587169254,
+          "duration" : 36754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMenueButton",
+        "uid" : "bad5b6991d806e16",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587169321,
+          "stop" : 1583587172549,
+          "duration" : 3228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkChatShortCutButton",
+        "uid" : "296404ee402b68a4",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587172563,
+          "stop" : 1583587185906,
+          "duration" : 13343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkVerifyMobileNumberButton",
+        "uid" : "a412fbcf01decfed",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587185941,
+          "stop" : 1583587190570,
+          "duration" : 4629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkUploadBankAccountStatementButton",
+        "uid" : "4f9192de641a0556",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587190589,
+          "stop" : 1583587198666,
+          "duration" : 8077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkEarnCoinsButton",
+        "uid" : "1c788040956dbefa",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587198688,
+          "stop" : 1583587208638,
+          "duration" : 9950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMyKhataButton",
+        "uid" : "e718d07b6dac8e5a",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587208652,
+          "stop" : 1583587220025,
+          "duration" : 11373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkMyProfileButton",
+        "uid" : "3a9071fd3fad521c",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587220036,
+          "stop" : 1583587232994,
+          "duration" : 12958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "checkContactUsButton",
+        "uid" : "954e412ee5e1db9",
+        "parentUid" : "666520c3362ad24bb934bc6e9ea676f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587233014,
+          "stop" : 1583587246545,
+          "duration" : 13531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "666520c3362ad24bb934bc6e9ea676f5"
     } ],
-    "uid" : "com.qa.tests.SignUpTests"
+    "uid" : "com.qa.tests"
   } ]
 }

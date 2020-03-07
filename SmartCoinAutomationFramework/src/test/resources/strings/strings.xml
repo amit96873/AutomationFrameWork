@@ -24,4 +24,9 @@
 <string name="myprofilePage_Title_Text">My Profile</string>
 <string name="helpandsupportPage_Title_Text">EMAIL US</string>
 <string name="myloansPage_Title_Text">My Loans</string>
+<string name="BankAccountPendingPage_Title_Text">Bank Account Pending</string>
+<string name="alltransactionPage_Title_Text">All Transactions</string>
+<string name="faqPage_Title_Text">FAQ</string>
+<string name="languagepage_Title_Text">Language</string>
+<string name="troubleshootpage_Title_Text">Troubleshoot</string>
 </resources>

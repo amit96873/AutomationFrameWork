@@ -4,126 +4,1561 @@
   "children" : [ {
     "name" : "Lenovo-PC",
     "children" : [ {
-      "name" : "3304@Lenovo-PC.main(1)",
+      "name" : "6536@Lenovo-PC.main(1)",
       "children" : [ {
-        "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
-        "uid" : "f9ba9081f86e66d7",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "name" : "Verify FAQ Button which is peresence on Menu Page",
+        "uid" : "ed039ca9e1f6fb24",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
         "status" : "passed",
         "time" : {
-          "start" : 1583474081499,
-          "stop" : 1583474091189,
-          "duration" : 9690
+          "start" : 1583587486546,
+          "stop" : 1583587497792,
+          "duration" : 11246
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       }, {
-        "name" : "Check Registration by enter invalid name and Valid Mobile Number",
-        "uid" : "1344ee9eb7d26372",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "84f9ef144507805e",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
         "status" : "passed",
         "time" : {
-          "start" : 1583474058171,
-          "stop" : 1583474069873,
-          "duration" : 11702
+          "start" : 1583587402335,
+          "stop" : 1583587433651,
+          "duration" : 31316
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       }, {
-        "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
-        "uid" : "8e235b5b9d610f06",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "c99367b79279dce8",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
         "status" : "passed",
         "time" : {
-          "start" : 1583474122105,
-          "stop" : 1583474135556,
-          "duration" : 13451
+          "start" : 1583587441464,
+          "stop" : 1583587450674,
+          "duration" : 9210
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       }, {
-        "name" : "Check Registration by enter Valid name and Valid Mobile Number",
-        "uid" : "1f4be3e93dce3b9b",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "71fe5c461d26c55f",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
         "status" : "passed",
         "time" : {
-          "start" : 1583474147391,
-          "stop" : 1583474160493,
-          "duration" : 13102
+          "start" : 1583587522078,
+          "stop" : 1583587533839,
+          "duration" : 11761
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       }, {
-        "name" : "Check Registration by enter Empty name and Valid Mobile Number",
-        "uid" : "584774d75d855e8d",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "bafcfeb876a50eb2",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
         "status" : "passed",
         "time" : {
-          "start" : 1583474101355,
-          "stop" : 1583474110554,
-          "duration" : 9199
+          "start" : 1583587462671,
+          "stop" : 1583587474446,
+          "duration" : 11775
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "62ee58128e5316a",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587433815,
+          "stop" : 1583587441398,
+          "duration" : 7583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+        "uid" : "2316d115a2ed5199",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587510285,
+          "stop" : 1583587522065,
+          "duration" : 11780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "a1808553299467e0",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587474462,
+          "stop" : 1583587486527,
+          "duration" : 12065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Language Button which is peresence on Menu Page",
+        "uid" : "d226abab60022822",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587497813,
+          "stop" : 1583587510269,
+          "duration" : 12456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "13cf30cfa28ed5eb",
+        "parentUid" : "35c5c410a3a4e73f3d21f32e9ffd0287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587450695,
+          "stop" : 1583587462648,
+          "duration" : 11953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "35c5c410a3a4e73f3d21f32e9ffd0287"
+    }, {
+      "name" : "9620@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify Home Page Mobile Number Verify Button",
+        "uid" : "e3b82aed729c1f41",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576149651,
+          "stop" : 1583576154484,
+          "duration" : 4833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Bank Account Statement Upload Button",
+        "uid" : "7d377f224ce7611f",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576154501,
+          "stop" : 1583576159439,
+          "duration" : 4938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page ContactUs Button",
+        "uid" : "eaa4dc9983e5a7ea",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576186077,
+          "stop" : 1583576196130,
+          "duration" : 10053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "be706bea08e2a584",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576112399,
+          "stop" : 1583576135763,
+          "duration" : 23364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Menu Button",
+        "uid" : "ab7d123e4fa9c804",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576135833,
+          "stop" : 1583576139047,
+          "duration" : 3214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page MyProfile Button",
+        "uid" : "970d3dc6af1cb1a2",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576174311,
+          "stop" : 1583576186058,
+          "duration" : 11747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Earn  Button",
+        "uid" : "872e2ef9a58ceb21",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576159470,
+          "stop" : 1583576165883,
+          "duration" : 6413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Chat ShortCut Button",
+        "uid" : "bcb27cc22b61b33",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576139066,
+          "stop" : 1583576149631,
+          "duration" : 10565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page MyKhata Button",
+        "uid" : "3f4ee30888f28bff",
+        "parentUid" : "ea2b8bcc221c4acb756068fdc97397cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576165898,
+          "stop" : 1583576174298,
+          "duration" : 8400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "ea2b8bcc221c4acb756068fdc97397cb"
+    }, {
+      "name" : "3628@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify Language Button which is peresence on Menu Page",
+        "uid" : "2f2801fd0354b3d0",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645785,
+          "stop" : 1583586645787,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "2a5ee5418e6eb10a",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645691,
+          "stop" : 1583586645693,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "995737eec57c87f",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645812,
+          "stop" : 1583586645814,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "2687876f6f5c5d29",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645705,
+          "stop" : 1583586645709,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "293ea86d12315848",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645657,
+          "stop" : 1583586645660,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "2d5a9538b588aa57",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645732,
+          "stop" : 1583586645733,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+        "uid" : "fea7413e082439b8",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645801,
+          "stop" : 1583586645803,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify FAQ Button which is peresence on Menu Page",
+        "uid" : "d3309ef4b9750a85",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645767,
+          "stop" : 1583586645769,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "beforeTest",
+        "uid" : "15310d2f62038d41",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586645224,
+          "stop" : 1583586645228,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "e3c4d7ab41feb76c",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645633,
+          "stop" : 1583586645637,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "714b6b9ecbc2978d",
+        "parentUid" : "23dc787bceb5ad7cea55a11dc7f8adbe",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586645753,
+          "stop" : 1583586645756,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "23dc787bceb5ad7cea55a11dc7f8adbe"
+    }, {
+      "name" : "9320@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify Home Page ContactUs Button",
+        "uid" : "954e412ee5e1db9",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587233014,
+          "stop" : 1583587246545,
+          "duration" : 13531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Mobile Number Verify Button",
+        "uid" : "a412fbcf01decfed",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587185941,
+          "stop" : 1583587190570,
+          "duration" : 4629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page MyProfile Button",
+        "uid" : "3a9071fd3fad521c",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587220036,
+          "stop" : 1583587232994,
+          "duration" : 12958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Bank Account Statement Upload Button",
+        "uid" : "4f9192de641a0556",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587190589,
+          "stop" : 1583587198666,
+          "duration" : 8077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Chat ShortCut Button",
+        "uid" : "296404ee402b68a4",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587172563,
+          "stop" : 1583587185906,
+          "duration" : 13343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Menu Button",
+        "uid" : "bad5b6991d806e16",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587169321,
+          "stop" : 1583587172549,
+          "duration" : 3228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "520b13104f1a278f",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587132500,
+          "stop" : 1583587169254,
+          "duration" : 36754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Earn  Button",
+        "uid" : "1c788040956dbefa",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587198688,
+          "stop" : 1583587208638,
+          "duration" : 9950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page MyKhata Button",
+        "uid" : "e718d07b6dac8e5a",
+        "parentUid" : "b0e5910f15b2831fe4b536ec86217cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587208652,
+          "stop" : 1583587220025,
+          "duration" : 11373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "b0e5910f15b2831fe4b536ec86217cc1"
+    }, {
+      "name" : "7864@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "7ea0dfe9adf7dc93",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724317,
+          "stop" : 1583586724322,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "44b5b5e20fb0cee5",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724347,
+          "stop" : 1583586724384,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "d535b7721f1b7528",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724241,
+          "stop" : 1583586724250,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "dee71fa3b08445ac",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724401,
+          "stop" : 1583586724402,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Language Button which is peresence on Menu Page",
+        "uid" : "75861eb913709892",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724433,
+          "stop" : 1583586724436,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+        "uid" : "48ebcf37c392ab67",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724471,
+          "stop" : 1583586724473,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "344dbde6a525cc80",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724482,
+          "stop" : 1583586724483,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "c25542151685beda",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724290,
+          "stop" : 1583586724292,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "dfc2bfaa22cdf499",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724273,
+          "stop" : 1583586724279,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify FAQ Button which is peresence on Menu Page",
+        "uid" : "596b0c321ad25fc",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586724411,
+          "stop" : 1583586724412,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "beforeTest",
+        "uid" : "57caa287bd664d70",
+        "parentUid" : "2769020f903c4a6efc67e0282f01d2b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586723838,
+          "stop" : 1583586723845,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "2769020f903c4a6efc67e0282f01d2b9"
+    }, {
+      "name" : "8776@Lenovo-PC.main(1)",
+      "children" : [ {
         "name" : "Check Registration by enter Empty name and Empty Mobile Number",
-        "uid" : "fae56d3def1a4751",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "uid" : "1218f1ab77af4a91",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
         "status" : "passed",
         "time" : {
-          "start" : 1583474091210,
-          "stop" : 1583474101332,
-          "duration" : 10122
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Android Emulator", "Android", "8.0" ]
-      }, {
-        "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
-        "uid" : "878a6bfd22c0112a",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
-        "status" : "passed",
-        "time" : {
-          "start" : 1583474069937,
-          "stop" : 1583474081455,
-          "duration" : 11518
+          "start" : 1583576950496,
+          "stop" : 1583576959581,
+          "duration" : 9085
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       }, {
         "name" : "Check Registration by enter Valid name and Eight Digits Mobile Number",
-        "uid" : "a040808f665c49e3",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "uid" : "f5a832ac4b00c83a",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
         "status" : "passed",
         "time" : {
-          "start" : 1583474135586,
-          "stop" : 1583474147368,
-          "duration" : 11782
+          "start" : 1583576986958,
+          "stop" : 1583576996013,
+          "duration" : 9055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
+        "uid" : "59a7c57f995378bb",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576930867,
+          "stop" : 1583576940818,
+          "duration" : 9951
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       }, {
         "name" : "Check Registration by enter Valid name and Empty Mobile Number",
-        "uid" : "296ca40bfba34380",
-        "parentUid" : "d235c53ae389ddb8e39c2f234bd14947",
+        "uid" : "4731c29f4e741ff3",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
         "status" : "passed",
         "time" : {
-          "start" : 1583474110570,
-          "stop" : 1583474122074,
-          "duration" : 11504
+          "start" : 1583576968734,
+          "stop" : 1583576977575,
+          "duration" : 8841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Check Registration by enter Empty name and Valid Mobile Number",
+        "uid" : "d62884c06991e785",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576959599,
+          "stop" : 1583576968723,
+          "duration" : 9124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
+        "uid" : "99b7477360251dc",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576940833,
+          "stop" : 1583576950478,
+          "duration" : 9645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Check Registration by enter Valid name and Valid Mobile Number",
+        "uid" : "d010c5e731d9305b",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576996028,
+          "stop" : 1583577006711,
+          "duration" : 10683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
+        "uid" : "f3b89aaef13d9a0b",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576977588,
+          "stop" : 1583576986942,
+          "duration" : 9354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Check Registration by enter invalid name and Valid Mobile Number",
+        "uid" : "58a6f4346fae65fa",
+        "parentUid" : "a0dd0fd4086cda45955ae462583946cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583576919452,
+          "stop" : 1583576930832,
+          "duration" : 11380
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       } ],
-      "uid" : "d235c53ae389ddb8e39c2f234bd14947"
+      "uid" : "a0dd0fd4086cda45955ae462583946cb"
+    }, {
+      "name" : "5776@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "2ab218f67024dfe7",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575554563,
+          "stop" : 1583575577839,
+          "duration" : 23276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Menu Button",
+        "uid" : "d1f9bb1784a6518",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575577887,
+          "stop" : 1583575580733,
+          "duration" : 2846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Bank Account Statement Upload Button",
+        "uid" : "cb5eb3151d631d9c",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575596119,
+          "stop" : 1583575600802,
+          "duration" : 4683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Chat ShortCut Button",
+        "uid" : "ccf811a32cf4b9cc",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575580754,
+          "stop" : 1583575590674,
+          "duration" : 9920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Earn  Button",
+        "uid" : "ace4da611e8c5297",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575600820,
+          "stop" : 1583575607318,
+          "duration" : 6498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Mobile Number Verify Button",
+        "uid" : "4a3009c188b8a74c",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575590699,
+          "stop" : 1583575596102,
+          "duration" : 5403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page MyProfile Button",
+        "uid" : "a5d3e0a90a936439",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575615704,
+          "stop" : 1583575626241,
+          "duration" : 10537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page MyKhata Button",
+        "uid" : "7006d26eb048c51c",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575607332,
+          "stop" : 1583575615684,
+          "duration" : 8352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page ContactUs Button",
+        "uid" : "1ef5d7e5ab6b494c",
+        "parentUid" : "995cfd559c18d172ea48bd25df35d255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583575626281,
+          "stop" : 1583575636338,
+          "duration" : 10057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "995cfd559c18d172ea48bd25df35d255"
+    }, {
+      "name" : "7316@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "395c49fd21c83f94",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587710371,
+          "stop" : 1583587721450,
+          "duration" : 11079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+        "uid" : "ceb467d2134d8a0a",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587745734,
+          "stop" : 1583587756831,
+          "duration" : 11097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "43fb70eb0a856cc5",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587683830,
+          "stop" : 1583587697308,
+          "duration" : 13478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "161fc795d6d3edb8",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587697360,
+          "stop" : 1583587710350,
+          "duration" : 12990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Language Button which is peresence on Menu Page",
+        "uid" : "ea6be892558e3db5",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587732784,
+          "stop" : 1583587745720,
+          "duration" : 12936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify FAQ Button which is peresence on Menu Page",
+        "uid" : "4a03f438aaf7955b",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587721471,
+          "stop" : 1583587732760,
+          "duration" : 11289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "814d015750d02208",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587756842,
+          "stop" : 1583587768585,
+          "duration" : 11743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "26f5197f7a402f",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587673888,
+          "stop" : 1583587683810,
+          "duration" : 9922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "e23790a5d79e0e5",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587633512,
+          "stop" : 1583587668127,
+          "duration" : 34615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "9fdb72e815ff8aa0",
+        "parentUid" : "b410feb9c1b4dfd241d4b92ccc07ef6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583587668187,
+          "stop" : 1583587673848,
+          "duration" : 5661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "b410feb9c1b4dfd241d4b92ccc07ef6c"
+    }, {
+      "name" : "10076@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "d07f0187d7f1410b",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585804265,
+          "stop" : 1583585805198,
+          "duration" : 933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "27cebb4d85104fa4",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585806113,
+          "stop" : 1583585806708,
+          "duration" : 595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify FAQ Button which is peresence on Menu Page",
+        "uid" : "1ddb4b66dfdb9a20",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585818175,
+          "stop" : 1583585819862,
+          "duration" : 1687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+        "uid" : "67d5a4e164063733",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585832121,
+          "stop" : 1583585833140,
+          "duration" : 1019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "7ee26dd6cce10e9b",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585834066,
+          "stop" : 1583585838124,
+          "duration" : 4058
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "ae6fb3a3e3f33be7",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585807255,
+          "stop" : 1583585808950,
+          "duration" : 1695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "a5f12c1d2a626973",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585797889,
+          "stop" : 1583585801676,
+          "duration" : 3787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Language Button which is peresence on Menu Page",
+        "uid" : "3c2add90bcbe7e0",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585821830,
+          "stop" : 1583585828589,
+          "duration" : 6759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "c640164ec3e918e8",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585812853,
+          "stop" : 1583585814925,
+          "duration" : 2072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "a0fa66fd2e1b7d1b",
+        "parentUid" : "c788f1ec760095262aaa1bba4a8476ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583585770430,
+          "stop" : 1583585794864,
+          "duration" : 24434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "c788f1ec760095262aaa1bba4a8476ca"
+    }, {
+      "name" : "6428@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify FAQ Button which is peresence on Menu Page",
+        "uid" : "ef83143f03520d44",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496691,
+          "stop" : 1583586496692,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "2bfd2197ad91efa7",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496741,
+          "stop" : 1583586496742,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "8cd46597746ffe1a",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496583,
+          "stop" : 1583586496586,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "fd3b9bd2ecccdf7b",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496502,
+          "stop" : 1583586496512,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Language Button which is peresence on Menu Page",
+        "uid" : "381b81834c38f1c0",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496709,
+          "stop" : 1583586496711,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+        "uid" : "4d4ddee9b902f0bc",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496728,
+          "stop" : 1583586496730,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "1ac341a69c12abf5",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496636,
+          "stop" : 1583586496638,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "beforeTest",
+        "uid" : "81c36e212774c894",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586496085,
+          "stop" : 1583586496090,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "7297b609a0f3d3",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496610,
+          "stop" : 1583586496611,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "1777ae6d0b3f7eeb",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496670,
+          "stop" : 1583586496671,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "1685c1cf863fd663",
+        "parentUid" : "6803881859c0a84d7a2d208507f28632",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583586496651,
+          "stop" : 1583586496653,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "6803881859c0a84d7a2d208507f28632"
+    }, {
+      "name" : "9732@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "179e1049893ed5dc",
+        "parentUid" : "2850bf5b1d4a88a1b814177fa36f2904",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586084136,
+          "stop" : 1583586092508,
+          "duration" : 8372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "7b24d4e4a3045fc4",
+        "parentUid" : "2850bf5b1d4a88a1b814177fa36f2904",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586037814,
+          "stop" : 1583586065870,
+          "duration" : 28056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "3cf93634be0e8900",
+        "parentUid" : "2850bf5b1d4a88a1b814177fa36f2904",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586092523,
+          "stop" : 1583586099507,
+          "duration" : 6984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "4264c4f8ddee08bb",
+        "parentUid" : "2850bf5b1d4a88a1b814177fa36f2904",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586071054,
+          "stop" : 1583586079410,
+          "duration" : 8356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "48151a4d483f9c90",
+        "parentUid" : "2850bf5b1d4a88a1b814177fa36f2904",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586079426,
+          "stop" : 1583586084115,
+          "duration" : 4689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "d585fbebc855ac4a",
+        "parentUid" : "2850bf5b1d4a88a1b814177fa36f2904",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583586065958,
+          "stop" : 1583586071019,
+          "duration" : 5061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "2850bf5b1d4a88a1b814177fa36f2904"
+    }, {
+      "name" : "5548@Lenovo-PC.main(1)",
+      "children" : [ {
+        "name" : "beforeTest",
+        "uid" : "b41a69cdb55b0f48",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583587011560,
+          "stop" : 1583587011568,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+        "uid" : "e5ba47de45705ac6",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587011986,
+          "stop" : 1583587011987,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Language Button which is peresence on Menu Page",
+        "uid" : "44c9e05066e28c03",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587012068,
+          "stop" : 1583587012073,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+        "uid" : "1da77d50720a32db",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587012026,
+          "stop" : 1583587012028,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Button which is peresence on Menu Page",
+        "uid" : "679a57296e227dc6",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587011940,
+          "stop" : 1583587011943,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Profile Button which is peresence on Menu Page",
+        "uid" : "207dfa9ac1f6d922",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587011970,
+          "stop" : 1583587011972,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "1e558414813dafbb",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587012099,
+          "stop" : 1583587012103,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Home Page Scrolling",
+        "uid" : "a79b3250c3680510",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587011913,
+          "stop" : 1583587011918,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+        "uid" : "1d130edaee445267",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587012088,
+          "stop" : 1583587012089,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify FAQ Button which is peresence on Menu Page",
+        "uid" : "331a9a75859afd71",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587012047,
+          "stop" : 1583587012049,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      }, {
+        "name" : "Verify My_Loans Button which is peresence on Menu Page",
+        "uid" : "ec7906bc13062949",
+        "parentUid" : "10b0c36e6cf155e71145926bc7c361df",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1583587011957,
+          "stop" : 1583587011958,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "10b0c36e6cf155e71145926bc7c361df"
     } ],
     "uid" : "b80906d1c61227521e131dc1a4acad7f"
   } ]

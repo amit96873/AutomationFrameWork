@@ -111,13 +111,13 @@ public class BaseTest {
 			dc.setCapability(MobileCapabilityType.PLATFORM_NAME, platformName);
 			dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
 			dc.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-//			dc.setCapability(MobileCapabilityType.NO_RESET, true);
-//			dc.setCapability(MobileCapabilityType.FULL_RESET, false);
+			dc.setCapability(MobileCapabilityType.NO_RESET, true);
+			dc.setCapability(MobileCapabilityType.FULL_RESET, false);
 			dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, props.getProperty("androidAutomationName"));
 			dc.setCapability("appPackage", props.getProperty("androidAppPackage"));
 			dc.setCapability("appActivity", props.getProperty("androidAppActivity"));
-						URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
-						dc.setCapability("app", appUrl);
+//						URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
+//						dc.setCapability("app", appUrl);
 			URL url = new URL(props.getProperty("appiumURL"));
 			driver = new AndroidDriver<WebElement>(url,dc);
 			String sessionId = driver.getSessionId().toString();

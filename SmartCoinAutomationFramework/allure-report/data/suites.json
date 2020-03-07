@@ -9,123 +9,391 @@
         "name" : "com.qa.tests.SignUpTests",
         "children" : [ {
           "name" : "Check Registration by enter invalid name and Valid Mobile Number",
-          "uid" : "1344ee9eb7d26372",
+          "uid" : "58a6f4346fae65fa",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474058171,
-            "stop" : 1583474069873,
-            "duration" : 11702
+            "start" : 1583576919452,
+            "stop" : 1583576930832,
+            "duration" : 11380
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
-          "uid" : "878a6bfd22c0112a",
+          "uid" : "59a7c57f995378bb",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474069937,
-            "stop" : 1583474081455,
-            "duration" : 11518
+            "start" : 1583576930867,
+            "stop" : 1583576940818,
+            "duration" : 9951
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
-          "uid" : "f9ba9081f86e66d7",
+          "uid" : "99b7477360251dc",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474081499,
-            "stop" : 1583474091189,
-            "duration" : 9690
+            "start" : 1583576940833,
+            "stop" : 1583576950478,
+            "duration" : 9645
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Empty name and Empty Mobile Number",
-          "uid" : "fae56d3def1a4751",
+          "uid" : "1218f1ab77af4a91",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474091210,
-            "stop" : 1583474101332,
-            "duration" : 10122
+            "start" : 1583576950496,
+            "stop" : 1583576959581,
+            "duration" : 9085
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Empty name and Valid Mobile Number",
-          "uid" : "584774d75d855e8d",
+          "uid" : "d62884c06991e785",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474101355,
-            "stop" : 1583474110554,
-            "duration" : 9199
+            "start" : 1583576959599,
+            "stop" : 1583576968723,
+            "duration" : 9124
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Empty Mobile Number",
-          "uid" : "296ca40bfba34380",
+          "uid" : "4731c29f4e741ff3",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474110570,
-            "stop" : 1583474122074,
-            "duration" : 11504
+            "start" : 1583576968734,
+            "stop" : 1583576977575,
+            "duration" : 8841
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
-          "uid" : "8e235b5b9d610f06",
+          "uid" : "f3b89aaef13d9a0b",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474122105,
-            "stop" : 1583474135556,
-            "duration" : 13451
+            "start" : 1583576977588,
+            "stop" : 1583576986942,
+            "duration" : 9354
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Eight Digits Mobile Number",
-          "uid" : "a040808f665c49e3",
+          "uid" : "f5a832ac4b00c83a",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474135586,
-            "stop" : 1583474147368,
-            "duration" : 11782
+            "start" : 1583576986958,
+            "stop" : 1583576996013,
+            "duration" : 9055
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Valid Mobile Number",
-          "uid" : "1f4be3e93dce3b9b",
+          "uid" : "d010c5e731d9305b",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
-            "start" : 1583474147391,
-            "stop" : 1583474160493,
-            "duration" : 13102
+            "start" : 1583576996028,
+            "stop" : 1583577006711,
+            "duration" : 10683
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         } ],
         "uid" : "8b50fb6dfb99a40a9fdea8058acb1efe"
+      }, {
+        "name" : "com.qa.tests.MenuPageButtonTest",
+        "children" : [ {
+          "name" : "beforeTest",
+          "uid" : "b41a69cdb55b0f48",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "broken",
+          "time" : {
+            "start" : 1583587011560,
+            "stop" : 1583587011568,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Scrolling",
+          "uid" : "e23790a5d79e0e5",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587633512,
+            "stop" : 1583587668127,
+            "duration" : 34615
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Button which is peresence on Menu Page",
+          "uid" : "9fdb72e815ff8aa0",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587668187,
+            "stop" : 1583587673848,
+            "duration" : 5661
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify My_Loans Button which is peresence on Menu Page",
+          "uid" : "26f5197f7a402f",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587673888,
+            "stop" : 1583587683810,
+            "duration" : 9922
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify My_Profile Button which is peresence on Menu Page",
+          "uid" : "43fb70eb0a856cc5",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587683830,
+            "stop" : 1583587697308,
+            "duration" : 13478
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+          "uid" : "161fc795d6d3edb8",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587697360,
+            "stop" : 1583587710350,
+            "duration" : 12990
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+          "uid" : "395c49fd21c83f94",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587710371,
+            "stop" : 1583587721450,
+            "duration" : 11079
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify FAQ Button which is peresence on Menu Page",
+          "uid" : "4a03f438aaf7955b",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587721471,
+            "stop" : 1583587732760,
+            "duration" : 11289
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Language Button which is peresence on Menu Page",
+          "uid" : "ea6be892558e3db5",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587732784,
+            "stop" : 1583587745720,
+            "duration" : 12936
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+          "uid" : "ceb467d2134d8a0a",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587745734,
+            "stop" : 1583587756831,
+            "duration" : 11097
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+          "uid" : "814d015750d02208",
+          "parentUid" : "566f43e7aee8e7aa460077a07d070140",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587756842,
+            "stop" : 1583587768585,
+            "duration" : 11743
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "566f43e7aee8e7aa460077a07d070140"
+      }, {
+        "name" : "com.qa.tests.HomePageTests",
+        "children" : [ {
+          "name" : "Verify Home Page Scrolling",
+          "uid" : "520b13104f1a278f",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587132500,
+            "stop" : 1583587169254,
+            "duration" : 36754
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Menu Button",
+          "uid" : "bad5b6991d806e16",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587169321,
+            "stop" : 1583587172549,
+            "duration" : 3228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Chat ShortCut Button",
+          "uid" : "296404ee402b68a4",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587172563,
+            "stop" : 1583587185906,
+            "duration" : 13343
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Mobile Number Verify Button",
+          "uid" : "a412fbcf01decfed",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587185941,
+            "stop" : 1583587190570,
+            "duration" : 4629
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Bank Account Statement Upload Button",
+          "uid" : "4f9192de641a0556",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587190589,
+            "stop" : 1583587198666,
+            "duration" : 8077
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Earn  Button",
+          "uid" : "1c788040956dbefa",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587198688,
+            "stop" : 1583587208638,
+            "duration" : 9950
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page MyKhata Button",
+          "uid" : "e718d07b6dac8e5a",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587208652,
+            "stop" : 1583587220025,
+            "duration" : 11373
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page MyProfile Button",
+          "uid" : "3a9071fd3fad521c",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587220036,
+            "stop" : 1583587232994,
+            "duration" : 12958
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page ContactUs Button",
+          "uid" : "954e412ee5e1db9",
+          "parentUid" : "d692e65f9751d9b0159948a7653eac97",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583587233014,
+            "stop" : 1583587246545,
+            "duration" : 13531
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "d692e65f9751d9b0159948a7653eac97"
       } ],
       "uid" : "7314231e84d67a341867b5c9d3f928d2"
     } ],

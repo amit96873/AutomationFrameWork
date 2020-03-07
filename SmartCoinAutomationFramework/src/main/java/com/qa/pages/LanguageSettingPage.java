@@ -14,12 +14,16 @@ public class LanguageSettingPage extends BaseTest{
 	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='ಕನ್ನಡ' and @index='2']") private MobileElement otherlanguagebutton;
 	@AndroidFindBy (id = "in.rebase.app:id/primary_action_text") private MobileElement continuebutton;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Language' and @index='0']") private MobileElement languagetitletxt;
+	
 
 	
-	public String getTitle() {
+	public String getLanguagePageTitle() {
 		return getAttribute(languagetitletxt, "text");
 	}
-	
+	public HomePageSmartCoin pressReverseBtn() {
+		click(reversebtn);
+		return new HomePageSmartCoin();
+		}
 	
 public LanguageSettingPage pressOtherLangBtn() {
 		

@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
+      "children" : [ {
+        "name" : "beforeTest",
+        "uid" : "b41a69cdb55b0f48",
+        "parentUid" : "dd3482a48cc10775c78c538e57606ffa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583587011560,
+          "stop" : 1583587011568,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "dd3482a48cc10775c78c538e57606ffa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
