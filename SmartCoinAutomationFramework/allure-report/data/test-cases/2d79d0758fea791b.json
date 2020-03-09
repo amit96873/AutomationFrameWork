@@ -1,0 +1,217 @@
+{
+  "uid" : "2d79d0758fea791b",
+  "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
+  "fullName" : "com.qa.tests.EditPersionalDetailsPageTests.checkWithoutEnteringAnyValue",
+  "historyId" : "923e5cef282ca61d36adf979fb04f7ae",
+  "time" : {
+    "start" : 1583668957735,
+    "stop" : 1583669031503,
+    "duration" : 73768
+  },
+  "description" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
+  "descriptionHtml" : "<p>Verify Edit Persional Details Page by Entering valid value and Scrolling</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583668892420,
+      "stop" : 1583668893968,
+      "duration" : 1548
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583668820720,
+      "stop" : 1583668892276,
+      "duration" : 71556
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583668957695,
+      "stop" : 1583668957697,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "validating by entering correct value",
+      "time" : {
+        "start" : 1583668957735,
+        "stop" : 1583669030271,
+        "duration" : 72536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8351432eac2fbf4f",
+      "name" : "saveFailureScreenShot",
+      "source" : "8351432eac2fbf4f.png",
+      "type" : "image/png",
+      "size" : 545164
+    }, {
+      "uid" : "9006376e5bbee62f",
+      "name" : "checkWithoutEnteringAnyValuePassed And Screenshot Taken",
+      "source" : "9006376e5bbee62f.txt",
+      "type" : "text/plain",
+      "size" : 55
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583669031518,
+      "stop" : 1583669031519,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583669031519,
+      "stop" : 1583669031901,
+      "duration" : 382
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583669031506,
+      "stop" : 1583669031506,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.EditPersionalDetailsPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.EditPersionalDetailsPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkWithoutEnteringAnyValue"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.EditPersionalDetailsPageTests"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7340@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "EP004"
+  }, {
+    "name" : "feature",
+    "value" : "Feature2: Edit Persional Details Page enteed valid values and Scrolling"
+  }, {
+    "name" : "story",
+    "value" : "Story: Enter the valid value on esit persional details page"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d79d0758fea791b.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

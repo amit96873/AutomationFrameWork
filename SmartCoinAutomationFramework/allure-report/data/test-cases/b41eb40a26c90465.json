@@ -1,0 +1,217 @@
+{
+  "uid" : "b41eb40a26c90465",
+  "name" : "Verify Home Page Scrolling",
+  "fullName" : "com.qa.tests.EditPersionalDetailsPageTests.checkHomePageScrolling",
+  "historyId" : "710c48dd609ea300ee6742f0ab14103c",
+  "time" : {
+    "start" : 1583660698557,
+    "stop" : 1583660723746,
+    "duration" : 25189
+  },
+  "description" : "Verify Home Page Scrolling",
+  "descriptionHtml" : "<p>Verify Home Page Scrolling</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583660697834,
+      "stop" : 1583660697851,
+      "duration" : 17
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583660697227,
+      "stop" : 1583660697743,
+      "duration" : 516
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583660674965,
+      "stop" : 1583660697142,
+      "duration" : 22177
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Home Page Scrolling",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Simple Scrolling",
+      "time" : {
+        "start" : 1583660698597,
+        "stop" : 1583660722636,
+        "duration" : 24039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3b89e588d92212f7",
+      "name" : "saveFailureScreenShot",
+      "source" : "3b89e588d92212f7.png",
+      "type" : "image/png",
+      "size" : 156213
+    }, {
+      "uid" : "59838e942db4d9a8",
+      "name" : "checkHomePageScrollingPassed And Screenshot Taken",
+      "source" : "59838e942db4d9a8.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583660749026,
+      "stop" : 1583660749026,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583660723775,
+      "stop" : 1583660723775,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583660749027,
+      "stop" : 1583660749454,
+      "duration" : 427
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.EditPersionalDetailsPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.EditPersionalDetailsPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkHomePageScrolling"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.EditPersionalDetailsPageTests"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4024@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: Scroll the home page on both side up and down"
+  }, {
+    "name" : "feature",
+    "value" : "Feature1: HomePage Scrolling"
+  }, {
+    "name" : "epic",
+    "value" : "EP004"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b41eb40a26c90465.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}
