@@ -9,17 +9,17 @@
     <parameter name="devicename" value="Android Emulator"/>
     <parameter name="platformName" value="Android"/>
     <classes>
-      <class name="com.qa.tests.KYCUploadDocumentsPageTests">
+      <class name="com.qa.tests.AddBankAccountPageTest">
         <methods>
           <include name="afterTest"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe"/>
-          <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="checkAddBankAccountWithIfscCodefPage"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.qa.tests.KYCUploadDocumentsPageTests -->
+      </class> <!-- com.qa.tests.AddBankAccountPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
