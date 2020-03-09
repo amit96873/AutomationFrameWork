@@ -31,7 +31,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 @Listeners({AllureListener.class})
-public class SignUpTests extends BaseTest {
+public class SignupRegisterFullNameAndMobileNumberTests extends BaseTest {
 	SignupPage signupPage;
 	LanguagePage languagePage;
 	PermissionPage permissionpage;

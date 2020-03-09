@@ -43,7 +43,7 @@ import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 
 @Listeners({AllureListener.class})
-public class HomePageTests extends BaseTest {
+public class HomePageButtonTests extends BaseTest {
 	SigninPage signinPage;
 	LanguagePage languagePage;
 	PermissionPage permissionpage;
