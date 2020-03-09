@@ -1,245 +1,35 @@
 [ {
-  "uid" : "395c49fd21c83f94",
-  "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+  "uid" : "afc19b9a928382c1",
+  "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
   "time" : {
-    "start" : 1583587710371,
-    "stop" : 1583587721450,
-    "duration" : 11079
+    "start" : 1583693757690,
+    "stop" : 1583693791277,
+    "duration" : 33587
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "critical"
 }, {
-  "uid" : "ceb467d2134d8a0a",
-  "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
-  "time" : {
-    "start" : 1583587745734,
-    "stop" : 1583587756831,
-    "duration" : 11097
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f9192de641a0556",
-  "name" : "Verify Home Page Bank Account Statement Upload Button",
-  "time" : {
-    "start" : 1583587190589,
-    "stop" : 1583587198666,
-    "duration" : 8077
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c788040956dbefa",
-  "name" : "Verify Home Page Earn  Button",
-  "time" : {
-    "start" : 1583587198688,
-    "stop" : 1583587208638,
-    "duration" : 9950
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4731c29f4e741ff3",
-  "name" : "Check Registration by enter Valid name and Empty Mobile Number",
-  "time" : {
-    "start" : 1583576968734,
-    "stop" : 1583576977575,
-    "duration" : 8841
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bad5b6991d806e16",
-  "name" : "Verify Home Page Menu Button",
-  "time" : {
-    "start" : 1583587169321,
-    "stop" : 1583587172549,
-    "duration" : 3228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1218f1ab77af4a91",
-  "name" : "Check Registration by enter Empty name and Empty Mobile Number",
-  "time" : {
-    "start" : 1583576950496,
-    "stop" : 1583576959581,
-    "duration" : 9085
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "43fb70eb0a856cc5",
-  "name" : "Verify My_Profile Button which is peresence on Menu Page",
-  "time" : {
-    "start" : 1583587683830,
-    "stop" : 1583587697308,
-    "duration" : 13478
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59a7c57f995378bb",
-  "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
-  "time" : {
-    "start" : 1583576930867,
-    "stop" : 1583576940818,
-    "duration" : 9951
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e23790a5d79e0e5",
-  "name" : "Verify Home Page Scrolling",
-  "time" : {
-    "start" : 1583587633512,
-    "stop" : 1583587668127,
-    "duration" : 34615
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "99b7477360251dc",
-  "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
-  "time" : {
-    "start" : 1583576940833,
-    "stop" : 1583576950478,
-    "duration" : 9645
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d62884c06991e785",
-  "name" : "Check Registration by enter Empty name and Valid Mobile Number",
-  "time" : {
-    "start" : 1583576959599,
-    "stop" : 1583576968723,
-    "duration" : 9124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58a6f4346fae65fa",
-  "name" : "Check Registration by enter invalid name and Valid Mobile Number",
-  "time" : {
-    "start" : 1583576919452,
-    "stop" : 1583576930832,
-    "duration" : 11380
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "954e412ee5e1db9",
-  "name" : "Verify Home Page ContactUs Button",
-  "time" : {
-    "start" : 1583587233014,
-    "stop" : 1583587246545,
-    "duration" : 13531
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d010c5e731d9305b",
-  "name" : "Check Registration by enter Valid name and Valid Mobile Number",
-  "time" : {
-    "start" : 1583576996028,
-    "stop" : 1583577006711,
-    "duration" : 10683
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e718d07b6dac8e5a",
-  "name" : "Verify Home Page MyKhata Button",
-  "time" : {
-    "start" : 1583587208652,
-    "stop" : 1583587220025,
-    "duration" : 11373
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26f5197f7a402f",
-  "name" : "Verify My_Loans Button which is peresence on Menu Page",
-  "time" : {
-    "start" : 1583587673888,
-    "stop" : 1583587683810,
-    "duration" : 9922
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "520b13104f1a278f",
-  "name" : "Verify Home Page Scrolling",
-  "time" : {
-    "start" : 1583587132500,
-    "stop" : 1583587169254,
-    "duration" : 36754
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "b41a69cdb55b0f48",
-  "name" : "beforeTest",
-  "time" : {
-    "start" : 1583587011560,
-    "stop" : 1583587011568,
-    "duration" : 8
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a412fbcf01decfed",
-  "name" : "Verify Home Page Mobile Number Verify Button",
-  "time" : {
-    "start" : 1583587185941,
-    "stop" : 1583587190570,
-    "duration" : 4629
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "161fc795d6d3edb8",
-  "name" : "Verify All_Transaction Button which is peresence on Menu Page",
-  "time" : {
-    "start" : 1583587697360,
-    "stop" : 1583587710350,
-    "duration" : 12990
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3b89aaef13d9a0b",
-  "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
-  "time" : {
-    "start" : 1583576977588,
-    "stop" : 1583576986942,
-    "duration" : 9354
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9fdb72e815ff8aa0",
-  "name" : "Verify Home Button which is peresence on Menu Page",
-  "time" : {
-    "start" : 1583587668187,
-    "stop" : 1583587673848,
-    "duration" : 5661
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea6be892558e3db5",
+  "uid" : "897e45406ce09d08",
   "name" : "Verify Language Button which is peresence on Menu Page",
   "time" : {
-    "start" : 1583587732784,
-    "stop" : 1583587745720,
-    "duration" : 12936
+    "start" : 1583647965456,
+    "stop" : 1583647974247,
+    "duration" : 8791
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f5a832ac4b00c83a",
+  "uid" : "5cc9b063c138a944",
+  "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
+  "time" : {
+    "start" : 1583691415784,
+    "stop" : 1583691443412,
+    "duration" : 27628
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f91445b023999a0e",
   "name" : "Check Registration by enter Valid name and Eight Digits Mobile Number",
   "time" : {
     "start" : 1583576986958,
@@ -249,17 +39,47 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3a9071fd3fad521c",
-  "name" : "Verify Home Page MyProfile Button",
+  "uid" : "cff9aed5da26982",
+  "name" : "Check Registration by enter Empty name and Valid Mobile Number",
   "time" : {
-    "start" : 1583587220036,
-    "stop" : 1583587232994,
-    "duration" : 12958
+    "start" : 1583576959599,
+    "stop" : 1583576968723,
+    "duration" : 9124
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "296404ee402b68a4",
+  "uid" : "924ab46b1e460cca",
+  "name" : "Check Registration by enter Valid name and Empty Mobile Number",
+  "time" : {
+    "start" : 1583576968734,
+    "stop" : 1583576977575,
+    "duration" : 8841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b8e506ddc07b2dc",
+  "name" : "Verify FAQ Button which is peresence on Menu Page",
+  "time" : {
+    "start" : 1583647956983,
+    "stop" : 1583647965413,
+    "duration" : 8430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ac94cc5eb3b2e7b",
+  "name" : "Verify Home Page MyKhata Button",
+  "time" : {
+    "start" : 1583587208652,
+    "stop" : 1583587220025,
+    "duration" : 11373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6805c0049d4250ee",
   "name" : "Verify Home Page Chat ShortCut Button",
   "time" : {
     "start" : 1583587172563,
@@ -269,22 +89,252 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4a03f438aaf7955b",
-  "name" : "Verify FAQ Button which is peresence on Menu Page",
+  "uid" : "228ab73fc0006a8c",
+  "name" : "Verify Home Page Scrolling",
   "time" : {
-    "start" : 1583587721471,
-    "stop" : 1583587732760,
-    "duration" : 11289
+    "start" : 1583647899030,
+    "stop" : 1583647920150,
+    "duration" : 21120
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "358681de5036de9a",
+  "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
+  "time" : {
+    "start" : 1583576977588,
+    "stop" : 1583576986942,
+    "duration" : 9354
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "814d015750d02208",
+  "uid" : "1f154652d788a6ad",
+  "name" : "Verify Home Page Bank Account Statement Upload Button",
+  "time" : {
+    "start" : 1583587190589,
+    "stop" : 1583587198666,
+    "duration" : 8077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de8bbf7bc9ada557",
+  "name" : "Verify Home Page Mobile Number Verify Button",
+  "time" : {
+    "start" : 1583587185941,
+    "stop" : 1583587190570,
+    "duration" : 4629
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e0109eca04c88b3",
+  "name" : "Verify Home Button which is peresence on Menu Page",
+  "time" : {
+    "start" : 1583647920237,
+    "stop" : 1583647926035,
+    "duration" : 5798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "729de350aefed22d",
+  "name" : "Verify All_Transaction Button which is peresence on Menu Page",
+  "time" : {
+    "start" : 1583647940805,
+    "stop" : 1583647949036,
+    "duration" : 8231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c39d2c9cf0d5865",
+  "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
+  "time" : {
+    "start" : 1583693731241,
+    "stop" : 1583693757571,
+    "duration" : 26330
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2de4d10c0e9b0635",
+  "name" : "Check Registration by enter Empty name and Empty Mobile Number",
+  "time" : {
+    "start" : 1583576950496,
+    "stop" : 1583576959581,
+    "duration" : 9085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ed7e442b8f5a47e",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1583587011560,
+    "stop" : 1583587011568,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c188d5ce7c54d7af",
+  "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+  "time" : {
+    "start" : 1583647974264,
+    "stop" : 1583647981776,
+    "duration" : 7512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed50aa8bc098be2d",
+  "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
+  "time" : {
+    "start" : 1583576930867,
+    "stop" : 1583576940818,
+    "duration" : 9951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3187157d018d0",
+  "name" : "Verify Home Page Menu Button",
+  "time" : {
+    "start" : 1583587169321,
+    "stop" : 1583587172549,
+    "duration" : 3228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a40d7e53201b6dcb",
+  "name" : "Verify My_Profile Button which is peresence on Menu Page",
+  "time" : {
+    "start" : 1583647932337,
+    "stop" : 1583647940775,
+    "duration" : 8438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a3b694af6a2aabd",
+  "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
+  "time" : {
+    "start" : 1583691443495,
+    "stop" : 1583691490489,
+    "duration" : 46994
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "54fd172e417fab65",
+  "name" : "Check Registration by enter Valid name and Valid Mobile Number",
+  "time" : {
+    "start" : 1583576996028,
+    "stop" : 1583577006711,
+    "duration" : 10683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbee8438acc0bd26",
+  "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
+  "time" : {
+    "start" : 1583647949053,
+    "stop" : 1583647956966,
+    "duration" : 7913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "975cf30d3da94eaa",
+  "name" : "Verify Home Page ContactUs Button",
+  "time" : {
+    "start" : 1583587233014,
+    "stop" : 1583587246545,
+    "duration" : 13531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce6a89d6c9cf374e",
+  "name" : "Verify Home Page MyProfile Button",
+  "time" : {
+    "start" : 1583587220036,
+    "stop" : 1583587232994,
+    "duration" : 12958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe266495b2067334",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1583668106688,
+    "stop" : 1583668106694,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "26fa299645791da0",
+  "name" : "Verify Home Page Earn  Button",
+  "time" : {
+    "start" : 1583587198688,
+    "stop" : 1583587208638,
+    "duration" : 9950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3486562fe91d0a08",
+  "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
+  "time" : {
+    "start" : 1583576940833,
+    "stop" : 1583576950478,
+    "duration" : 9645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99f02e001fe23c54",
   "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
   "time" : {
-    "start" : 1583587756842,
-    "stop" : 1583587768585,
-    "duration" : 11743
+    "start" : 1583647981787,
+    "stop" : 1583647990741,
+    "duration" : 8954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42c390ed372576fd",
+  "name" : "Verify My_Loans Button which is peresence on Menu Page",
+  "time" : {
+    "start" : 1583647926050,
+    "stop" : 1583647932308,
+    "duration" : 6258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e76670805f45e40",
+  "name" : "Verify Home Page Scrolling",
+  "time" : {
+    "start" : 1583587132500,
+    "stop" : 1583587169254,
+    "duration" : 36754
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "1c58a644dc3457f5",
+  "name" : "Check Registration by enter invalid name and Valid Mobile Number",
+  "time" : {
+    "start" : 1583576919452,
+    "stop" : 1583576930832,
+    "duration" : 11380
   },
   "status" : "passed",
   "severity" : "normal"

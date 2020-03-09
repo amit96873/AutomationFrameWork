@@ -9,12 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e23790a5d79e0e5",
+      "uid" : "228ab73fc0006a8c",
       "status" : "passed",
       "time" : {
-        "start" : 1583587633512,
-        "stop" : 1583587668127,
-        "duration" : 34615
+        "start" : 1583647899030,
+        "stop" : 1583647920150,
+        "duration" : 21120
+      }
+    } ]
+  },
+  "923e5cef282ca61d36adf979fb04f7ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a3b694af6a2aabd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583691443495,
+        "stop" : 1583691490489,
+        "duration" : 46994
       }
     } ]
   },
@@ -28,12 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "58a6f4346fae65fa",
+      "uid" : "1c58a644dc3457f5",
       "status" : "passed",
       "time" : {
         "start" : 1583576919452,
         "stop" : 1583576930832,
         "duration" : 11380
+      }
+    } ]
+  },
+  "12a56ba82c95c6274cc1ba156d8fa41f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afc19b9a928382c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583693757690,
+        "stop" : 1583693791277,
+        "duration" : 33587
       }
     } ]
   },
@@ -47,13 +85,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b41a69cdb55b0f48",
+      "uid" : "2ed7e442b8f5a47e",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "time" : {
         "start" : 1583587011560,
         "stop" : 1583587011568,
         "duration" : 8
+      }
+    } ]
+  },
+  "51e70e861822d5a33ac56acf26116666" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c39d2c9cf0d5865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583693731241,
+        "stop" : 1583693757571,
+        "duration" : 26330
       }
     } ]
   },
@@ -67,7 +124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "59a7c57f995378bb",
+      "uid" : "ed50aa8bc098be2d",
       "status" : "passed",
       "time" : {
         "start" : 1583576930867,
@@ -86,12 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9fdb72e815ff8aa0",
+      "uid" : "7e0109eca04c88b3",
       "status" : "passed",
       "time" : {
-        "start" : 1583587668187,
-        "stop" : 1583587673848,
-        "duration" : 5661
+        "start" : 1583647920237,
+        "stop" : 1583647926035,
+        "duration" : 5798
       }
     } ]
   },
@@ -105,12 +162,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea6be892558e3db5",
+      "uid" : "897e45406ce09d08",
       "status" : "passed",
       "time" : {
-        "start" : 1583587732784,
-        "stop" : 1583587745720,
-        "duration" : 12936
+        "start" : 1583647965456,
+        "stop" : 1583647974247,
+        "duration" : 8791
       }
     } ]
   },
@@ -124,7 +181,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f5a832ac4b00c83a",
+      "uid" : "f91445b023999a0e",
       "status" : "passed",
       "time" : {
         "start" : 1583576986958,
@@ -143,12 +200,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a03f438aaf7955b",
+      "uid" : "2b8e506ddc07b2dc",
       "status" : "passed",
       "time" : {
-        "start" : 1583587721471,
-        "stop" : 1583587732760,
-        "duration" : 11289
+        "start" : 1583647956983,
+        "stop" : 1583647965413,
+        "duration" : 8430
       }
     } ]
   },
@@ -162,7 +219,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "520b13104f1a278f",
+      "uid" : "8e76670805f45e40",
       "status" : "passed",
       "time" : {
         "start" : 1583587132500,
@@ -181,7 +238,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f9192de641a0556",
+      "uid" : "1f154652d788a6ad",
       "status" : "passed",
       "time" : {
         "start" : 1583587190589,
@@ -200,7 +257,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4731c29f4e741ff3",
+      "uid" : "924ab46b1e460cca",
       "status" : "passed",
       "time" : {
         "start" : 1583576968734,
@@ -219,31 +276,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1c788040956dbefa",
+      "uid" : "26fa299645791da0",
       "status" : "passed",
       "time" : {
         "start" : 1583587198688,
         "stop" : 1583587208638,
         "duration" : 9950
-      }
-    } ]
-  },
-  "ff5b10d188085dde9c749201cbe43c23" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1218f1ab77af4a91",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583576950496,
-        "stop" : 1583576959581,
-        "duration" : 9085
       }
     } ]
   },
@@ -257,12 +295,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e718d07b6dac8e5a",
+      "uid" : "5ac94cc5eb3b2e7b",
       "status" : "passed",
       "time" : {
         "start" : 1583587208652,
         "stop" : 1583587220025,
         "duration" : 11373
+      }
+    } ]
+  },
+  "ff5b10d188085dde9c749201cbe43c23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2de4d10c0e9b0635",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583576950496,
+        "stop" : 1583576959581,
+        "duration" : 9085
       }
     } ]
   },
@@ -276,7 +333,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d010c5e731d9305b",
+      "uid" : "54fd172e417fab65",
       "status" : "passed",
       "time" : {
         "start" : 1583576996028,
@@ -295,7 +352,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a412fbcf01decfed",
+      "uid" : "de8bbf7bc9ada557",
       "status" : "passed",
       "time" : {
         "start" : 1583587185941,
@@ -314,12 +371,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "395c49fd21c83f94",
+      "uid" : "bbee8438acc0bd26",
       "status" : "passed",
       "time" : {
-        "start" : 1583587710371,
-        "stop" : 1583587721450,
-        "duration" : 11079
+        "start" : 1583647949053,
+        "stop" : 1583647956966,
+        "duration" : 7913
       }
     } ]
   },
@@ -333,12 +390,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "161fc795d6d3edb8",
+      "uid" : "729de350aefed22d",
       "status" : "passed",
       "time" : {
-        "start" : 1583587697360,
-        "stop" : 1583587710350,
-        "duration" : 12990
+        "start" : 1583647940805,
+        "stop" : 1583647949036,
+        "duration" : 8231
       }
     } ]
   },
@@ -352,7 +409,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "296404ee402b68a4",
+      "uid" : "6805c0049d4250ee",
       "status" : "passed",
       "time" : {
         "start" : 1583587172563,
@@ -371,7 +428,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bad5b6991d806e16",
+      "uid" : "b3187157d018d0",
       "status" : "passed",
       "time" : {
         "start" : 1583587169321,
@@ -390,12 +447,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ceb467d2134d8a0a",
+      "uid" : "c188d5ce7c54d7af",
       "status" : "passed",
       "time" : {
-        "start" : 1583587745734,
-        "stop" : 1583587756831,
-        "duration" : 11097
+        "start" : 1583647974264,
+        "stop" : 1583647981776,
+        "duration" : 7512
       }
     } ]
   },
@@ -409,7 +466,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "954e412ee5e1db9",
+      "uid" : "975cf30d3da94eaa",
       "status" : "passed",
       "time" : {
         "start" : 1583587233014,
@@ -418,26 +475,27 @@
       }
     } ]
   },
-  "f6435f75cbbd36d94884129ad9ef2ed4" : {
+  "ff39d586e12941c7c80e3232efa31257" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "814d015750d02208",
-      "status" : "passed",
+      "uid" : "fe266495b2067334",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "time" : {
-        "start" : 1583587756842,
-        "stop" : 1583587768585,
-        "duration" : 11743
+        "start" : 1583668106688,
+        "stop" : 1583668106694,
+        "duration" : 6
       }
     } ]
   },
-  "c3b49f00b69e66859d0a39c359c52705" : {
+  "710c48dd609ea300ee6742f0ab14103c" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -447,12 +505,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43fb70eb0a856cc5",
+      "uid" : "5cc9b063c138a944",
       "status" : "passed",
       "time" : {
-        "start" : 1583587683830,
-        "stop" : 1583587697308,
-        "duration" : 13478
+        "start" : 1583691415784,
+        "stop" : 1583691443412,
+        "duration" : 27628
       }
     } ]
   },
@@ -466,12 +524,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a9071fd3fad521c",
+      "uid" : "ce6a89d6c9cf374e",
       "status" : "passed",
       "time" : {
         "start" : 1583587220036,
         "stop" : 1583587232994,
         "duration" : 12958
+      }
+    } ]
+  },
+  "f6435f75cbbd36d94884129ad9ef2ed4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99f02e001fe23c54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583647981787,
+        "stop" : 1583647990741,
+        "duration" : 8954
+      }
+    } ]
+  },
+  "c3b49f00b69e66859d0a39c359c52705" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a40d7e53201b6dcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583647932337,
+        "stop" : 1583647940775,
+        "duration" : 8438
       }
     } ]
   },
@@ -485,7 +581,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d62884c06991e785",
+      "uid" : "cff9aed5da26982",
       "status" : "passed",
       "time" : {
         "start" : 1583576959599,
@@ -504,7 +600,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f3b89aaef13d9a0b",
+      "uid" : "358681de5036de9a",
       "status" : "passed",
       "time" : {
         "start" : 1583576977588,
@@ -523,7 +619,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99b7477360251dc",
+      "uid" : "3486562fe91d0a08",
       "status" : "passed",
       "time" : {
         "start" : 1583576940833,
@@ -542,12 +638,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "26f5197f7a402f",
+      "uid" : "42c390ed372576fd",
       "status" : "passed",
       "time" : {
-        "start" : 1583587673888,
-        "stop" : 1583587683810,
-        "duration" : 9922
+        "start" : 1583647926050,
+        "stop" : 1583647932308,
+        "duration" : 6258
       }
     } ]
   }

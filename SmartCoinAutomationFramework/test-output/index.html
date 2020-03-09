@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Amit singh\eclipse-workspace\SmartCoinAutomationFramework\testng.xml</span>
+                    <span>C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageTests" hash-for-method="checkHomePageScrolling">checkHomePageScrolling</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.EditWorkDetailsPageTest" hash-for-method="checkHomePageScrolling">checkHomePageScrolling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.EditWorkDetailsPageTest" hash-for-method="checkWithoutEnteringAnyValue">checkWithoutEnteringAnyValue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,7 +125,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.tests.HomePageTests</span>
+              <span class="class-name">com.qa.tests.EditWorkDetailsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -129,7 +134,16 @@
                   </a> <!-- checkHomePageScrolling -->
                   <span class="method-name">checkHomePageScrolling</span>
                   <em>
-(Verify Home Page Scrolling)                  </em>
+(verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWithoutEnteringAnyValue">
+                  </a> <!-- checkWithoutEnteringAnyValue -->
+                  <span class="method-name">checkWithoutEnteringAnyValue</span>
+                  <em>
+(Verify Edit Persional Details Page by Entering valid value and Scrolling)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +151,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Amit singh\eclipse-workspace\SmartCoinAutomationFramework\testng.xml</span>
+            <span class="header-content">C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -152,7 +166,7 @@
     &lt;parameter name=&quot;devicename&quot; value=&quot;Android Emulator&quot;/&gt;
     &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.tests.HomePageTests&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.EditWorkDetailsPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -192,16 +206,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkHomePageScrolling')
-data.setCell(0, 2, 'com.qa.tests.HomePageTests')
-data.setCell(0, 3, 34327);
+data.setCell(0, 1, 'checkWithoutEnteringAnyValue')
+data.setCell(0, 2, 'com.qa.tests.EditWorkDetailsPageTest')
+data.setCell(0, 3, 31548);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkHomePageScrolling')
+data.setCell(1, 2, 'com.qa.tests.EditWorkDetailsPageTest')
+data.setCell(1, 3, 27915);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -227,34 +245,46 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.tests.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.tests.EditWorkDetailsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(Android, 8.0, Android Emulator)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">22776 ms</span>
+                <span class="method-start">20810 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageTests.checkHomePageScrolling())</span>
-                <span class="method-start">23438 ms</span>
+                <span class="method-name">beforeMethod(public void com.qa.tests.EditWorkDetailsPageTest.checkHomePageScrolling())</span>
+                <span class="method-start">21283 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkHomePageScrolling</span>
-                <span class="method-start">23839 ms</span>
+                <span class="method-start">21590 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">58199 ms</span>
+                <span class="method-start">50352 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.EditWorkDetailsPageTest.checkWithoutEnteringAnyValue())</span>
+                <span class="method-start">50360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkWithoutEnteringAnyValue</span>
+                <span class="method-start">50364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">82904 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">58203 ms</span>
+                <span class="method-start">82907 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">58207 ms</span>
+                <span class="method-start">82909 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

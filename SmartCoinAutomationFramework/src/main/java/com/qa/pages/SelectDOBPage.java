@@ -14,30 +14,6 @@ public class SelectDOBPage extends BaseTest{
 	@AndroidFindBy (id = "android:id/button1") private MobileElement okbtn;
 	@AndroidFindBy (id = "android:id/button2") private MobileElement cancelbtn;
 	
-	
-	
-	public SelectDOBPage enterMonth(String month) {
-		click(monthtext);
-		clear(monthtext);
-		System.out.println("Month is :-" + month);
-		sendkeys(monthtext, month);
-		return this;
-	}
-	public SelectDOBPage enterDate(String date) {
-		click(datetext);
-		clear(datetext);
-		System.out.println("Date is :-" + date);
-		sendkeys(datetext, date);
-		return this;
-	}
-	public SelectDOBPage enterYear(String year) {
-		click(yeartext);
-		clear(yeartext);
-		System.out.println("Year is :-" + year);
-		sendkeys(yeartext, year);
-		return this;
-	}
-	
 	public EditPersionalDetailsPage pressOkBtn() {
 		click(okbtn);
 		return new EditPersionalDetailsPage();
@@ -46,5 +22,32 @@ public class SelectDOBPage extends BaseTest{
 		click(cancelbtn);
 		return new EditPersionalDetailsPage();
 	}
+	
+	public SelectDOBPage enterMonth(String month) {
+		click(monthtext);
+		click(monthtext);
+		clear(monthtext);
+		System.out.println("Month is :-" + month);
+		sendkeys(monthtext, month);
+		return this;
+	}
+	public SelectDOBPage enterDate(String date) {
+		click(datetext);
+		click(datetext);
+		clear(datetext);
+		System.out.println("Date is :-" + date);
+		sendkeys(datetext, date);
+		return this;
+	}
+	public SelectDOBPage enterYear(String year) {
+		click(yeartext);
+		click(yeartext);
+		clear(yeartext);
+		System.out.println("Year is :-" + year);
+		sendkeys(yeartext, year);
+		return this;
+	}
+	
+	
 	
 }

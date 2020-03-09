@@ -1,6 +1,5 @@
 package com.qa.listeners;
 
-import java.io.File;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -8,13 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.qa.BaseTest;
-
 import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.Attachment;
 
+
 public class AllureListener implements ITestListener{
+
 	
 	
 	private static String getTestMethodName(ITestResult iTestResult) {
@@ -89,7 +88,6 @@ public class AllureListener implements ITestListener{
 	public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
 		System.out.println("Test Failed But It Is Defined Success Ratio "+ getTestMethodName(iTestResult)+ "test failed but within success ratio");
 	}
-	
 	
 }
 

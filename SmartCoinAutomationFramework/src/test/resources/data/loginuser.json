@@ -43,6 +43,23 @@
      "fbusernamepassword":{
 "username": "amit96873@gmail.com",
 "password": "8226993297"
+     } , 
+ "editvaliddetails":{
+"full_name": "Ajit Singh",
+"mobile_number": "8226993297",
+"current_address": "Aswath nagar marathahalli kalamandir",
+"current_address_pincode": "560037",
+"fathersname": "Santosh Singh",
+"mothersname": "Rita devi",
+"month": "May",
+"date": "20",
+"year": "1994"
+     } ,
+"editworkdetails":{
+"monthaly_income": "50000",
+"pan_number": "GFLPK6195D",
+"workspace_name": "smartcoin financial pvt ltd",
+"workspace_address": "dodunakaundi bangalore",
+"workspace_postalcode": "560037"
      } 
-
 }

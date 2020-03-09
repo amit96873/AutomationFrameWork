@@ -8,7 +8,7 @@
   <parameter name="platformVersion" value="8.0"/>
   <parameter name="devicename" value="Android Emulator"/>
     <classes>
-      <class name="com.qa.tests.MenuPageButtonTest">
+      <class name="com.qa.tests.EditWorkDetailsPageTest">
       <methods>
     <!--    <include name="checkSignInButton"/> 
       <include name="checkEnglishLangButton"/> 

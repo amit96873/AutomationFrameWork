@@ -1,5 +1,7 @@
 package com.qa.pages;
 
+import org.openqa.selenium.By;
+
 import com.qa.BaseTest;
 
 import io.appium.java_client.MobileElement;
@@ -18,18 +20,28 @@ public class EditPersionalDetailsPage extends BaseTest{
 	@AndroidFindBy (id = "in.rebase.app:id/residence_pincode") private MobileElement pincodeedittext;
 	@AndroidFindBy (id = "in.rebase.app:id/father_name") private MobileElement fathersnameedittext;
 	@AndroidFindBy (id = "in.rebase.app:id/mother_name") private MobileElement mothersnameedittext;
-	@AndroidFindBy (xpath = "//android.widget.TextView[@text='EDIT PERSONAL DETAILS' and @index='0']") private MobileElement editpersionaldetailstitletext;
+	@AndroidFindBy (id = "in.rebase.app:id/cl_title") private MobileElement editpersionaldetailstitletext;
 	@AndroidFindBy (xpath = "//android.widget.ImageButton[@text='' and @index='0']") private MobileElement reversebtn;
 	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='Yes' and @index='0']") private MobileElement yesbtn;
 	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='No' and @index='1']") private MobileElement nobtn;
 	@AndroidFindBy (id = "in.rebase.app:id/primary_action_text") private MobileElement continuebtn;
-	
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Are you married?' and @index='9']") private By areyoumarriedtext;
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Full Name?' and @index='2']") private By fullnametext;
 	
 	
 	
 	public String getEditPersionalDetailsTitleText() {
 		return getAttribute(editpersionaldetailstitletext, "text");
 	}
+	public void scrollUp() {
+		BaseTest bt=new BaseTest();
+		bt.scrollToElement(areyoumarriedtext, "up");	
+	}
+		public void scrollDown() {
+			BaseTest bt=new BaseTest();
+			bt.scrollToElement(fullnametext, "down");	
+		}
+	
 	public SelectDOBPage pressDOBSpinner() {
 		click(dobspinner);
 		return new SelectDOBPage();

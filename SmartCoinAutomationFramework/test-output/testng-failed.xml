@@ -9,16 +9,17 @@
     <parameter name="devicename" value="Android Emulator"/>
     <parameter name="platformName" value="Android"/>
     <classes>
-      <class name="com.qa.tests.HomePageTests">
+      <class name="com.qa.tests.EditPersionalDetailsPageTests">
         <methods>
           <include name="afterTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
           <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
           <include name="beforeClass"/>
-          <include name="checkContactUsButton"/>
+          <include name="checkHomePageScrolling"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.qa.tests.HomePageTests -->
+      </class> <!-- com.qa.tests.EditPersionalDetailsPageTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

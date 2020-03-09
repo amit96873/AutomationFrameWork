@@ -29,4 +29,7 @@
 <string name="faqPage_Title_Text">FAQ</string>
 <string name="languagepage_Title_Text">Language</string>
 <string name="troubleshootpage_Title_Text">Troubleshoot</string>
+<string name="enterpasswordpage_Title_Text">Enter your 4-digit Pin</string>
+<string name="editpersionaldetailspage_Title_Text">Edit Personal Details</string>
+<string name="editworkdetailspage_Title_Text">Edit Work Details</string>
 </resources>
