@@ -37,4 +37,9 @@ public CameraPiccheckPage pressCaptureUtilityBillsBtn() {
 	click(shootpicbtn2);
 	return new CameraPiccheckPage();
 }
+public CameraPiccheckPage pressCaptureCheckLeafBtn() {
+	
+	click(shootpicbtn2);
+	return new CameraPiccheckPage();
+}
 }

@@ -8,7 +8,7 @@
   <parameter name="platformVersion" value="8.0"/>
   <parameter name="devicename" value="Android Emulator"/>
     <classes>
-      <class name="com.qa.tests.KYCUploadDocumentsPageTests">
+      <class name="com.qa.tests.AddBankAccountPageTest">
       <methods>
     <!--    <include name="checkSignInButton"/> 
       <include name="checkEnglishLangButton"/> 

@@ -42,10 +42,15 @@ public class MenuPage extends BaseTest {
 		return new MyProfilePage();
 	}
 
-	public BankAccountPendingPage pressMyBankDetailsBtn() {
+	public BankAccountPendingPage pressMyBankDetailsBtnToGetBankAccountPendingPage() {
 
 		click(mybankdetailsbtn);
 		return new BankAccountPendingPage();
+	}
+	public MyBankDetailsPage pressMyBankDetailsBtntogetMyBankDetailsPage() {
+
+		click(mybankdetailsbtn);
+		return new MyBankDetailsPage();
 	}
 	public AllTransactionPage pressAllTransactionBtn() {
 

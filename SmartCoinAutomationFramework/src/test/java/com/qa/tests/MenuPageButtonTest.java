@@ -376,7 +376,7 @@ public class MenuPageButtonTest extends BaseTest {
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
-		bankaccountpendingpage = menupage.pressMyBankDetailsBtn();
+		bankaccountpendingpage = menupage.pressMyBankDetailsBtnToGetBankAccountPendingPage();
 		String actualResult2= bankaccountpendingpage.getBankAccountPendingPageTitle();
 		String expectedResult2=strings.get("BankAccountPendingPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);

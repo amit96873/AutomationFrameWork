@@ -36,4 +36,7 @@
 <string name="documentsuploadedconfirmationmessage_Text">Documents Uploaded!</string>
 <string name="editworkdetailsConfirmation_Text">Profile Saved Successfully!</string>
 <string name="editpersionaldetailsConfirmation_Text">Profile Saved Successfully!</string>
+<string name="addbankaccountdetailsConfirmation_Text">Documents Uploaded!</string>
+<string name="addbankaccountdetailswithifscConfirmation_Text">Bank Details changed successfully!</string>
+<string name="addbankaccountdetailswithifscsameupdationConfirmation_Text">Nothing was changed</string>
 </resources>

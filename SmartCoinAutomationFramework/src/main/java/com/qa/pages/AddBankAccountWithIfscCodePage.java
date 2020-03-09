@@ -58,7 +58,7 @@ public class AddBankAccountWithIfscCodePage extends BaseTest{
 		sendkeys(reenteraccountnumbertextfield, reenteraccountnumber);
 		return this;
 	}
-	public AddBankAccountWithIfscCodePage enterIfscCoder(String ifsccode) {
+	public AddBankAccountWithIfscCodePage enterIfscCode(String ifsccode) {
 		click(ifsccodeup);
 		clear(enterifsccodeedittext);
 		System.out.println("IFSC Code is:-  " + ifsccode);
@@ -87,9 +87,14 @@ public class AddBankAccountWithIfscCodePage extends BaseTest{
 		click(reversebtn);
 		return this;
 	}
-	public AddBankAccountWithIfscCodePage pressContinueButton() {
+	public MyBankDetailsPage pressContinueButton() {
 
 		click(continuebtn);
-		return this;
+		return new MyBankDetailsPage();
+	}
+	public ConfirmBankDetailsPage pressContinueButtontogetConfirmBankDetailsPage() {
+
+		click(continuebtn);
+		return new ConfirmBankDetailsPage();
 	}
 }

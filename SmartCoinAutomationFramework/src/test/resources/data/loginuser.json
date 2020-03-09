@@ -61,5 +61,16 @@
 "workspace_name": "smartcoin financial pvt ltd",
 "workspace_address": "dodunakaundi bangalore",
 "workspace_postalcode": "560037"
-     } 
+     },
+     
+ "addbankaccountdetails":{
+ "enter_account_number":"106391900002262",
+ "reenter_account_number": "106391900002262"  
+ },
+ "addbankaccountdetailswithifsc":{
+ "enter_account_number":"106391900002262",
+ "reenter_account_number": "106391900002262",  
+ "ifsc_code": "YESB0001063" 
+ }  
+     
 }

@@ -34,4 +34,8 @@ public KYCUploadDocumentsPage pressDoneUtilityBills() {
 	click(donebtn);
 	return new KYCUploadDocumentsPage();
 }
+public AddBankAccountWithChequeLeafPage pressDoneCheckLeafBtn() {
+	click(donebtn);
+	return new AddBankAccountWithChequeLeafPage();
+}
 }

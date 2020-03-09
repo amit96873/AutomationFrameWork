@@ -34,6 +34,7 @@ import com.qa.pages.LanguagePage;
 import com.qa.pages.LanguageSettingPage;
 import com.qa.pages.MenuPage;
 import com.qa.pages.MobileNumberOTPVerificationPage;
+import com.qa.pages.MyBankDetailsPage;
 import com.qa.pages.MyKhataPage;
 import com.qa.pages.MyLoansPage;
 import com.qa.pages.MyProfilePage;
@@ -105,7 +106,8 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 	SelectIdDocumentsPage selectiddocumentspage;
 	SelectAddressDocumentsPage selectaddressdocumentspage;
 	UploadPanCardSuggestionPage uploadpancardsuggestionpage;
-	UploadUtilityBillSugestionPage uploadutilitybillssuggestionpage;
+	UploadUtilityBillSugestionPage uploadutilitybillssuggestionpage;	
+	MyBankDetailsPage mybankdetailspage;
 	ApplyForLoan applyforloan;
 	InputStream datais;
 	JSONObject loginuser;
