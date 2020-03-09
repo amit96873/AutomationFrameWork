@@ -9,7 +9,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter invalid name and Valid Mobile Number",
-          "uid" : "1c58a644dc3457f5",
+          "uid" : "1d231af7f61a1f95",
           "parentUid" : "7d647f8cba86030bcb0fb0742129e4cf",
           "status" : "passed",
           "time" : {
@@ -30,7 +30,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
-          "uid" : "ed50aa8bc098be2d",
+          "uid" : "4a6a0b5d5ba7747a",
           "parentUid" : "4db660936ae9f4c24f779f02efde88ab",
           "status" : "passed",
           "time" : {
@@ -51,7 +51,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
-          "uid" : "3486562fe91d0a08",
+          "uid" : "13f794e7dd48f8e5",
           "parentUid" : "f5b71aac78f1c17e1bef3d2a8d067c57",
           "status" : "passed",
           "time" : {
@@ -72,7 +72,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter Empty name and Empty Mobile Number",
-          "uid" : "2de4d10c0e9b0635",
+          "uid" : "c29d22feb19b17df",
           "parentUid" : "5ded1230b3f271b29f4cf4ea4d488e0e",
           "status" : "passed",
           "time" : {
@@ -93,7 +93,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter Empty name and Valid Mobile Number",
-          "uid" : "cff9aed5da26982",
+          "uid" : "471e105d45509d53",
           "parentUid" : "4a2d97c2644a628c105fdf7332e44036",
           "status" : "passed",
           "time" : {
@@ -114,7 +114,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter Valid name and Empty Mobile Number",
-          "uid" : "924ab46b1e460cca",
+          "uid" : "4c7b624ae816924c",
           "parentUid" : "439efa07f68aeeafd8ff83e5e1379b41",
           "status" : "passed",
           "time" : {
@@ -135,7 +135,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
-          "uid" : "358681de5036de9a",
+          "uid" : "1f08d6f4e1c72f3b",
           "parentUid" : "145fefb176d61bf38441e6cd43cdcc1e",
           "status" : "passed",
           "time" : {
@@ -156,7 +156,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter Valid name and Eight Digits Mobile Number",
-          "uid" : "f91445b023999a0e",
+          "uid" : "cfcc17589521c2d5",
           "parentUid" : "b54b13be6ede3d931a1ba62fc825e173",
           "status" : "passed",
           "time" : {
@@ -177,7 +177,7 @@
         "name" : "Story: verify Full name Edit text and Mobile Number Edit Text which is peresence Registration page on signup",
         "children" : [ {
           "name" : "Check Registration by enter Valid name and Valid Mobile Number",
-          "uid" : "54fd172e417fab65",
+          "uid" : "187d5f17e3566a6d",
           "parentUid" : "1ef6efa50088f02206bd55448e2c147d",
           "status" : "passed",
           "time" : {
@@ -196,7 +196,7 @@
     "uid" : "f416afe67be4bfdcd7f18b618c24be1b"
   }, {
     "name" : "beforeTest",
-    "uid" : "2ed7e442b8f5a47e",
+    "uid" : "2ce2a6edc08aff39",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -215,7 +215,7 @@
         "name" : "Story: Scroll the home page on both side up and down",
         "children" : [ {
           "name" : "Verify Home Page Scrolling",
-          "uid" : "8e76670805f45e40",
+          "uid" : "28d7b16566b52e0f",
           "parentUid" : "2865198e1a52b7b8fc0ccc61f1baf1d6",
           "status" : "passed",
           "time" : {
@@ -236,7 +236,7 @@
         "name" : "Story: verify the Menu Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page Menu Button",
-          "uid" : "b3187157d018d0",
+          "uid" : "9715f75be3fdfee9",
           "parentUid" : "239d6a46cf4cc51b85fe7a198b725a79",
           "status" : "passed",
           "time" : {
@@ -257,7 +257,7 @@
         "name" : "Story: verify the Chat ShortCut Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page Chat ShortCut Button",
-          "uid" : "6805c0049d4250ee",
+          "uid" : "6376e5d0a5004780",
           "parentUid" : "99227b8b7c9996eeaebfc7b878efaa32",
           "status" : "passed",
           "time" : {
@@ -278,7 +278,7 @@
         "name" : "Story: verify the Mobile Number Verify Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page Mobile Number Verify Button",
-          "uid" : "de8bbf7bc9ada557",
+          "uid" : "dd89462b09744077",
           "parentUid" : "9aa9a2d5cd40ed436e15badc27758574",
           "status" : "passed",
           "time" : {
@@ -299,7 +299,7 @@
         "name" : "Story: verify the Upload Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page Bank Account Statement Upload Button",
-          "uid" : "1f154652d788a6ad",
+          "uid" : "d9ca8bf7513bc865",
           "parentUid" : "0f907dd6877a3b6fa612b2873e64000b",
           "status" : "passed",
           "time" : {
@@ -320,7 +320,7 @@
         "name" : "Story: verify the Earn Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page Earn  Button",
-          "uid" : "26fa299645791da0",
+          "uid" : "2867da88974b5c66",
           "parentUid" : "6b6bcdea856a10ec2195910bd87813ff",
           "status" : "passed",
           "time" : {
@@ -341,7 +341,7 @@
         "name" : "Story: verify the MyKhata Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page MyKhata Button",
-          "uid" : "5ac94cc5eb3b2e7b",
+          "uid" : "cd4a1e281717425f",
           "parentUid" : "533f3a8c8052c4182e1715ae17acc21e",
           "status" : "passed",
           "time" : {
@@ -362,7 +362,7 @@
         "name" : "Story: verify the MyProfile Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page MyProfile Button",
-          "uid" : "ce6a89d6c9cf374e",
+          "uid" : "7c22917b656a38ea",
           "parentUid" : "7ec525c197898b860a7170ccf658d28e",
           "status" : "passed",
           "time" : {
@@ -383,7 +383,7 @@
         "name" : "Story: verify the ContactUs Button which is peresence on Home Page",
         "children" : [ {
           "name" : "Verify Home Page ContactUs Button",
-          "uid" : "975cf30d3da94eaa",
+          "uid" : "2a05eba6d20675d6",
           "parentUid" : "0522fa87e8a83a4c1f7c56b35a272886",
           "status" : "passed",
           "time" : {
@@ -408,7 +408,7 @@
         "name" : "Story: Scroll the home page on both side up and down",
         "children" : [ {
           "name" : "Verify Home Page Scrolling",
-          "uid" : "228ab73fc0006a8c",
+          "uid" : "e839f0ec35273858",
           "parentUid" : "e92de5311070ef03aac005f86d677add",
           "status" : "passed",
           "time" : {
@@ -429,7 +429,7 @@
         "name" : "Story: verify the Home Button and its completely working fine after click on the Home Button we suppose to get Home Page and that we can see in screenshot",
         "children" : [ {
           "name" : "Verify Home Button which is peresence on Menu Page",
-          "uid" : "7e0109eca04c88b3",
+          "uid" : "4014821b223193cb",
           "parentUid" : "a020742b503b11650d016fc42e2e4f95",
           "status" : "passed",
           "time" : {
@@ -450,7 +450,7 @@
         "name" : "Story: verify the My_Loans Button and after click on the My_Loans button it should jump on My_Loans page that we can see in screen shot",
         "children" : [ {
           "name" : "Verify My_Loans Button which is peresence on Menu Page",
-          "uid" : "42c390ed372576fd",
+          "uid" : "b7aee9f235bfbc0b",
           "parentUid" : "5961052086ee0927f899b4ba3973a07d",
           "status" : "passed",
           "time" : {
@@ -471,7 +471,7 @@
         "name" : "Story: verify the My_Profile Button and after clicked on the My_Profile Button it should jump on My profile page that we can check with the screenshot",
         "children" : [ {
           "name" : "Verify My_Profile Button which is peresence on Menu Page",
-          "uid" : "a40d7e53201b6dcb",
+          "uid" : "28ee0e39d4129d9d",
           "parentUid" : "0629a338952fd084c2b55dc8202d6bbd",
           "status" : "passed",
           "time" : {
@@ -492,7 +492,7 @@
         "name" : "Story: verify the All_Transaction Button and checked after clicked on the All_Transaction buttont its get jumped on All_Transaction page",
         "children" : [ {
           "name" : "Verify All_Transaction Button which is peresence on Menu Page",
-          "uid" : "729de350aefed22d",
+          "uid" : "620730ed822d270d",
           "parentUid" : "318108ec2649cfc2c6debcf9110c06fc",
           "status" : "passed",
           "time" : {
@@ -513,7 +513,7 @@
         "name" : "Story: verify the Help_And_Support Button and after clicked on the Help_And_Support button its get jumped on help and support page",
         "children" : [ {
           "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
-          "uid" : "bbee8438acc0bd26",
+          "uid" : "c8cd12a84e197a36",
           "parentUid" : "634553c61cdf79974cd7bda11ce16229",
           "status" : "passed",
           "time" : {
@@ -534,7 +534,7 @@
         "name" : "Story: verify the FAQ Button and after clicked on the FAQ button its get jumped on FAQ Page",
         "children" : [ {
           "name" : "Verify FAQ Button which is peresence on Menu Page",
-          "uid" : "2b8e506ddc07b2dc",
+          "uid" : "5aae1b3cb61814c7",
           "parentUid" : "8b7fb833ea3ef8c680fd4190731aae2a",
           "status" : "passed",
           "time" : {
@@ -555,7 +555,7 @@
         "name" : "Story: verify the Menu Button and after clicked on the Language Button its Should jumped on Language Setting Page",
         "children" : [ {
           "name" : "Verify Language Button which is peresence on Menu Page",
-          "uid" : "897e45406ce09d08",
+          "uid" : "3c0e60894bb87f8b",
           "parentUid" : "ba212744219fc4ef437fc64556e08712",
           "status" : "passed",
           "time" : {
@@ -576,7 +576,7 @@
         "name" : "Story: verify the Troubleshoot Button and after clicked on the Troubleshoot Button its should jumed on Troubleshoot page",
         "children" : [ {
           "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
-          "uid" : "c188d5ce7c54d7af",
+          "uid" : "f30bb0d41aa03b04",
           "parentUid" : "2f38d3e5011acf9d0cee21874726207c",
           "status" : "passed",
           "time" : {
@@ -597,7 +597,7 @@
         "name" : "Story: verify the My_Bank_Details Button and verified its geting jummped On My_Bank_Details page",
         "children" : [ {
           "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
-          "uid" : "99f02e001fe23c54",
+          "uid" : "6b09daf8889ac219",
           "parentUid" : "31703a114631c3f8edf683744d777b92",
           "status" : "passed",
           "time" : {
@@ -616,7 +616,7 @@
     "uid" : "6090a72fb8ca5ce95798a16bf892f490"
   }, {
     "name" : "beforeTest",
-    "uid" : "fe266495b2067334",
+    "uid" : "6a908a7c9a7a747f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -635,26 +635,13 @@
         "name" : "Story: This is Prerequsit to get Edit_Persional_Details Page to verify the Edit_Work_Details Page",
         "children" : [ {
           "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
-          "uid" : "5cc9b063c138a944",
+          "uid" : "cf72b3912d592fef",
           "parentUid" : "8356b20cf02ef892743ce9a42ba7b8af",
           "status" : "passed",
           "time" : {
             "start" : 1583691415784,
             "stop" : 1583691443412,
             "duration" : 27628
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "Android Emulator", "Android", "8.0" ]
-        }, {
-          "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
-          "uid" : "3c39d2c9cf0d5865",
-          "parentUid" : "8356b20cf02ef892743ce9a42ba7b8af",
-          "status" : "passed",
-          "time" : {
-            "start" : 1583693731241,
-            "stop" : 1583693757571,
-            "duration" : 26330
           },
           "flaky" : false,
           "newFailed" : false,
@@ -669,7 +656,7 @@
         "name" : "Story: Enter the valid value on esit persional details page and after enered all the valid values and click on continue button it should get my_profile_page and it will show in screen shot",
         "children" : [ {
           "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
-          "uid" : "7a3b694af6a2aabd",
+          "uid" : "129f2e2f51954b01",
           "parentUid" : "926e0eabc7df6c4c2a79ef7007aabe09",
           "status" : "passed",
           "time" : {
@@ -684,28 +671,146 @@
         "uid" : "926e0eabc7df6c4c2a79ef7007aabe09"
       } ],
       "uid" : "ac30e095540aa9ab735e7f521eaf7f99"
-    }, {
-      "name" : "Feature3: Edit Persional Details Page enteed valid values and Scrolling",
+    } ],
+    "uid" : "77474777f5f3c8c6fbd7b175f70733c5"
+  }, {
+    "name" : "afterTest",
+    "uid" : "eba2937a1b96daf3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1583736886843,
+      "stop" : 1583736886844,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Android Emulator", "Android", "8.0" ]
+  }, {
+    "name" : "beforeTest",
+    "uid" : "da1383b39cb43a5d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1583737995245,
+      "stop" : 1583737995250,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Android Emulator", "Android", "8.0" ]
+  }, {
+    "name" : "EP005",
+    "children" : [ {
+      "name" : "Feature1: verified enter password button and home page my profile button and my profile page expend menu button and expend menu page edit work details button",
       "children" : [ {
-        "name" : "Story: Enter the valid value on esit persional details page and after enered all the valid values and click on continue button it should get my_profile_page and it will show in screen shot",
+        "name" : "Story: This is Prerequsit to get Edit_Persional_Details Page to verify the Edit_Work_Details Page",
         "children" : [ {
-          "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
-          "uid" : "afc19b9a928382c1",
-          "parentUid" : "62e90c8b6752433d5fee50e4bc2aaaed",
+          "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
+          "uid" : "7035894f4adf57a2",
+          "parentUid" : "8bfd5f13dd39285c317174f23e05f750",
           "status" : "passed",
           "time" : {
-            "start" : 1583693757690,
-            "stop" : 1583693791277,
-            "duration" : 33587
+            "start" : 1583744777787,
+            "stop" : 1583744805714,
+            "duration" : 27927
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         } ],
-        "uid" : "62e90c8b6752433d5fee50e4bc2aaaed"
+        "uid" : "8bfd5f13dd39285c317174f23e05f750"
       } ],
-      "uid" : "07b0e5561a009efb61edf6ee9e9972cc"
+      "uid" : "68af82630f340eeba02a5d38137979a8"
+    }, {
+      "name" : "Feature2: Edit Persional Details Page enteed valid values and Scrolling",
+      "children" : [ {
+        "name" : "Story: Enter the valid value on esit persional details page and after enered all the valid values and click on continue button it should get my_profile_page and it will show in screen shot",
+        "children" : [ {
+          "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
+          "uid" : "c609738871af8ae4",
+          "parentUid" : "2a003d736dd614d69344f499a884d85c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583744805820,
+            "stop" : 1583744838720,
+            "duration" : 32900
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "2a003d736dd614d69344f499a884d85c"
+      } ],
+      "uid" : "ea25a5f4e66e163a05364d46026724c1"
     } ],
-    "uid" : "77474777f5f3c8c6fbd7b175f70733c5"
+    "uid" : "13b9d3010e6e59856011626a35b07bf0"
+  }, {
+    "name" : "EP006",
+    "children" : [ {
+      "name" : "Feature1: verified enter password button and home page my profile button and my profile page expend menu button and expend menu page edit work details button",
+      "children" : [ {
+        "name" : "Story: This is Prerequsit to get Edit_Persional_Details Page to verify the Edit_Work_Details Page",
+        "children" : [ {
+          "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
+          "uid" : "c3e499ce285346b",
+          "parentUid" : "a8fee932614de9a8b4d9abf53ecdbcf2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583744946215,
+            "stop" : 1583744977262,
+            "duration" : 31047
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "a8fee932614de9a8b4d9abf53ecdbcf2"
+      } ],
+      "uid" : "22fdf4f84ce5318526caa55b00501718"
+    }, {
+      "name" : "Feature2: Edit KYC Details Page enteed valid data and Scrolling",
+      "children" : [ {
+        "name" : "Story: Upload the valid data on edit persional details page and after uploaded all the valid data and click on continue button it should get my_profile_page and that will show in the screen shot",
+        "children" : [ {
+          "name" : "Verify Edit KYC Details Page by Uploading valid data and Scrolling and documents uploaded Aadhar front as ID proof and Aadhar back As Address Proof",
+          "uid" : "8d8e7d32fe8166af",
+          "parentUid" : "293f314accce53b3d40a5beb5cd58a72",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583744977310,
+            "stop" : 1583745043310,
+            "duration" : 66000
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "293f314accce53b3d40a5beb5cd58a72"
+      } ],
+      "uid" : "3652d1d0fc3ac2d47009181ffac9ee44"
+    }, {
+      "name" : "Feature3: Edit KYC Details Page enteed valid values and Scrolling",
+      "children" : [ {
+        "name" : "Story: uploded the valid data on edit KYC details page and after uploaded all the valid data and click on continue button it should get my_profile_page and it will show in screen shot",
+        "children" : [ {
+          "name" : "Verify Edit KYC Details Page by Uploading valid data and Scrolling and documents uploaded Pan Card as ID proof and Utillity bills  As Address Proof",
+          "uid" : "b27e0076d0e65020",
+          "parentUid" : "31e4a800af5d376b935e2a10d5df36ff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583745043332,
+            "stop" : 1583745108919,
+            "duration" : 65587
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "31e4a800af5d376b935e2a10d5df36ff"
+      } ],
+      "uid" : "cdbbf8a70dd9d988ecb4f5cc5d4995d8"
+    } ],
+    "uid" : "46dcb86d8f3e58bebf551bba2c466be9"
   } ]
 }

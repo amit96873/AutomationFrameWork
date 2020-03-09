@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "228ab73fc0006a8c",
+      "uid" : "e839f0ec35273858",
       "status" : "passed",
       "time" : {
         "start" : 1583647899030,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a3b694af6a2aabd",
+      "uid" : "129f2e2f51954b01",
       "status" : "passed",
       "time" : {
         "start" : 1583691443495,
@@ -47,7 +47,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1c58a644dc3457f5",
+      "uid" : "1d231af7f61a1f95",
       "status" : "passed",
       "time" : {
         "start" : 1583576919452,
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "afc19b9a928382c1",
+      "uid" : "c609738871af8ae4",
       "status" : "passed",
       "time" : {
-        "start" : 1583693757690,
-        "stop" : 1583693791277,
-        "duration" : 33587
+        "start" : 1583744805820,
+        "stop" : 1583744838720,
+        "duration" : 32900
       }
     } ]
   },
@@ -85,13 +85,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ed7e442b8f5a47e",
+      "uid" : "2ce2a6edc08aff39",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "time" : {
         "start" : 1583587011560,
         "stop" : 1583587011568,
         "duration" : 8
+      }
+    } ]
+  },
+  "15fe2af2a5304d297089f2a403bd022a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d8e7d32fe8166af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583744977310,
+        "stop" : 1583745043310,
+        "duration" : 66000
       }
     } ]
   },
@@ -105,12 +124,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c39d2c9cf0d5865",
+      "uid" : "7035894f4adf57a2",
       "status" : "passed",
       "time" : {
-        "start" : 1583693731241,
-        "stop" : 1583693757571,
-        "duration" : 26330
+        "start" : 1583744777787,
+        "stop" : 1583744805714,
+        "duration" : 27927
       }
     } ]
   },
@@ -124,12 +143,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed50aa8bc098be2d",
+      "uid" : "4a6a0b5d5ba7747a",
       "status" : "passed",
       "time" : {
         "start" : 1583576930867,
         "stop" : 1583576940818,
         "duration" : 9951
+      }
+    } ]
+  },
+  "fa07336c1bd1496ae00f42a149cc433d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3e499ce285346b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583744946215,
+        "stop" : 1583744977262,
+        "duration" : 31047
+      }
+    } ]
+  },
+  "45971d8efc18fcb3aac93afa08fa2a52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da1383b39cb43a5d",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.release' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.release' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1583737995245,
+        "stop" : 1583737995250,
+        "duration" : 5
       }
     } ]
   },
@@ -143,7 +201,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e0109eca04c88b3",
+      "uid" : "4014821b223193cb",
       "status" : "passed",
       "time" : {
         "start" : 1583647920237,
@@ -162,7 +220,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "897e45406ce09d08",
+      "uid" : "3c0e60894bb87f8b",
       "status" : "passed",
       "time" : {
         "start" : 1583647965456,
@@ -181,7 +239,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f91445b023999a0e",
+      "uid" : "cfcc17589521c2d5",
       "status" : "passed",
       "time" : {
         "start" : 1583576986958,
@@ -200,7 +258,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2b8e506ddc07b2dc",
+      "uid" : "5aae1b3cb61814c7",
       "status" : "passed",
       "time" : {
         "start" : 1583647956983,
@@ -219,7 +277,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e76670805f45e40",
+      "uid" : "28d7b16566b52e0f",
       "status" : "passed",
       "time" : {
         "start" : 1583587132500,
@@ -238,7 +296,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1f154652d788a6ad",
+      "uid" : "d9ca8bf7513bc865",
       "status" : "passed",
       "time" : {
         "start" : 1583587190589,
@@ -257,7 +315,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "924ab46b1e460cca",
+      "uid" : "4c7b624ae816924c",
       "status" : "passed",
       "time" : {
         "start" : 1583576968734,
@@ -276,31 +334,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "26fa299645791da0",
+      "uid" : "2867da88974b5c66",
       "status" : "passed",
       "time" : {
         "start" : 1583587198688,
         "stop" : 1583587208638,
         "duration" : 9950
-      }
-    } ]
-  },
-  "ab41030e40db1c2827c99b878f225004" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5ac94cc5eb3b2e7b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583587208652,
-        "stop" : 1583587220025,
-        "duration" : 11373
       }
     } ]
   },
@@ -314,12 +353,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2de4d10c0e9b0635",
+      "uid" : "c29d22feb19b17df",
       "status" : "passed",
       "time" : {
         "start" : 1583576950496,
         "stop" : 1583576959581,
         "duration" : 9085
+      }
+    } ]
+  },
+  "ab41030e40db1c2827c99b878f225004" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd4a1e281717425f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583587208652,
+        "stop" : 1583587220025,
+        "duration" : 11373
+      }
+    } ]
+  },
+  "42dcf41e2ce80d73c1d3f43711b3f002" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eba2937a1b96daf3",
+      "status" : "broken",
+      "statusDetails" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.payvoo.app.ui.activity...., appPackage: in.rebase.app, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.payvoo.app.ui.activity...., appPackage: in.rebase.app, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: false, noReset: true, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c822c2e1-a2bc-4c47-9a23-b6d8c0230419",
+      "time" : {
+        "start" : 1583736886843,
+        "stop" : 1583736886844,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ab53dd0268e798afc4e2aacb109508df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b27e0076d0e65020",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583745043332,
+        "stop" : 1583745108919,
+        "duration" : 65587
       }
     } ]
   },
@@ -333,7 +430,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "54fd172e417fab65",
+      "uid" : "187d5f17e3566a6d",
       "status" : "passed",
       "time" : {
         "start" : 1583576996028,
@@ -352,7 +449,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de8bbf7bc9ada557",
+      "uid" : "dd89462b09744077",
       "status" : "passed",
       "time" : {
         "start" : 1583587185941,
@@ -371,7 +468,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bbee8438acc0bd26",
+      "uid" : "c8cd12a84e197a36",
       "status" : "passed",
       "time" : {
         "start" : 1583647949053,
@@ -390,7 +487,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "729de350aefed22d",
+      "uid" : "620730ed822d270d",
       "status" : "passed",
       "time" : {
         "start" : 1583647940805,
@@ -409,7 +506,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6805c0049d4250ee",
+      "uid" : "6376e5d0a5004780",
       "status" : "passed",
       "time" : {
         "start" : 1583587172563,
@@ -428,7 +525,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3187157d018d0",
+      "uid" : "9715f75be3fdfee9",
       "status" : "passed",
       "time" : {
         "start" : 1583587169321,
@@ -447,7 +544,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c188d5ce7c54d7af",
+      "uid" : "f30bb0d41aa03b04",
       "status" : "passed",
       "time" : {
         "start" : 1583647974264,
@@ -466,7 +563,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "975cf30d3da94eaa",
+      "uid" : "2a05eba6d20675d6",
       "status" : "passed",
       "time" : {
         "start" : 1583587233014,
@@ -485,7 +582,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe266495b2067334",
+      "uid" : "6a908a7c9a7a747f",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "time" : {
@@ -505,12 +602,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5cc9b063c138a944",
+      "uid" : "cf72b3912d592fef",
       "status" : "passed",
       "time" : {
         "start" : 1583691415784,
         "stop" : 1583691443412,
         "duration" : 27628
+      }
+    } ]
+  },
+  "c3b49f00b69e66859d0a39c359c52705" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28ee0e39d4129d9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583647932337,
+        "stop" : 1583647940775,
+        "duration" : 8438
       }
     } ]
   },
@@ -524,7 +640,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ce6a89d6c9cf374e",
+      "uid" : "7c22917b656a38ea",
       "status" : "passed",
       "time" : {
         "start" : 1583587220036,
@@ -543,31 +659,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99f02e001fe23c54",
+      "uid" : "6b09daf8889ac219",
       "status" : "passed",
       "time" : {
         "start" : 1583647981787,
         "stop" : 1583647990741,
         "duration" : 8954
-      }
-    } ]
-  },
-  "c3b49f00b69e66859d0a39c359c52705" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a40d7e53201b6dcb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583647932337,
-        "stop" : 1583647940775,
-        "duration" : 8438
       }
     } ]
   },
@@ -581,7 +678,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cff9aed5da26982",
+      "uid" : "471e105d45509d53",
       "status" : "passed",
       "time" : {
         "start" : 1583576959599,
@@ -600,7 +697,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "358681de5036de9a",
+      "uid" : "1f08d6f4e1c72f3b",
       "status" : "passed",
       "time" : {
         "start" : 1583576977588,
@@ -619,7 +716,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3486562fe91d0a08",
+      "uid" : "13f794e7dd48f8e5",
       "status" : "passed",
       "time" : {
         "start" : 1583576940833,
@@ -638,7 +735,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "42c390ed372576fd",
+      "uid" : "b7aee9f235bfbc0b",
       "status" : "passed",
       "time" : {
         "start" : 1583647926050,

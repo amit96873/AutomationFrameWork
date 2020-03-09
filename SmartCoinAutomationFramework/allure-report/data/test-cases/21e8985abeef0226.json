@@ -1,0 +1,217 @@
+{
+  "uid" : "21e8985abeef0226",
+  "name" : "Verify Home Page MyProfile Button",
+  "fullName" : "com.qa.tests.HomePageTests.checkMyProfileButton",
+  "historyId" : "5135c92545d01d425c78eddc21616112",
+  "time" : {
+    "start" : 1583576174311,
+    "stop" : 1583576186058,
+    "duration" : 11747
+  },
+  "description" : "Verify Home Page MyProfile Button",
+  "descriptionHtml" : "<p>Verify Home Page MyProfile Button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583576092009,
+      "stop" : 1583576111020,
+      "duration" : 19011
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583576111063,
+      "stop" : 1583576111681,
+      "duration" : 618
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583576174303,
+      "stop" : 1583576174306,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Home Page MyProfile Button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked MyProfile Button",
+      "time" : {
+        "start" : 1583576174311,
+        "stop" : 1583576184722,
+        "duration" : 10411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3191e845746b7fa0",
+      "name" : "saveFailureScreenShot",
+      "source" : "3191e845746b7fa0.png",
+      "type" : "image/png",
+      "size" : 545141
+    }, {
+      "uid" : "318783d52bc942c1",
+      "name" : "checkMyProfileButtonPassed And Screenshot Taken",
+      "source" : "318783d52bc942c1.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583576196138,
+      "stop" : 1583576196336,
+      "duration" : 198
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583576196137,
+      "stop" : 1583576196137,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583576186061,
+      "stop" : 1583576186061,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.HomePageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.HomePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMyProfileButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.HomePageTests"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9620@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify the MyProfile Button which is peresence on Home Page"
+  }, {
+    "name" : "feature",
+    "value" : "Feature8: Verify MyProfile Button"
+  }, {
+    "name" : "epic",
+    "value" : "EP002"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21e8985abeef0226.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

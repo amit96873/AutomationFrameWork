@@ -1,0 +1,217 @@
+{
+  "uid" : "35d4084c86dbdbae",
+  "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
+  "fullName" : "com.qa.tests.MenuPageButtonTest.checkMenuPageTroubleshootButton",
+  "historyId" : "2cd9493da35e93cb0e375f4152b0008c",
+  "time" : {
+    "start" : 1583587510285,
+    "stop" : 1583587522065,
+    "duration" : 11780
+  },
+  "description" : "Verify Troubleshoot Button which is peresence on Menu Page",
+  "descriptionHtml" : "<p>Verify Troubleshoot Button which is peresence on Menu Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583587510277,
+      "stop" : 1583587510279,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583587373032,
+      "stop" : 1583587400539,
+      "duration" : 27507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583587400620,
+      "stop" : 1583587401090,
+      "duration" : 470
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Troubleshoot Button which is peresence on Menu Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked Troubleshoot Button",
+      "time" : {
+        "start" : 1583587510285,
+        "stop" : 1583587521475,
+        "duration" : 11190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "184e4bbd0b972442",
+      "name" : "saveFailureScreenShot",
+      "source" : "184e4bbd0b972442.png",
+      "type" : "image/png",
+      "size" : 83066
+    }, {
+      "uid" : "5c7fff7a8287db0e",
+      "name" : "checkMenuPageTroubleshootButtonPassed And Screenshot Taken",
+      "source" : "5c7fff7a8287db0e.txt",
+      "type" : "text/plain",
+      "size" : 58
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583587533845,
+      "stop" : 1583587534301,
+      "duration" : 456
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583587533844,
+      "stop" : 1583587533845,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583587522067,
+      "stop" : 1583587522067,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMenuPageTroubleshootButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "6536@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Feature9: Verify Troubleshoot Button"
+  }, {
+    "name" : "epic",
+    "value" : "EP003"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify the Troubleshoot Button and after clicked on the Troubleshoot Button its should jumed on Troubleshoot page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35d4084c86dbdbae.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

@@ -1,0 +1,217 @@
+{
+  "uid" : "8cf44f96fc3a608",
+  "name" : "Verify Language Button which is peresence on Menu Page",
+  "fullName" : "com.qa.tests.MenuPageButtonTest.checkMenuPageLanguageSettingButton",
+  "historyId" : "5e20181ddb830439cdcce45828e259ae",
+  "time" : {
+    "start" : 1583587732784,
+    "stop" : 1583587745720,
+    "duration" : 12936
+  },
+  "description" : "Verify Language Button which is peresence on Menu Page",
+  "descriptionHtml" : "<p>Verify Language Button which is peresence on Menu Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583587732765,
+      "stop" : 1583587732768,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583587595924,
+      "stop" : 1583587632513,
+      "duration" : 36589
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583587632561,
+      "stop" : 1583587633053,
+      "duration" : 492
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Language Button which is peresence on Menu Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked Language Button",
+      "time" : {
+        "start" : 1583587732785,
+        "stop" : 1583587745127,
+        "duration" : 12342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2d252bf050ef60da",
+      "name" : "saveFailureScreenShot",
+      "source" : "2d252bf050ef60da.png",
+      "type" : "image/png",
+      "size" : 85643
+    }, {
+      "uid" : "9a6c7a275aaaeec2",
+      "name" : "checkMenuPageLanguageSettingButtonPassed And Screenshot Taken",
+      "source" : "9a6c7a275aaaeec2.txt",
+      "type" : "text/plain",
+      "size" : 61
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583587768591,
+      "stop" : 1583587769038,
+      "duration" : 447
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583587745722,
+      "stop" : 1583587745722,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583587768590,
+      "stop" : 1583587768590,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMenuPageLanguageSettingButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7316@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify the Menu Button and after clicked on the Language Button its Should jumped on Language Setting Page"
+  }, {
+    "name" : "feature",
+    "value" : "Feature8: Verify Language Button"
+  }, {
+    "name" : "epic",
+    "value" : "EP003"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cf44f96fc3a608.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}
