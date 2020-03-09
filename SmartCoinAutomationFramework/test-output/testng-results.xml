@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="83434" started-at="2020-03-09T00:18:06 IST" finished-at="2020-03-09T00:19:29 IST">
+  <suite name="Suite" duration-ms="198120" started-at="2020-03-09T13:07:23 IST" finished-at="2020-03-09T13:10:41 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="83434" started-at="2020-03-09T00:18:06 IST" finished-at="2020-03-09T00:19:29 IST">
-      <class name="com.qa.tests.EditWorkDetailsPageTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="beforeTest" is-config="true" duration-ms="20772" started-at="2020-03-09T00:18:06 IST" finished-at="2020-03-09T00:18:27 IST">
+    <test name="Test" duration-ms="198120" started-at="2020-03-09T13:07:23 IST" finished-at="2020-03-09T13:10:41 IST">
+      <class name="com.qa.tests.KYCUploadDocumentsPageTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="beforeTest" is-config="true" duration-ms="20911" started-at="2020-03-09T13:07:23 IST" finished-at="2020-03-09T13:07:44 IST">
           <params>
             <param index="0">
               <value>
@@ -28,57 +28,76 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="beforeClass" is-config="true" duration-ms="443" started-at="2020-03-09T00:18:27 IST" finished-at="2020-03-09T00:18:27 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="beforeClass" is-config="true" duration-ms="490" started-at="2020-03-09T13:07:44 IST" finished-at="2020-03-09T13:07:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2020-03-09T00:18:27 IST" finished-at="2020-03-09T00:18:27 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2020-03-09T13:07:45 IST" finished-at="2020-03-09T13:07:45 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.EditWorkDetailsPageTest.checkHomePageScrolling()]]>
+                <![CDATA[public void com.qa.tests.KYCUploadDocumentsPageTests.checkHomePageScrolling()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkHomePageScrolling()[pri:1, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="checkHomePageScrolling" duration-ms="27915" started-at="2020-03-09T00:18:27 IST" description="verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page" finished-at="2020-03-09T00:18:55 IST">
+        <test-method status="PASS" signature="checkHomePageScrolling()[pri:1, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="checkHomePageScrolling" duration-ms="27839" started-at="2020-03-09T13:07:45 IST" description="verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page" finished-at="2020-03-09T13:08:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHomePageScrolling -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-09T00:18:56 IST" finished-at="2020-03-09T00:18:56 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-09T13:08:14 IST" finished-at="2020-03-09T13:08:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-09T00:18:56 IST" finished-at="2020-03-09T00:18:56 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2020-03-09T13:08:14 IST" finished-at="2020-03-09T13:08:14 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.EditWorkDetailsPageTest.checkWithoutEnteringAnyValue()]]>
+                <![CDATA[public void com.qa.tests.KYCUploadDocumentsPageTests.checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkWithoutEnteringAnyValue()[pri:2, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="checkWithoutEnteringAnyValue" duration-ms="31548" started-at="2020-03-09T00:18:56 IST" description="Verify Edit Persional Details Page by Entering valid value and Scrolling" finished-at="2020-03-09T00:19:28 IST">
+        <test-method status="PASS" signature="checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe()[pri:3, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe" duration-ms="57422" started-at="2020-03-09T13:08:14 IST" description="Verify Edit Persional Details Page by Entering valid value and Scrolling" finished-at="2020-03-09T13:09:11 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkWithoutEnteringAnyValue -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-09T00:19:29 IST" finished-at="2020-03-09T00:19:29 IST">
+        </test-method> <!-- checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-09T13:09:12 IST" finished-at="2020-03-09T13:09:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="afterClass" is-config="true" duration-ms="2" started-at="2020-03-09T00:19:29 IST" finished-at="2020-03-09T00:19:29 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-09T13:09:12 IST" finished-at="2020-03-09T13:09:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.KYCUploadDocumentsPageTests.checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe()[pri:3, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe" duration-ms="87244" started-at="2020-03-09T13:09:12 IST" description="Verify Edit Persional Details Page by Entering valid value and Scrolling" finished-at="2020-03-09T13:10:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-03-09T13:10:41 IST" finished-at="2020-03-09T13:10:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="afterClass" is-config="true" duration-ms="2" started-at="2020-03-09T13:10:41 IST" finished-at="2020-03-09T13:10:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.EditWorkDetailsPageTest@4e25147a]" name="afterTest" is-config="true" duration-ms="501" started-at="2020-03-09T00:19:29 IST" finished-at="2020-03-09T00:19:29 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.KYCUploadDocumentsPageTests@7fc645e4]" name="afterTest" is-config="true" duration-ms="307" started-at="2020-03-09T13:10:41 IST" finished-at="2020-03-09T13:10:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qa.tests.EditWorkDetailsPageTest -->
+      </class> <!-- com.qa.tests.KYCUploadDocumentsPageTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

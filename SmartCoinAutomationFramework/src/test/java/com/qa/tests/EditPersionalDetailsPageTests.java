@@ -187,8 +187,8 @@ public class EditPersionalDetailsPageTests extends BaseTest{
 		editpersionaldetailspage.pressMariedNoRadioBtn();
 		homepagesmartcoin.scrollDown();
 		myprofilepage = editpersionaldetailspage.pressContinueBtn();
-		String actualResult2= myprofilepage.getMyProfilePageTitle();
-		String expectedResult2=strings.get("myprofilePage_Title_Text");
+		String actualResult2= myprofilepage.getEditPersionaldetailsSavedSuccessfully();
+		String expectedResult2=strings.get("editpersionaldetailsConfirmation_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);

@@ -28,4 +28,6 @@ public class UploadAdharFrontSugestionPage extends BaseTest {
 		click(canclebtn);
 		return new KYCUploadDocumentsPage();
 	}
+	
+	
 }

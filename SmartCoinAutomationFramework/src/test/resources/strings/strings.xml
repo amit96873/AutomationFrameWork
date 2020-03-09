@@ -32,4 +32,8 @@
 <string name="enterpasswordpage_Title_Text">Enter your 4-digit Pin</string>
 <string name="editpersionaldetailspage_Title_Text">Edit Personal Details</string>
 <string name="editworkdetailspage_Title_Text">Edit Work Details</string>
+<string name="editkycpage_Title_Text">KYC : Upload Documents</string>
+<string name="documentsuploadedconfirmationmessage_Text">Documents Uploaded!</string>
+<string name="editworkdetailsConfirmation_Text">Profile Saved Successfully!</string>
+<string name="editpersionaldetailsConfirmation_Text">Profile Saved Successfully!</string>
 </resources>

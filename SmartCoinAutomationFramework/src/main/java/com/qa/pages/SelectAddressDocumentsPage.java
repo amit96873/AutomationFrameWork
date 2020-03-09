@@ -9,7 +9,7 @@ public class SelectAddressDocumentsPage extends BaseTest{
 	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Select Address Document' and @index='0']") private MobileElement adressdocumentpagetitletext;	
 	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='Aadhaar back' and @index='0']") private MobileElement aadharbackbtn;	
-	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='Utility Bill' and @index='0']") private MobileElement utilitybillbtn;
+	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='Utility Bill' and @index='1']") private MobileElement utilitybillbtn;
 	@AndroidFindBy (id = "in.rebase.app:id/negative_button") private MobileElement cancelbtn;
 	@AndroidFindBy (id = "in.rebase.app:id/positive_button") private MobileElement selectbtn;
 	

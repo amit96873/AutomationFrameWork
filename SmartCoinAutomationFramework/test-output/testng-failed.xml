@@ -9,17 +9,17 @@
     <parameter name="devicename" value="Android Emulator"/>
     <parameter name="platformName" value="Android"/>
     <classes>
-      <class name="com.qa.tests.EditPersionalDetailsPageTests">
+      <class name="com.qa.tests.KYCUploadDocumentsPageTests">
         <methods>
           <include name="afterTest"/>
-          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="beforeClass"/>
-          <include name="checkHomePageScrolling"/>
-          <include name="beforeMethod"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.qa.tests.EditPersionalDetailsPageTests -->
+      </class> <!-- com.qa.tests.KYCUploadDocumentsPageTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

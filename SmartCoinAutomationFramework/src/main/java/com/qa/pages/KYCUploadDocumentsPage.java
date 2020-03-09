@@ -24,27 +24,27 @@ public class KYCUploadDocumentsPage extends BaseTest{
 	public String getKYCPageTitle() {
 		return getAttribute(kycpagetitletext, "text");
 	}
-	public UploadAdharBackSugestionPage pressUploadAdharBackSugestionPageBtn() {
+	public UploadAdharBackSugestionPage pressUploadAdharBackBtn() {
 
 		click(addressproftakepicbtn);
 		return new UploadAdharBackSugestionPage();
 	}
-	public UploadUtilityBillSugestionPage pressUploadUtilityBillSugestionPageBtn() {
+	public UploadUtilityBillSugestionPage pressUploadUtilityBillSBtn() {
 
 		click(addressproftakepicbtn);
 		return new UploadUtilityBillSugestionPage();
 	}
-	public UploadPanCardSuggestionPage pressUploadPanCardSuggestionPageBtn() {
+	public UploadPanCardSuggestionPage pressUploadPanCardBtn() {
 
 		click(IdProoftakepicbtn);
 		return new UploadPanCardSuggestionPage();
 	}
-	public UploadAdharFrontSugestionPage pressUploadAdharFrontSugestionPageBtn() {
+	public UploadAdharFrontSugestionPage pressUploadAdharFrontBtn() {
 
 		click(IdProoftakepicbtn);
 		return new UploadAdharFrontSugestionPage();
 	}
-	public UploadSelfieSugestionPage pressUploadSelfieSugestionPageBtn() {
+	public UploadSelfieSugestionPage pressUploadSelfieBtn() {
 
 		click(takeselfIPIC);
 		return new UploadSelfieSugestionPage();

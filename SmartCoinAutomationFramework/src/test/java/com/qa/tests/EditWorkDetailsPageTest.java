@@ -132,7 +132,7 @@ public class EditWorkDetailsPageTest extends BaseTest{
 
 	@Test(priority=1, description="verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page")
 	@Description("verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page")
-	@Epic("EP004")
+	@Epic("EP005")
 	@Feature("Feature1: verified enter password button and home page my profile button and my profile page expend menu button and expend menu page edit work details button")
 	@Story("Story: This is Prerequsit to get Edit_Persional_Details Page to verify the Edit_Work_Details Page")
 	@Step("1st step is Enter Password and 2nd step is Scroll the home page and click on my profile button and 3rd step is in my profile click on expend menu button and 4th step is on expend menu page click on edit_work_details button")
@@ -164,10 +164,10 @@ public class EditWorkDetailsPageTest extends BaseTest{
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
-	@Test(priority=3, description="Verify Edit Persional Details Page by Entering valid value and Scrolling")
+	@Test(priority=2, description="Verify Edit Persional Details Page by Entering valid value and Scrolling")
 	@Description("Verify Edit Persional Details Page by Entering valid value and Scrolling")
-	@Epic("EP004")
-	@Feature("Feature3: Edit Persional Details Page enteed valid values and Scrolling")
+	@Epic("EP005")
+	@Feature("Feature2: Edit Persional Details Page enteed valid values and Scrolling")
 	@Story("Story: Enter the valid value on esit persional details page and after enered all the valid values and click on continue button it should get my_profile_page and it will show in screen shot")
 	@Step("validating by entering correct value")
 	@Severity(SeverityLevel.CRITICAL)
@@ -185,8 +185,8 @@ public class EditWorkDetailsPageTest extends BaseTest{
 		editworkdetailspage.enterWorkPlacepincode(loginuser.getJSONObject("editworkdetails").getString("workspace_postalcode"));
 		homepagesmartcoin.scrollDown();
 		myprofilepage = editworkdetailspage.pressContinueBtn();
-		String actualResult2= myprofilepage.getMyProfilePageTitle();
-		String expectedResult2=strings.get("myprofilePage_Title_Text");
+		String actualResult2= myprofilepage.getEditworkdetailsSavedSuccessfully();
+		String expectedResult2=strings.get("editworkdetailsConfirmation_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
