@@ -1,11 +1,11 @@
 package com.qa.pages;
 
-import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class ConfirmYourPasswordPage extends BaseTest {
+public class ConfirmYourPasswordPage extends BaseTestForSigninSignUp {
 
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Confirm your 4-digit Pin' and @index='0']") private MobileElement confirmpasswordtitletext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='1' and @index='0']") private MobileElement digitone;
@@ -75,55 +75,55 @@ public class ConfirmYourPasswordPage extends BaseTest {
 		click(digitzero);
 		return this;
 	}
-	public HomePageSmartCoin pressOne1() {
+	public HomePageSmartCoinForSigninSignup pressOne1() {
 
 		click(digitone);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressTwo2() {
+	public HomePageSmartCoinForSigninSignup pressTwo2() {
 
 		click(digittwo);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressThree3() {
+	public HomePageSmartCoinForSigninSignup pressThree3() {
 
 		click(digitthree);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressFour4() {
+	public HomePageSmartCoinForSigninSignup pressFour4() {
 
 		click(digitfour);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressFive5() {
+	public HomePageSmartCoinForSigninSignup pressFive5() {
 
 		click(digitfive);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressOSix6() {
+	public HomePageSmartCoinForSigninSignup pressOSix6() {
 
 		click(digitsix);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressSeven7() {
+	public HomePageSmartCoinForSigninSignup pressSeven7() {
 
 		click(digitseven);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressEight8() {
+	public HomePageSmartCoinForSigninSignup pressEight8() {
 
 		click(digiteight);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressNine9() {
+	public HomePageSmartCoinForSigninSignup pressNine9() {
 
 		click(digitnine);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
-	public HomePageSmartCoin pressZero0() {
+	public HomePageSmartCoinForSigninSignup pressZero0() {
 
 		click(digitzero);
-		return new HomePageSmartCoin();
+		return new HomePageSmartCoinForSigninSignup();
 	}
 	public ConfirmYourPasswordPage pressDeleteOneDigitPassword() {
 

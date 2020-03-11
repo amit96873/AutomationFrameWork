@@ -1,11 +1,11 @@
 package com.qa.pages;
 
-import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class FacebookPage extends BaseTest {
+public class FacebookPage extends BaseTestForSigninSignUp {
 	@AndroidFindBy (xpath = "//android.widget.EditText[@text='' and @index='0']") private MobileElement usernameTxtFld;
 	@AndroidFindBy (xpath = "//android.widget.EditText[@text='Facebook password' and @index='1']") private MobileElement passwordTxtFld;
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Log In' and @index='0']") private MobileElement loginbtn;

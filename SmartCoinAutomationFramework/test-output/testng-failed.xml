@@ -4,22 +4,30 @@
   <listeners>
     <listener class-name="com.qa.listeners.TestsListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Registration Page Button tests(failed)">
     <parameter name="platformVersion" value="8.0"/>
     <parameter name="devicename" value="Android Emulator"/>
     <parameter name="platformName" value="Android"/>
     <classes>
-      <class name="com.qa.tests.AddBankAccountPageTest">
+      <class name="com.qa.tests.SignupRegisterFullNameAndMobileNumberTests">
         <methods>
           <include name="afterTest"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
-          <include name="beforeTest"/>
+          <include name="checkRegistrationEmptyNameAndNumber"/>
+          <include name="checkRegistrationEmptyNameValidNumber"/>
+          <include name="checkRegistrationSpaceInNumber"/>
+          <include name="checkRegistrationEightDigitsNumber"/>
+          <include name="checkRegistrationInvalidName"/>
           <include name="beforeMethod"/>
-          <include name="checkAddBankAccountWithIfscCodefPage"/>
+          <include name="checkRegistrationInvalidNameBySpacelChar"/>
           <include name="beforeClass"/>
+          <include name="checkRegistrationInvalidNumber"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="checkRegistrationEmptyNumberValidName"/>
+          <include name="afterClass"/>
+          <include name="checkRegistrationWithValidNameAndNumber"/>
         </methods>
-      </class> <!-- com.qa.tests.AddBankAccountPageTest -->
+      </class> <!-- com.qa.tests.SignupRegisterFullNameAndMobileNumberTests -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Registration Page Button tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

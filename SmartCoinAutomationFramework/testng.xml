@@ -4,6 +4,32 @@
 <listener class-name="com.qa.listeners.TestsListener"/>
 </listeners>
 
+
+<test name="Registration Page Button tests">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+      <class name="com.qa.tests.SignupRegisterFullNameAndMobileNumberTests"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+ 
+  
+   <test name="Complete Sign in Button tests">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+      <class name="com.qa.tests.CompleteSigninButtonTests"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+  
   <test name="Home Page Button tests">
   <parameter name="platformName" value="Android"/>
   <parameter name="platformVersion" value="8.0"/>
@@ -80,3 +106,4 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+  

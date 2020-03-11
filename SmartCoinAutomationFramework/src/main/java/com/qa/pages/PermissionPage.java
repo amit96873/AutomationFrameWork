@@ -1,11 +1,12 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class PermissionPage extends BaseTest {
+public class PermissionPage extends BaseTestForSigninSignUp {
 	
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='AGREE AND CONTINUE' and @index='2']") private MobileElement agreeandcontinuebutton;
 	@AndroidFindBy (id = "com.android.packageinstaller:id/permission_allow_button") private MobileElement allowbutton;

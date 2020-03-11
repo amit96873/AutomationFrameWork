@@ -3,6 +3,7 @@ package com.qa.tests;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 import com.qa.listeners.AllureListener;
 import com.qa.pages.LanguagePage;
 import com.qa.pages.PermissionPage;
@@ -31,7 +32,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 @Listeners({AllureListener.class})
-public class SignupRegisterFullNameAndMobileNumberTests extends BaseTest {
+public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigninSignUp {
 	SignupPage signupPage;
 	LanguagePage languagePage;
 	PermissionPage permissionpage;

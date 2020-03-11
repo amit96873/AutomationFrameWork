@@ -1,11 +1,12 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class LanguagePage extends BaseTest {
+public class LanguagePage extends BaseTestForSigninSignUp {
 	
 	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='English' and @index='0']") private MobileElement englishlanguagebutton;
 	@AndroidFindBy (xpath = "//android.widget.RadioButton[@text='हिंदी' and @index='1']") private MobileElement hindilanguagebutton;

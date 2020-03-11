@@ -1,11 +1,11 @@
 package com.qa.pages;
 
-import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class CreatePasswordPage extends BaseTest {
+public class CreatePasswordPage extends BaseTestForSigninSignUp {
 
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Create a 4-digit Pin' and @index='0']") private MobileElement createpasswordtitletext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='1' and @index='0']") private MobileElement digitone;

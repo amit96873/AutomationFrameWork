@@ -1,11 +1,11 @@
 package com.qa.pages;
 
-import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class ContinueLoginWithFbPage extends BaseTest {
+public class ContinueLoginWithFbPage extends BaseTestForSigninSignUp {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Continue' and @index='0']") private MobileElement continueloginbtn;
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='Cancel' and @index='1']") private MobileElement cancleloginbtn;
 	@AndroidFindBy (xpath = "//android.view.View[@text='Log in with Facebook' and @index='1']") private MobileElement continueoginwithfacebooktitletxt;

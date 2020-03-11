@@ -1,11 +1,11 @@
 package com.qa.pages;
 
-import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class SignINWithGmailAndFacebookPage  extends BaseTest{
+public class SignINWithGmailAndFacebookPage  extends BaseTestForSigninSignUp{
 	
 	
 	

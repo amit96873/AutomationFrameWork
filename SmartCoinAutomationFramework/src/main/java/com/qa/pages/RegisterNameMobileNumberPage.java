@@ -2,11 +2,12 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class RegisterNameMobileNumberPage extends BaseTest {
+public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 
 	@AndroidFindBy (id = "in.rebase.app:id/primary_action_text") private MobileElement regcontinuebutton;	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Need Instant Loan? Register with us...' and @index='1']") private MobileElement registernamenumtitletxt;
