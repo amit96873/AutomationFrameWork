@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">19 methods, 1 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageMyBankDetailsButton">checkMenuPageMyBankDetailsButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +116,92 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.AddBankAccountPageTest" hash-for-method="checkAddBankAccountWithCheckLeafPage">checkAddBankAccountWithCheckLeafPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkChatShortCutButton">checkChatShortCutButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.AddBankAccountPageTest" hash-for-method="checkAddBankAccountWithIfscCodefPage">checkAddBankAccountWithIfscCodefPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkContactUsButton">checkContactUsButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.AddBankAccountPageTest" hash-for-method="checkHomePageScrolling">checkHomePageScrolling</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkEarnCoinsButton">checkEarnCoinsButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkHomePageScrolling">checkHomePageScrolling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkHomePageScrolling">checkHomePageScrolling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageAllTransactionButton">checkMenuPageAllTransactionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageFAQButton">checkMenuPageFAQButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageHelpAndSupportButton">checkMenuPageHelpAndSupportButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageHomeButton">checkMenuPageHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageLanguageSettingButton">checkMenuPageLanguageSettingButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageMyLoansButton">checkMenuPageMyLoansButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageMyProfileButton">checkMenuPageMyProfileButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.MenuPageButtonTest" hash-for-method="checkMenuPageTroubleshootButton">checkMenuPageTroubleshootButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkMenueButton">checkMenueButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkMyKhataButton">checkMyKhataButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkMyProfileButton">checkMyProfileButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkUploadBankAccountStatementButton">checkUploadBankAccountStatementButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.HomePageButtonTests" hash-for-method="checkVerifyMobileNumberButton">checkVerifyMobileNumberButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,28 +216,100 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.tests.AddBankAccountPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.MenuPageButtonTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkAddBankAccountWithCheckLeafPage">
-                  </a> <!-- checkAddBankAccountWithCheckLeafPage -->
-                  <span class="method-name">checkAddBankAccountWithCheckLeafPage</span>
+                  <a name="checkMenuPageMyBankDetailsButton">
+                  </a> <!-- checkMenuPageMyBankDetailsButton -->
+                  <span class="method-name">checkMenuPageMyBankDetailsButton</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]}) (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BaseTest.waitForVisibility(BaseTest.java:150)
+	at com.qa.BaseTest.getAttribute(BaseTest.java:171)
+	at com.qa.pages.BankAccountPendingPage.getBankAccountPendingPageTitle(BankAccountPendingPage.java:16)
+	at com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton(MenuPageButtonTest.java:378)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 32 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3205610d (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 39 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LENOVO-PC&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 41 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Verify My_Bank_Details Button which is peresence on Menu Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.HomePageButtonTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkAddBankAccountWithIfscCodefPage">
-                  </a> <!-- checkAddBankAccountWithIfscCodefPage -->
-                  <span class="method-name">checkAddBankAccountWithIfscCodefPage</span>
+                  <a name="checkChatShortCutButton">
+                  </a> <!-- checkChatShortCutButton -->
+                  <span class="method-name">checkChatShortCutButton</span>
                   <em>
-(Verify My_Bank_Details Button which is peresence on Menu Page)                  </em>
+(Verify Home Page Chat ShortCut Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContactUsButton">
+                  </a> <!-- checkContactUsButton -->
+                  <span class="method-name">checkContactUsButton</span>
+                  <em>
+(Verify Home Page ContactUs Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEarnCoinsButton">
+                  </a> <!-- checkEarnCoinsButton -->
+                  <span class="method-name">checkEarnCoinsButton</span>
+                  <em>
+(Verify Home Page Earn  Button)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -158,6 +319,140 @@
                   <span class="method-name">checkHomePageScrolling</span>
                   <em>
 (Verify Home Page Scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenueButton">
+                  </a> <!-- checkMenueButton -->
+                  <span class="method-name">checkMenueButton</span>
+                  <em>
+(Verify Home Page Menu Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMyKhataButton">
+                  </a> <!-- checkMyKhataButton -->
+                  <span class="method-name">checkMyKhataButton</span>
+                  <em>
+(Verify Home Page MyKhata Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMyProfileButton">
+                  </a> <!-- checkMyProfileButton -->
+                  <span class="method-name">checkMyProfileButton</span>
+                  <em>
+(Verify Home Page MyProfile Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUploadBankAccountStatementButton">
+                  </a> <!-- checkUploadBankAccountStatementButton -->
+                  <span class="method-name">checkUploadBankAccountStatementButton</span>
+                  <em>
+(Verify Home Page Bank Account Statement Upload Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkVerifyMobileNumberButton">
+                  </a> <!-- checkVerifyMobileNumberButton -->
+                  <span class="method-name">checkVerifyMobileNumberButton</span>
+                  <em>
+(Verify Home Page Mobile Number Verify Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.MenuPageButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHomePageScrolling">
+                  </a> <!-- checkHomePageScrolling -->
+                  <span class="method-name">checkHomePageScrolling</span>
+                  <em>
+(Verify Home Page Scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageAllTransactionButton">
+                  </a> <!-- checkMenuPageAllTransactionButton -->
+                  <span class="method-name">checkMenuPageAllTransactionButton</span>
+                  <em>
+(Verify All_Transaction Button which is peresence on Menu Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageFAQButton">
+                  </a> <!-- checkMenuPageFAQButton -->
+                  <span class="method-name">checkMenuPageFAQButton</span>
+                  <em>
+(Verify FAQ Button which is peresence on Menu Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageHelpAndSupportButton">
+                  </a> <!-- checkMenuPageHelpAndSupportButton -->
+                  <span class="method-name">checkMenuPageHelpAndSupportButton</span>
+                  <em>
+(Verify Help_And_Support Button which is peresence on Menu Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageHomeButton">
+                  </a> <!-- checkMenuPageHomeButton -->
+                  <span class="method-name">checkMenuPageHomeButton</span>
+                  <em>
+(Verify Home Button which is peresence on Menu Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageLanguageSettingButton">
+                  </a> <!-- checkMenuPageLanguageSettingButton -->
+                  <span class="method-name">checkMenuPageLanguageSettingButton</span>
+                  <em>
+(Verify Language Button which is peresence on Menu Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageMyLoansButton">
+                  </a> <!-- checkMenuPageMyLoansButton -->
+                  <span class="method-name">checkMenuPageMyLoansButton</span>
+                  <em>
+(Verify My_Loans Button which is peresence on Menu Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageMyProfileButton">
+                  </a> <!-- checkMenuPageMyProfileButton -->
+                  <span class="method-name">checkMenuPageMyProfileButton</span>
+                  <em>
+(Verify My_Profile Button which is peresence on Menu Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMenuPageTroubleshootButton">
+                  </a> <!-- checkMenuPageTroubleshootButton -->
+                  <span class="method-name">checkMenuPageTroubleshootButton</span>
+                  <em>
+(Verify Troubleshoot Button which is peresence on Menu Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -175,14 +470,22 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.listeners.TestsListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
     &lt;parameter name=&quot;platformVersion&quot; value=&quot;8.0&quot;/&gt;
     &lt;parameter name=&quot;devicename&quot; value=&quot;Android Emulator&quot;/&gt;
     &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.tests.AddBankAccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.HomePageButtonTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;8.0&quot;/&gt;
+    &lt;parameter name=&quot;devicename&quot; value=&quot;Android Emulator&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.tests.MenuPageButtonTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,7 +497,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,24 +526,88 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(19);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkAddBankAccountWithCheckLeafPage')
-data.setCell(0, 2, 'com.qa.tests.AddBankAccountPageTest')
-data.setCell(0, 3, 34090);
+data.setCell(0, 1, 'checkMenuPageMyBankDetailsButton')
+data.setCell(0, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(0, 3, 32166);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkAddBankAccountWithIfscCodefPage')
-data.setCell(1, 2, 'com.qa.tests.AddBankAccountPageTest')
-data.setCell(1, 3, 31944);
+data.setCell(1, 1, 'checkHomePageScrolling')
+data.setCell(1, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(1, 3, 24086);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkHomePageScrolling')
-data.setCell(2, 2, 'com.qa.tests.AddBankAccountPageTest')
-data.setCell(2, 3, 28537);
+data.setCell(2, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(2, 3, 23167);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkChatShortCutButton')
+data.setCell(3, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(3, 3, 13816);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkMenuPageLanguageSettingButton')
+data.setCell(4, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(4, 3, 8965);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkMyProfileButton')
+data.setCell(5, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(5, 3, 8742);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkContactUsButton')
+data.setCell(6, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(6, 3, 8627);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkMenuPageFAQButton')
+data.setCell(7, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(7, 3, 7887);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkMenuPageTroubleshootButton')
+data.setCell(8, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(8, 3, 7845);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkMenuPageAllTransactionButton')
+data.setCell(9, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(9, 3, 7640);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkMenuPageMyProfileButton')
+data.setCell(10, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(10, 3, 7593);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkMyKhataButton')
+data.setCell(11, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(11, 3, 7535);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkMenuPageHelpAndSupportButton')
+data.setCell(12, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(12, 3, 7002);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkVerifyMobileNumberButton')
+data.setCell(13, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(13, 3, 6173);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkMenuPageHomeButton')
+data.setCell(14, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(14, 3, 5241);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkEarnCoinsButton')
+data.setCell(15, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(15, 3, 5081);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkUploadBankAccountStatementButton')
+data.setCell(16, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(16, 3, 5018);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkMenuPageMyLoansButton')
+data.setCell(17, 2, 'com.qa.tests.MenuPageButtonTest')
+data.setCell(17, 3, 4750);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkMenueButton')
+data.setCell(18, 2, 'com.qa.tests.HomePageButtonTests')
+data.setCell(18, 3, 3682);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -248,6 +618,13 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkMenuPageMyBankDetailsButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">this is the Symple ScreenShot</span>
+                <span class="reporter-method-output"><a herf='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png'><img src ='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png' height='100' width='100'/></a> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -263,58 +640,271 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.tests.AddBankAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.tests.HomePageButtonTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(Android, 8.0, Android Emulator)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">32787 ms</span>
+                <span class="method-start">26104 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.AddBankAccountPageTest.checkHomePageScrolling())</span>
-                <span class="method-start">33802 ms</span>
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkHomePageScrolling())</span>
+                <span class="method-start">26675 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkHomePageScrolling</span>
-                <span class="method-start">34136 ms</span>
+                <span class="method-start">26978 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">63561 ms</span>
+                <span class="method-start">52593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.AddBankAccountPageTest.checkAddBankAccountWithCheckLeafPage())</span>
-                <span class="method-start">63568 ms</span>
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkMenueButton())</span>
+                <span class="method-start">52601 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">checkAddBankAccountWithCheckLeafPage</span>
-                <span class="method-start">63578 ms</span>
+                <span class="method-name">checkMenueButton</span>
+                <span class="method-start">52606 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">98963 ms</span>
+                <span class="method-start">57858 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.AddBankAccountPageTest.checkAddBankAccountWithIfscCodefPage())</span>
-                <span class="method-start">98970 ms</span>
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkChatShortCutButton())</span>
+                <span class="method-start">57861 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">checkAddBankAccountWithIfscCodefPage</span>
-                <span class="method-start">98974 ms</span>
+                <span class="method-name">checkChatShortCutButton</span>
+                <span class="method-start">57866 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">132168 ms</span>
+                <span class="method-start">75844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkVerifyMobileNumberButton())</span>
+                <span class="method-start">75848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkVerifyMobileNumberButton</span>
+                <span class="method-start">75854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">83452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkUploadBankAccountStatementButton())</span>
+                <span class="method-start">83468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkUploadBankAccountStatementButton</span>
+                <span class="method-start">83473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">89922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkEarnCoinsButton())</span>
+                <span class="method-start">89925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkEarnCoinsButton</span>
+                <span class="method-start">89931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">96925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkMyKhataButton())</span>
+                <span class="method-start">96931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMyKhataButton</span>
+                <span class="method-start">96936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">106075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkMyProfileButton())</span>
+                <span class="method-start">106079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMyProfileButton</span>
+                <span class="method-start">106082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">117540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.HomePageButtonTests.checkContactUsButton())</span>
+                <span class="method-start">117555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkContactUsButton</span>
+                <span class="method-start">117560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">129261 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">132171 ms</span>
+                <span class="method-start">129264 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">132172 ms</span>
+                <span class="method-start">129265 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.MenuPageButtonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(Android, 8.0, Android Emulator)</span>
+                <span class="method-start">130049 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">149738 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkHomePageScrolling())</span>
+                <span class="method-start">149743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkHomePageScrolling</span>
+                <span class="method-start">149747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">173608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageHomeButton())</span>
+                <span class="method-start">173611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageHomeButton</span>
+                <span class="method-start">173616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">179781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageMyLoansButton())</span>
+                <span class="method-start">179786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageMyLoansButton</span>
+                <span class="method-start">179790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">185839 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageMyProfileButton())</span>
+                <span class="method-start">185844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageMyProfileButton</span>
+                <span class="method-start">185867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">194922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageAllTransactionButton())</span>
+                <span class="method-start">194925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageAllTransactionButton</span>
+                <span class="method-start">194929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">203989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageHelpAndSupportButton())</span>
+                <span class="method-start">203992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageHelpAndSupportButton</span>
+                <span class="method-start">203995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">212425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageFAQButton())</span>
+                <span class="method-start">212427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageFAQButton</span>
+                <span class="method-start">212430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">221605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageLanguageSettingButton())</span>
+                <span class="method-start">221609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageLanguageSettingButton</span>
+                <span class="method-start">221614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">231362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageTroubleshootButton())</span>
+                <span class="method-start">231372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMenuPageTroubleshootButton</span>
+                <span class="method-start">231376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">240186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton())</span>
+                <span class="method-start">240188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkMenuPageMyBankDetailsButton</span>
+                <span class="method-start">240190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">275270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">275271 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">275272 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

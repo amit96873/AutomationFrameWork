@@ -9,7 +9,7 @@
         "name" : "com.qa.tests.SignUpTests",
         "children" : [ {
           "name" : "Check Registration by enter invalid name and Valid Mobile Number",
-          "uid" : "1d231af7f61a1f95",
+          "uid" : "633d0e685d696a53",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -22,7 +22,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Invalid Mobile Number",
-          "uid" : "4a6a0b5d5ba7747a",
+          "uid" : "8bc4a6affea3186",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -35,7 +35,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter invalid name by using Speacal charachter and Valid Mobile Number",
-          "uid" : "13f794e7dd48f8e5",
+          "uid" : "e92ce49ada5499f0",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -48,7 +48,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Empty name and Empty Mobile Number",
-          "uid" : "c29d22feb19b17df",
+          "uid" : "a6bf679210d541cd",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -61,7 +61,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Empty name and Valid Mobile Number",
-          "uid" : "471e105d45509d53",
+          "uid" : "4426ed0d65e50efa",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -74,7 +74,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Empty Mobile Number",
-          "uid" : "4c7b624ae816924c",
+          "uid" : "51bb7c29e8333a9b",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -87,7 +87,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Space in Number Mobile Number",
-          "uid" : "1f08d6f4e1c72f3b",
+          "uid" : "f4c9b0df806b3f55",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -100,7 +100,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Eight Digits Mobile Number",
-          "uid" : "cfcc17589521c2d5",
+          "uid" : "d01fe5b5510075ba",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -113,7 +113,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Check Registration by enter Valid name and Valid Mobile Number",
-          "uid" : "187d5f17e3566a6d",
+          "uid" : "2e985a0d22dc3969",
           "parentUid" : "8b50fb6dfb99a40a9fdea8058acb1efe",
           "status" : "passed",
           "time" : {
@@ -130,7 +130,7 @@
         "name" : "com.qa.tests.MenuPageButtonTest",
         "children" : [ {
           "name" : "beforeTest",
-          "uid" : "2ce2a6edc08aff39",
+          "uid" : "8af45479a95481b6",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "broken",
           "time" : {
@@ -143,7 +143,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page Scrolling",
-          "uid" : "e839f0ec35273858",
+          "uid" : "4523f8c4ca9c4243",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -156,7 +156,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Button which is peresence on Menu Page",
-          "uid" : "4014821b223193cb",
+          "uid" : "c2945b6a979bc094",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -169,7 +169,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify My_Loans Button which is peresence on Menu Page",
-          "uid" : "b7aee9f235bfbc0b",
+          "uid" : "3d4995b893e5b6e1",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -182,7 +182,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify My_Profile Button which is peresence on Menu Page",
-          "uid" : "28ee0e39d4129d9d",
+          "uid" : "fa16acdab655f1dc",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -195,7 +195,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify All_Transaction Button which is peresence on Menu Page",
-          "uid" : "620730ed822d270d",
+          "uid" : "9d4178203935b3a6",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -208,7 +208,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Help_And_Support Button which is peresence on Menu Page",
-          "uid" : "c8cd12a84e197a36",
+          "uid" : "e68b8f9ae8debe31",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -221,7 +221,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify FAQ Button which is peresence on Menu Page",
-          "uid" : "5aae1b3cb61814c7",
+          "uid" : "887c407337a06812",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -234,7 +234,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Language Button which is peresence on Menu Page",
-          "uid" : "3c0e60894bb87f8b",
+          "uid" : "470ee7e8e390ebf9",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -247,7 +247,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Troubleshoot Button which is peresence on Menu Page",
-          "uid" : "f30bb0d41aa03b04",
+          "uid" : "72ca54491d45017d",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -260,7 +260,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
-          "uid" : "6b09daf8889ac219",
+          "uid" : "1a28cd73acac01e0",
           "parentUid" : "566f43e7aee8e7aa460077a07d070140",
           "status" : "passed",
           "time" : {
@@ -277,7 +277,7 @@
         "name" : "com.qa.tests.HomePageTests",
         "children" : [ {
           "name" : "Verify Home Page Scrolling",
-          "uid" : "28d7b16566b52e0f",
+          "uid" : "e7a560a6bd5651fa",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -290,7 +290,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page Menu Button",
-          "uid" : "9715f75be3fdfee9",
+          "uid" : "851a4ee4be8a5746",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -303,7 +303,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page Chat ShortCut Button",
-          "uid" : "6376e5d0a5004780",
+          "uid" : "e62a79a4a3990ea1",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -316,7 +316,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page Mobile Number Verify Button",
-          "uid" : "dd89462b09744077",
+          "uid" : "2488128e50a6cf31",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -329,7 +329,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page Bank Account Statement Upload Button",
-          "uid" : "d9ca8bf7513bc865",
+          "uid" : "1bd75bca8d25731e",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -342,7 +342,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page Earn  Button",
-          "uid" : "2867da88974b5c66",
+          "uid" : "2655437a58547860",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -355,7 +355,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page MyKhata Button",
-          "uid" : "cd4a1e281717425f",
+          "uid" : "c2c160b7c44b36ad",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -368,7 +368,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page MyProfile Button",
-          "uid" : "7c22917b656a38ea",
+          "uid" : "54c184f67e775b14",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -381,7 +381,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Home Page ContactUs Button",
-          "uid" : "2a05eba6d20675d6",
+          "uid" : "4d72f8246836a9d0",
           "parentUid" : "d692e65f9751d9b0159948a7653eac97",
           "status" : "passed",
           "time" : {
@@ -398,7 +398,7 @@
         "name" : "com.qa.tests.EditPersionalDetailsPageTests",
         "children" : [ {
           "name" : "beforeTest",
-          "uid" : "6a908a7c9a7a747f",
+          "uid" : "c6f078bcaa9e6301",
           "parentUid" : "0e6d035b269041a01940a30092e950c2",
           "status" : "broken",
           "time" : {
@@ -411,7 +411,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
-          "uid" : "cf72b3912d592fef",
+          "uid" : "c0ed29463eea3bbc",
           "parentUid" : "0e6d035b269041a01940a30092e950c2",
           "status" : "passed",
           "time" : {
@@ -424,7 +424,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
-          "uid" : "129f2e2f51954b01",
+          "uid" : "45449ceaafeb2720",
           "parentUid" : "0e6d035b269041a01940a30092e950c2",
           "status" : "passed",
           "time" : {
@@ -441,7 +441,7 @@
         "name" : "com.qa.tests.KYCUploadDocumentsPageTests",
         "children" : [ {
           "name" : "afterTest",
-          "uid" : "eba2937a1b96daf3",
+          "uid" : "3d96388be4e5bfd2",
           "parentUid" : "8170f77026bc5fae32af2d67040cb918",
           "status" : "broken",
           "time" : {
@@ -454,7 +454,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "beforeTest",
-          "uid" : "da1383b39cb43a5d",
+          "uid" : "e0e089d01328b6da",
           "parentUid" : "8170f77026bc5fae32af2d67040cb918",
           "status" : "broken",
           "time" : {
@@ -467,7 +467,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
-          "uid" : "c3e499ce285346b",
+          "uid" : "8feb90fa84772526",
           "parentUid" : "8170f77026bc5fae32af2d67040cb918",
           "status" : "passed",
           "time" : {
@@ -480,7 +480,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Edit KYC Details Page by Uploading valid data and Scrolling and documents uploaded Aadhar front as ID proof and Aadhar back As Address Proof",
-          "uid" : "8d8e7d32fe8166af",
+          "uid" : "d8765a50d64c38c3",
           "parentUid" : "8170f77026bc5fae32af2d67040cb918",
           "status" : "passed",
           "time" : {
@@ -493,7 +493,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Edit KYC Details Page by Uploading valid data and Scrolling and documents uploaded Pan Card as ID proof and Utillity bills  As Address Proof",
-          "uid" : "b27e0076d0e65020",
+          "uid" : "c8f465f67e2dad3c",
           "parentUid" : "8170f77026bc5fae32af2d67040cb918",
           "status" : "passed",
           "time" : {
@@ -510,7 +510,7 @@
         "name" : "com.qa.tests.EditWorkDetailsPageTest",
         "children" : [ {
           "name" : "verify Enter Password Page and home page my_profile Button and On My profile page Expend Menu Button and Edit_Persional Details Button on menu page",
-          "uid" : "7035894f4adf57a2",
+          "uid" : "6c812ebfca56e6d1",
           "parentUid" : "2ab64585479f083ffcf256cf34262ad8",
           "status" : "passed",
           "time" : {
@@ -523,7 +523,7 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         }, {
           "name" : "Verify Edit Persional Details Page by Entering valid value and Scrolling",
-          "uid" : "c609738871af8ae4",
+          "uid" : "afd0562b366317da",
           "parentUid" : "2ab64585479f083ffcf256cf34262ad8",
           "status" : "passed",
           "time" : {
@@ -536,6 +536,75 @@
           "parameters" : [ "Android Emulator", "Android", "8.0" ]
         } ],
         "uid" : "2ab64585479f083ffcf256cf34262ad8"
+      }, {
+        "name" : "com.qa.tests.AddBankAccountPageTest",
+        "children" : [ {
+          "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+          "uid" : "17363b838a135570",
+          "parentUid" : "2ea359be1e1464b7bb2ef52f7b65e943",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583747711869,
+            "stop" : 1583747737960,
+            "duration" : 26091
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+          "uid" : "b11a5343975af00a",
+          "parentUid" : "2ea359be1e1464b7bb2ef52f7b65e943",
+          "status" : "broken",
+          "time" : {
+            "start" : 1583903948216,
+            "stop" : 1583903970461,
+            "duration" : 22245
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page",
+          "uid" : "d3fe43d6f2a9b001",
+          "parentUid" : "2ea359be1e1464b7bb2ef52f7b65e943",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583920881562,
+            "stop" : 1583920914038,
+            "duration" : 32476
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page",
+          "uid" : "980f38ce218d358",
+          "parentUid" : "2ea359be1e1464b7bb2ef52f7b65e943",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583920914095,
+            "stop" : 1583920944969,
+            "duration" : 30874
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        }, {
+          "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+          "uid" : "e14630c87ce5a15a",
+          "parentUid" : "2ea359be1e1464b7bb2ef52f7b65e943",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583920945000,
+            "stop" : 1583920969314,
+            "duration" : 24314
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Android Emulator", "Android", "8.0" ]
+        } ],
+        "uid" : "2ea359be1e1464b7bb2ef52f7b65e943"
       } ],
       "uid" : "7314231e84d67a341867b5c9d3f928d2"
     } ],

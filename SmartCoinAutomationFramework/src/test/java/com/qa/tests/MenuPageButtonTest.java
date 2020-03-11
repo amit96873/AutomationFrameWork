@@ -39,7 +39,6 @@ import com.qa.pages.SigninPage;
 import com.qa.pages.SmartCoinRewardsPage;
 import com.qa.pages.TroubleShootPage;
 import com.qa.pages.UploadBankStatementsPage;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -74,6 +73,7 @@ public class MenuPageButtonTest extends BaseTest {
 	FAQPage faqpage;
 	LanguageSettingPage languagesettingpage;
 	TroubleShootPage troubleshootpage;
+	MyBankDetailsPage mybankdetailspage;
 	ApplyForLoan applyforloan;
 	InputStream datais;
 	JSONObject loginuser;
@@ -376,9 +376,9 @@ public class MenuPageButtonTest extends BaseTest {
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
-		bankaccountpendingpage = menupage.pressMyBankDetailsBtnToGetBankAccountPendingPage();
-		String actualResult2= bankaccountpendingpage.getBankAccountPendingPageTitle();
-		String expectedResult2=strings.get("BankAccountPendingPage_Title_Text");
+		mybankdetailspage = menupage.pressMyBankDetailsBtntogetMyBankDetailsPage();
+		String actualResult2= mybankdetailspage.getMyBankDetailsPageTitle();
+		String expectedResult2=strings.get("mybankdetailsPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);

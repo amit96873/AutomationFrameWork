@@ -9,12 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e839f0ec35273858",
+      "uid" : "4523f8c4ca9c4243",
       "status" : "passed",
       "time" : {
         "start" : 1583647899030,
         "stop" : 1583647920150,
         "duration" : 21120
+      }
+    } ]
+  },
+  "d5d4e0bd4f87c92a89660767fcc4649" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e14630c87ce5a15a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583920945000,
+        "stop" : 1583920969314,
+        "duration" : 24314
       }
     } ]
   },
@@ -28,7 +47,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "129f2e2f51954b01",
+      "uid" : "45449ceaafeb2720",
       "status" : "passed",
       "time" : {
         "start" : 1583691443495,
@@ -47,7 +66,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1d231af7f61a1f95",
+      "uid" : "633d0e685d696a53",
       "status" : "passed",
       "time" : {
         "start" : 1583576919452,
@@ -66,32 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c609738871af8ae4",
+      "uid" : "afd0562b366317da",
       "status" : "passed",
       "time" : {
         "start" : 1583744805820,
         "stop" : 1583744838720,
         "duration" : 32900
-      }
-    } ]
-  },
-  "8a6cfbf5ffbeda4790b72d05a2529d57" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2ce2a6edc08aff39",
-      "status" : "broken",
-      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
-      "time" : {
-        "start" : 1583587011560,
-        "stop" : 1583587011568,
-        "duration" : 8
       }
     } ]
   },
@@ -105,12 +104,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8d8e7d32fe8166af",
+      "uid" : "d8765a50d64c38c3",
       "status" : "passed",
       "time" : {
         "start" : 1583744977310,
         "stop" : 1583745043310,
         "duration" : 66000
+      }
+    } ]
+  },
+  "8a6cfbf5ffbeda4790b72d05a2529d57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8af45479a95481b6",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1583587011560,
+        "stop" : 1583587011568,
+        "duration" : 8
       }
     } ]
   },
@@ -124,7 +143,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7035894f4adf57a2",
+      "uid" : "6c812ebfca56e6d1",
       "status" : "passed",
       "time" : {
         "start" : 1583744777787,
@@ -143,31 +162,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a6a0b5d5ba7747a",
+      "uid" : "8bc4a6affea3186",
       "status" : "passed",
       "time" : {
         "start" : 1583576930867,
         "stop" : 1583576940818,
         "duration" : 9951
-      }
-    } ]
-  },
-  "fa07336c1bd1496ae00f42a149cc433d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c3e499ce285346b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583744946215,
-        "stop" : 1583744977262,
-        "duration" : 31047
       }
     } ]
   },
@@ -181,7 +181,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da1383b39cb43a5d",
+      "uid" : "e0e089d01328b6da",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.release' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.release' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "time" : {
@@ -191,7 +191,7 @@
       }
     } ]
   },
-  "649193eb04559e6f25d3ce87ce49d0dd" : {
+  "fa07336c1bd1496ae00f42a149cc433d" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -201,12 +201,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4014821b223193cb",
+      "uid" : "8feb90fa84772526",
       "status" : "passed",
       "time" : {
-        "start" : 1583647920237,
-        "stop" : 1583647926035,
-        "duration" : 5798
+        "start" : 1583744946215,
+        "stop" : 1583744977262,
+        "duration" : 31047
       }
     } ]
   },
@@ -220,12 +220,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c0e60894bb87f8b",
+      "uid" : "470ee7e8e390ebf9",
       "status" : "passed",
       "time" : {
         "start" : 1583647965456,
         "stop" : 1583647974247,
         "duration" : 8791
+      }
+    } ]
+  },
+  "649193eb04559e6f25d3ce87ce49d0dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2945b6a979bc094",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583647920237,
+        "stop" : 1583647926035,
+        "duration" : 5798
+      }
+    } ]
+  },
+  "4eada07e9f3bbb28e7a9b7a040b2f113" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17363b838a135570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583747711869,
+        "stop" : 1583747737960,
+        "duration" : 26091
       }
     } ]
   },
@@ -239,7 +277,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cfcc17589521c2d5",
+      "uid" : "d01fe5b5510075ba",
       "status" : "passed",
       "time" : {
         "start" : 1583576986958,
@@ -258,7 +296,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5aae1b3cb61814c7",
+      "uid" : "887c407337a06812",
       "status" : "passed",
       "time" : {
         "start" : 1583647956983,
@@ -277,12 +315,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "28d7b16566b52e0f",
+      "uid" : "e7a560a6bd5651fa",
       "status" : "passed",
       "time" : {
         "start" : 1583587132500,
         "stop" : 1583587169254,
         "duration" : 36754
+      }
+    } ]
+  },
+  "571af34ef7d224445e7aff301029284a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "980f38ce218d358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583920914095,
+        "stop" : 1583920944969,
+        "duration" : 30874
       }
     } ]
   },
@@ -296,12 +353,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9ca8bf7513bc865",
+      "uid" : "1bd75bca8d25731e",
       "status" : "passed",
       "time" : {
         "start" : 1583587190589,
         "stop" : 1583587198666,
         "duration" : 8077
+      }
+    } ]
+  },
+  "8cdfe059338eea80a90cec0a86840c0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3fe43d6f2a9b001",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583920881562,
+        "stop" : 1583920914038,
+        "duration" : 32476
       }
     } ]
   },
@@ -315,7 +391,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4c7b624ae816924c",
+      "uid" : "51bb7c29e8333a9b",
       "status" : "passed",
       "time" : {
         "start" : 1583576968734,
@@ -334,50 +410,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2867da88974b5c66",
+      "uid" : "2655437a58547860",
       "status" : "passed",
       "time" : {
         "start" : 1583587198688,
         "stop" : 1583587208638,
         "duration" : 9950
-      }
-    } ]
-  },
-  "ff5b10d188085dde9c749201cbe43c23" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c29d22feb19b17df",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583576950496,
-        "stop" : 1583576959581,
-        "duration" : 9085
-      }
-    } ]
-  },
-  "ab41030e40db1c2827c99b878f225004" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cd4a1e281717425f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583587208652,
-        "stop" : 1583587220025,
-        "duration" : 11373
       }
     } ]
   },
@@ -391,13 +429,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eba2937a1b96daf3",
+      "uid" : "3d96388be4e5bfd2",
       "status" : "broken",
       "statusDetails" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.payvoo.app.ui.activity...., appPackage: in.rebase.app, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.payvoo.app.ui.activity...., appPackage: in.rebase.app, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: false, noReset: true, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c822c2e1-a2bc-4c47-9a23-b6d8c0230419",
       "time" : {
         "start" : 1583736886843,
         "stop" : 1583736886844,
         "duration" : 1
+      }
+    } ]
+  },
+  "ff5b10d188085dde9c749201cbe43c23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6bf679210d541cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583576950496,
+        "stop" : 1583576959581,
+        "duration" : 9085
       }
     } ]
   },
@@ -411,12 +468,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b27e0076d0e65020",
+      "uid" : "c8f465f67e2dad3c",
       "status" : "passed",
       "time" : {
         "start" : 1583745043332,
         "stop" : 1583745108919,
         "duration" : 65587
+      }
+    } ]
+  },
+  "ab41030e40db1c2827c99b878f225004" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2c160b7c44b36ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583587208652,
+        "stop" : 1583587220025,
+        "duration" : 11373
       }
     } ]
   },
@@ -430,7 +506,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "187d5f17e3566a6d",
+      "uid" : "2e985a0d22dc3969",
       "status" : "passed",
       "time" : {
         "start" : 1583576996028,
@@ -449,7 +525,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd89462b09744077",
+      "uid" : "2488128e50a6cf31",
       "status" : "passed",
       "time" : {
         "start" : 1583587185941,
@@ -468,31 +544,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8cd12a84e197a36",
+      "uid" : "e68b8f9ae8debe31",
       "status" : "passed",
       "time" : {
         "start" : 1583647949053,
         "stop" : 1583647956966,
         "duration" : 7913
-      }
-    } ]
-  },
-  "3b7cb124d4659b803e13149dc7e32b9a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "620730ed822d270d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583647940805,
-        "stop" : 1583647949036,
-        "duration" : 8231
       }
     } ]
   },
@@ -506,12 +563,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6376e5d0a5004780",
+      "uid" : "e62a79a4a3990ea1",
       "status" : "passed",
       "time" : {
         "start" : 1583587172563,
         "stop" : 1583587185906,
         "duration" : 13343
+      }
+    } ]
+  },
+  "3b7cb124d4659b803e13149dc7e32b9a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d4178203935b3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583647940805,
+        "stop" : 1583647949036,
+        "duration" : 8231
       }
     } ]
   },
@@ -525,7 +601,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9715f75be3fdfee9",
+      "uid" : "851a4ee4be8a5746",
       "status" : "passed",
       "time" : {
         "start" : 1583587169321,
@@ -544,31 +620,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f30bb0d41aa03b04",
+      "uid" : "72ca54491d45017d",
       "status" : "passed",
       "time" : {
         "start" : 1583647974264,
         "stop" : 1583647981776,
         "duration" : 7512
-      }
-    } ]
-  },
-  "1e8c60362b4e36070b77072549709917" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2a05eba6d20675d6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583587233014,
-        "stop" : 1583587246545,
-        "duration" : 13531
       }
     } ]
   },
@@ -582,13 +639,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6a908a7c9a7a747f",
+      "uid" : "c6f078bcaa9e6301",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "time" : {
         "start" : 1583668106688,
         "stop" : 1583668106694,
         "duration" : 6
+      }
+    } ]
+  },
+  "4a1c215065cdca0aebe9cc7759211a17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b11a5343975af00a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc='Open' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583903948216,
+        "stop" : 1583903970461,
+        "duration" : 22245
+      }
+    } ]
+  },
+  "1e8c60362b4e36070b77072549709917" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d72f8246836a9d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583587233014,
+        "stop" : 1583587246545,
+        "duration" : 13531
       }
     } ]
   },
@@ -602,31 +698,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf72b3912d592fef",
+      "uid" : "c0ed29463eea3bbc",
       "status" : "passed",
       "time" : {
         "start" : 1583691415784,
         "stop" : 1583691443412,
         "duration" : 27628
-      }
-    } ]
-  },
-  "c3b49f00b69e66859d0a39c359c52705" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "28ee0e39d4129d9d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583647932337,
-        "stop" : 1583647940775,
-        "duration" : 8438
       }
     } ]
   },
@@ -640,7 +717,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c22917b656a38ea",
+      "uid" : "54c184f67e775b14",
       "status" : "passed",
       "time" : {
         "start" : 1583587220036,
@@ -659,12 +736,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b09daf8889ac219",
+      "uid" : "1a28cd73acac01e0",
       "status" : "passed",
       "time" : {
         "start" : 1583647981787,
         "stop" : 1583647990741,
         "duration" : 8954
+      }
+    } ]
+  },
+  "c3b49f00b69e66859d0a39c359c52705" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa16acdab655f1dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583647932337,
+        "stop" : 1583647940775,
+        "duration" : 8438
       }
     } ]
   },
@@ -678,7 +774,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "471e105d45509d53",
+      "uid" : "4426ed0d65e50efa",
       "status" : "passed",
       "time" : {
         "start" : 1583576959599,
@@ -697,7 +793,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1f08d6f4e1c72f3b",
+      "uid" : "f4c9b0df806b3f55",
       "status" : "passed",
       "time" : {
         "start" : 1583576977588,
@@ -716,7 +812,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "13f794e7dd48f8e5",
+      "uid" : "e92ce49ada5499f0",
       "status" : "passed",
       "time" : {
         "start" : 1583576940833,
@@ -735,7 +831,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7aee9f235bfbc0b",
+      "uid" : "3d4995b893e5b6e1",
       "status" : "passed",
       "time" : {
         "start" : 1583647926050,

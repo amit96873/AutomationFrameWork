@@ -6,6 +6,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class AddBankAccountWithChequeLeafPage extends BaseTest{
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Edit Bank Account' and @index='0']") private MobileElement editbankaccountpagetitletext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Add a Bank Account' and @index='0']") private MobileElement addbankaccountpagetitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/bank_account_number") private MobileElement enteraccountnumbertextfield;
 	@AndroidFindBy (id = "in.rebase.app:id/re_bank_account_number") private MobileElement reenteraccountnumbertextfield;
@@ -22,12 +23,22 @@ public class AddBankAccountWithChequeLeafPage extends BaseTest{
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='This field is required' and @index='0']") private MobileElement emptyerrortext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='This field is required' and @index='0']") private MobileElement emptycheckleaferrortext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Invalid Bank Account No.' and @index='0']") private MobileElement invalidaccountnumbererrortext;
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Bank Account Cheque' and @index='0']") private MobileElement checkleafverificationtext;
+	@AndroidFindBy (xpath = "//android.widget.TextView[@text='IFSC Code' and @index='2']") private MobileElement ifscverificationtext;
 	
-
+	
 	public String getAddBankAccountPageTitle() {
 		return getAttribute(addbankaccountpagetitletext, "text");
 	}
-	
+	public String getEditBankAccountPageTitle() {
+		return getAttribute(editbankaccountpagetitletext, "text");
+	}
+	public String getAddIfscVerifivationTitleText() {
+		return getAttribute(ifscverificationtext, "text");
+	}
+	public String getAddCheckLeafVerifivationTitleText() {
+		return getAttribute(checkleafverificationtext, "text");
+	}
 	public String getErrInvalidAccountNumber() {
 
 		String invalidAccountnumberError= getText(invalidaccountnumbererrortext);
@@ -91,9 +102,9 @@ public class AddBankAccountWithChequeLeafPage extends BaseTest{
 		click(reversebtn);
 		return this;
 	}
-	public AddBankAccountWithChequeLeafPage pressContinueButton() {
+	public MyBankDetailsPage pressContinueButton() {
 
 		click(continuebtn);
-		return this;
+		return new MyBankDetailsPage();
 	}
 }

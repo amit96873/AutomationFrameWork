@@ -3,29 +3,80 @@
 <listeners>
 <listener class-name="com.qa.listeners.TestsListener"/>
 </listeners>
-  <test name="Test">
+
+  <test name="Home Page Button tests">
   <parameter name="platformName" value="Android"/>
   <parameter name="platformVersion" value="8.0"/>
   <parameter name="devicename" value="Android Emulator"/>
     <classes>
-      <class name="com.qa.tests.AddBankAccountPageTest">
-      <methods>
-    <!--    <include name="checkSignInButton"/> 
-      <include name="checkEnglishLangButton"/> 
-       <include name="checkHindiLangButton"/> 
-       <include name="checkOtherLangButton"/> 
-      <include name="checkAgreeAndContinueButton"/>
-      <include name="checkSmsAllowButton"/>
-      <include name="checkContactsAllowButton"/>
-      <include name="checkManagePhoneCallsAllowButton"/>
-      <include name="checkLocationAllowButton"/>
-      <include name="checkFBLoginButton"/>
-      <include name="checkFBLoginPage"/>
-      <include name="checkContinueLoginWithFBBtn"/>
-      <include name="checkCreatePassword"/>
-      <include name="checkConfirmPassword"/> -->
-      </methods>
-        </class>
+      <class name="com.qa.tests.HomePageButtonTests"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+
+
+  <test name="Menu Page Button Tests">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+       <class name="com.qa.tests.MenuPageButtonTest"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Edit Persional Details Page Tests">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+       <class name="com.qa.tests.EditPersionalDetailsPageTests"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Edit Work Details Page Tests">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+       <class name="com.qa.tests.EditWorkDetailsPageTest"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="KYC Upload Documents Page Tests">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+       <class name="com.qa.tests.KYCUploadDocumentsPageTests"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Add Bank Account Page Tests">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="devicename" value="Android Emulator"/>
+    <classes>
+       <class name="com.qa.tests.AddBankAccountPageTest"/>
+      <!--   <methods>
+     <include name="checkSignInButton"/> 
+      </methods>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

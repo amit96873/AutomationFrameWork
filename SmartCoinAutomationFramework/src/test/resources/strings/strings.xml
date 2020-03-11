@@ -37,6 +37,11 @@
 <string name="editworkdetailsConfirmation_Text">Profile Saved Successfully!</string>
 <string name="editpersionaldetailsConfirmation_Text">Profile Saved Successfully!</string>
 <string name="addbankaccountdetailsConfirmation_Text">Documents Uploaded!</string>
+<string name="confirmbankdetailspage_Text">Confirm Bank Details</string>
 <string name="addbankaccountdetailswithifscConfirmation_Text">Bank Details changed successfully!</string>
 <string name="addbankaccountdetailswithifscsameupdationConfirmation_Text">Nothing was changed</string>
+<string name="mybankdetailsPage_Title_Text">My Bank Details</string>
+<string name="editbankdetailsPage_Title_Text">Edit Bank Account</string>
+<string name="editbankaccountwithcheckleafPage_Title_Text">Bank Account Cheque</string>
+<string name="editbankaccountwithifscPage_Title_Text">IFSC Code</string>
 </resources>

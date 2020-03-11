@@ -1,6 +1,17 @@
 {
-  "total" : 10,
+  "total" : 11,
   "items" : [ {
+    "uid" : "b92bcc7049f50a22900026d0e40440f9",
+    "name" : "EP007",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "6090a72fb8ca5ce95798a16bf892f490",
     "name" : "EP003",
     "statistic" : {

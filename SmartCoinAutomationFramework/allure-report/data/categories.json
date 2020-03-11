@@ -7,7 +7,7 @@
       "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/c4d04c1433ecbf8b791b15c7eeb8d8cb0f1b1376.apk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "beforeTest",
-        "uid" : "2ce2a6edc08aff39",
+        "uid" : "8af45479a95481b6",
         "parentUid" : "dd3482a48cc10775c78c538e57606ffa",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '192.168.1.85', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "beforeTest",
-        "uid" : "6a908a7c9a7a747f",
+        "uid" : "c6f078bcaa9e6301",
         "parentUid" : "06d2045dece69badbc1dab56d032380c",
         "status" : "broken",
         "time" : {
@@ -41,7 +41,7 @@
       "name" : "A session is either terminated or not started\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.payvoo.app.ui.activity...., appPackage: in.rebase.app, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.payvoo.app.ui.activity...., appPackage: in.rebase.app, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: false, noReset: true, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: c822c2e1-a2bc-4c47-9a23-b6d8c0230419",
       "children" : [ {
         "name" : "afterTest",
-        "uid" : "eba2937a1b96daf3",
+        "uid" : "3d96388be4e5bfd2",
         "parentUid" : "7a6fa08e37d841201a57152073ccffd8",
         "status" : "broken",
         "time" : {
@@ -58,7 +58,7 @@
       "name" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.release' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error getting device platform version. Original error: Error executing adbExec. Original error: 'Command ''C:\\\\Users\\\\Amit singh\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe' -P 5037 -s emulator-5554 shell getprop ro.build.version.release' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:388:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'\nDriver info: driver.version: AndroidDriver",
       "children" : [ {
         "name" : "beforeTest",
-        "uid" : "da1383b39cb43a5d",
+        "uid" : "e0e089d01328b6da",
         "parentUid" : "c6664e4e1116bc5b2c562d6af0506af2",
         "status" : "broken",
         "time" : {
@@ -71,6 +71,23 @@
         "parameters" : [ "Android Emulator", "Android", "8.0" ]
       } ],
       "uid" : "c6664e4e1116bc5b2c562d6af0506af2"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ImageButton[@content-desc='Open' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+        "uid" : "b11a5343975af00a",
+        "parentUid" : "05d8e2739788f6aa64729f28c5718275",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583903948216,
+          "stop" : 1583903970461,
+          "duration" : 22245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Android Emulator", "Android", "8.0" ]
+      } ],
+      "uid" : "05d8e2739788f6aa64729f28c5718275"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

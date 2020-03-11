@@ -129,15 +129,20 @@ public class AddBankAccountPageTest extends BaseTest {
 
 	}
 
-	@Test(priority=1, description="Verify Home Page Scrolling")
-	@Description("Verify Home Page Scrolling")
-	@Epic("EP003")
-	@Feature("Feature1: HomePage Scrolling")
-	@Story("Story: Scroll the home page on both side up and down")
-	@Step("Simple Scrolling")
+	@Test(priority=1, description="Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
+	@Description("Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
+	@Epic("EP007")
+	@Feature("Feature1: Prereusit to get Add Bank Account Page")
+	@Story("Story: Prereusit to get Add Bank Account Page")
+	@Step("Simple Steps to get Add Bank Account Page")
 	@Severity(SeverityLevel.MINOR)
 	public void checkHomePageScrolling() {
 		SoftAssert sa= new SoftAssert();
+		String actualResult4= enterpasswordpage.getTitleEnterPassword();
+		String expectedResult4=strings.get("enterpasswordpage_Title_Text");
+		Assert.assertEquals(actualResult4, expectedResult4);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult4 + "\n" + "expected title - "+expectedResult4);	
 		enterpasswordpage.pressOne();
 		enterpasswordpage.pressTwo();
 		enterpasswordpage.pressThree();
@@ -149,58 +154,109 @@ public class AddBankAccountPageTest extends BaseTest {
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin.scrollUp();
 		homepagesmartcoin.scrollDown();
-
+		menupage = homepagesmartcoin.pressMenuBtn();
+		String actualResult1= menupage.getTitleMenuePage();
+		String expectedResult1=strings.get("menuPage_Title_Text");
+		Assert.assertEquals(actualResult1, expectedResult1);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		mybankdetailspage = menupage.pressMyBankDetailsBtntogetMyBankDetailsPage();
+		String actualResult2= mybankdetailspage.getMyBankDetailsPageTitle();
+		String expectedResult2=strings.get("mybankdetailsPage_Title_Text");
+		Assert.assertEquals(actualResult2, expectedResult2);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		addbankaccountwithcheckleafpage = mybankdetailspage.pressAddBankAccountWithChequeLeafBtn(); 
+		String actualResult3= addbankaccountwithcheckleafpage.getEditBankAccountPageTitle();
+		String expectedResult3=strings.get("editbankdetailsPage_Title_Text");
+		Assert.assertEquals(actualResult3, expectedResult3);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
+		
 	}
 
-	@Test(priority=10, description="Verify My_Bank_Details Button which is peresence on Menu Page")
-	@Description("Verify My_Bank_Details Button which is peresence on Menu Page")
-	@Epic("EP003")
-	@Feature("Feature10: Verify My_Bank_Details Button")
-	@Story("Story: verify the My_Bank_Details Button and verified its geting jummped On My_Bank_Details page")
-	@Step("Checked My_Bank_Details Button")
-	@Severity(SeverityLevel.NORMAL)
-	public void checkAddBankAccountWithCheckLeafPage() {
+	@Test(priority=2, description="Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
+	@Description("Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
+	@Epic("EP007")
+	@Feature("Feature2: Prereusit to get Add Bank Account Page")
+	@Story("Story: Prereusit to get Add Bank Account Page")
+	@Step("Simple Steps to get Add Bank Account Page")
+	@Severity(SeverityLevel.MINOR)
+	public void checkAddBankAccountPageWithCheckLeaf() {	
 		SoftAssert sa= new SoftAssert();
-		menupage = homepagesmartcoin.pressMenuBtn();
-		String actualResult= menupage.getTitleMenuePage();
-		String expectedResult=strings.get("menuPage_Title_Text");
-		Assert.assertEquals(actualResult, expectedResult);
-		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
-		mybankdetailspage = menupage.pressMyBankDetailsBtntogetMyBankDetailsPage();
-		addbankaccountwithcheckleafpage = mybankdetailspage.pressAddBankAccountWithChequeLeafBtn(); 
 		addbankaccountwithcheckleafpage.enterBankAccountNumber(loginuser.getJSONObject("addbankaccountdetails").getString("enter_account_number"));
 		addbankaccountwithcheckleafpage.reenterBankAccountNumber(loginuser.getJSONObject("addbankaccountdetails").getString("reenter_account_number"));
 		addbankaccountwithcheckleafpage.pressNoIfscButton();
+		String actualResult1= addbankaccountwithcheckleafpage.getAddCheckLeafVerifivationTitleText();
+		String expectedResult1=strings.get("editbankaccountwithcheckleafPage_Title_Text");
+		Assert.assertEquals(actualResult1, expectedResult1);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		camerapage = addbankaccountwithcheckleafpage.pressCheckLeaf();
 		camrapiccheckpage = camerapage.pressCaptureCheckLeafBtn();
 		addbankaccountwithcheckleafpage = camrapiccheckpage.pressDoneCheckLeafBtn();
-		addbankaccountwithcheckleafpage = addbankaccountwithcheckleafpage.pressContinueButton();
-		
+		mybankdetailspage = addbankaccountwithcheckleafpage.pressContinueButton();
+		//assertion for get confirmation message
+		String actualResult2= mybankdetailspage.getMessageOfSuccessfullyUploadedCheckLeafandAccountDetails();
+		String expectedResult2=strings.get("documentsuploadedconfirmationmessage_Text");
+		Assert.assertEquals(actualResult2, expectedResult2);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		//assertion for my bank details page
+		String actualResult3= mybankdetailspage.getMyBankDetailsPageTitle();
+		String expectedResult3=strings.get("mybankdetailsPage_Title_Text");
+		Assert.assertEquals(actualResult3, expectedResult3);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
 	}
-	@Test(priority=10, description="Verify My_Bank_Details Button which is peresence on Menu Page")
+
+
+	@Test(priority=3, description="Verify My_Bank_Details Button which is peresence on Menu Page")
 	@Description("Verify My_Bank_Details Button which is peresence on Menu Page")
-	@Epic("EP003")
-	@Feature("Feature10: Verify My_Bank_Details Button")
+	@Epic("EP007")
+	@Feature("Feature3: Verify My_Bank_Details Button")
 	@Story("Story: verify the My_Bank_Details Button and verified its geting jummped On My_Bank_Details page")
 	@Step("Checked My_Bank_Details Button")
 	@Severity(SeverityLevel.NORMAL)
 	public void checkAddBankAccountWithIfscCodefPage() {
 		SoftAssert sa= new SoftAssert();
 		addbankaccountwithifsccodepage = mybankdetailspage.pressAddBankAccountWithIfscCodeBtn(); 
+		String actualResult3= addbankaccountwithcheckleafpage.getEditBankAccountPageTitle();
+		String expectedResult3=strings.get("editbankdetailsPage_Title_Text");
+		Assert.assertEquals(actualResult3, expectedResult3);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
 		addbankaccountwithifsccodepage.enterBankAccountNumber(loginuser.getJSONObject("addbankaccountdetailswithifsc").getString("enter_account_number"));
 		addbankaccountwithifsccodepage.reenterBankAccountNumber(loginuser.getJSONObject("addbankaccountdetailswithifsc").getString("reenter_account_number"));
 		addbankaccountwithifsccodepage.pressYesIfscButton();
+		String actualResult1= addbankaccountwithcheckleafpage.getAddIfscVerifivationTitleText();
+		String expectedResult1=strings.get("editbankaccountwithifscPage_Title_Text");
+		Assert.assertEquals(actualResult1, expectedResult1);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		addbankaccountwithifsccodepage.enterIfscCode(loginuser.getJSONObject("addbankaccountdetailswithifsc").getString("ifsc_code"));
 		homepagesmartcoin.scrollDown();
 		confirmbankdetailspage = addbankaccountwithifsccodepage.pressContinueButtontogetConfirmBankDetailsPage();
+		//assertion for confirm bank details page
+		String actualResult4= confirmbankdetailspage.getConfirmBankAccountPageTitle();
+		String expectedResult4=strings.get("confirmbankdetailspage_Text");
+		Assert.assertEquals(actualResult4, expectedResult4);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult4 + "\n" + "expected title - "+expectedResult4);
 		mybankdetailspage = confirmbankdetailspage.pressOkButton();
+		//assertion for get confirmation message
 		String actualResult= mybankdetailspage.getMessageforChangeBankAccountDetails();
 		String expectedResult=strings.get("addbankaccountdetailswithifscConfirmation_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
-		
+		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		//assertion for my bank details page
+		String actualResult2= mybankdetailspage.getMyBankDetailsPageTitle();
+		String expectedResult2=strings.get("mybankdetailsPage_Title_Text");
+		Assert.assertEquals(actualResult2, expectedResult2);
+		sa.assertAll();	
+		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+
 
 	}
 }
