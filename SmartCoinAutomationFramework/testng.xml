@@ -4,106 +4,18 @@
 <listener class-name="com.qa.listeners.TestsListener"/>
 </listeners>
 
-
-<test name="Registration Page Button tests">
+   <test name="Complete Sign in Button tests with English Language">
   <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
+  <parameter name="platformVersion" value="9.0"/>
   <parameter name="devicename" value="Android Emulator"/>
     <classes>
-      <class name="com.qa.tests.SignupRegisterFullNameAndMobileNumberTests"/>
+      <class name="com.qa.tests.KYCUploadDocumentsPageTests"/>
       <!--   <methods>
      <include name="checkSignInButton"/> 
       </methods>-->
     </classes>
   </test> <!-- Test -->
  
-  
-   <test name="Complete Sign in Button tests">
-  <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
-  <parameter name="devicename" value="Android Emulator"/>
-    <classes>
-      <class name="com.qa.tests.CompleteSigninButtonTests"/>
-      <!--   <methods>
-     <include name="checkSignInButton"/> 
-      </methods>-->
-    </classes>
-  </test> <!-- Test -->
-  
-  <test name="Home Page Button tests">
-  <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
-  <parameter name="devicename" value="Android Emulator"/>
-    <classes>
-      <class name="com.qa.tests.HomePageButtonTests"/>
-      <!--   <methods>
-     <include name="checkSignInButton"/> 
-      </methods>-->
-    </classes>
-  </test> <!-- Test -->
-
-
-  <test name="Menu Page Button Tests">
-  <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
-  <parameter name="devicename" value="Android Emulator"/>
-    <classes>
-       <class name="com.qa.tests.MenuPageButtonTest"/>
-      <!--   <methods>
-     <include name="checkSignInButton"/> 
-      </methods>-->
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  <test name="Edit Persional Details Page Tests">
-  <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
-  <parameter name="devicename" value="Android Emulator"/>
-    <classes>
-       <class name="com.qa.tests.EditPersionalDetailsPageTests"/>
-      <!--   <methods>
-     <include name="checkSignInButton"/> 
-      </methods>-->
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  <test name="Edit Work Details Page Tests">
-  <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
-  <parameter name="devicename" value="Android Emulator"/>
-    <classes>
-       <class name="com.qa.tests.EditWorkDetailsPageTest"/>
-      <!--   <methods>
-     <include name="checkSignInButton"/> 
-      </methods>-->
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  <test name="KYC Upload Documents Page Tests">
-  <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
-  <parameter name="devicename" value="Android Emulator"/>
-    <classes>
-       <class name="com.qa.tests.KYCUploadDocumentsPageTests"/>
-      <!--   <methods>
-     <include name="checkSignInButton"/> 
-      </methods>-->
-    </classes>
-  </test> <!-- Test -->
-  
-  <test name="Add Bank Account Page Tests">
-  <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.0"/>
-  <parameter name="devicename" value="Android Emulator"/>
-    <classes>
-       <class name="com.qa.tests.AddBankAccountPageTest"/>
-      <!--   <methods>
-     <include name="checkSignInButton"/> 
-      </methods>-->
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->
   
+

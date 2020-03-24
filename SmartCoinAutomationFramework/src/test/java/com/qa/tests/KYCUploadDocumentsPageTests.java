@@ -39,6 +39,7 @@ import com.qa.pages.MyKhataPage;
 import com.qa.pages.MyLoansPage;
 import com.qa.pages.MyProfilePage;
 import com.qa.pages.PermissionPage;
+import com.qa.pages.PermissionPageForAppHome;
 import com.qa.pages.ProfileExpendMenueButonPage;
 import com.qa.pages.SelectAddressDocumentsPage;
 import com.qa.pages.SelectDOBPage;
@@ -65,11 +66,11 @@ import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 @Listeners({AllureListener.class})
 public class KYCUploadDocumentsPageTests extends BaseTest{
-	
-	
+
+
 	SigninPage signinPage;
 	LanguagePage languagePage;
-	PermissionPage permissionpage;
+	PermissionPageForAppHome permissionpageforhome;
 	SignINWithGmailAndFacebookPage signINWithGmailAndFacebookPage;
 	FacebookPage facebookpage;
 	ContinueLoginWithFbPage continueloginwithfb;
@@ -185,7 +186,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
-		
+
 	}
 	@Test(priority=2, description="Verify Edit KYC Details Page by Uploading valid data and Scrolling and documents uploaded Aadhar front as ID proof and Aadhar back As Address Proof")
 	@Description("Verify Edit KYC Details Page by Entering valid data and Scrolling")
@@ -196,10 +197,16 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 	@Severity(SeverityLevel.CRITICAL)
 	public void checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe() {
 		SoftAssert sa= new SoftAssert();
-		uploadadharfrontsuggestionpage = kycuploaddocumentspage.pressUploadAdharFrontBtn();
+		selectiddocumentspage = kycuploaddocumentspage.pressSelectAnotherIdDocumentsBtn();
+		selectiddocumentspage.pressSelectAadharCardFrontBtn();
+		kycuploaddocumentspage = selectiddocumentspage.pressOkBtn();
+		uploadadharfrontsuggestionpage =kycuploaddocumentspage.pressUploadAdharFrontBtn();
 		camerapage = uploadadharfrontsuggestionpage.pressCaptureAdharFrontBtn();
 		camrapiccheckpage = camerapage.pressCaptureAadharFront();
 		kycuploaddocumentspage =camrapiccheckpage .pressDoneAadharFront();
+		selectaddressdocumentspage = kycuploaddocumentspage.pressSelectAnotherAddressDocumentsBtn();
+		selectaddressdocumentspage.pressSelectAadharbackBtn();
+		kycuploaddocumentspage = selectaddressdocumentspage.pressOkBtn();
 		uploadaadharbacksugestionpage =kycuploaddocumentspage.pressUploadAdharBackBtn();
 		camerapage = uploadaadharbacksugestionpage.pressCaptureAdharBackBtn();
 		camrapiccheckpage =camerapage .pressCaptureAadharBackBtn(); 
@@ -264,5 +271,4 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
 
 	}	
-	}	
-	
+}	

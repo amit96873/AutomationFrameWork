@@ -7,8 +7,8 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class FacebookPage extends BaseTestForSigninSignUp {
 	@AndroidFindBy (xpath = "//android.widget.EditText[@text='' and @index='0']") private MobileElement usernameTxtFld;
-	@AndroidFindBy (xpath = "//android.widget.EditText[@text='Facebook password' and @index='1']") private MobileElement passwordTxtFld;
-	@AndroidFindBy (xpath = "//android.widget.Button[@text='Log In' and @index='0']") private MobileElement loginbtn;
+	@AndroidFindBy (xpath = "//android.widget.EditText[@text='' and @index='1']") private MobileElement passwordTxtFld;
+	@AndroidFindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[3]/android.view.View[1]/android.view.View[2]/android.view.View[2]/android.widget.Button") private MobileElement loginbtn;
 	@AndroidFindBy (xpath = "//android.view.View[@text='facebook' and @index='0']") private MobileElement facebooktitletxt;
 	
 	public String getTitleFacebookPage() {

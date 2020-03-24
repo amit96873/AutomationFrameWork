@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="19" passed="18">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
-    <line>
-      <![CDATA[this is the Symple ScreenShot]]>
-    </line>
-    <line>
-      <![CDATA[<a herf='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png'><img src ='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png' height='100' width='100'/></a> ]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="275622" started-at="2020-03-11T16:54:27 IST" finished-at="2020-03-11T16:59:03 IST">
+  <suite name="Suite" duration-ms="105918" started-at="2020-03-20T00:48:43 IST" finished-at="2020-03-20T00:50:28 IST">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="129707" started-at="2020-03-11T16:54:27 IST" finished-at="2020-03-11T16:56:37 IST">
-      <class name="com.qa.tests.HomePageButtonTests">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeTest" is-config="true" duration-ms="26048" started-at="2020-03-11T16:54:27 IST" finished-at="2020-03-11T16:54:53 IST">
+    <test name="Complete Sign in Button tests with English Language" duration-ms="105918" started-at="2020-03-20T00:48:43 IST" finished-at="2020-03-20T00:50:28 IST">
+      <class name="com.qa.tests.SigninWithEnglishLanguage">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeTest" is-config="true" duration-ms="14773" started-at="2020-03-20T00:48:43 IST" finished-at="2020-03-20T00:48:57 IST">
           <params>
             <param index="0">
               <value>
@@ -22,7 +16,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[8.0]]>
+                <![CDATA[9.0]]>
               </value>
             </param>
             <param index="2">
@@ -34,502 +28,247 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeClass" is-config="true" duration-ms="534" started-at="2020-03-11T16:54:53 IST" finished-at="2020-03-11T16:54:54 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeClass" is-config="true" duration-ms="667" started-at="2020-03-20T00:48:57 IST" finished-at="2020-03-20T00:48:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2020-03-11T16:54:54 IST" finished-at="2020-03-11T16:54:54 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-03-20T00:48:58 IST" finished-at="2020-03-20T00:48:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkHomePageScrolling()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkSignInButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkHomePageScrolling()[pri:1, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkHomePageScrolling" duration-ms="24086" started-at="2020-03-11T16:54:54 IST" description="Verify Home Page Scrolling" finished-at="2020-03-11T16:55:18 IST">
+        <test-method status="PASS" signature="checkSignInButton()[pri:1, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkSignInButton" duration-ms="6820" started-at="2020-03-20T00:48:58 IST" description="Verify Signin Button and after verification it will jump on Language page" finished-at="2020-03-20T00:49:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkHomePageScrolling -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:55:20 IST" finished-at="2020-03-11T16:55:20 IST">
+        </test-method> <!-- checkSignInButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:06 IST" finished-at="2020-03-20T00:49:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:55:20 IST" finished-at="2020-03-11T16:55:20 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-20T00:49:06 IST" finished-at="2020-03-20T00:49:06 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkMenueButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkEnglishLangButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenueButton()[pri:2, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkMenueButton" duration-ms="3682" started-at="2020-03-11T16:55:20 IST" description="Verify Home Page Menu Button" finished-at="2020-03-11T16:55:23 IST">
+        <test-method status="PASS" signature="checkEnglishLangButton()[pri:2, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkEnglishLangButton" duration-ms="3654" started-at="2020-03-20T00:49:06 IST" description="Verify Select English language  Button and clicked on Continue With English Language Button and after verification it will jump on Permission page" finished-at="2020-03-20T00:49:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkMenueButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:55:25 IST" finished-at="2020-03-11T16:55:25 IST">
+        </test-method> <!-- checkEnglishLangButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:10 IST" finished-at="2020-03-20T00:49:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:55:25 IST" finished-at="2020-03-11T16:55:25 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:10 IST" finished-at="2020-03-20T00:49:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkChatShortCutButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkAgreeAndContinueButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkChatShortCutButton()[pri:3, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkChatShortCutButton" duration-ms="13816" started-at="2020-03-11T16:55:25 IST" description="Verify Home Page Chat ShortCut Button" finished-at="2020-03-11T16:55:39 IST">
+        <test-method status="PASS" signature="checkAgreeAndContinueButton()[pri:3, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkAgreeAndContinueButton" duration-ms="1810" started-at="2020-03-20T00:49:10 IST" description="Verified Agree_And Continue Button To Get The Permision Page Which Will Ask The Permission For Sending SMS" finished-at="2020-03-20T00:49:12 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkChatShortCutButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:55:43 IST" finished-at="2020-03-11T16:55:43 IST">
+        </test-method> <!-- checkAgreeAndContinueButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:13 IST" finished-at="2020-03-20T00:49:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-03-11T16:55:43 IST" finished-at="2020-03-11T16:55:43 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:13 IST" finished-at="2020-03-20T00:49:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkVerifyMobileNumberButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkSmsAllowButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkVerifyMobileNumberButton()[pri:4, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkVerifyMobileNumberButton" duration-ms="6173" started-at="2020-03-11T16:55:43 IST" description="Verify Home Page Mobile Number Verify Button" finished-at="2020-03-11T16:55:49 IST">
+        <test-method status="PASS" signature="checkSmsAllowButton()[pri:4, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkSmsAllowButton" duration-ms="1271" started-at="2020-03-20T00:49:13 IST" description="Verified allow button to Give The Permission For Sending SMS" finished-at="2020-03-20T00:49:14 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkVerifyMobileNumberButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:55:51 IST" finished-at="2020-03-11T16:55:51 IST">
+        </test-method> <!-- checkSmsAllowButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-20T00:49:14 IST" finished-at="2020-03-20T00:49:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:55:51 IST" finished-at="2020-03-11T16:55:51 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:14 IST" finished-at="2020-03-20T00:49:14 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkUploadBankAccountStatementButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkContactsAllowButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkUploadBankAccountStatementButton()[pri:5, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkUploadBankAccountStatementButton" duration-ms="5018" started-at="2020-03-11T16:55:51 IST" description="Verify Home Page Bank Account Statement Upload Button" finished-at="2020-03-11T16:55:56 IST">
+        <test-method status="PASS" signature="checkContactsAllowButton()[pri:5, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkContactsAllowButton" duration-ms="1277" started-at="2020-03-20T00:49:14 IST" description="Verified allow button to Give The Permission For Access Contacts" finished-at="2020-03-20T00:49:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkUploadBankAccountStatementButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:55:57 IST" finished-at="2020-03-11T16:55:57 IST">
+        </test-method> <!-- checkContactsAllowButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:16 IST" finished-at="2020-03-20T00:49:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:55:57 IST" finished-at="2020-03-11T16:55:57 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:16 IST" finished-at="2020-03-20T00:49:16 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkEarnCoinsButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkManagePhoneCallsAllowButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkEarnCoinsButton()[pri:6, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkEarnCoinsButton" duration-ms="5081" started-at="2020-03-11T16:55:57 IST" description="Verify Home Page Earn  Button" finished-at="2020-03-11T16:56:02 IST">
+        <test-method status="PASS" signature="checkManagePhoneCallsAllowButton()[pri:6, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkManagePhoneCallsAllowButton" duration-ms="1217" started-at="2020-03-20T00:49:16 IST" description="Verified allow button to Give The Permission For Manage Phone Calls" finished-at="2020-03-20T00:49:17 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkEarnCoinsButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:56:04 IST" finished-at="2020-03-11T16:56:04 IST">
+        </test-method> <!-- checkManagePhoneCallsAllowButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:18 IST" finished-at="2020-03-20T00:49:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:56:04 IST" finished-at="2020-03-11T16:56:04 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:18 IST" finished-at="2020-03-20T00:49:18 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkMyKhataButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkLocationAllowButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMyKhataButton()[pri:7, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkMyKhataButton" duration-ms="7535" started-at="2020-03-11T16:56:04 IST" description="Verify Home Page MyKhata Button" finished-at="2020-03-11T16:56:12 IST">
+        <test-method status="PASS" signature="checkLocationAllowButton()[pri:7, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkLocationAllowButton" duration-ms="2518" started-at="2020-03-20T00:49:18 IST" description="Verified allow button to Give The Permission For Location" finished-at="2020-03-20T00:49:20 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkMyKhataButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:56:13 IST" finished-at="2020-03-11T16:56:13 IST">
+        </test-method> <!-- checkLocationAllowButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:21 IST" finished-at="2020-03-20T00:49:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:56:13 IST" finished-at="2020-03-11T16:56:13 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:21 IST" finished-at="2020-03-20T00:49:21 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkMyProfileButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkFBLoginButton()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMyProfileButton()[pri:8, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkMyProfileButton" duration-ms="8742" started-at="2020-03-11T16:56:13 IST" description="Verify Home Page MyProfile Button" finished-at="2020-03-11T16:56:22 IST">
+        <test-method status="PASS" signature="checkFBLoginButton()[pri:8, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkFBLoginButton" duration-ms="9623" started-at="2020-03-20T00:49:21 IST" description="Verified Login With Facebook Button And Get Facebook Page For Login By Username and Password" finished-at="2020-03-20T00:49:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkMyProfileButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:56:25 IST" finished-at="2020-03-11T16:56:25 IST">
+        </test-method> <!-- checkFBLoginButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-20T00:49:32 IST" finished-at="2020-03-20T00:49:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:56:25 IST" finished-at="2020-03-11T16:56:25 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:32 IST" finished-at="2020-03-20T00:49:32 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.HomePageButtonTests.checkContactUsButton()]]>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkFBLoginPage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkContactUsButton()[pri:9, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="checkContactUsButton" duration-ms="8627" started-at="2020-03-11T16:56:25 IST" description="Verify Home Page ContactUs Button" finished-at="2020-03-11T16:56:33 IST">
+        <test-method status="PASS" signature="checkFBLoginPage()[pri:9, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkFBLoginPage" duration-ms="17801" started-at="2020-03-20T00:49:32 IST" description="Verified(EditText By Enter FaceBook_UserName And Facebook_Password and Clicked On Login Button)" finished-at="2020-03-20T00:49:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkContactUsButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:56:36 IST" finished-at="2020-03-11T16:56:36 IST">
+        </test-method> <!-- checkFBLoginPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:51 IST" finished-at="2020-03-20T00:49:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-03-11T16:56:36 IST" finished-at="2020-03-11T16:56:36 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:49:51 IST" finished-at="2020-03-20T00:49:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkContinueLoginWithFBBtn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkContinueLoginWithFBBtn()[pri:10, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkContinueLoginWithFBBtn" duration-ms="16713" started-at="2020-03-20T00:49:51 IST" description="Verified Continue Fb Button" finished-at="2020-03-20T00:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContinueLoginWithFBBtn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-20T00:50:08 IST" finished-at="2020-03-20T00:50:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:50:08 IST" finished-at="2020-03-20T00:50:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkCreatePassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkCreatePassword()[pri:11, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkCreatePassword" duration-ms="4707" started-at="2020-03-20T00:50:08 IST" description="Verified Create Password By Enter 4 Digits Password(1,2,3,4)" finished-at="2020-03-20T00:50:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreatePassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-20T00:50:13 IST" finished-at="2020-03-20T00:50:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-20T00:50:13 IST" finished-at="2020-03-20T00:50:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SigninWithEnglishLanguage.checkConfirmPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkConfirmPassword()[pri:12, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="checkConfirmPassword" duration-ms="12461" started-at="2020-03-20T00:50:13 IST" description="Verified Confirm Password By Enter Same Password(1,2,3,4)" finished-at="2020-03-20T00:50:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConfirmPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-20T00:50:27 IST" finished-at="2020-03-20T00:50:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-03-20T00:50:27 IST" finished-at="2020-03-20T00:50:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.HomePageButtonTests@c3edf4c]" name="afterTest" is-config="true" duration-ms="400" started-at="2020-03-11T16:56:36 IST" finished-at="2020-03-11T16:56:37 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.SigninWithEnglishLanguage@26a262d6]" name="afterTest" is-config="true" duration-ms="1791" started-at="2020-03-20T00:50:27 IST" finished-at="2020-03-20T00:50:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qa.tests.HomePageButtonTests -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="145533" started-at="2020-03-11T16:56:37 IST" finished-at="2020-03-11T16:59:03 IST">
-      <class name="com.qa.tests.MenuPageButtonTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeTest" is-config="true" duration-ms="19688" started-at="2020-03-11T16:56:37 IST" finished-at="2020-03-11T16:56:57 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[8.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Android Emulator]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeClass" is-config="true" duration-ms="4" started-at="2020-03-11T16:56:57 IST" finished-at="2020-03-11T16:56:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:56:57 IST" finished-at="2020-03-11T16:56:57 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkHomePageScrolling()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkHomePageScrolling()[pri:1, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkHomePageScrolling" duration-ms="23167" started-at="2020-03-11T16:56:57 IST" description="Verify Home Page Scrolling" finished-at="2020-03-11T16:57:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHomePageScrolling -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:57:21 IST" finished-at="2020-03-11T16:57:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:57:21 IST" finished-at="2020-03-11T16:57:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageHomeButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageHomeButton()[pri:2, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageHomeButton" duration-ms="5241" started-at="2020-03-11T16:57:21 IST" description="Verify Home Button which is peresence on Menu Page" finished-at="2020-03-11T16:57:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageHomeButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:57:27 IST" finished-at="2020-03-11T16:57:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:57:27 IST" finished-at="2020-03-11T16:57:27 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageMyLoansButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageMyLoansButton()[pri:3, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageMyLoansButton" duration-ms="4750" started-at="2020-03-11T16:57:27 IST" description="Verify My_Loans Button which is peresence on Menu Page" finished-at="2020-03-11T16:57:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageMyLoansButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:57:33 IST" finished-at="2020-03-11T16:57:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2020-03-11T16:57:33 IST" finished-at="2020-03-11T16:57:33 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageMyProfileButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageMyProfileButton()[pri:4, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageMyProfileButton" duration-ms="7593" started-at="2020-03-11T16:57:33 IST" description="Verify My_Profile Button which is peresence on Menu Page" finished-at="2020-03-11T16:57:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageMyProfileButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:57:42 IST" finished-at="2020-03-11T16:57:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:57:42 IST" finished-at="2020-03-11T16:57:42 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageAllTransactionButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageAllTransactionButton()[pri:5, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageAllTransactionButton" duration-ms="7640" started-at="2020-03-11T16:57:42 IST" description="Verify All_Transaction Button which is peresence on Menu Page" finished-at="2020-03-11T16:57:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageAllTransactionButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:57:51 IST" finished-at="2020-03-11T16:57:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:57:51 IST" finished-at="2020-03-11T16:57:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageHelpAndSupportButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageHelpAndSupportButton()[pri:6, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageHelpAndSupportButton" duration-ms="7002" started-at="2020-03-11T16:57:51 IST" description="Verify Help_And_Support Button which is peresence on Menu Page" finished-at="2020-03-11T16:57:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageHelpAndSupportButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:58:00 IST" finished-at="2020-03-11T16:58:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:58:00 IST" finished-at="2020-03-11T16:58:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageFAQButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageFAQButton()[pri:7, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageFAQButton" duration-ms="7887" started-at="2020-03-11T16:58:00 IST" description="Verify FAQ Button which is peresence on Menu Page" finished-at="2020-03-11T16:58:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageFAQButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:58:09 IST" finished-at="2020-03-11T16:58:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-03-11T16:58:09 IST" finished-at="2020-03-11T16:58:09 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageLanguageSettingButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageLanguageSettingButton()[pri:8, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageLanguageSettingButton" duration-ms="8965" started-at="2020-03-11T16:58:09 IST" description="Verify Language Button which is peresence on Menu Page" finished-at="2020-03-11T16:58:18 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageLanguageSettingButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:58:19 IST" finished-at="2020-03-11T16:58:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-03-11T16:58:19 IST" finished-at="2020-03-11T16:58:19 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageTroubleshootButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageTroubleshootButton()[pri:9, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageTroubleshootButton" duration-ms="7845" started-at="2020-03-11T16:58:19 IST" description="Verify Troubleshoot Button which is peresence on Menu Page" finished-at="2020-03-11T16:58:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageTroubleshootButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:58:27 IST" finished-at="2020-03-11T16:58:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-03-11T16:58:27 IST" finished-at="2020-03-11T16:58:27 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="checkMenuPageMyBankDetailsButton()[pri:10, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="checkMenuPageMyBankDetailsButton" duration-ms="32166" started-at="2020-03-11T16:58:27 IST" description="Verify My_Bank_Details Button which is peresence on Menu Page" finished-at="2020-03-11T16:59:00 IST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='Bank Account Pending' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='Bank Account Pending' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.qa.BaseTest.waitForVisibility(BaseTest.java:150)
-at com.qa.BaseTest.getAttribute(BaseTest.java:171)
-at com.qa.pages.BankAccountPendingPage.getBankAccountPendingPageTitle(BankAccountPendingPage.java:16)
-at com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton(MenuPageButtonTest.java:378)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1249)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Bank Account Pending' and @index='0']})
-at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
-at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
-at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 32 more
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3205610d (tried for 1 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
-at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
-... 39 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Bank Account Pending' and @index='0']})
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO-PC', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: driver.version: AndroidDriver
-at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
-at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
-at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 41 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-            <line>
-              <![CDATA[this is the Symple ScreenShot]]>
-            </line>
-            <line>
-              <![CDATA[<a herf='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png'><img src ='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png' height='100' width='100'/></a> ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkMenuPageMyBankDetailsButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-11T16:59:02 IST" finished-at="2020-03-11T16:59:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-03-11T16:59:02 IST" finished-at="2020-03-11T16:59:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.MenuPageButtonTest@20ab3e3a]" name="afterTest" is-config="true" duration-ms="309" started-at="2020-03-11T16:59:02 IST" finished-at="2020-03-11T16:59:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.qa.tests.MenuPageButtonTest -->
-    </test> <!-- Test2 -->
+      </class> <!-- com.qa.tests.SigninWithEnglishLanguage -->
+    </test> <!-- Complete Sign in Button tests with English Language -->
   </suite> <!-- Suite -->
 </testng-results>

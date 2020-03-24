@@ -7,7 +7,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class CreatePasswordPage extends BaseTestForSigninSignUp {
 
-	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Create a 4-digit Pin' and @index='0']") private MobileElement createpasswordtitletext;
+	@AndroidFindBy (id = "in.rebase.app:id/pin_code_step_textview") private MobileElement createpasswordtitletext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='1' and @index='0']") private MobileElement digitone;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='2' and @index='0']") private MobileElement digittwo;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='3' and @index='0']") private MobileElement digitthree;

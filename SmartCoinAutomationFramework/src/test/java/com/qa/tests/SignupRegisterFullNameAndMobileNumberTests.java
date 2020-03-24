@@ -2,9 +2,8 @@ package com.qa.tests;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import com.qa.BaseTest;
 import com.qa.BaseTestForSigninSignUp;
-import com.qa.listeners.AllureListener;
+import com.qa.listeners.AllureListenerForSigninSignup;
 import com.qa.pages.LanguagePage;
 import com.qa.pages.PermissionPage;
 import com.qa.pages.RegisterNameMobileNumberPage;
@@ -31,7 +30,7 @@ import org.json.JSONTokener;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-@Listeners({AllureListener.class})
+@Listeners({AllureListenerForSigninSignup.class})
 public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigninSignUp {
 	SignupPage signupPage;
 	LanguagePage languagePage;

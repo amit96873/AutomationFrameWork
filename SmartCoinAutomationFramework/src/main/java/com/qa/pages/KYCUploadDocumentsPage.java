@@ -1,7 +1,7 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
-
+import com.qa.*;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
@@ -39,10 +39,15 @@ public class KYCUploadDocumentsPage extends BaseTest{
 		click(IdProoftakepicbtn);
 		return new UploadPanCardSuggestionPage();
 	}
+	public PermissionPageForAppHome pressUploadAdharFrontBtnWithPermission() {
+		click(IdProoftakepicbtn);
+		return new PermissionPageForAppHome();
+		
+	}
 	public UploadAdharFrontSugestionPage pressUploadAdharFrontBtn() {
-
 		click(IdProoftakepicbtn);
 		return new UploadAdharFrontSugestionPage();
+		
 	}
 	public UploadSelfieSugestionPage pressUploadSelfieBtn() {
 

@@ -22,6 +22,7 @@ public CameraPiccheckPage pressCaptureAadharBackBtn() {
 		click(shootpicbtn2);
 		return new CameraPiccheckPage();
 	}
+
 public CameraPiccheckPage pressCaptureSelfieBtn() {
 	
 	click(shootpicbtn2);

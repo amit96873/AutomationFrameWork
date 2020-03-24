@@ -39,6 +39,7 @@ import com.qa.pages.MyKhataPage;
 import com.qa.pages.MyLoansPage;
 import com.qa.pages.MyProfilePage;
 import com.qa.pages.PermissionPage;
+import com.qa.pages.PermissionPageForAppHome;
 import com.qa.pages.SignINWithGmailAndFacebookPage;
 import com.qa.pages.SigninPage;
 import com.qa.pages.SmartCoinRewardsPage;
@@ -57,7 +58,7 @@ import io.qameta.allure.Story;
 public class AddBankAccountPageTest extends BaseTest {
 	SigninPage signinPage;
 	LanguagePage languagePage;
-	PermissionPage permissionpage;
+	PermissionPageForAppHome permissionpage;
 	SignINWithGmailAndFacebookPage signINWithGmailAndFacebookPage;
 	FacebookPage facebookpage;
 	ContinueLoginWithFbPage continueloginwithfb;
@@ -129,12 +130,12 @@ public class AddBankAccountPageTest extends BaseTest {
 
 	}
 
-	@Test(priority=1, description="Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
-	@Description("Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
+	@Test(priority=1, description="Verify Home Page Scrolling and this is Prereusit to get Edit Bank Account Page")
+	@Description("Verify Home Page Scrolling and this is Prereusit to get Edit Bank Account Page")
 	@Epic("EP007")
-	@Feature("Feature1: Prereusit to get Add Bank Account Page")
-	@Story("Story: Prereusit to get Add Bank Account Page")
-	@Step("Simple Steps to get Add Bank Account Page")
+	@Feature("Feature1: Prereusit to get Edit Bank Account Page")
+	@Story("Story: Prereusit to get Edit Bank Account Page")
+	@Step("Simple Steps to get Edit Bank Account Page")
 	@Severity(SeverityLevel.MINOR)
 	public void checkHomePageScrolling() {
 		SoftAssert sa= new SoftAssert();
@@ -175,12 +176,12 @@ public class AddBankAccountPageTest extends BaseTest {
 		
 	}
 
-	@Test(priority=2, description="Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
-	@Description("Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page")
+	@Test(priority=2, description="Verify Edit Bank Account By Enter Valid Bank Account Details With CheckLeaf")
+	@Description("Verify Edit Bank Account By Enter Valid Bank Account Details With CheckLeaf")
 	@Epic("EP007")
-	@Feature("Feature2: Prereusit to get Add Bank Account Page")
-	@Story("Story: Prereusit to get Add Bank Account Page")
-	@Step("Simple Steps to get Add Bank Account Page")
+	@Feature("Feature2: Verify EditText Of Account Number and ReEnter Account Number By Enter Valid Details And Uploaded CheckLeaf to")
+	@Story("Story:  Verify By Enter Account Number and Reenter Account Number with Valid Details And then Upload checkleaf and clicked on continue Button ")
+	@Step("1st Step is Enter Account Number and 2nd Step is ReEnter Account Number And The Upload CheckLeaf And Click on Continue Button")
 	@Severity(SeverityLevel.MINOR)
 	public void checkAddBankAccountPageWithCheckLeaf() {	
 		SoftAssert sa= new SoftAssert();
@@ -211,12 +212,12 @@ public class AddBankAccountPageTest extends BaseTest {
 	}
 
 
-	@Test(priority=3, description="Verify My_Bank_Details Button which is peresence on Menu Page")
-	@Description("Verify My_Bank_Details Button which is peresence on Menu Page")
+	@Test(priority=3, description="Verify Edit Bank Account By Enter Valid Bank Account Details With Ifsccode")
+	@Description("Verify Edit Bank Account By Enter Valid Bank Account Details With Ifsccode")
 	@Epic("EP007")
-	@Feature("Feature3: Verify My_Bank_Details Button")
-	@Story("Story: verify the My_Bank_Details Button and verified its geting jummped On My_Bank_Details page")
-	@Step("Checked My_Bank_Details Button")
+	@Feature("Feature3: Verify EditText Of Account Number and ReEnter Account Number and IFSC By Enter Valid Details")
+	@Story("Story: Verify EditText Of Account Number and ReEnter Account Number and IFSC By Enter Valid Details and then clicked on continue button which will go on Confirm Account Details Page And Then Click on oK Then it should jump on my bank details Page With successfull message")
+	@Step("Enter Account Number And then ReEnter Account Number And Then Enter Ifsc code And Then Clicked on Continue Button to Submit the details")
 	@Severity(SeverityLevel.NORMAL)
 	public void checkAddBankAccountWithIfscCodefPage() {
 		SoftAssert sa= new SoftAssert();

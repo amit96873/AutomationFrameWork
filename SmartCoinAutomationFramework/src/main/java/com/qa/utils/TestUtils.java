@@ -16,7 +16,7 @@ import org.w3c.dom.NodeList;
 
 public class TestUtils {
 
-	public static final long WAIT=20;
+	public static final long WAIT=30;
 
 
 	public HashMap<String, String> paseStringXML(InputStream file) throws Exception{

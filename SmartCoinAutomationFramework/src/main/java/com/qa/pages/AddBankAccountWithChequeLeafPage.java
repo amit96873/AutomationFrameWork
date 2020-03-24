@@ -80,7 +80,11 @@ public class AddBankAccountWithChequeLeafPage extends BaseTest{
 		return new CameraPage();
 	}
 
-	
+public PermissionPage pressCheckLeafWithPermission() {
+		
+		click(uploadcheckleafpic);
+		return new PermissionPage();
+	}
 	public AddBankAccountWithIfscCodePage pressYesIfscButton() {
 
 		click(yesifsc);
