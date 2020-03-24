@@ -1,0 +1,217 @@
+{
+  "uid" : "e231a2eb926634a0",
+  "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+  "fullName" : "com.qa.tests.AddBankAccountPageTest.checkAddBankAccountWithIfscCodefPage",
+  "historyId" : "d5d4e0bd4f87c92a89660767fcc4649",
+  "time" : {
+    "start" : 1583757734741,
+    "stop" : 1583757765647,
+    "duration" : 30906
+  },
+  "description" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+  "descriptionHtml" : "<p>Verify My_Bank_Details Button which is peresence on Menu Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583757655249,
+      "stop" : 1583757679537,
+      "duration" : 24288
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583757679628,
+      "stop" : 1583757680582,
+      "duration" : 954
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583757734706,
+      "stop" : 1583757734709,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked My_Bank_Details Button",
+      "time" : {
+        "start" : 1583757734741,
+        "stop" : 1583757763799,
+        "duration" : 29058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9bc358bb60378140",
+      "name" : "saveFailureScreenShot",
+      "source" : "9bc358bb60378140.png",
+      "type" : "image/png",
+      "size" : 668362
+    }, {
+      "uid" : "d179cb749a5f15c6",
+      "name" : "checkAddBankAccountWithIfscCodefPagePassed And Screenshot Taken",
+      "source" : "d179cb749a5f15c6.txt",
+      "type" : "text/plain",
+      "size" : 63
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583757765654,
+      "stop" : 1583757765983,
+      "duration" : 329
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583757765654,
+      "stop" : 1583757765654,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583757765650,
+      "stop" : 1583757765650,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAddBankAccountWithIfscCodefPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "2432@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Feature10: Verify My_Bank_Details Button"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify the My_Bank_Details Button and verified its geting jummped On My_Bank_Details page"
+  }, {
+    "name" : "epic",
+    "value" : "EP003"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e231a2eb926634a0.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

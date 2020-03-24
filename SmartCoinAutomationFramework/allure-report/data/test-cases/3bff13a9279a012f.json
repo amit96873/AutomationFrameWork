@@ -1,0 +1,217 @@
+{
+  "uid" : "3bff13a9279a012f",
+  "name" : "Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page",
+  "fullName" : "com.qa.tests.AddBankAccountPageTest.checkHomePageScrolling",
+  "historyId" : "8cdfe059338eea80a90cec0a86840c0e",
+  "time" : {
+    "start" : 1583919419104,
+    "stop" : 1583919449979,
+    "duration" : 30875
+  },
+  "description" : "Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page",
+  "descriptionHtml" : "<p>Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583919394556,
+      "stop" : 1583919418029,
+      "duration" : 23473
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583919418075,
+      "stop" : 1583919418626,
+      "duration" : 551
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583919418668,
+      "stop" : 1583919418680,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Home Page Scrolling and this is Prereusit to get Add Bank Account Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Simple Steps to get Add Bank Account Page",
+      "time" : {
+        "start" : 1583919419139,
+        "stop" : 1583919449221,
+        "duration" : 30082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3989f0a020e4e984",
+      "name" : "saveFailureScreenShot",
+      "source" : "3989f0a020e4e984.png",
+      "type" : "image/png",
+      "size" : 98663
+    }, {
+      "uid" : "ca16cdbc793f74b2",
+      "name" : "checkHomePageScrollingPassed And Screenshot Taken",
+      "source" : "ca16cdbc793f74b2.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583919450014,
+      "stop" : 1583919450014,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583919502836,
+      "stop" : 1583919503413,
+      "duration" : 577
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583919502836,
+      "stop" : 1583919502836,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkHomePageScrolling"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5864@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "EP007"
+  }, {
+    "name" : "story",
+    "value" : "Story: Prereusit to get Add Bank Account Page"
+  }, {
+    "name" : "feature",
+    "value" : "Feature1: Prereusit to get Add Bank Account Page"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3bff13a9279a012f.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

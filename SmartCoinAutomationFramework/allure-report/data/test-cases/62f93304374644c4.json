@@ -1,0 +1,217 @@
+{
+  "uid" : "62f93304374644c4",
+  "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+  "fullName" : "com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton",
+  "historyId" : "f6435f75cbbd36d94884129ad9ef2ed4",
+  "time" : {
+    "start" : 1583595304186,
+    "stop" : 1583595311994,
+    "duration" : 7808
+  },
+  "description" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+  "descriptionHtml" : "<p>Verify My_Bank_Details Button which is peresence on Menu Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583595181100,
+      "stop" : 1583595213607,
+      "duration" : 32507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583595213665,
+      "stop" : 1583595214308,
+      "duration" : 643
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583595304179,
+      "stop" : 1583595304181,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked My_Bank_Details Button",
+      "time" : {
+        "start" : 1583595304188,
+        "stop" : 1583595311033,
+        "duration" : 6845
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b7cebbf290b53c8c",
+      "name" : "saveFailureScreenShot",
+      "source" : "b7cebbf290b53c8c.png",
+      "type" : "image/png",
+      "size" : 347074
+    }, {
+      "uid" : "80c901e101b71188",
+      "name" : "checkMenuPageMyBankDetailsButtonPassed And Screenshot Taken",
+      "source" : "80c901e101b71188.txt",
+      "type" : "text/plain",
+      "size" : 59
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583595311997,
+      "stop" : 1583595311997,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583595312000,
+      "stop" : 1583595312443,
+      "duration" : 443
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583595312000,
+      "stop" : 1583595312000,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMenuPageMyBankDetailsButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.MenuPageButtonTest"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7140@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify the My_Bank_Details Button and verified its geting jummped On My_Bank_Details page"
+  }, {
+    "name" : "epic",
+    "value" : "EP003"
+  }, {
+    "name" : "feature",
+    "value" : "Feature10: Verify My_Bank_Details Button"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62f93304374644c4.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

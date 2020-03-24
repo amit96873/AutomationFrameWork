@@ -1,1 +1,0 @@
-checkHomePageScrollingPassed And Screenshot Taken

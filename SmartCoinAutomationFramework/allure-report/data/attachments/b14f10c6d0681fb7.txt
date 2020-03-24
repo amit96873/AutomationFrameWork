@@ -1,0 +1,1 @@
+checkRegistrationEmptyNameAndNumberPassed And Screenshot Taken

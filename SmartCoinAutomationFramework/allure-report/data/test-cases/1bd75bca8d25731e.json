@@ -1,0 +1,235 @@
+{
+  "uid" : "1bd75bca8d25731e",
+  "name" : "Verify Home Page Bank Account Statement Upload Button",
+  "fullName" : "com.qa.tests.HomePageTests.checkUploadBankAccountStatementButton",
+  "historyId" : "7a8a08e4f16d9fde72ca4c1b9b5054d5",
+  "time" : {
+    "start" : 1583587190589,
+    "stop" : 1583587198666,
+    "duration" : 8077
+  },
+  "description" : "Verify Home Page Bank Account Statement Upload Button",
+  "descriptionHtml" : "<p>Verify Home Page Bank Account Statement Upload Button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583587131031,
+      "stop" : 1583587131849,
+      "duration" : 818
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583587107464,
+      "stop" : 1583587130986,
+      "duration" : 23522
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583587190580,
+      "stop" : 1583587190582,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Home Page Bank Account Statement Upload Button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked Upload Button",
+      "time" : {
+        "start" : 1583587190589,
+        "stop" : 1583587198085,
+        "duration" : 7496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "432cb8f2c6ac4366",
+      "name" : "saveFailureScreenShot",
+      "source" : "432cb8f2c6ac4366.png",
+      "type" : "image/png",
+      "size" : 144215
+    }, {
+      "uid" : "4a42d5558285c672",
+      "name" : "checkUploadBankAccountStatementButtonPassed And Screenshot Taken",
+      "source" : "4a42d5558285c672.txt",
+      "type" : "text/plain",
+      "size" : 64
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583587198669,
+      "stop" : 1583587198669,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583587246550,
+      "stop" : 1583587246550,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583587246550,
+      "stop" : 1583587246976,
+      "duration" : 426
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.HomePageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.HomePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUploadBankAccountStatementButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.HomePageTests"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9320@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Feature5: Verify Upload Button"
+  }, {
+    "name" : "epic",
+    "value" : "EP002"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify the Upload Button which is peresence on Home Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee6c3509a444d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583576154501,
+        "stop" : 1583576159439,
+        "duration" : 4938
+      }
+    }, {
+      "uid" : "944f4272f6df7b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583575596119,
+        "stop" : 1583575600802,
+        "duration" : 4683
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bd75bca8d25731e.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

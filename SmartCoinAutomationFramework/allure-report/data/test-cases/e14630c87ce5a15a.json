@@ -1,0 +1,391 @@
+{
+  "uid" : "e14630c87ce5a15a",
+  "name" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+  "fullName" : "com.qa.tests.AddBankAccountPageTest.checkAddBankAccountWithIfscCodefPage",
+  "historyId" : "d5d4e0bd4f87c92a89660767fcc4649",
+  "time" : {
+    "start" : 1583920945000,
+    "stop" : 1583920969314,
+    "duration" : 24314
+  },
+  "description" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+  "descriptionHtml" : "<p>Verify My_Bank_Details Button which is peresence on Menu Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1583920944986,
+      "stop" : 1583920944988,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1583920857678,
+      "stop" : 1583920880444,
+      "duration" : 22766
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1583920880497,
+      "stop" : 1583920881019,
+      "duration" : 522
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify My_Bank_Details Button which is peresence on Menu Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checked My_Bank_Details Button",
+      "time" : {
+        "start" : 1583920945001,
+        "stop" : 1583920967583,
+        "duration" : 22582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "722cf6e0555f0523",
+      "name" : "saveFailureScreenShot",
+      "source" : "722cf6e0555f0523.png",
+      "type" : "image/png",
+      "size" : 685208
+    }, {
+      "uid" : "47250c005b23c867",
+      "name" : "checkAddBankAccountWithIfscCodefPagePassed And Screenshot Taken",
+      "source" : "47250c005b23c867.txt",
+      "type" : "text/plain",
+      "size" : 63
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1583920969317,
+      "stop" : 1583920969317,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1583920969322,
+      "stop" : 1583920969727,
+      "duration" : 405
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1583920969321,
+      "stop" : 1583920969321,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAddBankAccountWithIfscCodefPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.tests.AddBankAccountPageTest"
+  }, {
+    "name" : "host",
+    "value" : "Lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7692@Lenovo-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Feature3: Verify My_Bank_Details Button"
+  }, {
+    "name" : "story",
+    "value" : "Story: verify the My_Bank_Details Button and verified its geting jummped On My_Bank_Details page"
+  }, {
+    "name" : "epic",
+    "value" : "EP007"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "devicename",
+    "value" : "Android Emulator"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "platformVersion",
+    "value" : "8.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b5331a13157a4283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583920599178,
+        "stop" : 1583920622151,
+        "duration" : 22973
+      }
+    }, {
+      "uid" : "70866e989f30f4e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583919480091,
+        "stop" : 1583919502829,
+        "duration" : 22738
+      }
+    }, {
+      "uid" : "b5850b3df7563eef",
+      "status" : "failed",
+      "statusDetails" : "expected [Documents Uploaded!] but found [Confirm Bank Details]",
+      "time" : {
+        "start" : 1583919072373,
+        "stop" : 1583919092365,
+        "duration" : 19992
+      }
+    }, {
+      "uid" : "7d37241c834e6039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583918558443,
+        "stop" : 1583918582727,
+        "duration" : 24284
+      }
+    }, {
+      "uid" : "2c91692c12e8b796",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583917819733,
+        "stop" : 1583917841142,
+        "duration" : 21409
+      }
+    }, {
+      "uid" : "d6f9e5ef162ed937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583917168256,
+        "stop" : 1583917190827,
+        "duration" : 22571
+      }
+    }, {
+      "uid" : "f4d89604274be5a3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='IFSC Code' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583916913322,
+        "stop" : 1583916942660,
+        "duration" : 29338
+      }
+    }, {
+      "uid" : "b937de7ddbe162cf",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='IFSC Code' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583915773271,
+        "stop" : 1583915803274,
+        "duration" : 30003
+      }
+    }, {
+      "uid" : "ceb9268124d60426",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='IFSC Code' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583915491385,
+        "stop" : 1583915522473,
+        "duration" : 31088
+      }
+    }, {
+      "uid" : "32c31abc61fdc158",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1583913937475,
+        "stop" : 1583913939016,
+        "duration" : 1541
+      }
+    }, {
+      "uid" : "e83d21f7b59204ba",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.id: in.rebase.app:id/add_bank_account}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583913840628,
+        "stop" : 1583913864086,
+        "duration" : 23458
+      }
+    }, {
+      "uid" : "92a267d115767777",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1583903971714,
+        "stop" : 1583903972563,
+        "duration" : 849
+      }
+    }, {
+      "uid" : "8b88063494410be7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.id: in.rebase.app:id/add_bank_account}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583903294779,
+        "stop" : 1583903327877,
+        "duration" : 33098
+      }
+    }, {
+      "uid" : "1409196f8a8e8f2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583760052305,
+        "stop" : 1583760085483,
+        "duration" : 33178
+      }
+    }, {
+      "uid" : "14033512f3f0a0f6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='Documents Uploaded!' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583759292723,
+        "stop" : 1583759345247,
+        "duration" : 52524
+      }
+    }, {
+      "uid" : "6354beeea925bb66",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text='Documents Uploaded!' and @index='0']}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583758372720,
+        "stop" : 1583758422432,
+        "duration" : 49712
+      }
+    }, {
+      "uid" : "e231a2eb926634a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583757734741,
+        "stop" : 1583757765647,
+        "duration" : 30906
+      }
+    }, {
+      "uid" : "4bc0757fa8c2ca72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583757526060,
+        "stop" : 1583757573064,
+        "duration" : 47004
+      }
+    }, {
+      "uid" : "132db8bc5b94ac9c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.id: in.rebase.app:id/add_bank_account}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583757299353,
+        "stop" : 1583757343257,
+        "duration" : 43904
+      }
+    }, {
+      "uid" : "223ad2dfa3800352",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.id: in.rebase.app:id/add_bank_account}) (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1583756870169,
+        "stop" : 1583756892622,
+        "duration" : 22453
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e14630c87ce5a15a.json",
+  "parameterValues" : [ "Android Emulator", "Android", "8.0" ]
+}

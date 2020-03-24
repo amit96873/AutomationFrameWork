@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 11 16:56:37 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>145 seconds (145533 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton()'><b>checkMenuPageMyBankDetailsButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify My_Bank_Details Button which is peresence on Menu Page<br/>
+<a href="#Output-870869323" onClick='toggleBox("Output-870869323", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-870869323" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-870869323">
+this is the Symple ScreenShot<br/>
+<a herf='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png'><img src ='C:\Users\Amit singh\git\AutomationFrameWork\SmartCoinAutomationFramework\Screenshots\Android 8.0 Android Emulator\2020-03-11-16-56-37\MenuPageButtonTest\checkMenuPageMyBankDetailsButton.png' height='100' width='100'/></a> <br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]}) (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BaseTest.waitForVisibility(BaseTest.java:150)
+	at com.qa.BaseTest.getAttribute(BaseTest.java:171)
+	at com.qa.pages.BankAccountPendingPage.getBankAccountPendingPageTitle(BankAccountPendingPage.java:16)
+	at com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton(MenuPageButtonTest.java:378)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 32 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3205610d (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 39 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LENOVO-PC&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 41 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace870869323", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace870869323'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]}) (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.BaseTest.waitForVisibility(BaseTest.java:150)
+	at com.qa.BaseTest.getAttribute(BaseTest.java:171)
+	at com.qa.pages.BankAccountPendingPage.getBankAccountPendingPageTitle(BankAccountPendingPage.java:16)
+	at com.qa.tests.MenuPageButtonTest.checkMenuPageMyBankDetailsButton(MenuPageButtonTest.java:378)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 32 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3205610d (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 39 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text=&apos;Bank Account Pending&apos; and @index=&apos;0&apos;]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LENOVO-PC&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 41 more
+</pre></div></td>
+<td>32</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkChatShortCutButton()'><b>checkChatShortCutButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page Chat ShortCut Button</td>
+<td></td>
+<td>13</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkContactUsButton()'><b>checkContactUsButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page ContactUs Button</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkEarnCoinsButton()'><b>checkEarnCoinsButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page Earn  Button</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkHomePageScrolling()'><b>checkHomePageScrolling</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page Scrolling</td>
+<td></td>
+<td>24</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkHomePageScrolling()'><b>checkHomePageScrolling</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify Home Page Scrolling</td>
+<td></td>
+<td>23</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageAllTransactionButton()'><b>checkMenuPageAllTransactionButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify All_Transaction Button which is peresence on Menu Page</td>
+<td></td>
+<td>7</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageFAQButton()'><b>checkMenuPageFAQButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify FAQ Button which is peresence on Menu Page</td>
+<td></td>
+<td>7</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageHelpAndSupportButton()'><b>checkMenuPageHelpAndSupportButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify Help_And_Support Button which is peresence on Menu Page</td>
+<td></td>
+<td>7</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageHomeButton()'><b>checkMenuPageHomeButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify Home Button which is peresence on Menu Page</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageLanguageSettingButton()'><b>checkMenuPageLanguageSettingButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify Language Button which is peresence on Menu Page</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageMyLoansButton()'><b>checkMenuPageMyLoansButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify My_Loans Button which is peresence on Menu Page</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageMyProfileButton()'><b>checkMenuPageMyProfileButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify My_Profile Button which is peresence on Menu Page</td>
+<td></td>
+<td>7</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.MenuPageButtonTest.checkMenuPageTroubleshootButton()'><b>checkMenuPageTroubleshootButton</b><br>Test class: com.qa.tests.MenuPageButtonTest<br>Test method: Verify Troubleshoot Button which is peresence on Menu Page</td>
+<td></td>
+<td>7</td>
+<td>com.qa.tests.MenuPageButtonTest@20ab3e3a</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkMenueButton()'><b>checkMenueButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page Menu Button</td>
+<td></td>
+<td>3</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkMyKhataButton()'><b>checkMyKhataButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page MyKhata Button</td>
+<td></td>
+<td>7</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkMyProfileButton()'><b>checkMyProfileButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page MyProfile Button</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkUploadBankAccountStatementButton()'><b>checkUploadBankAccountStatementButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page Bank Account Statement Upload Button</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+<tr>
+<td title='com.qa.tests.HomePageButtonTests.checkVerifyMobileNumberButton()'><b>checkVerifyMobileNumberButton</b><br>Test class: com.qa.tests.HomePageButtonTests<br>Test method: Verify Home Page Mobile Number Verify Button</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.HomePageButtonTests@c3edf4c</td></tr>
+</table><p>
+</body>
+</html>
