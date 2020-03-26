@@ -194,7 +194,7 @@ public class AddBankAccountPageTest extends BaseTest {
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		camerapage = addbankaccountwithcheckleafpage.pressCheckLeaf();
-		camrapiccheckpage = camerapage.pressCaptureCheckLeafBtn();
+		camrapiccheckpage = camerapage.pressCaptureBtnForEmulator();
 		addbankaccountwithcheckleafpage = camrapiccheckpage.pressDoneCheckLeafBtn();
 		mybankdetailspage = addbankaccountwithcheckleafpage.pressContinueButton();
 		//assertion for get confirmation message
