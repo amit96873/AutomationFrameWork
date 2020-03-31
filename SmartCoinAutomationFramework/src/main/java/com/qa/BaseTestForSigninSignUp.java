@@ -80,7 +80,7 @@ public class BaseTestForSigninSignUp {
 		return dateTime.get();
 	}
 
-	public BaseTest() {
+	public BaseTestForSigninSignUp() {
 
 		PageFactory.initElements(new AppiumFieldDecorator(getDriver()), this);
 	}
