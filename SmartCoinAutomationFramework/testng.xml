@@ -6,7 +6,7 @@
 
    <test name="KYC Documents Page Tests">
   <parameter name="platformName" value="Android"/>
-  <parameter name="platformVersion" value="8.1"/>
+  <parameter name="platformVersion" value="9.0"/>
   <parameter name="devicename" value="Android Emulator"/>
     <classes>
       <class name="com.qa.tests.KYCUploadDocumentsPageTests"/>

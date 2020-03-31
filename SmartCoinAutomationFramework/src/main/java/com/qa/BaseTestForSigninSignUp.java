@@ -1,4 +1,5 @@
 package com.qa;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import com.qa.utils.TestUtils;
@@ -12,6 +13,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import okhttp3.internal.platform.Platform;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -26,11 +28,14 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.codec.binary.Base64;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -41,32 +46,55 @@ import org.testng.annotations.BeforeSuite;
 
 import io.appium.java_client.screenrecording.CanRecordScreen;
 public class BaseTestForSigninSignUp {
-	protected static AppiumDriver driver;
-	protected static Properties props;
-	protected static HashMap<String, String> strings=new HashMap<String, String>();
-	protected static String dateTime;
-	InputStream inputStream;
-	InputStream stringsis;
+	protected static ThreadLocal <AppiumDriver> driver = new ThreadLocal <AppiumDriver>();
+	protected static ThreadLocal <Properties> props = new ThreadLocal <Properties>();
+	protected static ThreadLocal <HashMap<String, String>> strings = new ThreadLocal<HashMap<String, String>>();
+	protected static ThreadLocal <String> dateTime = new ThreadLocal <String>();
+	protected static ThreadLocal <String> platform = new ThreadLocal <String>();
 	TestUtils utils;
-
-	public BaseTestForSigninSignUp() {
-
-		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+	public AppiumDriver getDriver() {
+		return driver.get();
 	}
-	
-	
+	public void setDriver(AppiumDriver driver2) {
+		driver.set(driver2);
+	}
+	public Properties getProps() {
+		return props.get();
+	}
+	public void setProps(Properties props2) {
+		props.set(props2);
+	}
+	public HashMap<String, String> getString(){
+		return strings.get();
+	}
+	public void  setStrings(HashMap<String, String> string2) {
+		strings.set(string2);
+	}
+	public String getPlatform() {
+		return platform.get();
+	}
+	public void setPlatform(String platform2) {
+		platform.set(platform2);
+	}
+	public String getDateTime() {
+		return dateTime.get();
+	}
+
+	public BaseTest() {
+
+		PageFactory.initElements(new AppiumFieldDecorator(getDriver()), this);
+	}
+
+
 	/*
 	 * to take video for full test when testCase fail/pass
 	@BeforeMethod
-	public void beforeMethod() {
-		System.out.println("Super Before Method");
-		((CanRecordScreen) driver ).startRecordingScreen();		
+	public void beforeMethod() { 
+		((CanRecordScreen) getDriver() ).startRecordingScreen();		
 	}
 	@AfterMethod
 	public void afterMethod(ITestResult result) {
-
-		System.out.println("Super After Method");
-		String media = ((CanRecordScreen) driver ).stopRecordingScreen();
+		String media = ((CanRecordScreen) getDriver() ).stopRecordingScreen();
 
 		if(result.getStatus() == 1) {
 
@@ -97,15 +125,21 @@ public class BaseTestForSigninSignUp {
 	@BeforeTest
 	public void beforeTest(String platformName, String platformVersion, String deviceName) throws Exception {
 		utils = new TestUtils();
-		dateTime = utils.getDateTime();
+		setDateTime(utils.getDateTime());
+		setPlatform(platformName);
+		InputStream inputStream = null;
+		InputStream stringsis = null;
+		Properties props = new Properties();
+		AppiumDriver driver;
 		try {
 			props = new Properties();
 			String propFileName = "config.properties";
 			String xmlFileName="strings/strings.xml";
 			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
 			props.load(inputStream);
+			setProps(props);
 			stringsis=getClass().getClassLoader().getResourceAsStream(xmlFileName);
-			strings=utils.paseStringXML(stringsis);
+			setStrings(utils.paseStringXML(stringsis));
 			DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setCapability(MobileCapabilityType.PLATFORM_NAME, platformName);
 			dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
@@ -113,12 +147,12 @@ public class BaseTestForSigninSignUp {
 			dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, props.getProperty("androidAutomationName"));
 			dc.setCapability("appPackage", props.getProperty("androidAppPackage"));
 			dc.setCapability("appActivity", props.getProperty("androidAppActivity"));
-						URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
-						dc.setCapability("app", appUrl);
+		    URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
+			dc.setCapability("app", appUrl);
 			URL url = new URL(props.getProperty("appiumURL"));
 			driver = new AndroidDriver<WebElement>(url,dc);
 			String sessionId = driver.getSessionId().toString();
-
+            setDriver(driver);
 		}catch(Exception e) {
 
 			e.printStackTrace();
@@ -133,20 +167,30 @@ public class BaseTestForSigninSignUp {
 		}
 
 	}
-	public AppiumDriver getDriver() {
-		return driver;
-	}
 
-	public String getDateTime() {
-		return dateTime;
+	private void setPlatform(ThreadLocal<String> platform2) {
+		// TODO Auto-generated method stub
+		
 	}
-
+	private void setDateTime(String dateTime2) {
+		// TODO Auto-generated method stub
+		
+	}
 	public void waitForVisibility(MobileElement e) {
 
-		WebDriverWait wait = new WebDriverWait(driver,TestUtils.WAIT);
+		WebDriverWait wait = new WebDriverWait(getDriver(),TestUtils.WAIT);
 		wait.until(ExpectedConditions.visibilityOf(e));
 	}
 
+	public void waitForVisibility(WebElement e) {
+
+		Wait<WebDriver> wait = new FluentWait<WebDriver>(getDriver())
+		.withTimeout(Duration.ofSeconds(30))
+		.pollingEvery(Duration.ofSeconds(5))
+		.ignoring(NoSuchElementException.class);
+		wait.until(ExpectedConditions.visibilityOf(e));
+	}
+	
 	public void click(MobileElement e) {
 
 		waitForVisibility(e);
@@ -180,7 +224,7 @@ public class BaseTestForSigninSignUp {
 		return getAttribute(e,"text");
 	}
 
-	public static void scrollToElement(By e, String direction) {
+	public  void scrollToElement(By e, String direction) {
 
 		for(int i=0; i<3; i++) {
 
@@ -199,10 +243,10 @@ public class BaseTestForSigninSignUp {
 
 
 	}
-	public static boolean isDisplayed(final By e) {
-		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+	public  boolean isDisplayed(final By e) {
+		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,2);
+			WebDriverWait wait = new WebDriverWait(getDriver(),2);
 			return wait.until(new ExpectedCondition<Boolean>() {
 
 				public Boolean apply(WebDriver driver) {
@@ -220,9 +264,9 @@ public class BaseTestForSigninSignUp {
 	}
 
 
-	public static void scrollUsingTouchAction(String direction) {
+	public  void scrollUsingTouchAction(String direction) {
 
-		Dimension dim = driver.manage().window().getSize();
+		Dimension dim = getDriver().manage().window().getSize();
 		int x = dim.getWidth()/2;
 		int starty=0;
 		int endy=0;
@@ -239,14 +283,14 @@ public class BaseTestForSigninSignUp {
 			break;
 		}
 
-		TouchAction t=new TouchAction(driver);
+		TouchAction t=new TouchAction(getDriver());
 		t.press(PointOption.point(x, starty)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
 		.moveTo(PointOption.point(x, endy)).release().perform();
 	}
 
 	@AfterTest
 	public void afterTest() {
-		driver.quit();
+		getDriver().quit();
 	}
 
 }

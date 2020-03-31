@@ -96,7 +96,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("invalidusername").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextforname= registrationpage.getErrTxtName();
-		String expectedNameErrorText=strings.get("fullName_Error_text");
+		String expectedNameErrorText=getString().get("fullName_Error_text");
 		sa.assertEquals(errortextforname, expectedNameErrorText);
 		sa.assertAll();
 		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
@@ -118,7 +118,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("invalidnumber").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextfornumber= registrationpage.getErrTxtMobileNumber();
-		String expectedNumberErrorText=strings.get("mobileNumber_Error_text");
+		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
 		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
@@ -139,7 +139,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("invalidusernamebyspacealchar").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextforname= registrationpage.getErrTxtName();
-		String expectedNameErrorText=strings.get("fullName_Error_text");
+		String expectedNameErrorText=getString().get("fullName_Error_text");
 		sa.assertEquals(errortextforname, expectedNameErrorText);
 		sa.assertAll();
 		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
@@ -163,10 +163,10 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("emptynameandnumber").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextforname= registrationpage.getErrTxtName();
-		String expectedNameErrorText=strings.get("fullName_Error_text");
+		String expectedNameErrorText=getString().get("fullName_Error_text");
 		sa.assertEquals(errortextforname, expectedNameErrorText);
 		String errortextfornumber= registrationpage.getErrTxtMobileNumber();
-		String expectedNumberErrorText=strings.get("mobileNumber_Error_text");
+		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
 		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
@@ -191,7 +191,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("emptynamevalidnumber").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextforname= registrationpage.getErrTxtName();
-		String expectedNameErrorText=strings.get("fullName_Error_text");
+		String expectedNameErrorText=getString().get("fullName_Error_text");
 		sa.assertEquals(errortextforname, expectedNameErrorText);
 		sa.assertAll();
 		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
@@ -215,7 +215,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("emptynumbervalidname").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextfornumber= registrationpage.getErrTxtMobileNumber();
-		String expectedNumberErrorText=strings.get("mobileNumber_Error_text");
+		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
 		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
@@ -237,7 +237,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("spaceinnumber").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextfornumber= registrationpage.getErrTxtMobileNumber();
-		String expectedNumberErrorText=strings.get("mobileNumber_Error_text");
+		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
 		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
@@ -260,7 +260,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("lessthantendigitnumber").getString("Mobile_Number"));
 		registrationpage.pressRegContinueBtn();
 		String errortextfornumber= registrationpage.getErrTxtMobileNumber();
-		String expectedNumberErrorText=strings.get("mobileNumber_Error_text");
+		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
 		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
@@ -282,7 +282,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		registrationpage.enterMobileNumber(loginuser.getJSONObject("validnameandnumber").getString("Mobile_Number"));
 		permissionpage = registrationpage.pressRegContinueBtn();
 		String actualResult= permissionpage.getTitlepermission();
-		String expectedResult=strings.get("Permission_Page_Title");
+		String expectedResult=getString().get("Permission_Page_Title");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);

@@ -97,7 +97,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		languagePage = signinPage.pressSignInBtn();
 		String actualResult= languagePage.getTitle();
-		String expectedResult=strings.get("Language_Page_Title");
+		String expectedResult=getString().get("Language_Page_Title");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -115,7 +115,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		languagePage.pressHindiLangBtn();
 		permissionpage = languagePage.pressContinueBtnSignin();
 		String actualResult= permissionpage.getTitlepermission();
-		String expectedResult=strings.get("Permission_Page_Title");
+		String expectedResult=getString().get("Permission_Page_Title");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -132,7 +132,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		permissionpage.pressagreeAndContinuebtn();
 		String actualResult= permissionpage.getTitleSms();
-		String expectedResult=strings.get("SendSMS_Title_Text");
+		String expectedResult=getString().get("SendSMS_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -149,7 +149,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		permissionpage.pressallowButton();
 		String actualResult= permissionpage.getTitleContats();
-		String expectedResult=strings.get("Acces_Contacts_Title_Text");
+		String expectedResult=getString().get("Acces_Contacts_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -165,7 +165,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		permissionpage.pressallowButton();
 		String actualResult= permissionpage.getTitlePhoneCall();
-		String expectedResult=strings.get("managePhoneCalls_Title_Text");
+		String expectedResult=getString().get("managePhoneCalls_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -181,7 +181,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		permissionpage.pressallowButton();
 		String actualResult= permissionpage.getTitleLocation();
-		String expectedResult=strings.get("Location_Title_Text");
+		String expectedResult=getString().get("Location_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -197,7 +197,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		signINWithGmailAndFacebookPage =permissionpage.pressLastallowButton();
 		String actualResult= signINWithGmailAndFacebookPage.getTitleSigninWithGmailFB();
-		String expectedResult=strings.get("signinwithgmailfb_Title_Text");
+		String expectedResult=getString().get("signinwithgmailfb_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -213,7 +213,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		facebookpage = signINWithGmailAndFacebookPage.pressfacebookbtn();
 		String actualResult= facebookpage.getTitleFacebookPage();
-		String expectedResult=strings.get("facebookpage_Title_Text");
+		String expectedResult=getString().get("facebookpage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -231,7 +231,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		facebookpage.enterPassword(loginuser.getJSONObject("fbusernamepassword").getString("password"));
 		continueloginwithfb = facebookpage.pressLoginbtn();
 		String actualResult= continueloginwithfb.getTitleContinueloginWithFB();
-		String expectedResult=strings.get("ContinueLoginWithfacebookpage_Title_Text");
+		String expectedResult=getString().get("ContinueLoginWithfacebookpage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -247,7 +247,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		SoftAssert sa= new SoftAssert();
 		createpasswordpage = continueloginwithfb.presscontinuebtn();
 		String actualResult= createpasswordpage.getTitleCreatePassword();
-		String expectedResult=strings.get("createpasswordPage_Title_Text");
+		String expectedResult=getString().get("createpasswordPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -266,7 +266,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		createpasswordpage.pressThree();
 		confirmyourpasswordpage = createpasswordpage.pressFour4();
 		String actualResult= confirmyourpasswordpage.getTitleConfirmPassword();
-		String expectedResult=strings.get("confirmpasswordPage_Title_Text");
+		String expectedResult=getString().get("confirmpasswordPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
@@ -286,7 +286,7 @@ public class SigninWithHindiLanguage extends BaseTestForSigninSignUp {
 		confirmyourpasswordpage.pressThree();
 		homepagesmartcoin = confirmyourpasswordpage.pressFour4();
 		String actualResult10= homepagesmartcoin.getTitleHomePage();
-		String expectedResult10=strings.get("homePage_Title_Text");
+		String expectedResult10=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult10, expectedResult10);
 		sa.assertAll();
 		System.out.println("actual title - " + actualResult10 + "\n" + "expected title - "+expectedResult10);

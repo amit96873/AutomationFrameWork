@@ -4,91 +4,22 @@
   <listeners>
     <listener class-name="com.qa.listeners.TestsListener"/>
   </listeners>
-  <test thread-count="5" name="Complete Sign in Button tests with English Language(failed)">
+  <test thread-count="5" name="KYC Documents Page Tests(failed)">
     <parameter name="platformVersion" value="9.0"/>
     <parameter name="devicename" value="Android Emulator"/>
     <parameter name="platformName" value="Android"/>
     <classes>
-      <class name="com.qa.tests.SigninWithEnglishLanguage">
-        <methods>
-          <include name="checkContinueLoginWithFBBtn"/>
-          <include name="afterTest"/>
-          <include name="checkCreatePassword"/>
-          <include name="checkLocationAllowButton"/>
-          <include name="checkSmsAllowButton"/>
-          <include name="checkContactsAllowButton"/>
-          <include name="checkAgreeAndContinueButton"/>
-          <include name="checkSignInButton"/>
-          <include name="checkConfirmPassword"/>
-          <include name="checkFBLoginButton"/>
-          <include name="afterMethod"/>
-          <include name="checkEnglishLangButton"/>
-          <include name="checkFBLoginPage"/>
-          <include name="checkManagePhoneCallsAllowButton"/>
-          <include name="beforeTest"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.qa.tests.SigninWithEnglishLanguage -->
-    </classes>
-  </test> <!-- Complete Sign in Button tests with English Language(failed) -->
-  <test thread-count="5" name="Complete Sign in Button tests with Hindi Language(failed)">
-    <parameter name="platformVersion" value="9.0"/>
-    <parameter name="devicename" value="Android Emulator"/>
-    <parameter name="platformName" value="Android"/>
-    <classes>
-      <class name="com.qa.tests.SigninWithHindiLanguage">
+      <class name="com.qa.tests.KYCUploadDocumentsPageTests">
         <methods>
           <include name="afterTest"/>
-          <include name="checkHindiLangButton"/>
-          <include name="afterClass"/>
-          <include name="beforeMethod"/>
-          <include name="checkFBLoginPage"/>
           <include name="beforeClass"/>
-          <include name="checkManagePhoneCallsAllowButton"/>
-          <include name="afterMethod"/>
-          <include name="checkAgreeAndContinueButton"/>
-          <include name="checkFBLoginButton"/>
-          <include name="checkSignInButton"/>
-          <include name="checkContactsAllowButton"/>
-          <include name="checkSmsAllowButton"/>
-          <include name="beforeTest"/>
-          <include name="checkCreatePassword"/>
-          <include name="checkLocationAllowButton"/>
-          <include name="checkConfirmPassword"/>
-          <include name="checkContinueLoginWithFBBtn"/>
-        </methods>
-      </class> <!-- com.qa.tests.SigninWithHindiLanguage -->
-    </classes>
-  </test> <!-- Complete Sign in Button tests with Hindi Language(failed) -->
-  <test thread-count="5" name="Complete Sign in Button tests With Other Language(failed)">
-    <parameter name="platformVersion" value="9.0"/>
-    <parameter name="devicename" value="Android Emulator"/>
-    <parameter name="platformName" value="Android"/>
-    <classes>
-      <class name="com.qa.tests.SigninWithOtherLanguage">
-        <methods>
-          <include name="checkFBLoginButton"/>
-          <include name="afterTest"/>
-          <include name="checkConfirmPassword"/>
-          <include name="checkOtherLangButton"/>
-          <include name="checkSmsAllowButton"/>
-          <include name="checkAgreeAndContinueButton"/>
-          <include name="checkSignInButton"/>
-          <include name="checkContactsAllowButton"/>
-          <include name="checkLocationAllowButton"/>
-          <include name="checkCreatePassword"/>
-          <include name="checkContinueLoginWithFBBtn"/>
-          <include name="beforeTest"/>
-          <include name="afterClass"/>
-          <include name="checkFBLoginPage"/>
-          <include name="checkManagePhoneCallsAllowButton"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
+          <include name="checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe"/>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.qa.tests.SigninWithOtherLanguage -->
+      </class> <!-- com.qa.tests.KYCUploadDocumentsPageTests -->
     </classes>
-  </test> <!-- Complete Sign in Button tests With Other Language(failed) -->
+  </test> <!-- KYC Documents Page Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

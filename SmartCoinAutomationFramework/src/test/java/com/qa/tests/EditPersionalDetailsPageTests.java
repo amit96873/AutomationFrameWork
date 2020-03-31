@@ -135,7 +135,7 @@ public class EditPersionalDetailsPageTests extends BaseTest{
 	public void checkHomePageScrolling() {
 		SoftAssert sa= new SoftAssert();
 		String actualResult1 = enterpasswordpage.getTitleEnterPassword();
-		String expectedResult1=strings.get("enterpasswordpage_Title_Text");
+		String expectedResult1=getString().get("enterpasswordpage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);	
@@ -144,7 +144,7 @@ public class EditPersionalDetailsPageTests extends BaseTest{
 		enterpasswordpage.pressThree();
 		homepagesmartcoin = enterpasswordpage.pressFour4();
 		String actualResult= homepagesmartcoin.getTitleHomePage();
-		String expectedResult=strings.get("homePage_Title_Text");
+		String expectedResult=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
@@ -154,7 +154,7 @@ public class EditPersionalDetailsPageTests extends BaseTest{
 		profileexpendmenupage=myprofilepage.pressExpendMenueBtn();
 		editpersionaldetailspage=profileexpendmenupage.pressEditPersionalDetailsBtn();
 		String actualResult2= editpersionaldetailspage.getEditPersionalDetailsTitleText();
-		String expectedResult2=strings.get("editpersionaldetailspage_Title_Text");
+		String expectedResult2=getString().get("editpersionaldetailspage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
@@ -188,7 +188,7 @@ public class EditPersionalDetailsPageTests extends BaseTest{
 		homepagesmartcoin.scrollDown();
 		myprofilepage = editpersionaldetailspage.pressContinueBtn();
 		String actualResult2= myprofilepage.getEditPersionaldetailsSavedSuccessfully();
-		String expectedResult2=strings.get("editpersionaldetailsConfirmation_Text");
+		String expectedResult2=getString().get("editpersionaldetailsConfirmation_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
 		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
