@@ -15,9 +15,10 @@ import org.testng.Reporter;
 
 import com.qa.BaseTest;
 import com.qa.BaseTestForSigninSignUp;
+import com.qa.utils.TestUtils;
 
 public class TestsListenerForSigninSignup implements ITestListener{
-	
+	TestUtils utils = new TestUtils();
 	
 	public void  onTestFailure(ITestResult result) {
 		
@@ -25,7 +26,7 @@ public class TestsListenerForSigninSignup implements ITestListener{
 			StringWriter sw = new StringWriter();
 			PrintWriter pw = new PrintWriter(sw);
 			result.getThrowable().printStackTrace(pw);
-			System.out.println(sw.toString());
+			utils.log(sw.toString());
 		}
 		BaseTestForSigninSignUp base = new BaseTestForSigninSignUp();
 		File file = base.getDriver().getScreenshotAs(OutputType.FILE);

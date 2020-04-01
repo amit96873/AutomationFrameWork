@@ -1,6 +1,7 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -8,7 +9,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 public class UploadBankStatementsPage extends BaseTest{
 
 
-
+	TestUtils utils = new TestUtils();
 	@AndroidFindBy (xpath = "//android.widget.ImageButton[@text='' and @index='0']") private MobileElement reversebtn;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Unlock Loan Offers' and @index='0']") private MobileElement bankstatementpagetitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/spinner") private MobileElement selectbank;
@@ -32,7 +33,7 @@ public class UploadBankStatementsPage extends BaseTest{
 	public UploadBankStatementsPage enterPassword(String password) {
 		click(enterpasswordup);
 		clear(enterpasswordedittext);
-		System.out.println("Bank Statement PDF Password is:-  " + password);
+		utils.log("Bank Statement PDF Password is:-  " + password);
 		sendkeys(enterpasswordedittext, password);
 		return this;
 

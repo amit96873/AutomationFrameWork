@@ -125,7 +125,7 @@ public class BaseTestForSigninSignUp {
 	@BeforeTest
 	public void beforeTest(String platformName, String platformVersion, String deviceName) throws Exception {
 		utils = new TestUtils();
-		setDateTime(utils.getDateTime());
+		setDateTime(utils.DateTime());
 		setPlatform(platformName);
 		InputStream inputStream = null;
 		InputStream stringsis = null;

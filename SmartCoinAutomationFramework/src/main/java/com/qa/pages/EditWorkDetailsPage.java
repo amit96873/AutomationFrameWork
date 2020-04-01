@@ -1,12 +1,13 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class EditWorkDetailsPage extends BaseTest {
-
+	TestUtils utils = new TestUtils();
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Edit Work Details' and @index='0']") private MobileElement editworkdetailstitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/spinner") private MobileElement Employeementstatuspineer;
 	@AndroidFindBy (id = "in.rebase.app:id/monthly_income") private MobileElement monthlyincomeedittext;
@@ -31,7 +32,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterWorkPlacepincode(String workplacepincode) {
 		click(workplacepincodeedittext);
 		clear(workplacepincodeedittext);
-		System.out.println("Work Place Address is:-  " + workplacepincode);
+		utils.log("Work Place Address is:-  " + workplacepincode);
 		sendkeys(workplacepincodeedittext, workplacepincode);
 		return this;
 
@@ -40,7 +41,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterWorkPlaceAddress(String workplaceaddress) {
 		click(workplaceaddressedittext);
 		clear(workplaceaddressedittext);
-		System.out.println("Work Place Address is:-  " + workplaceaddress);
+		utils.log("Work Place Address is:-  " + workplaceaddress);
 		sendkeys(workplaceaddressedittext, workplaceaddress);
 		return this;
 
@@ -50,7 +51,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterWorkPlaceName(String workplacename) {
 		click(workplacenameedittext);
 		clear(workplacenameedittext);
-		System.out.println("Work Place Name is:-  " + workplacename);
+		utils.log("Work Place Name is:-  " + workplacename);
 		sendkeys(workplacenameedittext, workplacename);
 		return this;
 
@@ -60,7 +61,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterMonthlyIncome(String income) {
 		click(monthlyincomeedittext);
 		clear(monthlyincomeedittext);
-		System.out.println("Monthly income is:-  " + income);
+		utils.log("Monthly income is:-  " + income);
 		sendkeys(monthlyincomeedittext, income);
 		return this;
 
@@ -69,7 +70,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterPanNumber(String pannumber) {
 		click(pannumberedittext);
 		clear(pannumberedittext);
-		System.out.println("Pan Number is:-  " + pannumber);
+		utils.log("Pan Number is:-  " + pannumber);
 		sendkeys(pannumberedittext, pannumber);
 		return this;
 

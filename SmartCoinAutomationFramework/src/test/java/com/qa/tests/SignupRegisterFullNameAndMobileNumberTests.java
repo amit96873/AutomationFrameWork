@@ -36,11 +36,11 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 	LanguagePage languagePage;
 	PermissionPage permissionpage;
 	RegisterNameMobileNumberPage registrationpage;
-	InputStream datais;
 	JSONObject loginuser;
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
+		InputStream datais = null;
 		try {
 			String dataFileName = "data/loginuser.json";
 			datais = getClass().getClassLoader().getResourceAsStream(dataFileName);

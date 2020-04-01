@@ -1,11 +1,13 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class AddBankAccountWithChequeLeafPage extends BaseTest{
+	TestUtils utils = new TestUtils();
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Edit Bank Account' and @index='0']") private MobileElement editbankaccountpagetitletext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Add a Bank Account' and @index='0']") private MobileElement addbankaccountpagetitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/bank_account_number") private MobileElement enteraccountnumbertextfield;
@@ -42,14 +44,14 @@ public class AddBankAccountWithChequeLeafPage extends BaseTest{
 	public String getErrInvalidAccountNumber() {
 
 		String invalidAccountnumberError= getText(invalidaccountnumbererrortext);
-		System.out.println("Error AccountNumber Text is :- " + invalidAccountnumberError);
+		utils.log("Error AccountNumber Text is :- " + invalidAccountnumberError);
 		return invalidAccountnumberError;
 	}
 	
 	public String getErrEmptyCheckLeaffield() {
 
 		String EmptycheckleafError= getText(emptycheckleaferrortext);
-		System.out.println("Error AccountNumber Text is :- " + EmptycheckleafError);
+		utils.log("Error AccountNumber Text is :- " + EmptycheckleafError);
 		return EmptycheckleafError;
 	}
 	public String getErrEmptyEditTextfield() {
@@ -62,14 +64,14 @@ public class AddBankAccountWithChequeLeafPage extends BaseTest{
 	public AddBankAccountWithChequeLeafPage enterBankAccountNumber(String accountnumber) {
 		click(aacountnumberup);
 		clear(enteraccountnumbertextfield);
-		System.out.println("Account Number is:-  " + accountnumber);
+		utils.log("Account Number is:-  " + accountnumber);
 		sendkeys(enteraccountnumbertextfield, accountnumber);
 		return this;
 	}
 	public AddBankAccountWithChequeLeafPage reenterBankAccountNumber(String reenteraccountnumber) {
 		click(reenteraccountnumberup);
 		clear(reenteraccountnumbertextfield);
-		System.out.println("ReEnter Account Number is:-  " + reenteraccountnumber);
+		utils.log("ReEnter Account Number is:-  " + reenteraccountnumber);
 		sendkeys(reenteraccountnumbertextfield, reenteraccountnumber);
 		return this;
 	}

@@ -1,11 +1,13 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class AddBankAccountWithIfscCodePage extends BaseTest{
+	TestUtils utils = new TestUtils();
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Add a Bank Account' and @index='0']") private MobileElement addbankaccountpagetitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/bank_account_number") private MobileElement enteraccountnumbertextfield;
 	@AndroidFindBy (id = "in.rebase.app:id/re_bank_account_number") private MobileElement reenteraccountnumbertextfield;
@@ -28,40 +30,40 @@ public class AddBankAccountWithIfscCodePage extends BaseTest{
 	public String getErrEmptyEditTextfield() {
 
 		String AccountError= getText(emptyerrortext);
-		System.out.println("Error AccountNumber Text is :- " + AccountError);
+		utils.log("Error AccountNumber Text is :- " + AccountError);
 		return AccountError;
 	}
 	public String getErrInvalidIfscCode() {
 
 		String invalidifsccodeError= getText(invalidifsccodeerrortext);
-		System.out.println("Error IFSC Code Text is :- " + invalidifsccodeError);
+		utils.log("Error IFSC Code Text is :- " + invalidifsccodeError);
 		return invalidifsccodeError;
 	}
 	public String getErrInvalidAccountNumber() {
 
 		String invalidAccountnumberError= getText(invalidaccountnumbererrortext);
-		System.out.println("Error AccountNumber Text is :- " + invalidAccountnumberError);
+		utils.log("Error AccountNumber Text is :- " + invalidAccountnumberError);
 		return invalidAccountnumberError;
 	}
 
 	public AddBankAccountWithIfscCodePage enterBankAccountNumber(String accountnumber) {
 		click(aacountnumberup);
 		clear(enteraccountnumbertextfield);
-		System.out.println("Account Number is:-  " + accountnumber);
+		utils.log("Account Number is:-  " + accountnumber);
 		sendkeys(enteraccountnumbertextfield, accountnumber);
 		return this;
 	}
 	public AddBankAccountWithIfscCodePage reenterBankAccountNumber(String reenteraccountnumber) {
 		click(reenteraccountnumberup);
 		clear(reenteraccountnumbertextfield);
-		System.out.println("ReEnter Account Number is:-  " + reenteraccountnumber);
+		utils.log("ReEnter Account Number is:-  " + reenteraccountnumber);
 		sendkeys(reenteraccountnumbertextfield, reenteraccountnumber);
 		return this;
 	}
 	public AddBankAccountWithIfscCodePage enterIfscCode(String ifsccode) {
 		click(ifsccodeup);
 		clear(enterifsccodeedittext);
-		System.out.println("IFSC Code is:-  " + ifsccode);
+		utils.log("IFSC Code is:-  " + ifsccode);
 		sendkeys(enterifsccodeedittext, ifsccode);
 		return this;
 	}

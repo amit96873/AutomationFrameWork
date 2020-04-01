@@ -3,13 +3,14 @@ package com.qa.pages;
 import org.openqa.selenium.By;
 
 import com.qa.BaseTest;
+import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class EditPersionalDetailsPage extends BaseTest{
 	
-	
+	TestUtils utils = new TestUtils();
 	@AndroidFindBy (id = "in.rebase.app:id/name") private MobileElement enternametext;
 	@AndroidFindBy (id = "in.rebase.app:id/mobile_number") private MobileElement entermobilenumbertext;
 	@AndroidFindBy (id = "in.rebase.app:id/dob") private MobileElement dobspinner;
@@ -79,7 +80,7 @@ public class EditPersionalDetailsPage extends BaseTest{
 	public EditPersionalDetailsPage enterFullName(String fullname) {
 		click(enternametext);
 		clear(enternametext);
-		System.out.println("Full Name is:-  " + fullname);
+		utils.log("Full Name is:-  " + fullname);
 		sendkeys(enternametext, fullname);
 		return this;
 
@@ -87,35 +88,35 @@ public class EditPersionalDetailsPage extends BaseTest{
 	public EditPersionalDetailsPage enterMobileNumber(String mobileNumber) {
 		click(entermobilenumbertext);
 		clear(entermobilenumbertext);
-		System.out.println("Mobile Number is :-" + mobileNumber);
+		utils.log("Mobile Number is :-" + mobileNumber);
 		sendkeys(entermobilenumbertext, mobileNumber);
 		return this;
 	}
 	public EditPersionalDetailsPage enterCurrentAddress(String address) {
 		click(editaddresstext);
 		clear(editaddresstext);
-		System.out.println(" Current Address is :-" + address);
+		utils.log(" Current Address is :-" + address);
 		sendkeys(editaddresstext, address);
 		return this;
 	}
 	public EditPersionalDetailsPage enterPinCode(String pincode) {
 		click(pincodeedittext);
 		clear(pincodeedittext);
-		System.out.println(" Pin Code is :-" + pincode);
+		utils.log(" Pin Code is :-" + pincode);
 		sendkeys(pincodeedittext, pincode);
 		return this;
 	}
 	public EditPersionalDetailsPage enterFathersName(String fathersname) {
 		click(fathersnameedittext);
 		clear(fathersnameedittext);
-		System.out.println(" Fathers Name is :-" + fathersname);
+		utils.log(" Fathers Name is :-" + fathersname);
 		sendkeys(fathersnameedittext, fathersname);
 		return this;
 	}
 	public EditPersionalDetailsPage enterMothersname(String mothersname) {
 		click(mothersnameedittext);
 		clear(mothersnameedittext);
-		System.out.println(" Mothers Name is :-" + mothersname);
+		utils.log(" Mothers Name is :-" + mothersname);
 		sendkeys(mothersnameedittext, mothersname);
 		return this;
 	}

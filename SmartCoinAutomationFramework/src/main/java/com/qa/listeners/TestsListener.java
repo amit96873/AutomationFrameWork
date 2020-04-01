@@ -14,9 +14,10 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 
 import com.qa.BaseTest;
+import com.qa.utils.TestUtils;
 
 public class TestsListener implements ITestListener{
-	
+	TestUtils utils = new TestUtils();
 	
 	public void  onTestFailure(ITestResult result) {
 		
@@ -24,7 +25,7 @@ public class TestsListener implements ITestListener{
 			StringWriter sw = new StringWriter();
 			PrintWriter pw = new PrintWriter(sw);
 			result.getThrowable().printStackTrace(pw);
-			System.out.println(sw.toString());
+			utils.log(sw.toString());
 		}
 		BaseTest base = new BaseTest();
 		File file = base.getDriver().getScreenshotAs(OutputType.FILE);

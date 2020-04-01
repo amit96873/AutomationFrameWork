@@ -3,12 +3,14 @@ package com.qa.pages;
 
 import com.qa.BaseTest;
 import com.qa.BaseTestForSigninSignUp;
+import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 
+	TestUtils utils = new TestUtils();
 	@AndroidFindBy (id = "in.rebase.app:id/primary_action_text") private MobileElement regcontinuebutton;	
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Need Instant Loan? Register with us...' and @index='1']") private MobileElement registernamenumtitletxt;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Full Name' and @index='2']") private MobileElement upfullnamelayer;
@@ -35,7 +37,7 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public RegisterNameMobileNumberPage enterFullName(String fullname) {
 		click(upfullnamelayer);
 		clear(fullnameTxtFld);
-		System.out.println("Full Name is:-  " + fullname);
+		utils.log("Full Name is:-  " + fullname);
 		sendkeys(fullnameTxtFld, fullname);
 		return this;
 
@@ -49,7 +51,7 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public RegisterNameMobileNumberPage enterMobileNumber(String mobileNumber) {
 		click(upmobilenumberlayer);
 		clear(mobileNumberTxtFld);
-		System.out.println("Mobile Number is :-" + mobileNumber);
+		utils.log("Mobile Number is :-" + mobileNumber);
 		sendkeys(mobileNumberTxtFld, mobileNumber);
 		return this;
 	}
@@ -65,7 +67,7 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public String getErrTxtMobileNumber() {
 
 		String MobileNumberError =  getText(errortextformobilenumber);
-		System.out.println("Error Mobile Number Text is:- " + MobileNumberError);
+		utils.log("Error Mobile Number Text is:- " + MobileNumberError);
 		return MobileNumberError;
 	}
 
@@ -80,7 +82,7 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public PermissionPage pressRegContinueBtn() {
 		click(registernamenumtitletxt);
 		click(regcontinuebutton);
-		System.out.println("Click Register Continue button");
+		utils.log("Click Register Continue button");
 		return new PermissionPage();
 	}
 	

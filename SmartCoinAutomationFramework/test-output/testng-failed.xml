@@ -8,11 +8,14 @@
     <parameter name="platformVersion" value="9.0"/>
     <parameter name="devicename" value="Android Emulator"/>
     <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="emulator-5554"/>
     <classes>
       <class name="com.qa.tests.KYCUploadDocumentsPageTests">
         <methods>
+          <include name="checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe"/>
           <include name="afterTest"/>
           <include name="beforeClass"/>
+          <include name="checkHomePageScrolling"/>
           <include name="beforeMethod"/>
           <include name="checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe"/>
           <include name="beforeTest"/>

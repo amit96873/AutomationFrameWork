@@ -1,13 +1,14 @@
 package com.qa.pages;
 
 import com.qa.BaseTest;
+import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class CreatedMyKhataAddNewContactsPage extends BaseTest {
 
-
+	TestUtils utils = new TestUtils();
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Add New Contact' and @index='0']") private MobileElement addnewcontactspagetitle;
 	@AndroidFindBy (xpath = "//android.widget.ImageButton[@text='' and @index='0']") private MobileElement reversebtn;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Add Name (Required)' and @index='2']") private MobileElement nameedittext;
@@ -23,7 +24,7 @@ public class CreatedMyKhataAddNewContactsPage extends BaseTest {
 	public CreatedMyKhataAddNewContactsPage enterKhataName(String khataname) {
 		click(nameedittext);
 		clear(nameedittext);
-		System.out.println("Enter khata Name is:-  " + khataname);
+		utils.log("Enter khata Name is:-  " + khataname);
 		sendkeys(nameedittext, khataname);
 		return this;
 
@@ -31,7 +32,7 @@ public class CreatedMyKhataAddNewContactsPage extends BaseTest {
 	public CreatedMyKhataAddNewContactsPage enterKhataNumber(String khatanumber) {
 		click(numberedittext);
 		clear(numberedittext);
-		System.out.println("Enter khata Name is:-  " + khatanumber);
+		utils.log("Enter khata Name is:-  " + khatanumber);
 		sendkeys(numberedittext, khatanumber);
 		return this;
 
@@ -39,7 +40,7 @@ public class CreatedMyKhataAddNewContactsPage extends BaseTest {
 	public CreatedMyKhataAddNewContactsPage enterKhataEmailId(String khataemailid) {
 		click(emailedittext);
 		clear(emailedittext);
-		System.out.println("Enter khata Name is:-  " + khataemailid);
+		utils.log("Enter khata Name is:-  " + khataemailid);
 		sendkeys(emailedittext, khataemailid);
 		return this;
 
