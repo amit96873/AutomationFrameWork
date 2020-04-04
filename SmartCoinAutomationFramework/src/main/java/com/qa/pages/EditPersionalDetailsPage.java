@@ -80,7 +80,7 @@ public class EditPersionalDetailsPage extends BaseTest{
 	public EditPersionalDetailsPage enterFullName(String fullname) {
 		click(enternametext);
 		clear(enternametext);
-		utils.log("Full Name is:-  " + fullname);
+		utils.log().info("Full Name is:-  " + fullname);
 		sendkeys(enternametext, fullname);
 		return this;
 
@@ -88,35 +88,35 @@ public class EditPersionalDetailsPage extends BaseTest{
 	public EditPersionalDetailsPage enterMobileNumber(String mobileNumber) {
 		click(entermobilenumbertext);
 		clear(entermobilenumbertext);
-		utils.log("Mobile Number is :-" + mobileNumber);
+		utils.log().info("Mobile Number is :-" + mobileNumber);
 		sendkeys(entermobilenumbertext, mobileNumber);
 		return this;
 	}
 	public EditPersionalDetailsPage enterCurrentAddress(String address) {
 		click(editaddresstext);
 		clear(editaddresstext);
-		utils.log(" Current Address is :-" + address);
+		utils.log().info(" Current Address is :-" + address);
 		sendkeys(editaddresstext, address);
 		return this;
 	}
 	public EditPersionalDetailsPage enterPinCode(String pincode) {
 		click(pincodeedittext);
 		clear(pincodeedittext);
-		utils.log(" Pin Code is :-" + pincode);
+		utils.log().info(" Pin Code is :-" + pincode);
 		sendkeys(pincodeedittext, pincode);
 		return this;
 	}
 	public EditPersionalDetailsPage enterFathersName(String fathersname) {
 		click(fathersnameedittext);
 		clear(fathersnameedittext);
-		utils.log(" Fathers Name is :-" + fathersname);
+		utils.log().info(" Fathers Name is :-" + fathersname);
 		sendkeys(fathersnameedittext, fathersname);
 		return this;
 	}
 	public EditPersionalDetailsPage enterMothersname(String mothersname) {
 		click(mothersnameedittext);
 		clear(mothersnameedittext);
-		utils.log(" Mothers Name is :-" + mothersname);
+		utils.log().info(" Mothers Name is :-" + mothersname);
 		sendkeys(mothersnameedittext, mothersname);
 		return this;
 	}

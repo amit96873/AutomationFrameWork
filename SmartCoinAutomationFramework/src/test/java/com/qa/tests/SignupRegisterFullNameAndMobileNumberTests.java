@@ -8,6 +8,7 @@ import com.qa.pages.LanguagePage;
 import com.qa.pages.PermissionPage;
 import com.qa.pages.RegisterNameMobileNumberPage;
 import com.qa.pages.SignupPage;
+import com.qa.utils.TestUtils;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -37,7 +38,8 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 	PermissionPage permissionpage;
 	RegisterNameMobileNumberPage registrationpage;
 	JSONObject loginuser;
-
+	TestUtils utils = new TestUtils();
+	
 	@BeforeClass
 	public void beforeClass() throws Exception {
 		InputStream datais = null;
@@ -73,7 +75,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		signupPage= new SignupPage();
-		System.out.println("\n"+"******** starting test:"+m.getName() + "********");
+		utils.log().info("\n"+"******** starting test:"+m.getName() + "********");
 
 
 	}
@@ -99,7 +101,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNameErrorText=getString().get("fullName_Error_text");
 		sa.assertEquals(errortextforname, expectedNameErrorText);
 		sa.assertAll();
-		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
+		utils.log().info("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
 
 
 	}
@@ -121,7 +123,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
-		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
+		utils.log().info("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
 	}
 
 
@@ -142,7 +144,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNameErrorText=getString().get("fullName_Error_text");
 		sa.assertEquals(errortextforname, expectedNameErrorText);
 		sa.assertAll();
-		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
+		utils.log().info("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
 
 
 	}
@@ -169,8 +171,8 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
-		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
-		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
+		utils.log().info("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
+		utils.log().info("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
 
 
 
@@ -194,7 +196,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNameErrorText=getString().get("fullName_Error_text");
 		sa.assertEquals(errortextforname, expectedNameErrorText);
 		sa.assertAll();
-		System.out.println("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
+		utils.log().info("Actual ErrorText:- " + errortextforname + "\n" + "Expected ErrorText:- "+expectedNameErrorText);
 
 
 
@@ -218,7 +220,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
-		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
+		utils.log().info("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
 
 	}
 
@@ -240,7 +242,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
-		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
+		utils.log().info("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
 
 
 	}
@@ -263,7 +265,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedNumberErrorText=getString().get("mobileNumber_Error_text");
 		sa.assertEquals(errortextfornumber, expectedNumberErrorText);
 		sa.assertAll();
-		System.out.println("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
+		utils.log().info("actual ErrorText:- " + errortextfornumber + "\n" + "expected ErrorText:- "+expectedNumberErrorText);
 
 	}
 
@@ -285,7 +287,7 @@ public class SignupRegisterFullNameAndMobileNumberTests extends BaseTestForSigni
 		String expectedResult=getString().get("Permission_Page_Title");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 
 	}
 

@@ -33,7 +33,7 @@ public class UploadBankStatementsPage extends BaseTest{
 	public UploadBankStatementsPage enterPassword(String password) {
 		click(enterpasswordup);
 		clear(enterpasswordedittext);
-		utils.log("Bank Statement PDF Password is:-  " + password);
+		utils.log().info("Bank Statement PDF Password is:-  " + password);
 		sendkeys(enterpasswordedittext, password);
 		return this;
 

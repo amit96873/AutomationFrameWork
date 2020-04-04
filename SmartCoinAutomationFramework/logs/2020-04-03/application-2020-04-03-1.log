@@ -1,0 +1,5 @@
+[INFO ] 2020-04-03 13:21:.910 BaseTest:144 - this is info message
+"[ERROR] 2020-04-03 13:21:.922 BaseTest:145 - this is error message
+"[DEBUG] 2020-04-03 13:21:.922 BaseTest:146 - this is debug message
+"[WARN ] 2020-04-03 13:21:.923 BaseTest:147 - this is warning message
+"

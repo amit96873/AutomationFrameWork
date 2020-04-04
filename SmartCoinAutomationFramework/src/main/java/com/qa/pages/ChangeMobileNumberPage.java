@@ -24,7 +24,7 @@ public class ChangeMobileNumberPage extends BaseTest{
 	public ChangeMobileNumberPage enterNewMobileNumber(String changenumber) {
 		click(enternumberedittext);
 		clear(enternumberedittext);
-		utils.log("Change Number is:-  " + changenumber);
+		utils.log().info("Change Number is:-  " + changenumber);
 		sendkeys(enternumberedittext, changenumber);
 		return this;
 

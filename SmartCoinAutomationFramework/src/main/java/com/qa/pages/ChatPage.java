@@ -25,7 +25,7 @@ public class ChatPage extends BaseTest{
 	public ChatPage enterChatMessage(String message) {
 		click(messageedittext);
 		clear(messageedittext);
-		utils.log("Message is:-  " + message);
+		utils.log().info("Message is:-  " + message);
 		sendkeys(messageedittext, message);
 		return this;
 

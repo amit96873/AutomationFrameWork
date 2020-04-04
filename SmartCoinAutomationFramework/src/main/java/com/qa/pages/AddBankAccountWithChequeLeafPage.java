@@ -44,34 +44,34 @@ public class AddBankAccountWithChequeLeafPage extends BaseTest{
 	public String getErrInvalidAccountNumber() {
 
 		String invalidAccountnumberError= getText(invalidaccountnumbererrortext);
-		utils.log("Error AccountNumber Text is :- " + invalidAccountnumberError);
+		utils.log().info("Error AccountNumber Text is :- " + invalidAccountnumberError);
 		return invalidAccountnumberError;
 	}
 	
 	public String getErrEmptyCheckLeaffield() {
 
 		String EmptycheckleafError= getText(emptycheckleaferrortext);
-		utils.log("Error AccountNumber Text is :- " + EmptycheckleafError);
+		utils.log().info("Error AccountNumber Text is :- " + EmptycheckleafError);
 		return EmptycheckleafError;
 	}
 	public String getErrEmptyEditTextfield() {
 
 		String AccountError= getText(emptyerrortext);
-		System.out.println("Error AccountNumber Text is :- " + AccountError);
+		utils.log().info("Error AccountNumber Text is :- " + AccountError);
 		return AccountError;
 	}
 
 	public AddBankAccountWithChequeLeafPage enterBankAccountNumber(String accountnumber) {
 		click(aacountnumberup);
 		clear(enteraccountnumbertextfield);
-		utils.log("Account Number is:-  " + accountnumber);
+		utils.log().info("Account Number is:-  " + accountnumber);
 		sendkeys(enteraccountnumbertextfield, accountnumber);
 		return this;
 	}
 	public AddBankAccountWithChequeLeafPage reenterBankAccountNumber(String reenteraccountnumber) {
 		click(reenteraccountnumberup);
 		clear(reenteraccountnumbertextfield);
-		utils.log("ReEnter Account Number is:-  " + reenteraccountnumber);
+		utils.log().info("ReEnter Account Number is:-  " + reenteraccountnumber);
 		sendkeys(reenteraccountnumbertextfield, reenteraccountnumber);
 		return this;
 	}

@@ -37,7 +37,7 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public RegisterNameMobileNumberPage enterFullName(String fullname) {
 		click(upfullnamelayer);
 		clear(fullnameTxtFld);
-		utils.log("Full Name is:-  " + fullname);
+		utils.log().info("Full Name is:-  " + fullname);
 		sendkeys(fullnameTxtFld, fullname);
 		return this;
 
@@ -51,7 +51,7 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public RegisterNameMobileNumberPage enterMobileNumber(String mobileNumber) {
 		click(upmobilenumberlayer);
 		clear(mobileNumberTxtFld);
-		utils.log("Mobile Number is :-" + mobileNumber);
+		utils.log().info("Mobile Number is :-" + mobileNumber);
 		sendkeys(mobileNumberTxtFld, mobileNumber);
 		return this;
 	}
@@ -67,7 +67,7 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public String getErrTxtMobileNumber() {
 
 		String MobileNumberError =  getText(errortextformobilenumber);
-		utils.log("Error Mobile Number Text is:- " + MobileNumberError);
+		utils.log().info("Error Mobile Number Text is:- " + MobileNumberError);
 		return MobileNumberError;
 	}
 
@@ -75,14 +75,14 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	public String getErrTxtName() {
 
 		String nameError= getText(errortextforname);
-		System.out.println("Error Full Name Text is :- " + nameError);
+		utils.log().info("Error Full Name Text is :- " + nameError);
 		return nameError;
 	}
 
 	public PermissionPage pressRegContinueBtn() {
 		click(registernamenumtitletxt);
 		click(regcontinuebutton);
-		utils.log("Click Register Continue button");
+		utils.log().info("Click Register Continue button");
 		return new PermissionPage();
 	}
 	

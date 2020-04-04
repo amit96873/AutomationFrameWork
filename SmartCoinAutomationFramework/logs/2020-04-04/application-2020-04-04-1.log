@@ -1,0 +1,15 @@
+[INFO ] 2020-04-04 13:52:.486 AllureListener:44 - I am in OnStart Method KYC Documents Page Tests
+"[INFO ] 2020-04-04 13:53:.344 KYCUploadDocumentsPageTests:149 - 
+******** starting test:checkHomePageScrolling********
+"[INFO ] 2020-04-04 13:53:.580 AllureListener:55 - I am in OnStart Method checkHomePageScrollingStart
+"[INFO ] 2020-04-04 13:53:.881 KYCUploadDocumentsPageTests:170 - actual title - Enter your 4-digit Pin
+expected title - Enter your 4-digit Pin
+"[INFO ] 2020-04-04 13:53:.016 KYCUploadDocumentsPageTests:179 - actual title - SmartCoin
+expected title - SmartCoin
+"[INFO ] 2020-04-04 13:53:.881 KYCUploadDocumentsPageTests:189 - actual title - KYC : Upload Documents
+expected title - KYC : Upload Documents
+"[INFO ] 2020-04-04 13:53:.888 AllureListener:60 - I am in OnTest Success Method checkHomePageScrollingSucceed
+"[INFO ] 2020-04-04 13:53:.888 AllureListener:66 - Scrren Shot Captured For Test Case: checkHomePageScrolling
+"[INFO ] 2020-04-04 13:53:.487 KYCUploadDocumentsPageTests:149 - 
+******** starting test:checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe********
+"

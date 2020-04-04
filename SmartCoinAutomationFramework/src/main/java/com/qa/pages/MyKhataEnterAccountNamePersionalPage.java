@@ -29,7 +29,7 @@ public class MyKhataEnterAccountNamePersionalPage extends BaseTest {
 	public MyKhataEnterAccountNamePersionalPage enterPersionalKhataName(String khataname) {
 		click(khatanameedittextview);
 		clear(khatanameedittextview);
-		utils.log("Enter khata Name is:-  " + khataname);
+		utils.log().info("Enter khata Name is:-  " + khataname);
 		sendkeys(khatanameedittextview, khataname);
 		return this;
 

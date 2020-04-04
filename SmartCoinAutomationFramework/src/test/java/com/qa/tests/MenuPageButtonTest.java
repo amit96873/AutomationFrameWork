@@ -39,6 +39,8 @@ import com.qa.pages.SigninPage;
 import com.qa.pages.SmartCoinRewardsPage;
 import com.qa.pages.TroubleShootPage;
 import com.qa.pages.UploadBankStatementsPage;
+import com.qa.utils.TestUtils;
+
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -49,6 +51,8 @@ import io.qameta.allure.Story;
 
 @Listeners({AllureListener.class})
 public class MenuPageButtonTest extends BaseTest {
+	
+	TestUtils utils = new TestUtils();
 	SigninPage signinPage;
 	LanguagePage languagePage;
 	PermissionPage permissionpage;
@@ -110,7 +114,7 @@ public class MenuPageButtonTest extends BaseTest {
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		enterpasswordpage = new EnterPasswordPage();
-		System.out.println("\n"+"******** starting test:"+m.getName() + "********");
+		utils.log().info("\n"+"******** starting test:"+m.getName() + "********");
 	}
 
 	@AfterMethod
@@ -135,7 +139,7 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin.scrollUp();
 		homepagesmartcoin.scrollDown();
 
@@ -155,13 +159,13 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin = menupage.pressHomeBtn();
 		String actualResult1= homepagesmartcoin.getTitleHomePage();
 		String expectedResult1=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);	
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);	
 	}
 	@Test(priority=3, description="Verify My_Loans Button which is peresence on Menu Page")
 	@Description("Verify My_Loans Button which is peresence on Menu Page")
@@ -177,13 +181,13 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		myloanspage = menupage.pressMyLoanBtn();
 		String actualResult1= myloanspage.getMyloanPageTitle();
 		String expectedResult1=getString().get("myloansPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 	}
 	@Test(priority=4, description="Verify My_Profile Button which is peresence on Menu Page")
 	@Description("Verify My_Profile Button which is peresence on Menu Page")
@@ -199,19 +203,19 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult1=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		menupage = homepagesmartcoin.pressMenuBtn();
 		String actualResult= menupage.getTitleMenuePage();
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		myprofilepage = menupage.pressMyProfileBtn();
 		String actualResult2= myprofilepage.getMyProfilePageTitle();
 		String expectedResult2=getString().get("myprofilePage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 	
 	@Test(priority=5, description="Verify All_Transaction Button which is peresence on Menu Page")
@@ -228,19 +232,19 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult1=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		menupage = homepagesmartcoin.pressMenuBtn();
 		String actualResult= menupage.getTitleMenuePage();
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		alltransactionpage = menupage.pressAllTransactionBtn();
 		String actualResult2= alltransactionpage.getAllTransactionPageTitle();
 		String expectedResult2=getString().get("alltransactionPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 	@Test(priority=6, description="Verify Help_And_Support Button which is peresence on Menu Page")
 	@Description("Verify Help_And_Support Button which is peresence on Menu Page")
@@ -256,19 +260,19 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult1=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		menupage = homepagesmartcoin.pressMenuBtn();
 		String actualResult= menupage.getTitleMenuePage();
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		helpandsupportpage = menupage.pressHelpAndSupportBtn();
 		String actualResult2= helpandsupportpage.getHelpAndSupportPageTitle();
 		String expectedResult2=getString().get("helpandsupportPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 	@Test(priority=7, description="Verify FAQ Button which is peresence on Menu Page")
 	@Description("Verify FAQ Button which is peresence on Menu Page")
@@ -284,19 +288,19 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult1=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		menupage = homepagesmartcoin.pressMenuBtn();
 		String actualResult= menupage.getTitleMenuePage();
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		faqpage = menupage.pressFAQBtn();
 		String actualResult2= faqpage.getFAQPageTitle();
 		String expectedResult2=getString().get("faqPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 	@Test(priority=8, description="Verify Language Button which is peresence on Menu Page")
 	@Description("Verify Language Button which is peresence on Menu Page")
@@ -312,19 +316,19 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult1=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		menupage = homepagesmartcoin.pressMenuBtn();
 		String actualResult= menupage.getTitleMenuePage();
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		languagesettingpage = menupage.pressLanguageSettingBtn();
 		String actualResult2= languagesettingpage.getLanguagePageTitle();
 		String expectedResult2=getString().get("languagepage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 	@Test(priority=9, description="Verify Troubleshoot Button which is peresence on Menu Page")
 	@Description("Verify Troubleshoot Button which is peresence on Menu Page")
@@ -341,19 +345,19 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		menupage = homepagesmartcoin.pressMenuBtn();
 		String actualResult2= menupage.getTitleMenuePage();
 		String expectedResult2=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 		troubleshootpage = menupage.pressTroubleShootBtn();
 		String actualResult1= troubleshootpage.getTroubleshootPageTitle();
 		String expectedResult1=getString().get("troubleshootpage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 	}
 	@Test(priority=10, description="Verify My_Bank_Details Button which is peresence on Menu Page")
 	@Description("Verify My_Bank_Details Button which is peresence on Menu Page")
@@ -369,18 +373,18 @@ public class MenuPageButtonTest extends BaseTest {
 		String expectedResult1=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		menupage = homepagesmartcoin.pressMenuBtn();
 		String actualResult= menupage.getTitleMenuePage();
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		mybankdetailspage = menupage.pressMyBankDetailsBtntogetMyBankDetailsPage();
 		String actualResult2= mybankdetailspage.getMyBankDetailsPageTitle();
 		String expectedResult2=getString().get("mybankdetailsPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 }

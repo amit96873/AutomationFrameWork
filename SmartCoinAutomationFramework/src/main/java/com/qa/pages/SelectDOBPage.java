@@ -28,7 +28,7 @@ public class SelectDOBPage extends BaseTest{
 		click(monthtext);
 		click(monthtext);
 		clear(monthtext);
-		utils.log("Month is :-" + month);
+		utils.log().info("Month is :-" + month);
 		sendkeys(monthtext, month);
 		return this;
 	}
@@ -36,7 +36,7 @@ public class SelectDOBPage extends BaseTest{
 		click(datetext);
 		click(datetext);
 		clear(datetext);
-		utils.log("Date is :-" + date);
+		utils.log().info("Date is :-" + date);
 		sendkeys(datetext, date);
 		return this;
 	}
@@ -44,7 +44,7 @@ public class SelectDOBPage extends BaseTest{
 		click(yeartext);
 		click(yeartext);
 		clear(yeartext);
-		utils.log("Year is :-" + year);
+		utils.log().info("Year is :-" + year);
 		sendkeys(yeartext, year);
 		return this;
 	}

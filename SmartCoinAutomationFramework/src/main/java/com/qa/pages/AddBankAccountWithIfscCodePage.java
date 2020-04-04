@@ -30,40 +30,40 @@ public class AddBankAccountWithIfscCodePage extends BaseTest{
 	public String getErrEmptyEditTextfield() {
 
 		String AccountError= getText(emptyerrortext);
-		utils.log("Error AccountNumber Text is :- " + AccountError);
+		utils.log().info("Error AccountNumber Text is :- " + AccountError);
 		return AccountError;
 	}
 	public String getErrInvalidIfscCode() {
 
 		String invalidifsccodeError= getText(invalidifsccodeerrortext);
-		utils.log("Error IFSC Code Text is :- " + invalidifsccodeError);
+		utils.log().info("Error IFSC Code Text is :- " + invalidifsccodeError);
 		return invalidifsccodeError;
 	}
 	public String getErrInvalidAccountNumber() {
 
 		String invalidAccountnumberError= getText(invalidaccountnumbererrortext);
-		utils.log("Error AccountNumber Text is :- " + invalidAccountnumberError);
+		utils.log().info("Error AccountNumber Text is :- " + invalidAccountnumberError);
 		return invalidAccountnumberError;
 	}
 
 	public AddBankAccountWithIfscCodePage enterBankAccountNumber(String accountnumber) {
 		click(aacountnumberup);
 		clear(enteraccountnumbertextfield);
-		utils.log("Account Number is:-  " + accountnumber);
+		utils.log().info("Account Number is:-  " + accountnumber);
 		sendkeys(enteraccountnumbertextfield, accountnumber);
 		return this;
 	}
 	public AddBankAccountWithIfscCodePage reenterBankAccountNumber(String reenteraccountnumber) {
 		click(reenteraccountnumberup);
 		clear(reenteraccountnumbertextfield);
-		utils.log("ReEnter Account Number is:-  " + reenteraccountnumber);
+		utils.log().info("ReEnter Account Number is:-  " + reenteraccountnumber);
 		sendkeys(reenteraccountnumbertextfield, reenteraccountnumber);
 		return this;
 	}
 	public AddBankAccountWithIfscCodePage enterIfscCode(String ifsccode) {
 		click(ifsccodeup);
 		clear(enterifsccodeedittext);
-		utils.log("IFSC Code is:-  " + ifsccode);
+		utils.log().info("IFSC Code is:-  " + ifsccode);
 		sendkeys(enterifsccodeedittext, ifsccode);
 		return this;
 	}

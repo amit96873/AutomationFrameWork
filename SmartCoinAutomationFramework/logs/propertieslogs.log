@@ -1,4 +1,0 @@
-[INFO ] 2020-04-01 23:13:15.942 [main] BaseTest - this is info message
-[ERROR] 2020-04-01 23:13:15.952 [main] BaseTest - this is error message
-[DEBUG] 2020-04-01 23:13:15.952 [main] BaseTest - this is debug message
-[WARN ] 2020-04-01 23:13:15.952 [main] BaseTest - this is warning message

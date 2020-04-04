@@ -28,7 +28,7 @@ public class HelpAndSupportPage extends BaseTest{
 
 
 	public ChatPage pressChatBtn() {
-click(chatbtn);
+		click(chatbtn);
 		return new ChatPage();
 	}
 

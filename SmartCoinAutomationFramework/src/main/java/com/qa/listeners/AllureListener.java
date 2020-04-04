@@ -41,29 +41,29 @@ public class AllureListener implements ITestListener{
 	
 	@Override
 	public void onStart(ITestContext iTestContext) {
-		utils.log("I am in OnStart Method "+ iTestContext.getName());
+		utils.log().info("I am in OnStart Method "+ iTestContext.getName());
 		BaseTest base = new BaseTest();
 		iTestContext.setAttribute("WebDriver", base.getDriver());
 	}
 	@Override
 	public void onFinish(ITestContext iTestContext) {
-		utils.log("I am in OnFinish Method "+ iTestContext.getName());
+		utils.log().info("I am in OnFinish Method "+ iTestContext.getName());
 		
 	}
 	@Override
 	public void onTestStart(ITestResult iTestResult) {
-		utils.log("I am in OnStart Method "+ iTestResult.getName()+ "Start");
+		utils.log().info("I am in OnStart Method "+ iTestResult.getName()+ "Start");
 		
 	}
 	@Override
 	public void onTestSuccess(ITestResult iTestResult) {
-		System.out.println("I am in OnTest Success Method "+ iTestResult.getName() + "Succeed");
+		utils.log().info("I am in OnTest Success Method "+ iTestResult.getName() + "Succeed");
 		Object testclass = iTestResult.getInstance();
 		BaseTest base = new BaseTest();
 		AppiumDriver driver = base.getDriver();
 		//Allure ScreenShot and save test log
 		if(driver instanceof AppiumDriver) {
-			utils.log("Scrren Shot Captured For Test Case: "+getTestMethodName(iTestResult));
+			utils.log().info("Scrren Shot Captured For Test Case: "+getTestMethodName(iTestResult));
 			saveFailureScreenShot(driver);
 		}
 		saveTextLog(getTestMethodName(iTestResult)+ "Passed And Screenshot Taken");	
@@ -71,24 +71,24 @@ public class AllureListener implements ITestListener{
 	}
 	@Override
 	public void onTestFailure(ITestResult iTestResult) {
-		utils.log("I am in onTestFailuer Method "+ iTestResult.getName()+ "Failed");
+		utils.log().info("I am in onTestFailuer Method "+ iTestResult.getName()+ "Failed");
 		Object testclass = iTestResult.getInstance();
 		BaseTest base = new BaseTest();
 		AppiumDriver driver = base.getDriver();
 		//Allure ScreenShot and save test log
 		if(driver instanceof AppiumDriver) {
-			utils.log("Scrren Shot Captured For Test Case: "+getTestMethodName(iTestResult));
+			utils.log().info("Scrren Shot Captured For Test Case: "+getTestMethodName(iTestResult));
 			saveFailureScreenShot(driver);
 		}
 		saveTextLog(getTestMethodName(iTestResult)+ "Failed And Screenshot Taken");				
 	}
 	@Override
 	public void onTestSkipped(ITestResult iTestResult) {
-		utils.log("I am in onTestSkipped Method "+ getTestMethodName(iTestResult)+ "Skiped");
+		utils.log().info("I am in onTestSkipped Method "+ getTestMethodName(iTestResult)+ "Skiped");
 	}
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
-		utils.log("Test Failed But It Is Defined Success Ratio "+ getTestMethodName(iTestResult)+ "test failed but within success ratio");
+		utils.log().info("Test Failed But It Is Defined Success Ratio "+ getTestMethodName(iTestResult)+ "test failed but within success ratio");
 	}
 	
 }

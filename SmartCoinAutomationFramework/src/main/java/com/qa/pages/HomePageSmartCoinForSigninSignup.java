@@ -10,7 +10,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class HomePageSmartCoinForSigninSignup extends BaseTestForSigninSignUp  {
 	BaseTestForSigninSignUp bt = new BaseTestForSigninSignUp();
-	
+
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='SmartCoin' and @index='1']") private MobileElement homepagetitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/chat_shortcut") private MobileElement homepagechatshortcut;
 	@AndroidFindBy (xpath = "//android.widget.ImageButton[@content-desc='Open' and @index='0']") private MobileElement menuebutton;
@@ -30,13 +30,13 @@ public class HomePageSmartCoinForSigninSignup extends BaseTestForSigninSignUp  {
 
 	public String getTitleHomePage() {	
 		return getAttribute(homepagetitletext, "text");
-		
+
 	}
 	public LoanOffersPage pressViewAllBtn() {
 		click(viewallbtn);
 		return new LoanOffersPage();
 	}
-	
+
 	public ApplyForLoan pressApplyBtn() {
 		click(applybtn);
 		return new ApplyForLoan();
@@ -44,17 +44,17 @@ public class HomePageSmartCoinForSigninSignup extends BaseTestForSigninSignUp  {
 
 	public String getMyCoinText() {	
 		return getAttribute(mycointext, "text");
-		
+
 	}
 
 	public String getTotalCoinBalanceText() {	
 		return getAttribute(totalcoinbalancetext, "text");
-		
+
 	}
-	
+
 	public String getMyLoanOfferText() {	
 		return getAttribute(myloanoffertitletext, "text");
-		
+
 	}
 	public MyKhataPage pressMyKhataBtn() {
 		click(mykhata);
@@ -68,12 +68,12 @@ public class HomePageSmartCoinForSigninSignup extends BaseTestForSigninSignUp  {
 		click(contactus);
 		return new HelpAndSupportPage();
 	}
-	
+
 	public SmartCoinRewardsPage pressEarnBtn() {
 		click(earnbtn);
 		return new SmartCoinRewardsPage();
 	}
-	
+
 	public MobileNumberOTPVerificationPage pressVerifyMobileNumberBtn() {
 		click(numberverificationbtn);
 		return new MobileNumberOTPVerificationPage();
@@ -82,22 +82,22 @@ public class HomePageSmartCoinForSigninSignup extends BaseTestForSigninSignUp  {
 		click(menuebutton);
 		return new MenuPage();
 	}
-	
+
 	public ChatPage pressChatShortCutBtn() {
 		click(homepagechatshortcut);
 		return new ChatPage();
 	}
-		public void scrollUp() {
-			BaseTestForSigninSignUp bt = new BaseTestForSigninSignUp();
+	public void scrollUp() {
+		BaseTestForSigninSignUp bt = new BaseTestForSigninSignUp();
 		bt.scrollToElement(myutilitytext, "up");	
 	}
-		public void scrollDown() {
-			BaseTestForSigninSignUp bt = new BaseTestForSigninSignUp();
-			bt.scrollToElement(myutilitytext, "down");	
-		}
-	
-public UploadBankStatementsPage pressUploadBankStatementBtn() {
-	click(uploadbankstatementbtn);
-	return new UploadBankStatementsPage();
-}
+	public void scrollDown() {
+		BaseTestForSigninSignUp bt = new BaseTestForSigninSignUp();
+		bt.scrollToElement(myutilitytext, "down");	
+	}
+
+	public UploadBankStatementsPage pressUploadBankStatementBtn() {
+		click(uploadbankstatementbtn);
+		return new UploadBankStatementsPage();
+	}
 }

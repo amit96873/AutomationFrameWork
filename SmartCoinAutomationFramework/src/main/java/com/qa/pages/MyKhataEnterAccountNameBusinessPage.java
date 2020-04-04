@@ -31,7 +31,7 @@ public class MyKhataEnterAccountNameBusinessPage extends BaseTest{
 	public MyKhataEnterAccountNameBusinessPage enterBusinessKhataName(String khataname) {
 		click(khatanameedittextview);
 		clear(khatanameedittextview);
-		utils.log("Enter khata Name is:-  " + khataname);
+		utils.log().info("Enter khata Name is:-  " + khataname);
 		sendkeys(khatanameedittextview, khataname);
 		return this;
 
@@ -39,7 +39,7 @@ public class MyKhataEnterAccountNameBusinessPage extends BaseTest{
 	public MyKhataEnterAccountNameBusinessPage enterBusinessName(String businessname) {
 		click(businnessnameedittext);
 		clear(businnessnameedittext);
-		utils.log("Enter Business Name is:-  " + businessname);
+		utils.log().info("Enter Business Name is:-  " + businessname);
 		sendkeys(businnessnameedittext, businessname);
 		return this;
 

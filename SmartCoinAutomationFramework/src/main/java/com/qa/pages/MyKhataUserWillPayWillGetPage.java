@@ -41,7 +41,7 @@ public class MyKhataUserWillPayWillGetPage extends BaseTest {
 	public MyKhataUserWillPayWillGetPage enterBalance(String balance) {
 		click(startingbalancetext);
 		clear(startingbalancetext);
-		utils.log("Enter Balance is:-  " + balance);
+		utils.log().info("Enter Balance is:-  " + balance);
 		sendkeys(startingbalancetext, balance);
 		return this;
 	}
@@ -49,7 +49,7 @@ public class MyKhataUserWillPayWillGetPage extends BaseTest {
 	public MyKhataUserWillPayWillGetPage enterNotes(String notes) {
 		click(noteeditrtext);
 		clear(noteeditrtext);
-		utils.log("Enter Notes is:-  " + notes);
+		utils.log().info("Enter Notes is:-  " + notes);
 		sendkeys(noteeditrtext, notes);
 		return this;
 	}

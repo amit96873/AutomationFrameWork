@@ -24,7 +24,7 @@ public class CreatedMyKhataAddNewContactsPage extends BaseTest {
 	public CreatedMyKhataAddNewContactsPage enterKhataName(String khataname) {
 		click(nameedittext);
 		clear(nameedittext);
-		utils.log("Enter khata Name is:-  " + khataname);
+		utils.log().info("Enter khata Name is:-  " + khataname);
 		sendkeys(nameedittext, khataname);
 		return this;
 
@@ -32,7 +32,7 @@ public class CreatedMyKhataAddNewContactsPage extends BaseTest {
 	public CreatedMyKhataAddNewContactsPage enterKhataNumber(String khatanumber) {
 		click(numberedittext);
 		clear(numberedittext);
-		utils.log("Enter khata Name is:-  " + khatanumber);
+		utils.log().info("Enter khata Name is:-  " + khatanumber);
 		sendkeys(numberedittext, khatanumber);
 		return this;
 
@@ -40,7 +40,7 @@ public class CreatedMyKhataAddNewContactsPage extends BaseTest {
 	public CreatedMyKhataAddNewContactsPage enterKhataEmailId(String khataemailid) {
 		click(emailedittext);
 		clear(emailedittext);
-		utils.log("Enter khata Name is:-  " + khataemailid);
+		utils.log().info("Enter khata Name is:-  " + khataemailid);
 		sendkeys(emailedittext, khataemailid);
 		return this;
 

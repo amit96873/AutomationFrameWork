@@ -19,14 +19,14 @@ public class FacebookPage extends BaseTestForSigninSignUp {
 	
 	public FacebookPage enterUserName(String username) {
 		clear(usernameTxtFld);
-		utils.log("UserName is:-  " + username);
+		utils.log().info("UserName is:-  " + username);
 		sendkeys(usernameTxtFld, username);
 		return this;
 
 	}
 	public FacebookPage enterPassword(String password) {
 		clear(passwordTxtFld);
-		utils.log("Password is:-  " + password);
+		utils.log().info("Password is:-  " + password);
 		sendkeys(passwordTxtFld, password);
 		return this;
 

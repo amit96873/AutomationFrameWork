@@ -56,6 +56,7 @@ import com.qa.pages.UploadBankStatementsPage;
 import com.qa.pages.UploadPanCardSuggestionPage;
 import com.qa.pages.UploadSelfieSugestionPage;
 import com.qa.pages.UploadUtilityBillSugestionPage;
+import com.qa.utils.TestUtils;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -64,9 +65,9 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
+
 @Listeners({AllureListener.class})
 public class KYCUploadDocumentsPageTests extends BaseTest{
-
 
 	SigninPage signinPage;
 	LanguagePage languagePage;
@@ -112,7 +113,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 	ApplyForLoan applyforloan;
 	InputStream datais;
 	JSONObject loginuser;
-
+	TestUtils utils = new TestUtils();
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
@@ -145,7 +146,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		enterpasswordpage = new EnterPasswordPage();
-		System.out.println("\n"+"******** starting test:"+m.getName() + "********");
+		utils.log().info("\n"+"******** starting test:"+m.getName() + "********");
 	}
 
 	@AfterMethod
@@ -166,7 +167,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		String expectedResult1=getString().get("enterpasswordpage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);	
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);	
 		enterpasswordpage.pressOne();
 		enterpasswordpage.pressTwo();
 		enterpasswordpage.pressThree();
@@ -175,7 +176,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		String expectedResult=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin.scrollUp();
 		myprofilepage = homepagesmartcoin.pressMyProfileBtn();
 		homepagesmartcoin.scrollUp();
@@ -185,7 +186,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		String expectedResult2=getString().get("editkycpage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 
 	}
 	@Test(priority=2, description="Verify Edit KYC Details Page by Uploading valid data and Scrolling and documents uploaded Aadhar front as ID proof and Aadhar back As Address Proof")
@@ -223,7 +224,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		String expectedResult2=getString().get("documentsuploadedconfirmationmessage_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 
 	}
 	@Test(priority=3, description="Verify Edit KYC Details Page by Uploading valid data and Scrolling and documents uploaded Pan Card as ID proof and Utillity bills  As Address Proof")
@@ -241,7 +242,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		String expectedResult2=getString().get("editkycpage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 		selectiddocumentspage = kycuploaddocumentspage.pressSelectAnotherIdDocumentsBtn();
 		selectiddocumentspage.pressSelectPanCardBtn();
 		kycuploaddocumentspage = selectiddocumentspage.pressOkBtn();
@@ -268,7 +269,7 @@ public class KYCUploadDocumentsPageTests extends BaseTest{
 		String expectedResult3=getString().get("documentsuploadedconfirmationmessage_Text");
 		Assert.assertEquals(actualResult3, expectedResult3);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
+		utils.log().info("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
 
 	}	
 }	

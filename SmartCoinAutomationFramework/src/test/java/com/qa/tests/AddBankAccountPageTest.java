@@ -45,6 +45,7 @@ import com.qa.pages.SigninPage;
 import com.qa.pages.SmartCoinRewardsPage;
 import com.qa.pages.TroubleShootPage;
 import com.qa.pages.UploadBankStatementsPage;
+import com.qa.utils.TestUtils;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -89,7 +90,7 @@ public class AddBankAccountPageTest extends BaseTest {
 	ApplyForLoan applyforloan;
 	InputStream datais;
 	JSONObject loginuser;
-
+	TestUtils utils = new TestUtils();
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
@@ -122,7 +123,7 @@ public class AddBankAccountPageTest extends BaseTest {
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		enterpasswordpage = new EnterPasswordPage();
-		System.out.println("\n"+"******** starting test:"+m.getName() + "********");
+		utils.log().info("\n"+"******** starting test:"+m.getName() + "********");
 	}
 
 	@AfterMethod
@@ -143,7 +144,7 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult4=getString().get("enterpasswordpage_Title_Text");
 		Assert.assertEquals(actualResult4, expectedResult4);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult4 + "\n" + "expected title - "+expectedResult4);	
+		utils.log().info("actual title - " + actualResult4 + "\n" + "expected title - "+expectedResult4);	
 		enterpasswordpage.pressOne();
 		enterpasswordpage.pressTwo();
 		enterpasswordpage.pressThree();
@@ -152,7 +153,7 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin.scrollUp();
 		homepagesmartcoin.scrollDown();
 		menupage = homepagesmartcoin.pressMenuBtn();
@@ -160,19 +161,19 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult1=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		mybankdetailspage = menupage.pressMyBankDetailsBtntogetMyBankDetailsPage();
 		String actualResult2= mybankdetailspage.getMyBankDetailsPageTitle();
 		String expectedResult2=getString().get("mybankdetailsPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 		addbankaccountwithcheckleafpage = mybankdetailspage.pressAddBankAccountWithChequeLeafBtn(); 
 		String actualResult3= addbankaccountwithcheckleafpage.getEditBankAccountPageTitle();
 		String expectedResult3=getString().get("editbankdetailsPage_Title_Text");
 		Assert.assertEquals(actualResult3, expectedResult3);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
+		utils.log().info("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
 		
 	}
 
@@ -192,7 +193,7 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult1=getString().get("editbankaccountwithcheckleafPage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		camerapage = addbankaccountwithcheckleafpage.pressCheckLeaf();
 		camrapiccheckpage = camerapage.pressCaptureBtnForEmulator();
 		addbankaccountwithcheckleafpage = camrapiccheckpage.pressDoneCheckLeafBtn();
@@ -202,13 +203,13 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult2=getString().get("documentsuploadedconfirmationmessage_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 		//assertion for my bank details page
 		String actualResult3= mybankdetailspage.getMyBankDetailsPageTitle();
 		String expectedResult3=getString().get("mybankdetailsPage_Title_Text");
 		Assert.assertEquals(actualResult3, expectedResult3);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
+		utils.log().info("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
 	}
 
 
@@ -226,7 +227,7 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult3=getString().get("editbankdetailsPage_Title_Text");
 		Assert.assertEquals(actualResult3, expectedResult3);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
+		utils.log().info("actual title - " + actualResult3 + "\n" + "expected title - "+expectedResult3);
 		addbankaccountwithifsccodepage.enterBankAccountNumber(loginuser.getJSONObject("addbankaccountdetailswithifsc").getString("enter_account_number"));
 		addbankaccountwithifsccodepage.reenterBankAccountNumber(loginuser.getJSONObject("addbankaccountdetailswithifsc").getString("reenter_account_number"));
 		addbankaccountwithifsccodepage.pressYesIfscButton();
@@ -234,7 +235,7 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult1=getString().get("editbankaccountwithifscPage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);
 		addbankaccountwithifsccodepage.enterIfscCode(loginuser.getJSONObject("addbankaccountdetailswithifsc").getString("ifsc_code"));
 		homepagesmartcoin.scrollDown();
 		confirmbankdetailspage = addbankaccountwithifsccodepage.pressContinueButtontogetConfirmBankDetailsPage();
@@ -243,20 +244,20 @@ public class AddBankAccountPageTest extends BaseTest {
 		String expectedResult4=getString().get("confirmbankdetailspage_Text");
 		Assert.assertEquals(actualResult4, expectedResult4);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult4 + "\n" + "expected title - "+expectedResult4);
+		utils.log().info("actual title - " + actualResult4 + "\n" + "expected title - "+expectedResult4);
 		mybankdetailspage = confirmbankdetailspage.pressOkButton();
 		//assertion for get confirmation message
 		String actualResult= mybankdetailspage.getMessageforChangeBankAccountDetails();
 		String expectedResult=getString().get("addbankaccountdetailswithifscConfirmation_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 		//assertion for my bank details page
 		String actualResult2= mybankdetailspage.getMyBankDetailsPageTitle();
 		String expectedResult2=getString().get("mybankdetailsPage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 
 
 	}

@@ -34,6 +34,7 @@ import com.qa.pages.SignINWithGmailAndFacebookPage;
 import com.qa.pages.SigninPage;
 import com.qa.pages.SmartCoinRewardsPage;
 import com.qa.pages.UploadBankStatementsPage;
+import com.qa.utils.TestUtils;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -66,7 +67,7 @@ public class HomePageButtonTests extends BaseTest {
 	ApplyForLoan applyforloan;
 	InputStream datais;
 	JSONObject loginuser;
-
+	TestUtils utils = new TestUtils();
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
@@ -99,7 +100,7 @@ public class HomePageButtonTests extends BaseTest {
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		enterpasswordpage = new EnterPasswordPage();
-		System.out.println("\n"+"******** starting test:"+m.getName() + "********");
+		utils.log().info("\n"+"******** starting test:"+m.getName() + "********");
 	}
 
 	@AfterMethod
@@ -124,7 +125,7 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResult=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin.scrollUp();
 		homepagesmartcoin.scrollDown();
 
@@ -144,7 +145,7 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResult=getString().get("menuPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 }
 
 	@Test(priority=3, description="Verify Home Page Chat ShortCut Button")
@@ -167,7 +168,7 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResult=getString().get("chatpage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 	}
 
 	@Test(priority=4, description="Verify Home Page Mobile Number Verify Button")
@@ -190,7 +191,7 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResult=getString().get("numberverification_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		
 	}
 
@@ -208,13 +209,13 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResultb=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResultb, expectedResultb);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
+		utils.log().info("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
 		bankstatementpage = homepagesmartcoin.pressUploadBankStatementBtn();
 		String actualResult= bankstatementpage.getBankStatementPageTitle();
 		String expectedResult=getString().get("bankstatementpage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		    	
 	}
 
@@ -232,13 +233,13 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResultb=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResultb, expectedResultb);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
+		utils.log().info("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
 		rewardspage = homepagesmartcoin.pressEarnBtn();
 		String actualResult= rewardspage.getCoinRewardsPageTitle();
 		String expectedResult=getString().get("SmartCoinRewardsPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin =rewardspage.pressReverseButton();
 		
 	}
@@ -256,14 +257,14 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResultb=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResultb, expectedResultb);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
+		utils.log().info("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
 		homepagesmartcoin.scrollUp();
 		mykhatapage = homepagesmartcoin.pressMyKhataBtn();
 		String actualResult= mykhatapage.getMyKhataPageTitle();
 		String expectedResult=getString().get("mykhataPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 
 
 	}
@@ -282,14 +283,14 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResultb=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResultb, expectedResultb);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
+		utils.log().info("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
 		homepagesmartcoin.scrollUp();
 		myprofilepage = homepagesmartcoin.pressMyProfileBtn();
 		String actualResult= myprofilepage.getMyProfilePageTitle();
 		String expectedResult=getString().get("myprofilePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		
 	}
 
@@ -307,14 +308,14 @@ public class HomePageButtonTests extends BaseTest {
 		String expectedResultb=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResultb, expectedResultb);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
+		utils.log().info("actual title - " + actualResultb + "\n" + "expected title - "+expectedResultb);	
 		homepagesmartcoin.scrollUp();
 		helpandsupportpage = homepagesmartcoin.pressContactUsBtn();
 		String actualResult= helpandsupportpage.getHelpAndSupportPageTitle();
 		String expectedResult=getString().get("helpandsupportPage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 
 	}
 

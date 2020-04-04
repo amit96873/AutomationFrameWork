@@ -61,9 +61,7 @@ public CameraPage pressallowlocation() {
 	return new CameraPage();
 	}
 public UploadAdharFrontSugestionPage pressallowForAadharFrontButton() {
-	System.out.println("i am here");
 	click(allowbutton);
-	System.out.println("here");
 	return new UploadAdharFrontSugestionPage();
 	}
 public SignINWithGmailAndFacebookPage pressLastallowButton() {

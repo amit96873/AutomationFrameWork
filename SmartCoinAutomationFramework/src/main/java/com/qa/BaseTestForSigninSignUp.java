@@ -1,6 +1,7 @@
 package com.qa;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import com.qa.utils.TestUtils;
 import io.appium.java_client.AppiumDriver;
@@ -26,6 +27,8 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.codec.binary.Base64;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.NoSuchElementException;
@@ -43,7 +46,6 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-
 import io.appium.java_client.screenrecording.CanRecordScreen;
 public class BaseTestForSigninSignUp {
 	protected static ThreadLocal <AppiumDriver> driver = new ThreadLocal <AppiumDriver>();
@@ -51,7 +53,9 @@ public class BaseTestForSigninSignUp {
 	protected static ThreadLocal <HashMap<String, String>> strings = new ThreadLocal<HashMap<String, String>>();
 	protected static ThreadLocal <String> dateTime = new ThreadLocal <String>();
 	protected static ThreadLocal <String> platform = new ThreadLocal <String>();
-	TestUtils utils;
+	protected static ThreadLocal <String> deviceName = new ThreadLocal <String>();
+	TestUtils utils = new TestUtils();
+
 	public AppiumDriver getDriver() {
 		return driver.get();
 	}
@@ -79,7 +83,15 @@ public class BaseTestForSigninSignUp {
 	public String getDateTime() {
 		return dateTime.get();
 	}
-
+	public void setDateTime(String dateTime2) {
+		dateTime.set(dateTime2);
+	}
+	public String getDeviceName() {
+		return deviceName.get();
+	}
+	public void setDeviceNmae(String deviceName2) {
+		deviceName.set(deviceName2);
+	}
 	public BaseTestForSigninSignUp() {
 
 		PageFactory.initElements(new AppiumFieldDecorator(getDriver()), this);
@@ -93,19 +105,23 @@ public class BaseTestForSigninSignUp {
 		((CanRecordScreen) getDriver() ).startRecordingScreen();		
 	}
 	@AfterMethod
-	public void afterMethod(ITestResult result) {
+	public synchronized void afterMethod(ITestResult result) {
 		String media = ((CanRecordScreen) getDriver() ).stopRecordingScreen();
 
 		if(result.getStatus() == 1) {
 
 			Map<String, String> params = result.getTestContext().getCurrentXmlTest().getAllParameters();
 			String dir = "videos" + File.separator + params.get("platformName")+ "_"+params.get("platformVersion")+ "_"
-					+params.get("deviceName")+ File.separator +dateTime+File.separator+result.getTestClass().getRealClass().getSimpleName();
+					+params.get("deviceName")+ File.separator +getDateTime()+File.separator+result.getTestClass().getRealClass().getSimpleName();
 
 			File videodir = new File(dir);
-
+			synchronized (videodir){
+			
+			
 			if(!videodir.exists()) {
 				videodir.mkdirs();
+			}
+
 			}
 			try {
 				FileOutputStream stream=new FileOutputStream(videodir + File.separator + result.getName()+".mp4");
@@ -121,12 +137,14 @@ public class BaseTestForSigninSignUp {
 	}
 	 */
 
-	@Parameters({"platformName", "platformVersion", "devicename"})
+	@Parameters({"platformName", "platformVersion", "devicename","udid"})
 	@BeforeTest
-	public void beforeTest(String platformName, String platformVersion, String deviceName) throws Exception {
+	public void beforeTest(String platformName, String platformVersion, String deviceName, 
+			String udid) throws Exception {
 		utils = new TestUtils();
 		setDateTime(utils.DateTime());
 		setPlatform(platformName);
+		setDeviceNmae(deviceName);
 		InputStream inputStream = null;
 		InputStream stringsis = null;
 		Properties props = new Properties();
@@ -142,14 +160,18 @@ public class BaseTestForSigninSignUp {
 			setStrings(utils.paseStringXML(stringsis));
 			DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setCapability(MobileCapabilityType.PLATFORM_NAME, platformName);
-			dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
 			dc.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+			dc.setCapability("udid", udid);
+			dc.setCapability("palatformVersion", platformVersion);
+			URL url = new URL(props.getProperty("appiumURL"));
+			dc.setCapability(MobileCapabilityType.NO_RESET, true);
+			dc.setCapability(MobileCapabilityType.FULL_RESET, false);
 			dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, props.getProperty("androidAutomationName"));
 			dc.setCapability("appPackage", props.getProperty("androidAppPackage"));
 			dc.setCapability("appActivity", props.getProperty("androidAppActivity"));
-		    URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
-			dc.setCapability("app", appUrl);
-			URL url = new URL(props.getProperty("appiumURL"));
+        	String androidAppUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation")).getFile();
+			System.out.println("appurl is" +androidAppUrl);
+			dc.setCapability("app", androidAppUrl);
 			driver = new AndroidDriver<WebElement>(url,dc);
 			String sessionId = driver.getSessionId().toString();
             setDriver(driver);
@@ -172,7 +194,7 @@ public class BaseTestForSigninSignUp {
 		// TODO Auto-generated method stub
 		
 	}
-	private void setDateTime(String dateTime2) {
+	private void setDateTime1(String dateTime2) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -293,4 +315,7 @@ public class BaseTestForSigninSignUp {
 		getDriver().quit();
 	}
 
+	
+	
+	
 }

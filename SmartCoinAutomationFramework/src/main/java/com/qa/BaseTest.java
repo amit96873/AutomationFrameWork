@@ -55,7 +55,7 @@ public class BaseTest {
 	protected static ThreadLocal <String> platform = new ThreadLocal <String>();
 	protected static ThreadLocal <String> deviceName = new ThreadLocal <String>();
 	TestUtils utils = new TestUtils();
-	static Logger log = LogManager.getLogger(BaseTest.class.getName());
+
 	public AppiumDriver getDriver() {
 		return driver.get();
 	}
@@ -141,11 +141,6 @@ public class BaseTest {
 	@BeforeTest
 	public void beforeTest(String platformName, String platformVersion, String deviceName, 
 			String udid) throws Exception {
-		log.info("this is info message");
-		log.error("this is error message");
-		log.debug("this is debug message");
-		log.warn("this is warning message");
-		
 		utils = new TestUtils();
 		setDateTime(utils.DateTime());
 		setPlatform(platformName);
@@ -324,4 +319,7 @@ public class BaseTest {
 		getDriver().quit();
 	}
 
+	
+	
+	
 }

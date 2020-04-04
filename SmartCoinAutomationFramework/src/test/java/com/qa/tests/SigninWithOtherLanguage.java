@@ -13,6 +13,7 @@ import com.qa.pages.LanguagePage;
 import com.qa.pages.PermissionPage;
 import com.qa.pages.SignINWithGmailAndFacebookPage;
 import com.qa.pages.SigninPage;
+import com.qa.utils.TestUtils;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -45,7 +46,7 @@ public class SigninWithOtherLanguage extends BaseTestForSigninSignUp {
 	HomePageSmartCoinForSigninSignup homepagesmartcoin;
 	InputStream datais;
 	JSONObject loginuser;
-	
+	TestUtils utils = new TestUtils();
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
@@ -78,7 +79,7 @@ public class SigninWithOtherLanguage extends BaseTestForSigninSignUp {
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		signinPage= new SigninPage();
-		System.out.println("\n"+"******** starting test:"+m.getName() + "********");
+		utils.log().info("\n"+"******** starting test:"+m.getName() + "********");
 	}
 
 	@AfterMethod
@@ -101,7 +102,7 @@ public class SigninWithOtherLanguage extends BaseTestForSigninSignUp {
 		String expectedResult=getString().get("Language_Page_Title");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 	}
 	@Test(priority=2, description="Verify Select Other language  Button and clicked on Continue With Other Language Button and after verification it will jump on Permission page")
 	@Description("Verify Select Other language  Button and clicked on Continue With Other Language Button and after verification it will jump on Permission page")
@@ -117,7 +118,7 @@ public class SigninWithOtherLanguage extends BaseTestForSigninSignUp {
 		String expectedResult=getString().get("Permission_Page_Title");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 	}
 
 @Test(priority=3, description="Verified Agree_And Continue Button To Get The Permision Page Which Will Ask The Permission For Sending SMS")
@@ -134,7 +135,7 @@ public void checkAgreeAndContinueButton() {
 	String expectedResult=getString().get("SendSMS_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 
 @Test(priority=4, description="Verified allow button to Give The Permission For Sending SMS")
@@ -151,7 +152,7 @@ public void checkSmsAllowButton() {
 	String expectedResult=getString().get("Acces_Contacts_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 @Test(priority=5, description="Verified allow button to Give The Permission For Access Contacts")
 @Description("Verified allow button to Give The Permission For Access Contacts")
@@ -167,7 +168,7 @@ public void checkContactsAllowButton() {
 	String expectedResult=getString().get("managePhoneCalls_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 @Test(priority=6, description="Verified allow button to Give The Permission For Manage Phone Calls")
 @Description("Verified allow button to Give The Permission For Manage Phone Calls")
@@ -183,7 +184,7 @@ public void checkManagePhoneCallsAllowButton() {
 	String expectedResult=getString().get("Location_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 @Test(priority=7, description="Verified allow button to Give The Permission For Location")
 @Description("Verified allow button to Give The Permission For Location")
@@ -199,7 +200,7 @@ public void checkLocationAllowButton() {
 	String expectedResult=getString().get("signinwithgmailfb_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 @Test(priority=8, description="Verified Login With Facebook Button And Get Facebook Page For Login By Username and Password")
 @Description("Verified Login With Facebook Button And Get Facebook Page For Login By Username and Password")
@@ -215,7 +216,7 @@ public void checkFBLoginButton() {
 	String expectedResult=getString().get("facebookpage_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 @Test(priority=9, description="Verified(EditText By Enter FaceBook_UserName And Facebook_Password and Clicked On Login Button)")
 @Description("Verified(EditText By Enter FaceBook_UserName And Facebook_Password and Clicked On Login Button)")
@@ -233,7 +234,7 @@ public void checkFBLoginPage() {
 	String expectedResult=getString().get("ContinueLoginWithfacebookpage_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 @Test(priority=10, description="Verified Continue Fb Button")
 @Description("Verified Continue Fb Button")
@@ -249,7 +250,7 @@ public void checkContinueLoginWithFBBtn() {
 	String expectedResult=getString().get("createpasswordPage_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 @Test(priority=11, description="Verified Create Password By Enter 4 Digits Password(1,2,3,4)")
 @Description("Verified Create Password By Enter 4 Digits Password(1,2,3,4)")
@@ -268,7 +269,7 @@ public void checkCreatePassword() {
 	String expectedResult=getString().get("confirmpasswordPage_Title_Text");
 	Assert.assertEquals(actualResult, expectedResult);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
+	utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 }
 
 @Test(priority=12, description="Verified Confirm Password By Enter Same Password(1,2,3,4)")
@@ -288,7 +289,7 @@ public void checkConfirmPassword() {
 	String expectedResult10=getString().get("homePage_Title_Text");
 	Assert.assertEquals(actualResult10, expectedResult10);
 	sa.assertAll();
-	System.out.println("actual title - " + actualResult10 + "\n" + "expected title - "+expectedResult10);
+	utils.log().info("actual title - " + actualResult10 + "\n" + "expected title - "+expectedResult10);
 }
 
 }

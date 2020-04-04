@@ -45,6 +45,8 @@ import com.qa.pages.SigninPage;
 import com.qa.pages.SmartCoinRewardsPage;
 import com.qa.pages.TroubleShootPage;
 import com.qa.pages.UploadBankStatementsPage;
+import com.qa.utils.TestUtils;
+
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -55,7 +57,7 @@ import io.qameta.allure.Story;
 @Listeners({AllureListener.class})
 public class EditWorkDetailsPageTest extends BaseTest{
 	
-	
+	TestUtils utils = new TestUtils();
 	SigninPage signinPage;
 	LanguagePage languagePage;
 	PermissionPage permissionpage;
@@ -122,7 +124,7 @@ public class EditWorkDetailsPageTest extends BaseTest{
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		enterpasswordpage = new EnterPasswordPage();
-		System.out.println("\n"+"******** starting test:"+m.getName() + "********");
+		utils.log().info("\n"+"******** starting test:"+m.getName() + "********");
 	}
 
 	@AfterMethod
@@ -143,7 +145,7 @@ public class EditWorkDetailsPageTest extends BaseTest{
 		String expectedResult1=getString().get("enterpasswordpage_Title_Text");
 		Assert.assertEquals(actualResult1, expectedResult1);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);	
+		utils.log().info("actual title - " + actualResult1 + "\n" + "expected title - "+expectedResult1);	
 		enterpasswordpage.pressOne();
 		enterpasswordpage.pressTwo();
 		enterpasswordpage.pressThree();
@@ -152,7 +154,7 @@ public class EditWorkDetailsPageTest extends BaseTest{
 		String expectedResult=getString().get("homePage_Title_Text");
 		Assert.assertEquals(actualResult, expectedResult);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
+		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);	
 		homepagesmartcoin.scrollUp();
 		myprofilepage = homepagesmartcoin.pressMyProfileBtn();
 		homepagesmartcoin.scrollUp();
@@ -162,7 +164,7 @@ public class EditWorkDetailsPageTest extends BaseTest{
 		String expectedResult2=getString().get("editworkdetailspage_Title_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 	@Test(priority=2, description="Verify Edit Persional Details Page by Entering valid value and Scrolling")
 	@Description("Verify Edit Persional Details Page by Entering valid value and Scrolling")
@@ -189,7 +191,7 @@ public class EditWorkDetailsPageTest extends BaseTest{
 		String expectedResult2=getString().get("editworkdetailsConfirmation_Text");
 		Assert.assertEquals(actualResult2, expectedResult2);
 		sa.assertAll();	
-		System.out.println("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
+		utils.log().info("actual title - " + actualResult2 + "\n" + "expected title - "+expectedResult2);
 	}
 		
 	}	

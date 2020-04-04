@@ -27,7 +27,7 @@ public class WhyDoYouNeedThisLoanPage extends BaseTest{
 	public WhyDoYouNeedThisLoanPage enterReasionForLoan(String reasion) {
 		click(searchedittext);
 		clear(searchedittext);
-		utils.log("Full Name is:-  " + reasion);
+		utils.log().info("Full Name is:-  " + reasion);
 		sendkeys(searchedittext, reasion);
 		return this;
 

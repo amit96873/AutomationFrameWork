@@ -32,7 +32,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterWorkPlacepincode(String workplacepincode) {
 		click(workplacepincodeedittext);
 		clear(workplacepincodeedittext);
-		utils.log("Work Place Address is:-  " + workplacepincode);
+		utils.log().info("Work Place Address is:-  " + workplacepincode);
 		sendkeys(workplacepincodeedittext, workplacepincode);
 		return this;
 
@@ -41,7 +41,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterWorkPlaceAddress(String workplaceaddress) {
 		click(workplaceaddressedittext);
 		clear(workplaceaddressedittext);
-		utils.log("Work Place Address is:-  " + workplaceaddress);
+		utils.log().info("Work Place Address is:-  " + workplaceaddress);
 		sendkeys(workplaceaddressedittext, workplaceaddress);
 		return this;
 
@@ -51,7 +51,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterWorkPlaceName(String workplacename) {
 		click(workplacenameedittext);
 		clear(workplacenameedittext);
-		utils.log("Work Place Name is:-  " + workplacename);
+		utils.log().info("Work Place Name is:-  " + workplacename);
 		sendkeys(workplacenameedittext, workplacename);
 		return this;
 
@@ -61,7 +61,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterMonthlyIncome(String income) {
 		click(monthlyincomeedittext);
 		clear(monthlyincomeedittext);
-		utils.log("Monthly income is:-  " + income);
+		utils.log().info("Monthly income is:-  " + income);
 		sendkeys(monthlyincomeedittext, income);
 		return this;
 
@@ -70,7 +70,7 @@ public class EditWorkDetailsPage extends BaseTest {
 	public EditWorkDetailsPage enterPanNumber(String pannumber) {
 		click(pannumberedittext);
 		clear(pannumberedittext);
-		utils.log("Pan Number is:-  " + pannumber);
+		utils.log().info("Pan Number is:-  " + pannumber);
 		sendkeys(pannumberedittext, pannumber);
 		return this;
 
