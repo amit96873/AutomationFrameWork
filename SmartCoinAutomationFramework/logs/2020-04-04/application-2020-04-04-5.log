@@ -1,0 +1,13 @@
+[INFO ] 2020-04-04 14:10:.476 KYCUploadDocumentsPageTests:149 - 
+******** starting test:checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe********
+"[INFO ] 2020-04-04 14:10:.494 AllureListener:55 - I am in OnStart Method checkUploadAadharFrontAsIDAndAddharBackAsAddressProofeStart
+"[INFO ] 2020-04-04 14:11:.218 KYCUploadDocumentsPageTests:227 - actual title - Documents Uploaded!
+expected title - Documents Uploaded!
+"[INFO ] 2020-04-04 14:11:.219 AllureListener:60 - I am in OnTest Success Method checkUploadAadharFrontAsIDAndAddharBackAsAddressProofeSucceed
+"[INFO ] 2020-04-04 14:11:.220 AllureListener:66 - Scrren Shot Captured For Test Case: checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe
+"[INFO ] 2020-04-04 14:11:.659 KYCUploadDocumentsPageTests:149 - 
+******** starting test:checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe********
+"[INFO ] 2020-04-04 14:11:.662 AllureListener:55 - I am in OnStart Method checkUploadPanCardAsIDAndUtillityBillsAsAddressProofeStart
+"[INFO ] 2020-04-04 14:11:.085 KYCUploadDocumentsPageTests:245 - actual title - KYC : Upload Documents
+expected title - KYC : Upload Documents
+"

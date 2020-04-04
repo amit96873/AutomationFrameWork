@@ -12,10 +12,8 @@
     <classes>
       <class name="com.qa.tests.KYCUploadDocumentsPageTests">
         <methods>
-          <include name="checkUploadAadharFrontAsIDAndAddharBackAsAddressProofe"/>
           <include name="afterTest"/>
           <include name="beforeClass"/>
-          <include name="checkHomePageScrolling"/>
           <include name="beforeMethod"/>
           <include name="checkUploadPanCardAsIDAndUtillityBillsAsAddressProofe"/>
           <include name="beforeTest"/>
