@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
+<suite name="Suite" parallel="tests">
 <listeners>
 <listener class-name="com.qa.listeners.TestsListener"/>
 </listeners>
@@ -10,7 +10,7 @@
    <parameter name="udid" value="emulator-5554"/>
   <parameter name="devicename" value="Android Emulator"/>
     <classes>
-      <class name="com.qa.tests.KYCUploadDocumentsPageTests"/>
+      <class name="com.qa.tests.MenuPageButtonTest"/>
       <!--   <methods>
      <include name="checkSignInButton"/> 
       </methods>-->
