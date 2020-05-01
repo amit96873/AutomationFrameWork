@@ -10,7 +10,7 @@ Maven - Build automation tool
 Java - Programming language
 TestNG - Test Management library
 Log4J - Logging framework
-Extent Reports - Reporting framework
+Extent Reports and Allure report - Reporting framework
 JSON/Excel - Test Data
 XML - Static text
 GitHub - Version control
