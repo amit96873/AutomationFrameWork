@@ -15,40 +15,45 @@ public class MyProfilePage extends BaseTest{
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Documents Uploaded!' and @index='0']") private MobileElement documentsuploadedconfirmationmessage;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Profile Saved Successfully!' and @index='0']") private MobileElement editworkdetailssavedsuccesfully;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Profile Saved Successfully!' and @index='0']") private MobileElement editpersionaldetailssavedsuccesfully;
-	
-	
-	
-	
+
+
+
+
 	public String getMyProfilePageTitle() {
-		return getAttribute(myprofilestitletext, "text");
+		String title = getText(myprofilestitletext, "My Profile Page Title Text is:- ");
+		return title;
 	}
 	public String getDocumentsUploadedConfirmationMessage() {
-		return getAttribute(documentsuploadedconfirmationmessage, "text");
+		String msg = getText(documentsuploadedconfirmationmessage, "Documents upload confirmation Message is:- ");
+		return msg;
 	}
 	public String getEditPersionaldetailsSavedSuccessfully() {
-		return getAttribute(editpersionaldetailssavedsuccesfully, "text");
+		String msg1 = getText(editpersionaldetailssavedsuccesfully, "Persional details added message is :- ");
+		return msg1;
 	}
 	public String getEditworkdetailsSavedSuccessfully() {
-		return getAttribute(editworkdetailssavedsuccesfully, "text");
+		String msg2 = getText(editworkdetailssavedsuccesfully, "Work details added message is:- ");
+		return msg2;
 	}
 	public String getEndPageText() {
-		return getAttribute(ownerofshoptext, "text");
+		String msg3 = getText(ownerofshoptext, "Bottom of my profile Page text is:- ");
+		return msg3;
 	}
 
 
 	public HomePageSmartCoin pressReverseBtn() {
 
-		click(reversebtn);
+		click(reversebtn,"press reverse button");
 		return new HomePageSmartCoin();
 	}
 	public ChatPage pressChatShortCutBtn() {
 
-		click(chatbtn);
+		click(chatbtn,"press chat short cut button");
 		return new ChatPage();
 	}
 
 	public ProfileExpendMenueButonPage pressExpendMenueBtn() {
-		click(expendmenuebtn);
+		click(expendmenuebtn,"press epend menu button");
 		return new ProfileExpendMenueButonPage();
 	}
 

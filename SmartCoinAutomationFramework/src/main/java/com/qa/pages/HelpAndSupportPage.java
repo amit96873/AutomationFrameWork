@@ -16,30 +16,30 @@ public class HelpAndSupportPage extends BaseTest{
 
 
 	public String getHelpAndSupportPageTitle() {
-		return getAttribute(helpandsupportpagetitletext, "text");
+		String title = getText(helpandsupportpagetitletext, "Help And Support Page Title Text is:- ");
+		return title;
 	}
 
 
 	public HomePageSmartCoin pressReverseBtn() {
-		click(reversebtn);
-
+		click(reversebtn, "Press On reverse Button");
 		return new HomePageSmartCoin();
 	}
 
 
 	public ChatPage pressChatBtn() {
-		click(chatbtn);
+		click(chatbtn,"Press On chat Short Cut Button");
 		return new ChatPage();
 	}
 
 	public EmailPage pressEmailText() {
-		click(emailbtn);
+		click(emailbtn,"Press On Email Button");
 		return new EmailPage();
 
 
 	}
 	public CallPage pressNumberText() {
-		click(mobilenumberbtn);
+		click(mobilenumberbtn,"Press On Mobile Number Button");
 		return new CallPage();
 
 

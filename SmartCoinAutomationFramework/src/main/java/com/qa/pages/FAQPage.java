@@ -13,17 +13,18 @@ public class FAQPage extends BaseTest {
 	@AndroidFindBy (id = "in.rebase.app:id/chat_shortcut") private MobileElement chatbtn;
 	
 	public String getFAQPageTitle() {
-		return getAttribute(faqtitletext, "text");
+		String title = getText(faqtitletext, "FAQ Page Title Text is:-");
+		return title;
 	}
 public HomePageSmartCoin pressReverseBtn() {
 		
-		click(reversebtn);
+		click(reversebtn,"Press On Reverse Button");
 		return new HomePageSmartCoin();
 	}
 
 public ChatPage pressChatShortCutBtn() {
 	
-	click(chatbtn);
+	click(chatbtn,"Press On chat Button");
 	return new ChatPage();
 }
 

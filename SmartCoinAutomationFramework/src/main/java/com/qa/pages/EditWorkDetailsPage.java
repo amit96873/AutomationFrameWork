@@ -21,57 +21,58 @@ public class EditWorkDetailsPage extends BaseTest {
 
 
 	public String getWorkDetailsPageTitle() {
-		return getAttribute(editworkdetailstitletext, "text");
+		String title = getAttribute(editworkdetailstitletext, "Edit Work Details Page Title is:- ");
+		return title;
 	}
 
 	public MyProfilePage pressContinueBtn() {
-		click(continuebtn);
+		click(continuebtn,"Press On Continue Button");
 		return new MyProfilePage();
 	}
 
 	public EditWorkDetailsPage enterWorkPlacepincode(String workplacepincode) {
-		click(workplacepincodeedittext);
+		click(workplacepincodeedittext,"Press on Enter Work Place Pin Code Edit Text");
 		clear(workplacepincodeedittext);
-		utils.log().info("Work Place Address is:-  " + workplacepincode);
-		sendkeys(workplacepincodeedittext, workplacepincode);
+		//		utils.log().info("Work Place Address is:-  " + workplacepincode);
+		sendKeys(workplacepincodeedittext, workplacepincode,"Work Place Address is:-  " + workplacepincode);
 		return this;
 
 	}
 
 	public EditWorkDetailsPage enterWorkPlaceAddress(String workplaceaddress) {
-		click(workplaceaddressedittext);
+		click(workplaceaddressedittext,"Press on Enter Work Place Address Edit Text ");
 		clear(workplaceaddressedittext);
 		utils.log().info("Work Place Address is:-  " + workplaceaddress);
-		sendkeys(workplaceaddressedittext, workplaceaddress);
+		sendKeys(workplaceaddressedittext, workplaceaddress,"Work Place Address is:-  " + workplaceaddress);
 		return this;
 
 	}
 
 
 	public EditWorkDetailsPage enterWorkPlaceName(String workplacename) {
-		click(workplacenameedittext);
+		click(workplacenameedittext,"Press On Enter Work Place Name Edit Text");
 		clear(workplacenameedittext);
 		utils.log().info("Work Place Name is:-  " + workplacename);
-		sendkeys(workplacenameedittext, workplacename);
+		sendKeys(workplacenameedittext, workplacename,"Work Place Name is:-  " + workplacename);
 		return this;
 
 	}
 
 
 	public EditWorkDetailsPage enterMonthlyIncome(String income) {
-		click(monthlyincomeedittext);
+		click(monthlyincomeedittext,"Press On Enter Monthly Income Edit Text");
 		clear(monthlyincomeedittext);
 		utils.log().info("Monthly income is:-  " + income);
-		sendkeys(monthlyincomeedittext, income);
+		sendKeys(monthlyincomeedittext, income,"Monthly income is:-  " + income);
 		return this;
 
 	}
 
 	public EditWorkDetailsPage enterPanNumber(String pannumber) {
-		click(pannumberedittext);
+		click(pannumberedittext,"Press On Enter Pan Number Edit Text");
 		clear(pannumberedittext);
 		utils.log().info("Pan Number is:-  " + pannumber);
-		sendkeys(pannumberedittext, pannumber);
+		sendKeys(pannumberedittext, pannumber,"Pan Number is:-  " + pannumber);
 		return this;
 
 	}
@@ -79,12 +80,12 @@ public class EditWorkDetailsPage extends BaseTest {
 
 	public SelectEmployeementStatusPage pressSelectEmployeementStatusSpinner() {
 
-		click(Employeementstatuspineer);
+		click(Employeementstatuspineer,"Press On Employeement Status Spinner");
 		return new SelectEmployeementStatusPage();
 	}
 	public SelectDesignationPage pressSelectDesignationSpinner() {
 
-		click(designationspinner);
+		click(designationspinner,"Press On Select Designation Spinner");
 		return new SelectDesignationPage();
 	}
 

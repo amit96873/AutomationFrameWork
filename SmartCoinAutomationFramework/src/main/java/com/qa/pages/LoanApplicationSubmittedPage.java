@@ -11,12 +11,12 @@ public class LoanApplicationSubmittedPage extends BaseTest{
 	@AndroidFindBy (id = "in.rebase.app:id/negative_button") private MobileElement okbtn;
 
 	public String getTitleLoanApplicationSubmittedPage() {	
-		return getAttribute(titletext, "text");
-		
+		String title = getAttribute(titletext, "Loan Application submitted page Title Text is:- ");
+		return title;
 	}
 	
 public CurrentLoanPage pressOkBtn() {
-	click(okbtn);
+	click(okbtn,"press on ok button");
 	return new CurrentLoanPage();
 }
 }

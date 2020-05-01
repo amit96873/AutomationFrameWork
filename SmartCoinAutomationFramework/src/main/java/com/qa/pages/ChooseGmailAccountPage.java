@@ -13,7 +13,9 @@ public class ChooseGmailAccountPage extends BaseTest {
 	
 	
 	public String getTitleChooseGmailAccount() {
-		return getAttribute(choosegmailaccounttitletxt, "text");
+		String title = getText(choosegmailaccounttitletxt, "choose Gmail Account Page Title Text is:- ");
+		return title;
+		
 	}
 	
 }

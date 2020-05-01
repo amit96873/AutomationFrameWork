@@ -7,20 +7,21 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class CurrentLoanPage extends BaseTest{
 
-	
-	
+
+
 	@AndroidFindBy (id = "in.rebase.app:id/title") private MobileElement titletext;
 	@AndroidFindBy (id = "in.rebase.app:id/step_button") private MobileElement stepbtn;
-	
+
 	public String getTitleCurrentLoanPage() {	
-		return getAttribute(titletext, "text");
-		
+		String title =  getText(titletext, "Current Loan Page Title is:- ");
+		return title;
+
 	}
-	
+
 	public CompleteProfilePage pressStepBtn() {
-		click(stepbtn);
+		click(stepbtn,"Press On Step Button");
 		return new CompleteProfilePage();
 	}
-	
-	
+
+
 }

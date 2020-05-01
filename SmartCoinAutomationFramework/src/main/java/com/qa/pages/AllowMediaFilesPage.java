@@ -14,7 +14,8 @@ public class AllowMediaFilesPage extends BaseTest {
 	@AndroidFindBy (xpath = "//android.widget.CheckBox[@text='Don't ask again' and @index='0']") private MobileElement dontaskagaincheckbox;
 	
 	public String getTitleAlloeMediaFilesPageTitle() {
-		return getAttribute(allowmediafilestitletext, "text");
+		String title =  getText(allowmediafilestitletext, "Allow Media Files Page Title Text");
+		return title;
 	}
 	
 	

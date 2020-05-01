@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.qa.listeners.TestsListener"/>
   </listeners>
-  <test thread-count="5" name="KYC Documents Page Tests(failed)" parallel="tests">
+  <test thread-count="5" name="Menu Page Button Tests(failed)" parallel="tests">
     <parameter name="platformVersion" value="9.0"/>
     <parameter name="devicename" value="Android Emulator"/>
     <parameter name="platformName" value="Android"/>
@@ -12,21 +12,19 @@
     <classes>
       <class name="com.qa.tests.MenuPageButtonTest">
         <methods>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="checkMenuPageLanguageSettingButton"/>
-          <include name="afterMethod"/>
-          <include name="checkMenuPageMyBankDetailsButton"/>
-          <include name="beforeMethod"/>
           <include name="afterTest"/>
           <include name="beforeMethod"/>
+          <include name="afterSuite"/>
           <include name="beforeSuit"/>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
-          <include name="checkMenuPageTroubleshootButton"/>
+          <include name="afterMethod"/>
+          <include name="checkMenuPageFAQButton"/>
           <include name="afterClass"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.qa.tests.MenuPageButtonTest -->
     </classes>
-  </test> <!-- KYC Documents Page Tests(failed) -->
+  </test> <!-- Menu Page Button Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

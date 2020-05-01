@@ -6,7 +6,7 @@ import com.qa.BaseTestForSigninSignUp;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class PermissionPage extends BaseTestForSigninSignUp {
+public class PermissionPage extends BaseTest {
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='ALLOW' and @index='1']") private MobileElement aadharfrontallowbtn;
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='AGREE AND CONTINUE' and @index='2']") private MobileElement agreeandcontinuebutton;
 	@AndroidFindBy (id = "com.android.packageinstaller:id/permission_allow_button") private MobileElement allowbutton;
@@ -18,74 +18,79 @@ public class PermissionPage extends BaseTestForSigninSignUp {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Allow SmartCoin to access your contacts?' and @index='1']") private MobileElement accesscontactstitletxt;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Allow SmartCoin to make and manage phone calls?' and @index='1']") private MobileElement managephonecallstitletxt;
 	@AndroidFindBy (id = "com.android.packageinstaller:id/permission_message") private MobileElement locationtitletxt;
-	
-	
+
+
 
 	public String getTitlepermission() {
-		return getAttribute(permissiontitletxt, "text");
+		String title = getText(permissiontitletxt, "Permission page title is:- ");
+		return title;
 	}
 
 	public String getTitleSms() {
-		return getAttribute(sendviewsmstitletext, "text");
+		String title = getText(sendviewsmstitletext, "Title of sms permission page is:- ");
+		return title;
 	}
 
 	public String getTitleContats() {
-		return getAttribute(accesscontactstitletxt, "text");
+		String title = getText(accesscontactstitletxt, "title of contacts permission page is:- ");
+		return title;
 	}
 
 	public String getTitlePhoneCall() {
-		return getAttribute(managephonecallstitletxt, "text");
+		String title = getText(managephonecallstitletxt, "title of phone call permission page is:- ");
+		return title;
 	}
 
 	public String getTitleLocation() {
-		return getAttribute(locationtitletxt, "text");
+		String title = getText(locationtitletxt, "title of location permission page is:- ");
+		return title;
 	}
-public PermissionPage pressagreeAndContinuebtn() {
-		
-	click(agreeandcontinuebutton);
-	return this;
+	public PermissionPage pressagreeAndContinuebtn() {
+
+		click(agreeandcontinuebutton,"press agree and continue button");
+		return this;
 	}
-public PermissionPage pressallowButton() {
-	click(allowbutton);
-	return this;
+	public PermissionPage pressallowButton() {
+		click(allowbutton,"press on allow button");
+		return this;
 	}
-public CameraPage pressallowButtonForCheckLeaf() {
-	
-	click(allowbutton);
-	return new CameraPage();
+	public CameraPage pressallowButtonForCheckLeaf() {
+
+		click(allowbutton,"press on allow button");
+		return new CameraPage();
 	}
-public UploadAdharFrontSugestionPage pressallowForAadharFrontButton() {
-	click(allowbutton);
-	return new UploadAdharFrontSugestionPage();
+	public UploadAdharFrontSugestionPage pressallowForAadharFrontButton() {
+		click(allowbutton,"press on allow button");
+		return new UploadAdharFrontSugestionPage();
 	}
-public SignINWithGmailAndFacebookPage pressLastallowButton() {
-	
-	click(allowbutton);
-	return new SignINWithGmailAndFacebookPage();
+	public SignINWithGmailAndFacebookPage pressLastallowButton() {
+
+		click(allowbutton,"press on allow button");
+		return new SignINWithGmailAndFacebookPage();
 	}
-public PermissionPage pressdenyButton() {
-	
-	click(denybutton);
-	return this;
+	public PermissionPage pressdenyButton() {
+
+		click(denybutton,"press on deny button");
+		return this;
 	}
-public PermissionPage pressLoginWithGamiButton() {
-	
-	click(signupwithgamil);
-	return this;
+	public PermissionPage pressLoginWithGamiButton() {
+
+		click(signupwithgamil,"press on signup with gmail button");
+		return this;
 	}
-public PermissionPage pressOnGmailId() {
-	
-	click(gmailid);
-	return this;
+	public PermissionPage pressOnGmailId() {
+
+		click(gmailid,"press on gmailid button");
+		return this;
 	}
-public PermissionPage prerequisite() {
-	LanguagePage lp = new LanguagePage();
-	RegisterNameMobileNumberPage rnp= new RegisterNameMobileNumberPage();
-	lp.langToRegistration();
-	rnp.validDetailsForPermissionPage();
-	
-	return this;
-	
-}
+	public PermissionPage prerequisite() {
+		LanguagePage lp = new LanguagePage();
+		RegisterNameMobileNumberPage rnp= new RegisterNameMobileNumberPage();
+		lp.langToRegistration();
+		rnp.validDetailsForPermissionPage();
+
+		return this;
+
+	}
 
 }

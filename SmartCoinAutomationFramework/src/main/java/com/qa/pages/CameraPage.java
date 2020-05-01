@@ -17,23 +17,23 @@ public class CameraPage extends BaseTest{
 	
 	public CameraPiccheckPage pressCaptureBtnForEmulator() {
 		
-		click(shootpicbtn2);
+		click(shootpicbtn2,"Press On Capture Button");
 		return new CameraPiccheckPage();
 	}
 public CameraPage pressRealDeviceSwitchCamera() {
 		
-		click(realdeviceswitchcamerabtn);
+		click(realdeviceswitchcamerabtn,"Press On Capture Button For Real Device");
 		return this;
 	}
 
 	public KYCUploadDocumentsPage pressCancleCaptureBtnForRealDevice() {
 		
-		click(realdevicecancleshootbtn);
+		click(realdevicecancleshootbtn,"Press Cancel Button For Real Device");
 		return new KYCUploadDocumentsPage();
 	}
 public CameraPiccheckPage pressCaptureBtnForRealDevice() {
 		
-		click(realdeviceshootbtn);
+		click(realdeviceshootbtn,"Press Capture Button For Real Device");
 		return new CameraPiccheckPage();
 	}
 

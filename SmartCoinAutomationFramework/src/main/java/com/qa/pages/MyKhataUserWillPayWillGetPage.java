@@ -21,45 +21,45 @@ public class MyKhataUserWillPayWillGetPage extends BaseTest {
 
 
 	public MyKhataDatePage pressDateBtn() {
-		click(datebtn);
+		click(datebtn,"press date button");
 		return new MyKhataDatePage();
 	}
 
 	public CreatedKhataPage pressContinueBtn() {
-		click(continuebtn);
+		click(continuebtn,"press continue button");
 		return new CreatedKhataPage();
 	}
 
 	public MyKhataUserWillPayWillGetPage pressUserWillPayBtn() {
-		click(userwillpaybtn);
+		click(userwillpaybtn,"press user will pay button");
 		return new MyKhataUserWillPayWillGetPage();
 	}
 	public MyKhataUserWillPayWillGetPage pressUserWillGetBtn() {
-		click(userwillgetbtn);
+		click(userwillgetbtn,"press user will get button");
 		return new MyKhataUserWillPayWillGetPage();
 	}
 	public MyKhataUserWillPayWillGetPage enterBalance(String balance) {
-		click(startingbalancetext);
+		click(startingbalancetext,"press starting balance edit text");
 		clear(startingbalancetext);
-		utils.log().info("Enter Balance is:-  " + balance);
-		sendkeys(startingbalancetext, balance);
+		//		utils.log().info("Enter Balance is:-  " + balance);
+		sendKeys(startingbalancetext, balance,"Enter Balance is:-  " + balance);
 		return this;
 	}
 
 	public MyKhataUserWillPayWillGetPage enterNotes(String notes) {
-		click(noteeditrtext);
+		click(noteeditrtext, "press note edit tet");
 		clear(noteeditrtext);
-		utils.log().info("Enter Notes is:-  " + notes);
-		sendkeys(noteeditrtext, notes);
+		//		utils.log().info("Enter Notes is:-  " + notes);
+		sendKeys(noteeditrtext, notes,"Enter Notes is:-  " + notes);
 		return this;
 	}
 
 	public ChatPage pressChatShortCutBtn() {
-		click(chatbtn);
+		click(chatbtn,"press on chat shortcut button");
 		return new ChatPage();
 	}
 	public MenuPage pressMenuBtn() {
-		click(menubtn);
+		click(menubtn,"press on menu button");
 		return new MenuPage();
 	}
 }

@@ -12,15 +12,16 @@ public class TermsAndConditionsPage extends BaseTest {
 	@AndroidFindBy (id = "in.rebase.app:id/negative_button") private MobileElement dismisspvcbutton;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='SmartCoin Terms & Conditions' and @index='1']") private MobileElement smartcoinprivecypolicytxt;
 
-	
+
 	public String getTitle() {
-		return getAttribute(smartcoinprivecypolicytxt, "text");
+		String title = getText(smartcoinprivecypolicytxt, "Terms and conditions page title text is:- ");
+		return title;
 	}
-	
-	
-public PermissionPage presstandcBtn() {
-		
-	click(dismisspvcbutton);
-	return new PermissionPage();
+
+
+	public PermissionPage presstandcBtn() {
+
+		click(dismisspvcbutton,"press dismiss button");
+		return new PermissionPage();
 	}
 }

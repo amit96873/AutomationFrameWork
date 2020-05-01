@@ -18,50 +18,51 @@ public class SelectEmployeementStatusPage extends BaseTest{
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='HOUSEWIFE' and @index='0']") private MobileElement housewfe;
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='STUDENT' and @index='0']") private MobileElement student;
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='RETIRED' and @index='0']") private MobileElement retired;
-	
-	
+
+
 	public String getTitle() {
-		return getAttribute(employeementstatuspagetitletext, "text");
+		String title = getText(employeementstatuspagetitletext, "Self Employement page title text is:- ");
+		return title;
 	}
 	public EditWorkDetailsPage pressSelectHouseWife() {
-		click(housewfe);
+		click(housewfe,"press on select housewife");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectStudents() {
-		click(student);
+		click(student,"press to select student");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectRetired() {
-		click(retired);
+		click(retired,"press to select retired");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectPUBLICSECTORJOB() {
-		click(publicsecjobs);
+		click(publicsecjobs,"press to select public sector jobs");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectSELFEMPLOYED() {
-		click(selfemployeed);
+		click(selfemployeed,"press to select self employeed ");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectBusinessOwnerShop() {
-		click(selectshopowner);
+		click(selectshopowner,"press to select shop owner");
 		return new EditWorkDetailsPage();
 	}
 
 	public EditWorkDetailsPage pressSelectBUSINESSOWNEROTHER() {
-		click(selectshoownerother);
+		click(selectshoownerother,"press select shop owner other");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectPRIVATESECTORJOBWORKINGINSHOP() {
-		click(pvtshopjobs);
+		click(pvtshopjobs,"press to select pvt shop jobs");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectPRIVATESECTORJOBWORKINGINFactory() {
-		click(pvtfactoryjobs);
+		click(pvtfactoryjobs,"press to select pvt factory jobs");
 		return new EditWorkDetailsPage();
 	}
 	public EditWorkDetailsPage pressSelectPRIVATESECTORJOBOther() {
-		click(pvtotherjobs);
+		click(pvtotherjobs,"press to select pvt other jobs");
 		return new EditWorkDetailsPage();
 	}
 

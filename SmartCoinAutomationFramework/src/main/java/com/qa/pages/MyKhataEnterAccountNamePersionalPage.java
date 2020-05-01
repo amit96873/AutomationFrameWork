@@ -13,30 +13,31 @@ public class MyKhataEnterAccountNamePersionalPage extends BaseTest {
 	@AndroidFindBy (id = "in.rebase.app:id/chat_shortcut") private MobileElement chatbtn;
 	@AndroidFindBy (id = "in.rebase.app:id/primary_action_text") private MobileElement continuebtn;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Enter Name for Khata' and @index='2']") private MobileElement khatanameedittextview;
-	
-	
+
+
 	public String getEnterAccountNamePersionalPageTitle() {
-		return getAttribute(enteraccountnametitletext, "text");
+		String title = getText(enteraccountnametitletext, "My Khata Page Title Tet is:- ");
+		return title;
 	}
 	public ChatPage pressChatShortCutBtn() {
-		click(chatbtn);
+		click(chatbtn,"press on chat button");
 		return new ChatPage();
 	}
 	public MyKhataPage pressReverseBtn() {
-		click(reversebtn);
+		click(reversebtn,"press on reverse button");
 		return new MyKhataPage();
 	}
 	public MyKhataEnterAccountNamePersionalPage enterPersionalKhataName(String khataname) {
-		click(khatanameedittextview);
+		click(khatanameedittextview,"press on khata name edit text");
 		clear(khatanameedittextview);
 		utils.log().info("Enter khata Name is:-  " + khataname);
-		sendkeys(khatanameedittextview, khataname);
+		sendKeys(khatanameedittextview, khataname,"Enter khata Name is:-  " + khataname);
 		return this;
 
 	}
 	public CreatedKhataPage pressContinueBtn() {
-		click(continuebtn);
+		click(continuebtn,"press on continue button");
 		return new CreatedKhataPage();
-		
+
 	}
 }

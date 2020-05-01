@@ -20,23 +20,24 @@ public class ProfileExpendMenueButonPage extends BaseTest {
 
 
 	public String getMenueExpendPageTitle() {
-		return getAttribute(editpersionaldetailsbtn, "text");
+		String title = getText(editpersionaldetailsbtn, "Profile expend menu button page title text is:- ");
+		return title;
 	}
 
 	public MyProfilePage pressReverseBtn() {
-		click(reversebtn);
+		click(reversebtn,"press reverse button");
 		return new MyProfilePage();
 	}
 	public KYCUploadDocumentsPage pressEditKYCBtn() {
-		click(editkycbtn);
+		click(editkycbtn,"press edit kyc button");
 		return new KYCUploadDocumentsPage();
 	}
 	public EditPersionalDetailsPage pressEditPersionalDetailsBtn() {
-		click(editpersionaldetailsbtn);
+		click(editpersionaldetailsbtn,"press edit persional details button");
 		return new EditPersionalDetailsPage();
 	}
 	public EditWorkDetailsPage pressEditWorklDetailsBtn() {
-		click(editworkdetailsbtn);
+		click(editworkdetailsbtn,"press edit work details button");
 		return new EditWorkDetailsPage();
 	}
 }

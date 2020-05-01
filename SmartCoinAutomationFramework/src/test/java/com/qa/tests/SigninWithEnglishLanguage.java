@@ -1,19 +1,19 @@
 package com.qa.tests;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import com.qa.BaseTest;
 import com.qa.BaseTestForSigninSignUp;
-import com.qa.listeners.AllureListenerForSigninSignup;
+import com.qa.listeners.AllureListener;
 import com.qa.pages.ConfirmYourPasswordPage;
 import com.qa.pages.ContinueLoginWithFbPage;
 import com.qa.pages.CreatePasswordPage;
 import com.qa.pages.FacebookPage;
-import com.qa.pages.HomePageSmartCoinForSigninSignup;
+import com.qa.pages.HomePageSmartCoin;
 import com.qa.pages.LanguagePage;
 import com.qa.pages.PermissionPage;
 import com.qa.pages.SignINWithGmailAndFacebookPage;
 import com.qa.pages.SigninPage;
 import com.qa.utils.TestUtils;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -31,8 +31,8 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-@Listeners({AllureListenerForSigninSignup.class})
-public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
+@Listeners({AllureListener.class})
+public class SigninWithEnglishLanguage extends BaseTest {
 	SigninPage signinPage;
 	LanguagePage languagePage;
 	PermissionPage permissionpage;
@@ -41,7 +41,7 @@ public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
 	ContinueLoginWithFbPage continueloginwithfb;
 	CreatePasswordPage createpasswordpage;
 	ConfirmYourPasswordPage confirmyourpasswordpage;
-	HomePageSmartCoinForSigninSignup homepagesmartcoin;
+	HomePageSmartCoin homepagesmartcoin;
 	InputStream datais;
 	JSONObject loginuser;
 	TestUtils utils = new TestUtils();
@@ -54,7 +54,7 @@ public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
 			JSONTokener tokener= new JSONTokener(datais);
 			loginuser = new JSONObject(tokener);
 			signinPage= new SigninPage();
-			
+
 
 		}catch(Exception e) {
 
@@ -72,7 +72,7 @@ public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
 
 	@AfterClass
 	public void afterClass() {
-		
+
 	}
 	@BeforeMethod
 	public void beforeMethod(Method m) {
@@ -82,7 +82,7 @@ public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
 
 	@AfterMethod
 	public void afterMethod() {
-		
+
 	}
 
 	@Test(priority=1, description="Verify Signin Button and after verification it will jump on Language page")
@@ -119,8 +119,8 @@ public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
 		sa.assertAll();
 		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 	}
-	
-	
+
+
 	@Test(priority=3, description="Verified Agree_And Continue Button To Get The Permision Page Which Will Ask The Permission For Sending SMS")
 	@Description("Verified Agree_And Continue Button To Get The Permision Page Which Will Ask The Permission For Sending SMS")
 	@Epic("EP0012")
@@ -137,7 +137,7 @@ public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
 		sa.assertAll();
 		utils.log().info("actual title - " + actualResult + "\n" + "expected title - "+expectedResult);
 	}
-	
+
 	@Test(priority=4, description="Verified allow button to Give The Permission For Sending SMS")
 	@Description("Verified allow button to Give The Permission For Sending SMS")
 	@Epic("EP0012")
@@ -291,5 +291,5 @@ public class SigninWithEnglishLanguage extends BaseTestForSigninSignUp {
 		sa.assertAll();
 		utils.log().info("actual title - " + actualResult10 + "\n" + "expected title - "+expectedResult10);
 	}
-	
+
 }

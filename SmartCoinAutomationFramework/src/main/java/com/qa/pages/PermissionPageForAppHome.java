@@ -18,71 +18,73 @@ public class PermissionPageForAppHome extends BaseTest {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Allow SmartCoin to access your contacts?' and @index='1']") private MobileElement accesscontactstitletxt;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Allow SmartCoin to make and manage phone calls?' and @index='1']") private MobileElement managephonecallstitletxt;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Allow SmartCoin to access this device's location?' and @index='1']") private MobileElement locationtitletxt;
-	
-	
 
 	public String getTitlepermission() {
-		return getAttribute(permissiontitletxt, "text");
+		String title = getText(permissiontitletxt, "Permission page title is:- ");
+		return title;
 	}
 
 	public String getTitleSms() {
-		return getAttribute(sendviewsmstitletext, "text");
+		String title = getText(sendviewsmstitletext, "Title of sms permission page is:- ");
+		return title;
 	}
 
 	public String getTitleContats() {
-		return getAttribute(accesscontactstitletxt, "text");
+		String title = getText(accesscontactstitletxt, "title of contacts permission page is:- ");
+		return title;
 	}
 
 	public String getTitlePhoneCall() {
-		return getAttribute(managephonecallstitletxt, "text");
+		String title = getText(managephonecallstitletxt, "title of phone call permission page is:- ");
+		return title;
 	}
 
 	public String getTitleLocation() {
-		return getAttribute(locationtitletxt, "text");
+		String title = getText(locationtitletxt, "title of location permission page is:- ");
+		return title;
 	}
-public PermissionPageForAppHome pressagreeAndContinuebtn() {
-		
-	click(agreeandcontinuebutton);
-	return this;
+	public PermissionPageForAppHome pressagreeAndContinuebtn() {
+
+		click(agreeandcontinuebutton,"press agree and continue button");
+		return this;
 	}
-public PermissionPageForAppHome pressallowButton() {
-	System.out.println("i am here");
-	click(allowbutton);
-	return this;
+	public PermissionPageForAppHome pressallowButton() {
+		click(allowbutton,"press allow button");
+		return this;
 	}
-public CameraPage pressallowButtonForCheckLeaf() {
-	
-	click(allowbutton);
-	return new CameraPage();
+	public CameraPage pressallowButtonForCheckLeaf() {
+
+		click(allowbutton,"press allow button");
+		return new CameraPage();
 	}
-public CameraPage pressallowlocation() {
-	
-	click(allowbutton);
-	return new CameraPage();
+	public CameraPage pressallowlocation() {
+
+		click(allowbutton,"press allow button");
+		return new CameraPage();
 	}
-public UploadAdharFrontSugestionPage pressallowForAadharFrontButton() {
-	click(allowbutton);
-	return new UploadAdharFrontSugestionPage();
+	public UploadAdharFrontSugestionPage pressallowForAadharFrontButton() {
+		click(allowbutton,"press allow button");
+		return new UploadAdharFrontSugestionPage();
 	}
-public SignINWithGmailAndFacebookPage pressLastallowButton() {
-	
-	click(allowbutton);
-	return new SignINWithGmailAndFacebookPage();
+	public SignINWithGmailAndFacebookPage pressLastallowButton() {
+
+		click(allowbutton,"press allow button");
+		return new SignINWithGmailAndFacebookPage();
 	}
-public PermissionPageForAppHome pressdenyButton() {
-	
-	click(denybutton);
-	return this;
+	public PermissionPageForAppHome pressdenyButton() {
+
+		click(denybutton,"press deny button");
+		return this;
 	}
-public PermissionPageForAppHome pressLoginWithGamiButton() {
-	
-	click(signupwithgamil);
-	return this;
+	public PermissionPageForAppHome pressLoginWithGamiButton() {
+
+		click(signupwithgamil,"press signup with gmail button");
+		return this;
 	}
-public PermissionPageForAppHome pressOnGmailId() {
-	
-	click(gmailid);
-	return this;
+	public PermissionPageForAppHome pressOnGmailId() {
+
+		click(gmailid,"press gmail id button");
+		return this;
 	}
 
 

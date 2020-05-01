@@ -16,26 +16,27 @@ public class ApplyForLoan extends BaseTest{
 	
 	
 	public String getTitleApplyForLoanPage() {	
-		return getAttribute(applyforloantitletext, "text");
+		String title =  getText(applyforloantitletext, "Apply For Loan Page Title Text");
+		return title;
 		
 	}
 	
 	public LoanApplicationSubmittedPage pressApplyBtn() {
-		click(applybtn);
+		click(applybtn, "Press On Apply Button");
 		return new LoanApplicationSubmittedPage();
 	}
 	public WhyDoYouNeedThisLoanPage pressSelectReasionBtn() {
-		click(selectreasionspinnerbtn);
+		click(selectreasionspinnerbtn,"Press On Select Reasion Button");
 		return new WhyDoYouNeedThisLoanPage();
 	}
 	
 	
 	public String getErrorText() {	
-		return getAttribute(errortext, "text");
+		return getText(errortext, "Error Text is:-");
 		
 	}
 	public ApplyForLoan pressDurationBarBtn() {
-		click(durationbarbtn);
+		click(durationbarbtn,"press on Duration Bar Button");
 		return this;
 	}
 	

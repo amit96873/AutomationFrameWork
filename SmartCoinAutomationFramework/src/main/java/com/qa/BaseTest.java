@@ -1,8 +1,13 @@
 package com.qa;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+import com.qa.reports.ExtentReport;
 import com.qa.utils.TestUtils;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.InteractsWithApps;
@@ -10,10 +15,18 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.functions.ExpectedCondition;
+import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import okhttp3.internal.platform.Platform;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -52,6 +65,7 @@ import io.appium.java_client.screenrecording.CanRecordScreen;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
+
 public class BaseTest {
 	protected static ThreadLocal <AppiumDriver> driver = new ThreadLocal <AppiumDriver>();
 	protected static ThreadLocal <Properties> props = new ThreadLocal <Properties>();
@@ -114,9 +128,6 @@ public class BaseTest {
 	@AfterMethod
 	public synchronized void afterMethod(ITestResult result) throws Exception {
 		String media = ((CanRecordScreen) getDriver() ).stopRecordingScreen();
-
-		//if(result.getStatus() == 1) {
-
 		Map<String, String> params = result.getTestContext().getCurrentXmlTest().getAllParameters();
 		String dirPath = "videos" + File.separator + params.get("platformName")+ "_"+params.get("platformVersion")+ "_"
 				+params.get("deviceName")+ File.separator +getDateTime()+File.separator+result.getTestClass().getRealClass().getSimpleName();
@@ -156,6 +167,7 @@ public class BaseTest {
 			utils.log().info("Appium server is started");
 		}else {
 			utils.log().info("Appium server is already running");
+			server.stop();
 		}
 	}
 	@AfterSuite
@@ -179,6 +191,16 @@ public class BaseTest {
 	public AppiumDriverLocalService getAppiumServerDefault() {
 		return AppiumDriverLocalService.buildDefaultService();
 	}
+	//unimplemented method
+	public void stopServer() {
+		Runtime runtime = Runtime.getRuntime();
+		try {
+			runtime.exec("taskkill /F /IM node.exe");
+			runtime.exec("taskkill /F /IM cmd.exe");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public boolean checkIfAppiumServerIsRunning(int port)throws Exception{
 		boolean isAppiumServerRunning = false;
@@ -187,7 +209,7 @@ public class BaseTest {
 			socket = new ServerSocket(port);
 			socket.close();
 		}catch (IOException e) {
-			System.out.println("1");
+			utils.log().info("1");
 			isAppiumServerRunning = true;
 		}finally {
 			socket = null;
@@ -195,8 +217,16 @@ public class BaseTest {
 		return isAppiumServerRunning;
 	}
 
+
+
 	@Parameters({"platformName", "platformVersion", "devicename","udid"})
 	@BeforeTest
+	@Description("Configurations settings code")
+	@Epic("EP00003")
+	@Feature("Feature1: Configurations")
+	@Story("Story: its all about configurations")
+	@Step("Configurations part of the framework")
+	@Severity(SeverityLevel.MINOR)
 	public void beforeTest(String platformName, String platformVersion, String deviceName, 
 			String udid) throws Exception {
 		utils = new TestUtils();
@@ -234,13 +264,9 @@ public class BaseTest {
 			dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, props.getProperty("androidAutomationName"));
 			dc.setCapability("appPackage", props.getProperty("androidAppPackage"));
 			dc.setCapability("appActivity", props.getProperty("androidAppActivity"));
-			//			if(emulator.equalsIgnoreCase("true")) {
-			//				dc.setCapability("avd", deviceName);
-			//			}
-
-			//			String androidAppUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation")).getFile();
-			//			System.out.println("appurl is" +androidAppUrl);
-			//			dc.setCapability("app", androidAppUrl);
+//			String androidAppUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation")).getFile();
+//			utils.log().info("appurl is" +androidAppUrl);
+//			dc.setCapability("app", androidAppUrl);
 			driver = new AndroidDriver<WebElement>(url,dc);
 			String sessionId = driver.getSessionId().toString();
 			setDriver(driver);
@@ -258,7 +284,6 @@ public class BaseTest {
 		}
 
 	}
-
 	private void setPlatform(ThreadLocal<String> platform2) {
 		// TODO Auto-generated method stub
 
@@ -287,8 +312,13 @@ public class BaseTest {
 		waitForVisibility(e);
 		e.click();
 	}
+	public void click(MobileElement e, String msg) {
+		waitForVisibility(e);
+		utils.log().info(msg);
+		ExtentReport.getTest().log(Status.INFO, msg);
+		e.click();
+	}
 	public void clear(MobileElement e) {
-
 		waitForVisibility(e);
 		e.clear();
 	}
@@ -298,7 +328,12 @@ public class BaseTest {
 		e.sendKeys(txt);
 	}
 
-
+	public void sendKeys(MobileElement e, String txt, String msg) {
+		waitForVisibility(e);
+		utils.log().info(msg);
+		ExtentReport.getTest().log(Status.INFO, msg);
+		e.sendKeys(txt);
+	}
 	public String getAttribute(MobileElement e, String attribute) {
 		waitForVisibility(e);
 		return  e.getAttribute(attribute);
@@ -311,8 +346,12 @@ public class BaseTest {
 		((InteractsWithApps) driver).launchApp();
 	}
 
-	public String getText(MobileElement e) {
-		return getAttribute(e,"text");
+	public String getText(MobileElement e, String msg) {
+		String txt = null;
+		txt = getAttribute(e, "text");
+		utils.log().info(msg + txt);
+		ExtentReport.getTest().log(Status.INFO, msg + txt);
+		return txt;
 	}
 
 	public  void scrollToElement(By e, String direction) {

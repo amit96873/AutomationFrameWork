@@ -8,10 +8,11 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 public class CompleteProfilePage extends BaseTest {
 
 	@AndroidFindBy (id = "in.rebase.app:id/title") private MobileElement titletext;
-	
-	
+
+
 	public String getTitleCurrentLoanPage() {	
-		return getAttribute(titletext, "text");
-		
+		String title =  getText(titletext, "Current Loan Page Title Text is:- ");
+		return title;
+
 	}
 }

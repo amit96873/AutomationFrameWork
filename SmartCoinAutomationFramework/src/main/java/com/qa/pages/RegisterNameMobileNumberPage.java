@@ -8,7 +8,7 @@ import com.qa.utils.TestUtils;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
+public class RegisterNameMobileNumberPage extends BaseTest {
 
 	TestUtils utils = new TestUtils();
 	@AndroidFindBy (id = "in.rebase.app:id/primary_action_text") private MobileElement regcontinuebutton;	
@@ -21,38 +21,39 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Invalid Name' and @index='0']") private MobileElement errortextforname;
 
 	public String getTitle() {
-		return getAttribute(registernamenumtitletxt, "text");
+		String title = getText(registernamenumtitletxt, "Register name and Mobile number Page Title Text is:- ");
+		return title;
 	}
 
 	public RegisterNameMobileNumberPage pressUpFullName() {
 
-		click(upfullnamelayer);
+		click(upfullnamelayer,"press Enter name edit text");
 		return this;
 	}
 	public RegisterNameMobileNumberPage pressOnTitle() {
 
-		click(registernamenumtitletxt);
+		click(registernamenumtitletxt,"press on title");
 		return this;
 	}
 	public RegisterNameMobileNumberPage enterFullName(String fullname) {
-		click(upfullnamelayer);
+		click(upfullnamelayer,"press enter name edit text");
 		clear(fullnameTxtFld);
-		utils.log().info("Full Name is:-  " + fullname);
-		sendkeys(fullnameTxtFld, fullname);
+		//		utils.log().info("Full Name is:-  " + fullname);
+		sendKeys(fullnameTxtFld, fullname,"Full Name is:-  " + fullname);
 		return this;
 
 	}
 	public RegisterNameMobileNumberPage pressUpMobileNumber() {
 
-		click(upmobilenumberlayer);
+		click(upmobilenumberlayer,"press Enter mobile number edit text");
 		return this;
 	}
 
 	public RegisterNameMobileNumberPage enterMobileNumber(String mobileNumber) {
-		click(upmobilenumberlayer);
+		click(upmobilenumberlayer,"press enter mobile number edit text");
 		clear(mobileNumberTxtFld);
-		utils.log().info("Mobile Number is :-" + mobileNumber);
-		sendkeys(mobileNumberTxtFld, mobileNumber);
+		//		utils.log().info("Mobile Number is :-" + mobileNumber);
+		sendKeys(mobileNumberTxtFld, mobileNumber,"Mobile Number is :-" + mobileNumber);
 		return this;
 	}
 	public RegisterNameMobileNumberPage clearNameTextField() {
@@ -66,26 +67,26 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 
 	public String getErrTxtMobileNumber() {
 
-		String MobileNumberError =  getText(errortextformobilenumber);
-		utils.log().info("Error Mobile Number Text is:- " + MobileNumberError);
+		String MobileNumberError =  getText(errortextformobilenumber,"Error Mobile Number Text is:- ");
+		//		utils.log().info("Error Mobile Number Text is:- " + MobileNumberError);
 		return MobileNumberError;
 	}
 
-	
+
 	public String getErrTxtName() {
 
-		String nameError= getText(errortextforname);
-		utils.log().info("Error Full Name Text is :- " + nameError);
+		String nameError= getText(errortextforname,"Error Full Name Text is :- ");
+		//		utils.log().info("Error Full Name Text is :- " + nameError);
 		return nameError;
 	}
 
 	public PermissionPage pressRegContinueBtn() {
 		click(registernamenumtitletxt);
-		click(regcontinuebutton);
-		utils.log().info("Click Register Continue button");
+		click(regcontinuebutton,"Press Register Continue button");
+		//		utils.log().info("Click Register Continue button");
 		return new PermissionPage();
 	}
-	
+
 	public PermissionPage validDetailsForPermissionPage() {
 		click(upfullnamelayer);
 		clear(fullnameTxtFld);		
@@ -96,9 +97,9 @@ public class RegisterNameMobileNumberPage extends BaseTestForSigninSignUp {
 		click(registernamenumtitletxt);
 		click(regcontinuebutton);
 		return new PermissionPage();
-		
-		
-		
-		
+
+
+
+
 	}
 }

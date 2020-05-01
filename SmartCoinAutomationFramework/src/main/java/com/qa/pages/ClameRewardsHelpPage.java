@@ -9,16 +9,17 @@ public class ClameRewardsHelpPage extends BaseTest {
 
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='How to claim reward?' and @index='0']") private MobileElement helpclaimrewardpagetitle;
 	@AndroidFindBy (id = "in.rebase.app:id/negative_button") private MobileElement okbtn;
-	
-	
+
+
 	public String getClaimRewardsPageTitle() {
-		return getAttribute(helpclaimrewardpagetitle, "text");
+		String title = getText(helpclaimrewardpagetitle, "Help Claim Reward Page Title Text");
+		return title;
 	}
-	
+
 	public SmartCoinRewardsPage pressOkButton() {
-		
-		click(okbtn);
+
+		click(okbtn,"Press On Ok Button");
 		return new SmartCoinRewardsPage();
 	}
-	
+
 }

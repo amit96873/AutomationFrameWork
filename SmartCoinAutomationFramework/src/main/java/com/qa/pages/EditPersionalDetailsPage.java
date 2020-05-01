@@ -9,7 +9,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class EditPersionalDetailsPage extends BaseTest{
-	
+
 	TestUtils utils = new TestUtils();
 	@AndroidFindBy (id = "in.rebase.app:id/name") private MobileElement enternametext;
 	@AndroidFindBy (id = "in.rebase.app:id/mobile_number") private MobileElement entermobilenumbertext;
@@ -28,96 +28,97 @@ public class EditPersionalDetailsPage extends BaseTest{
 	@AndroidFindBy (id = "in.rebase.app:id/primary_action_text") private MobileElement continuebtn;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Are you married?' and @index='9']") private By areyoumarriedtext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Full Name?' and @index='2']") private By fullnametext;
-	
-	
-	
+
+
+
 	public String getEditPersionalDetailsTitleText() {
-		return getAttribute(editpersionaldetailstitletext, "text");
+		String title = getText(editpersionaldetailstitletext, "Edit Persional Details Page Title is:- ");
+		return title;
 	}
 	public void scrollUp() {
 		BaseTest bt=new BaseTest();
 		bt.scrollToElement(areyoumarriedtext, "up");	
 	}
-		public void scrollDown() {
-			BaseTest bt=new BaseTest();
-			bt.scrollToElement(fullnametext, "down");	
-		}
-	
+	public void scrollDown() {
+		BaseTest bt=new BaseTest();
+		bt.scrollToElement(fullnametext, "down");	
+	}
+
 	public SelectDOBPage pressDOBSpinner() {
-		click(dobspinner);
+		click(dobspinner,"Press On DOB Spinner Button");
 		return new SelectDOBPage();
 	}
-	
+
 	public EditPersionalDetailsPage pressMariedYesRadioBtn() {
-		click(yesbtn);
+		click(yesbtn,"Press On Married Yes Button");
 		return this;
 	}
 	public EditPersionalDetailsPage pressMariedNoRadioBtn() {
-		click(nobtn);
+		click(nobtn,"Press On Married No Button");
 		return this;
 	}
 	public MyProfilePage pressReverseBtn() {
-		click(reversebtn);
+		click(reversebtn,"Press On Reverse Button");
 		return new MyProfilePage();
 	}
 	public MyProfilePage pressContinueBtn() {
-		click(continuebtn);
+		click(continuebtn,"Press On Continue Button");
 		return new MyProfilePage();
 	}
-	
+
 	public EditPersionalDetailsPage pressMailRadioBtn() {
-		click(male);
+		click(male,"Press On Mail Button");
 		return this;
 	}
 	public EditPersionalDetailsPage pressFemaleRadioBtn() {
-		click(famale);
+		click(famale,"Press On Famail Button");
 		return this;
 	}
 	public EditPersionalDetailsPage pressTransgenderRadioBtn() {
-		click(transgender);
+		click(transgender,"Press On Transgender Button");
 		return this;
 	}
 	public EditPersionalDetailsPage enterFullName(String fullname) {
-		click(enternametext);
+		click(enternametext,"Press On Enter Name Edit Text ");
 		clear(enternametext);
-		utils.log().info("Full Name is:-  " + fullname);
-		sendkeys(enternametext, fullname);
+		//		utils.log().info("Full Name is:-  " + fullname);
+		sendKeys(enternametext, fullname,"Full Name is:-  " + fullname);
 		return this;
 
 	}
 	public EditPersionalDetailsPage enterMobileNumber(String mobileNumber) {
-		click(entermobilenumbertext);
+		click(entermobilenumbertext,"Press on Enter Mobile Number Edit Text");
 		clear(entermobilenumbertext);
-		utils.log().info("Mobile Number is :-" + mobileNumber);
-		sendkeys(entermobilenumbertext, mobileNumber);
+		//		utils.log().info("Mobile Number is :-" + mobileNumber);
+		sendKeys(entermobilenumbertext, mobileNumber,"Mobile Number is :-" + mobileNumber);
 		return this;
 	}
 	public EditPersionalDetailsPage enterCurrentAddress(String address) {
-		click(editaddresstext);
+		click(editaddresstext,"Press Enter Address Edit Text ");
 		clear(editaddresstext);
-		utils.log().info(" Current Address is :-" + address);
-		sendkeys(editaddresstext, address);
+		//		utils.log().info(" Current Address is :-" + address);
+		sendKeys(editaddresstext, address," Current Address is :-" + address);
 		return this;
 	}
 	public EditPersionalDetailsPage enterPinCode(String pincode) {
-		click(pincodeedittext);
+		click(pincodeedittext,"Press On Enter Pin Code Edit text");
 		clear(pincodeedittext);
-		utils.log().info(" Pin Code is :-" + pincode);
-		sendkeys(pincodeedittext, pincode);
+		//		utils.log().info(" Pin Code is :-" + pincode);
+		sendKeys(pincodeedittext, pincode," Pin Code is :-" + pincode);
 		return this;
 	}
 	public EditPersionalDetailsPage enterFathersName(String fathersname) {
-		click(fathersnameedittext);
+		click(fathersnameedittext,"Press Enter Fathers Name Edit Text");
 		clear(fathersnameedittext);
-		utils.log().info(" Fathers Name is :-" + fathersname);
-		sendkeys(fathersnameedittext, fathersname);
+		//		utils.log().info(" Fathers Name is :-" + fathersname);
+		sendKeys(fathersnameedittext, fathersname," Fathers Name is :-" + fathersname);
 		return this;
 	}
 	public EditPersionalDetailsPage enterMothersname(String mothersname) {
-		click(mothersnameedittext);
+		click(mothersnameedittext,"Press Enter Mothers Nmae Edit Text");
 		clear(mothersnameedittext);
-		utils.log().info(" Mothers Name is :-" + mothersname);
-		sendkeys(mothersnameedittext, mothersname);
+		//		utils.log().info(" Mothers Name is :-" + mothersname);
+		sendKeys(mothersnameedittext, mothersname," Mothers Name is :-" + mothersname);
 		return this;
 	}
 

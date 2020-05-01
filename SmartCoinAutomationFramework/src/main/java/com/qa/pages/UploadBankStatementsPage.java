@@ -25,51 +25,53 @@ public class UploadBankStatementsPage extends BaseTest{
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='This field is required' and @index='3']") private MobileElement errortextview;
 
 	public String getBankStatementPageTitle() {
-		return getAttribute(bankstatementpagetitletext, "text");
+		String title = getText(bankstatementpagetitletext, "Upload bank statements page title text is:- ");
+		return title;
 	}
 	public String getEmtyErrorText() {
-		return getAttribute(errortextview, "text");
+		String error = getText(errortextview, "Empty Error is:- ");
+		return error;
 	}
 	public UploadBankStatementsPage enterPassword(String password) {
-		click(enterpasswordup);
+		click(enterpasswordup,"press on enter password edit text");
 		clear(enterpasswordedittext);
-		utils.log().info("Bank Statement PDF Password is:-  " + password);
-		sendkeys(enterpasswordedittext, password);
+		//		utils.log().info("Bank Statement PDF Password is:-  " + password);
+		sendKeys(enterpasswordedittext, password,"Bank Statement PDF Password is:-  " + password);
 		return this;
 
 	}
 	public CameraPage pressUploadPanCardBtn() {
-		click(uploadpancardtextview);
+		click(uploadpancardtextview,"press on upload pan card button");
 		return new CameraPage();
 	}
 	public UploadBankStatementsPage pressContinueBtn() {
-		click(continuebtn);
+		click(continuebtn,"press on continue button");
 		return this;
 	}
 
 	public UploadBankStatementsPage pressYesPasswordBtn() {
-		click(passwordyesbtn);
+		click(passwordyesbtn,"press on yes button for password");
 		return this;
 	}
 	public UploadBankStatementsPage pressNoPasswordBtn() {
-		click(passwordnobtn);
+		click(passwordnobtn,"press on No button for password");
 		return this;
 	}
 	public HomePageSmartCoin pressReverseBtn() {
-		click(reversebtn);
+		click(reversebtn,"press on reverse button");
 		return new HomePageSmartCoin();
 	}
 	public SelectBankPage pressSelectBankSpinnerBtn() {
-		click(selectbank);
+		click(selectbank,"press on select bank buton");
 		return new SelectBankPage();
 	}
 	public DocumentsFoldesPage pressUploadPdfAccountStatementBtn() {
-		click(uploadbankstatementtextview);
+		click(uploadbankstatementtextview,"press on upload bank statement button");
 		return new DocumentsFoldesPage();
 	}
 
 	public UploadBankStatementSugestationPage pressHelpBankAccountStatementBtn() {
-		click(helpbtn);
+		click(helpbtn,"press on help button");
 		return new UploadBankStatementSugestationPage();
 	}
 

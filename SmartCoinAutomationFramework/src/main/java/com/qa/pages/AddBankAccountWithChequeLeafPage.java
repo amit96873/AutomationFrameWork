@@ -30,87 +30,91 @@ public class AddBankAccountWithChequeLeafPage extends BaseTest{
 	
 	
 	public String getAddBankAccountPageTitle() {
-		return getAttribute(addbankaccountpagetitletext, "text");
+		String title = getAttribute(addbankaccountpagetitletext, "Add Bank Account Page Title Text is:- ");
+		return title;
 	}
 	public String getEditBankAccountPageTitle() {
-		return getAttribute(editbankaccountpagetitletext, "text");
+		String title =  getAttribute(editbankaccountpagetitletext, "Edit Bank Account Page Title Text is:- ");
+		return title;
 	}
 	public String getAddIfscVerifivationTitleText() {
-		return getAttribute(ifscverificationtext, "text");
+		String title =  getAttribute(ifscverificationtext, "Add IFSC Code Verification Page Title Text is:- ");
+		return title;
 	}
 	public String getAddCheckLeafVerifivationTitleText() {
-		return getAttribute(checkleafverificationtext, "text");
+		String title =  getAttribute(checkleafverificationtext, "Add Check Leaf Title Text is :- ");
+		return title;
 	}
 	public String getErrInvalidAccountNumber() {
 
-		String invalidAccountnumberError= getText(invalidaccountnumbererrortext);
-		utils.log().info("Error AccountNumber Text is :- " + invalidAccountnumberError);
+		String invalidAccountnumberError= getText(invalidaccountnumbererrortext,"Account Number Error Text");
+//		utils.log().info("Error AccountNumber Text is :- " + invalidAccountnumberError);
 		return invalidAccountnumberError;
 	}
 	
 	public String getErrEmptyCheckLeaffield() {
 
-		String EmptycheckleafError= getText(emptycheckleaferrortext);
-		utils.log().info("Error AccountNumber Text is :- " + EmptycheckleafError);
+		String EmptycheckleafError= getText(emptycheckleaferrortext,"Empty Check Leaf Error Text is:-");
+//		utils.log().info("Error AccountNumber Text is :- " + EmptycheckleafError);
 		return EmptycheckleafError;
 	}
 	public String getErrEmptyEditTextfield() {
 
-		String AccountError= getText(emptyerrortext);
-		utils.log().info("Error AccountNumber Text is :- " + AccountError);
+		String AccountError= getText(emptyerrortext, "Account Number Error Text");
+//		utils.log().info("Error AccountNumber Text is :- " + AccountError);
 		return AccountError;
 	}
 
 	public AddBankAccountWithChequeLeafPage enterBankAccountNumber(String accountnumber) {
-		click(aacountnumberup);
+		click(aacountnumberup,"clicked on Account Number Edit text ");
 		clear(enteraccountnumbertextfield);
-		utils.log().info("Account Number is:-  " + accountnumber);
-		sendkeys(enteraccountnumbertextfield, accountnumber);
+//		utils.log().info("Account Number is:-  " + accountnumber);
+		sendKeys(enteraccountnumbertextfield, accountnumber,"Account Number is:-  " + accountnumber);
 		return this;
 	}
 	public AddBankAccountWithChequeLeafPage reenterBankAccountNumber(String reenteraccountnumber) {
-		click(reenteraccountnumberup);
+		click(reenteraccountnumberup,"Clicked on ReEnter Account Number Edit Text");
 		clear(reenteraccountnumbertextfield);
-		utils.log().info("ReEnter Account Number is:-  " + reenteraccountnumber);
-		sendkeys(reenteraccountnumbertextfield, reenteraccountnumber);
+//		utils.log().info("ReEnter Account Number is:-  " + reenteraccountnumber);
+		sendKeys(reenteraccountnumbertextfield, reenteraccountnumber,"ReEnter Account Number is:-  " + reenteraccountnumber);
 		return this;
 	}
 	
 	public CameraPage pressCheckLeaf() {
 		
-		click(uploadcheckleafpic);
+		click(uploadcheckleafpic,"Clicked on check Leaf Button");
 		return new CameraPage();
 	}
 
 public PermissionPage pressCheckLeafWithPermission() {
 		
-		click(uploadcheckleafpic);
+		click(uploadcheckleafpic,"Press Check leaf Button with Permission");
 		return new PermissionPage();
 	}
 	public AddBankAccountWithIfscCodePage pressYesIfscButton() {
 
-		click(yesifsc);
+		click(yesifsc,"Press Yes IFSC Code Radio Button");
 		return new AddBankAccountWithIfscCodePage();
 	}
 	public AddBankAccountWithChequeLeafPage pressNoIfscButton() {
 
-		click(noifsc);
+		click(noifsc,"Press No Ifsc Code Radio Button");
 		return this;
 	}
 	public AddBankAccountSugestationPage pressCheckLeafNeedHelpButton() {
 
-		click(needhelpbtn);
+		click(needhelpbtn,"Press Need Help Button");
 		return new AddBankAccountSugestationPage();
 	}
 
 	public AddBankAccountWithChequeLeafPage pressReverseButton() {
 
-		click(reversebtn);
+		click(reversebtn,"Press on Reverse Button");
 		return this;
 	}
 	public MyBankDetailsPage pressContinueButton() {
 
-		click(continuebtn);
+		click(continuebtn,"Press On Continue Button");
 		return new MyBankDetailsPage();
 	}
 }

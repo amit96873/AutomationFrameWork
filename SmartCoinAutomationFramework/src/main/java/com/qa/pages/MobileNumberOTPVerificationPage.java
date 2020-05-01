@@ -7,8 +7,8 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class MobileNumberOTPVerificationPage extends BaseTest {
 
-	
-	
+
+
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='OTP Verification' and @index='0']") private MobileElement otpverificationstitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/change_number") private MobileElement changenumberbtn;
 	@AndroidFindBy (id = "in.rebase.app:id/resend_code") private MobileElement resendotpbtn;
@@ -20,27 +20,29 @@ public class MobileNumberOTPVerificationPage extends BaseTest {
 	@AndroidFindBy (xpath = "//android.widget.EditText[@text='' and @index='2']") private MobileElement otp3;
 	@AndroidFindBy (xpath = "//android.widget.EditText[@text='' and @index='3']") private MobileElement otp4;
 	@AndroidFindBy (xpath = "//android.widget.EditText[@text='' and @index='4']") private MobileElement otp5;
-	
-	
+
+
 
 	public String getNumberVerificationsPageTitle() {
-		return getAttribute(otpverificationstitletext, "text");
+		String title = getText(otpverificationstitletext, "Mobile Number OTP Verification Page Title is:- ");
+		return title;
 	}
 	public String getinvalidotptext() {
-		return getAttribute(invaidotperrortext, "text");
+		String envalidotp = getText(invaidotperrortext, "Invalid OTP Text is :- ");
+		return envalidotp;
 	}
 	public HomePageSmartCoin pressReversebtn() {
-		click(reversebtn);
+		click(reversebtn,"press on reverse button");
 		return new HomePageSmartCoin();
 	}
 
 	public ChangeMobileNumberPage pressChangeNumberbtn() {
-		click(changenumberbtn);
+		click(changenumberbtn,"press on change number button");
 		return new ChangeMobileNumberPage();
 	}
 
 	public MobileNumberOTPVerificationPage pressResendOtpbtn() {
-		click(resendotpbtn);
+		click(resendotpbtn,"press on reverse button");
 		return new MobileNumberOTPVerificationPage();
 	}
 }

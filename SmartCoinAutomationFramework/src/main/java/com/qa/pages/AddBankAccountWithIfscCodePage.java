@@ -23,80 +23,80 @@ public class AddBankAccountWithIfscCodePage extends BaseTest{
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Invalid IFSC Code' and @index='0']") private MobileElement invalidifsccodeerrortext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='This field is required' and @index='0']") private MobileElement emptyerrortext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Invalid Bank Account No.' and @index='0']") private MobileElement invalidaccountnumbererrortext;
-	
+
 	public String getAddBankAccountPageTitle() {
-		return getAttribute(addbankaccountpagetitletext, "text");
+		String title =  getText(addbankaccountpagetitletext, "Add Bank Account Page Title Text Is:- ");
+		return title;
 	}
 	public String getErrEmptyEditTextfield() {
-
-		String AccountError= getText(emptyerrortext);
-		utils.log().info("Error AccountNumber Text is :- " + AccountError);
-		return AccountError;
+		String error= getText(emptyerrortext,"Error AccountNumber Text is :- ");
+		//		utils.log().info("Error AccountNumber Text is :- " + AccountError);
+		return error;
 	}
 	public String getErrInvalidIfscCode() {
 
-		String invalidifsccodeError= getText(invalidifsccodeerrortext);
-		utils.log().info("Error IFSC Code Text is :- " + invalidifsccodeError);
+		String invalidifsccodeError= getText(invalidifsccodeerrortext,"Error IFSC Code Text is :- ");
+		//		utils.log().info("Error IFSC Code Text is :- " + invalidifsccodeError);
 		return invalidifsccodeError;
 	}
 	public String getErrInvalidAccountNumber() {
 
-		String invalidAccountnumberError= getText(invalidaccountnumbererrortext);
-		utils.log().info("Error AccountNumber Text is :- " + invalidAccountnumberError);
+		String invalidAccountnumberError= getText(invalidaccountnumbererrortext,"Error AccountNumber Text is :- ");
+		//		utils.log().info("Error AccountNumber Text is :- " + invalidAccountnumberError);
 		return invalidAccountnumberError;
 	}
 
 	public AddBankAccountWithIfscCodePage enterBankAccountNumber(String accountnumber) {
-		click(aacountnumberup);
+		click(aacountnumberup,"Click on Account Number Edit Text fields");
 		clear(enteraccountnumbertextfield);
-		utils.log().info("Account Number is:-  " + accountnumber);
-		sendkeys(enteraccountnumbertextfield, accountnumber);
+		//		utils.log().info("Account Number is:-  " + accountnumber);
+		sendKeys(enteraccountnumbertextfield, accountnumber,"Account Number is:-  " + accountnumber);
 		return this;
 	}
 	public AddBankAccountWithIfscCodePage reenterBankAccountNumber(String reenteraccountnumber) {
-		click(reenteraccountnumberup);
+		click(reenteraccountnumberup,"Click On Retenter Account Number");
 		clear(reenteraccountnumbertextfield);
 		utils.log().info("ReEnter Account Number is:-  " + reenteraccountnumber);
-		sendkeys(reenteraccountnumbertextfield, reenteraccountnumber);
+		sendKeys(reenteraccountnumbertextfield, reenteraccountnumber,"ReEnter Account Number is:-  " + reenteraccountnumber);
 		return this;
 	}
 	public AddBankAccountWithIfscCodePage enterIfscCode(String ifsccode) {
-		click(ifsccodeup);
+		click(ifsccodeup,"Click On IFSC Code");
 		clear(enterifsccodeedittext);
 		utils.log().info("IFSC Code is:-  " + ifsccode);
-		sendkeys(enterifsccodeedittext, ifsccode);
+		sendKeys(enterifsccodeedittext, ifsccode,"IFSC Code is:-  " + ifsccode);
 		return this;
 	}
 
 	public AddBankAccountWithIfscCodePage pressYesIfscButton() {
 
-		click(yesifsc);
+		click(yesifsc,"click on yes ifsc radio button");
 		return this;
 	}
 	public AddBankAccountWithChequeLeafPage pressNoIfscButton() {
 
-		click(noifsc);
+		click(noifsc,"click on No ifsc radio button");
 		return new AddBankAccountWithChequeLeafPage();
 	}
 	public AddBankAccountSugestationPage pressIfscCodeNeedHelpButton() {
 
-		click(needhelpbtn);
+		click(needhelpbtn,"click on need help button");
 		return new AddBankAccountSugestationPage();
 	}
 
 	public AddBankAccountWithIfscCodePage pressReverseButton() {
 
-		click(reversebtn);
+		click(reversebtn,"click on reverse button");
 		return this;
 	}
 	public MyBankDetailsPage pressContinueButton() {
 
-		click(continuebtn);
+		click(continuebtn,"click on continue button");
 		return new MyBankDetailsPage();
 	}
 	public ConfirmBankDetailsPage pressContinueButtontogetConfirmBankDetailsPage() {
 
-		click(continuebtn);
+		click(continuebtn,"click on confirm bank details confirm button");
 		return new ConfirmBankDetailsPage();
 	}
 }

@@ -7,24 +7,25 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class ForgotPasswordPage extends BaseTest {
 
-	
-	
+
+
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Forgot your Pin?' and @index='0']") private MobileElement forgotpasswordpagetitle;
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='OK, LOGOUT' and @index='0']") private MobileElement oklogoutbtn;
 	@AndroidFindBy (xpath = "//android.widget.Button[@text='CANCEL' and @index='0']") private MobileElement canclebtn;
-	
+
 	public String getTitleForgotPassword() {
-		return getAttribute(forgotpasswordpagetitle, "text");
+		String title = getText(forgotpasswordpagetitle, "Forgot Page Title Tet is:- ");
+		return title;
 	}
 	public EnterPasswordPage pressCancleBtn() {
 
-		click(canclebtn);
+		click(canclebtn,"Press On Cancel Button");
 		return new EnterPasswordPage();
 	}
 	public HomeMobileScreenPage pressOkLogOutBtn() {
 
-		click(oklogoutbtn);
+		click(oklogoutbtn,"Press On OkLogOUT Button");
 		return new HomeMobileScreenPage();
 	}
-	
+
 }

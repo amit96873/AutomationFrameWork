@@ -12,12 +12,13 @@ public class UploadBankStatementSugestationPage extends BaseTest {
 	@AndroidFindBy (id = "in.rebase.app:id/question") private MobileElement helpbankstatementtitletext;
 	
 	public String getSelectBankStatementHelpPageTitle() {
-		return getAttribute(helpbankstatementtitletext, "text");
+		String title = getText(helpbankstatementtitletext, "upload bank statement sugestation page title text is:- ");
+		return title;
 	}
 	
 
 	public UploadBankStatementsPage pressOkBtn() {
-		click(okbtn);
+		click(okbtn,"press on ok button");
 		return new UploadBankStatementsPage();
 	}
 }

@@ -14,15 +14,16 @@ public class UploadSelfieSugestionPage extends BaseTest{
 	
 
 	public String getSelfiesugestationTitle() {
-		return getAttribute(selfiehelptitletext, "text");
+		String title = getText(selfiehelptitletext, "Upload selfee sugestaion page title text is:- ");
+		return title;
 	}
 	
 	public CameraPage pressCaptureSelfieBtn() {
-		click(capturebtn);
+		click(capturebtn,"press capture button");
 		return new CameraPage();
 	}
 	public KYCUploadDocumentsPage pressCancelBtn() {
-		click(canclebtn);
+		click(canclebtn,"press cancel button");
 		return new KYCUploadDocumentsPage();
 	}
 	

@@ -20,121 +20,122 @@ public class EnterPasswordPage extends BaseTest {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='9' and @index='0']") private MobileElement digitnine;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='0' and @index='0']") private MobileElement digitzero;
 	@AndroidFindBy (id = "in.rebase.app:id/keyboard_button_imageview") private MobileElement deleteonedigitpassword;
-	
-	
+
+
 	public String getTitleEnterPassword() {
-		return getAttribute(enterpasswordpagetitle, "text");
+		String title = getAttribute(enterpasswordpagetitle, "Enter Password Page Title Text is:- ");
+		return title;
 	}
-	
+
 	public ForgotPasswordPage pressForgotPassword() {
 
-		click(forgotpassword);
+		click(forgotpassword,"Press On Forgot Password Button");
 		return new ForgotPasswordPage();
 	}
 	public EnterPasswordPage pressOne() {
 
-		click(digitone);
+		click(digitone,"Press On Digit One(1)");
 		return this;
 	}
 	public EnterPasswordPage pressTwo() {
 
-		click(digittwo);
+		click(digittwo,"Press On Digit Two(2)");
 		return this;
 	}
 	public EnterPasswordPage pressThree() {
 
-		click(digitthree);
+		click(digitthree,"Press On Digit Three(3)");
 		return this;
 	}
 	public EnterPasswordPage pressFour() {
 
-		click(digitfour);
+		click(digitfour,"Press On Digit Four(4)");
 		return this;
 	}
 	public EnterPasswordPage pressFive() {
 
-		click(digitfive);
+		click(digitfive,"Press On Digit Five(5)");
 		return this;
 	}
 	public EnterPasswordPage pressOSix() {
 
-		click(digitsix);
+		click(digitsix,"Press On Digit Six(6)");
 		return this;
 	}
 	public EnterPasswordPage pressSeven() {
 
-		click(digitseven);
+		click(digitseven,"Press On Digit Seven(7)");
 		return this;
 	}
 	public EnterPasswordPage pressEight() {
 
-		click(digiteight);
+		click(digiteight,"Press On Digit Eight(8)");
 		return this;
 	}
 	public EnterPasswordPage pressNine() {
 
-		click(digitnine);
+		click(digitnine,"Press On Digit Nine(9)");
 		return this;
 	}
 	public EnterPasswordPage pressZero() {
 
-		click(digitzero);
+		click(digitzero,"Press On Digit zero(0)");
 		return this;
 	}
 	public HomePageSmartCoin pressOne1() {
 
-		click(digitone);
+		click(digitone,"Press On Digit One(1)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressTwo2() {
 
-		click(digittwo);
+		click(digittwo,"Press on Digit Two(2)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressThree3() {
 
-		click(digitthree);
+		click(digitthree,"Press on digit Three(3)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressFour4() {
 
-		click(digitfour);
+		click(digitfour,"Press On Digit Four(4)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressFive5() {
 
-		click(digitfive);
+		click(digitfive,"Press On Digit Five(5)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressOSix6() {
 
-		click(digitsix);
+		click(digitsix,"Press On Digit Six(6)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressSeven7() {
 
-		click(digitseven);
+		click(digitseven,"Press On Digit Seven(7)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressEight8() {
 
-		click(digiteight);
+		click(digiteight,"Press on Digit Eight(8)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressNine9() {
 
-		click(digitnine);
+		click(digitnine,"Press On Digit Nine(9)");
 		return new HomePageSmartCoin();
 	}
 	public HomePageSmartCoin pressZero0() {
 
-		click(digitzero);
+		click(digitzero,"Press on Digit Zero(0)");
 		return new HomePageSmartCoin();
 	}
 	public EnterPasswordPage pressDeleteOneDigitPassword() {
 
-		click(deleteonedigitpassword);
+		click(deleteonedigitpassword,"Press on Delete One digit Password");
 		return this;
 	}
-	
+
 }

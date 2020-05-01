@@ -21,31 +21,31 @@ public class CameraPiccheckPage extends BaseTest {
 
 
 	public KYCUploadDocumentsPage pressDoneBtnKYCPageForEmulator() {
-		click(donebtn);
+		click(donebtn,"Press On Done Button For Emulator");
 		return new KYCUploadDocumentsPage();
 	}
 	public KYCUploadDocumentsPage pressDoneBtnKYCPageForRealDevice() {
-		click(donebtn1);
+		click(donebtn1,"Press On Done Button For Real Device");
 		return new KYCUploadDocumentsPage();
 	}
 	public KYCUploadDocumentsPage pressDoneAadharBack() {
-		click(donebtn);
+		click(donebtn,"Press On Done Button For Adhar Back");
 		return new KYCUploadDocumentsPage();
 	}
 	public KYCUploadDocumentsPage pressDoneSelfie() {
-		click(donebtn);
+		click(donebtn,"Press On Done Button For Selfie");
 		return new KYCUploadDocumentsPage();
 	}
 	public KYCUploadDocumentsPage pressDonePanCard() {
-		click(donebtn);
+		click(donebtn,"Press On Done Button For Pan Card");
 		return new KYCUploadDocumentsPage();
 	}
 	public KYCUploadDocumentsPage pressDoneUtilityBills() {
-		click(donebtn);
+		click(donebtn,"Press On Done Button For Utility Bills");
 		return new KYCUploadDocumentsPage();
 	}
 	public AddBankAccountWithChequeLeafPage pressDoneCheckLeafBtn() {
-		click(donebtn);
+		click(donebtn,"Press On Done Button For Check Leaf Button");
 		return new AddBankAccountWithChequeLeafPage();
 	}
 }

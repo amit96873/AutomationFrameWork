@@ -1,392 +1,325 @@
-[logsAndroid_Android Emulator INFO ] 2020-04-27 01:33:43.309 MenuPageButtonTest:117 - 
+[logsAndroid_Android Emulator INFO ] 2020-05-01 13:12:09.385 MenuPageButtonTest:117 - 
 ******** starting test:checkHomePageScrolling********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:33:43.322 AllureListener:55 - I am in OnStart Method checkHomePageScrollingStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:07.109 MenuPageButtonTest:142 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:12:35.143 MenuPageButtonTest:142 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:23.852 AllureListener:60 - I am in OnTest Success Method checkHomePageScrollingSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:23.854 AllureListener:66 - Scrren Shot Captured For Test Case: checkHomePageScrolling
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:29.582 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:12:56.125 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHomeButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:29.586 AllureListener:55 - I am in OnStart Method checkMenuPageHomeButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:32.142 MenuPageButtonTest:162 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:01.366 MenuPageButtonTest:162 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:37.407 MenuPageButtonTest:168 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:04.774 MenuPageButtonTest:168 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:37.410 AllureListener:60 - I am in OnTest Success Method checkMenuPageHomeButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:37.412 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageHomeButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:40.721 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:08.089 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyLoansButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:40.724 AllureListener:55 - I am in OnStart Method checkMenuPageMyLoansButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:42.926 MenuPageButtonTest:184 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:12.731 MenuPageButtonTest:184 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:45.259 MenuPageButtonTest:190 - actual title - My Loans
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:15.145 MenuPageButtonTest:190 - actual title - My Loans
 expected title - My Loans
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:45.260 AllureListener:60 - I am in OnTest Success Method checkMenuPageMyLoansButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:45.261 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageMyLoansButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:47.813 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:18.296 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyProfileButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:47.819 AllureListener:55 - I am in OnStart Method checkMenuPageMyProfileButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:51.830 MenuPageButtonTest:206 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:21.005 MenuPageButtonTest:206 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:53.891 MenuPageButtonTest:212 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:25.679 MenuPageButtonTest:212 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:56.782 MenuPageButtonTest:218 - actual title - My Profile
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:28.481 MenuPageButtonTest:218 - actual title - My Profile
 expected title - My Profile
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:56.783 AllureListener:60 - I am in OnTest Success Method checkMenuPageMyProfileButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:34:56.784 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageMyProfileButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:01.727 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:31.855 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageAllTransactionButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:01.732 AllureListener:55 - I am in OnStart Method checkMenuPageAllTransactionButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:05.573 MenuPageButtonTest:235 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:35.262 MenuPageButtonTest:235 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:07.881 MenuPageButtonTest:241 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:38.898 MenuPageButtonTest:241 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:10.362 MenuPageButtonTest:247 - actual title - All Transactions
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:41.556 MenuPageButtonTest:247 - actual title - All Transactions
 expected title - All Transactions
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:10.363 AllureListener:60 - I am in OnTest Success Method checkMenuPageAllTransactionButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:10.364 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageAllTransactionButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:13.111 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:44.590 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHelpAndSupportButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:13.113 AllureListener:55 - I am in OnStart Method checkMenuPageHelpAndSupportButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:17.101 MenuPageButtonTest:263 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:46.895 MenuPageButtonTest:263 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:20.688 MenuPageButtonTest:269 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:51.285 MenuPageButtonTest:269 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:22.698 MenuPageButtonTest:275 - actual title - EMAIL US
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:13:53.703 MenuPageButtonTest:275 - actual title - EMAIL US
 expected title - EMAIL US
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:22.699 AllureListener:60 - I am in OnTest Success Method checkMenuPageHelpAndSupportButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:22.700 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageHelpAndSupportButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:25.061 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:40:52.676 MenuPageButtonTest:117 - 
+******** starting test:checkHomePageScrolling********
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:12.529 MenuPageButtonTest:142 - actual title - SmartCoin
+expected title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:29.394 MenuPageButtonTest:117 - 
+******** starting test:checkMenuPageHomeButton********
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:33.966 MenuPageButtonTest:162 - actual title - Welcome!
+expected title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:37.589 MenuPageButtonTest:168 - actual title - SmartCoin
+expected title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:41.217 MenuPageButtonTest:117 - 
+******** starting test:checkMenuPageMyLoansButton********
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:44.557 MenuPageButtonTest:184 - actual title - Welcome!
+expected title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:46.648 MenuPageButtonTest:190 - actual title - My Loans
+expected title - My Loans
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:49.544 MenuPageButtonTest:117 - 
+******** starting test:checkMenuPageMyProfileButton********
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:52.379 MenuPageButtonTest:206 - actual title - SmartCoin
+expected title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:55.951 MenuPageButtonTest:212 - actual title - Welcome!
+expected title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:41:59.360 MenuPageButtonTest:218 - actual title - My Profile
+expected title - My Profile
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:02.673 MenuPageButtonTest:117 - 
+******** starting test:checkMenuPageAllTransactionButton********
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:06.044 MenuPageButtonTest:235 - actual title - SmartCoin
+expected title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:09.598 MenuPageButtonTest:241 - actual title - Welcome!
+expected title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:11.952 MenuPageButtonTest:247 - actual title - All Transactions
+expected title - All Transactions
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:15.114 MenuPageButtonTest:117 - 
+******** starting test:checkMenuPageHelpAndSupportButton********
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:17.960 MenuPageButtonTest:263 - actual title - SmartCoin
+expected title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:22.186 MenuPageButtonTest:269 - actual title - Welcome!
+expected title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:27.172 MenuPageButtonTest:275 - actual title - EMAIL US
+expected title - EMAIL US
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:31.041 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageFAQButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:25.063 AllureListener:55 - I am in OnStart Method checkMenuPageFAQButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:27.387 MenuPageButtonTest:291 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:33.418 MenuPageButtonTest:291 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:30.313 MenuPageButtonTest:297 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:36.956 MenuPageButtonTest:297 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:36.246 MenuPageButtonTest:303 - actual title - FAQ
-expected title - FAQ
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:36.246 AllureListener:60 - I am in OnTest Success Method checkMenuPageFAQButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:36.247 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageFAQButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:45.473 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:49.137 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageLanguageSettingButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:45.475 AllureListener:55 - I am in OnStart Method checkMenuPageLanguageSettingButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:49.303 MenuPageButtonTest:319 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:53.260 MenuPageButtonTest:319 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:51.571 MenuPageButtonTest:325 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:55.160 MenuPageButtonTest:325 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:54.168 MenuPageButtonTest:331 - actual title - Language
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:42:58.046 MenuPageButtonTest:331 - actual title - Language
 expected title - Language
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:54.170 AllureListener:60 - I am in OnTest Success Method checkMenuPageLanguageSettingButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:54.171 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageLanguageSettingButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:58.389 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:00.723 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageTroubleshootButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:35:58.391 AllureListener:55 - I am in OnStart Method checkMenuPageTroubleshootButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:01.947 MenuPageButtonTest:348 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:05.540 MenuPageButtonTest:348 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:03.277 MenuPageButtonTest:354 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:07.307 MenuPageButtonTest:354 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:05.211 MenuPageButtonTest:360 - actual title - Troubleshoot
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:09.644 MenuPageButtonTest:360 - actual title - Troubleshoot
 expected title - Troubleshoot
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:05.212 AllureListener:60 - I am in OnTest Success Method checkMenuPageTroubleshootButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:05.212 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageTroubleshootButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:07.145 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:12.050 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyBankDetailsButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:07.147 AllureListener:55 - I am in OnStart Method checkMenuPageMyBankDetailsButtonStart
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:10.791 MenuPageButtonTest:376 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:14.307 MenuPageButtonTest:376 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:14.601 MenuPageButtonTest:382 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:16.775 MenuPageButtonTest:382 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:17.259 MenuPageButtonTest:388 - actual title - My Bank Details
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:43:20.491 MenuPageButtonTest:388 - actual title - My Bank Details
 expected title - My Bank Details
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:17.260 AllureListener:60 - I am in OnTest Success Method checkMenuPageMyBankDetailsButtonSucceed
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:17.261 AllureListener:66 - Scrren Shot Captured For Test Case: checkMenuPageMyBankDetailsButton
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:36:20.593 AllureListener:50 - I am in OnFinish Method KYC Documents Page Tests
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:38:50.251 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:51:23.706 MenuPageButtonTest:117 - 
 ******** starting test:checkHomePageScrolling********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:12.111 MenuPageButtonTest:142 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:51:38.372 MenuPageButtonTest:142 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:29.507 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:51:52.500 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHomeButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:34.779 MenuPageButtonTest:162 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:51:55.106 MenuPageButtonTest:162 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:37.238 MenuPageButtonTest:168 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:51:57.407 MenuPageButtonTest:168 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:39.212 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:51:59.175 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyLoansButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:42.385 MenuPageButtonTest:184 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:01.967 MenuPageButtonTest:184 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:46.596 MenuPageButtonTest:190 - actual title - My Loans
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:03.748 MenuPageButtonTest:190 - actual title - My Loans
 expected title - My Loans
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:49.894 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:06.040 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyProfileButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:51.946 MenuPageButtonTest:206 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:08.106 MenuPageButtonTest:206 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:55.201 MenuPageButtonTest:212 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:11.477 MenuPageButtonTest:212 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:39:57.714 MenuPageButtonTest:218 - actual title - My Profile
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:13.737 MenuPageButtonTest:218 - actual title - My Profile
 expected title - My Profile
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:00.234 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:16.223 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageAllTransactionButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:03.146 MenuPageButtonTest:235 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:18.786 MenuPageButtonTest:235 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:08.218 MenuPageButtonTest:241 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:20.650 MenuPageButtonTest:241 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:10.113 MenuPageButtonTest:247 - actual title - All Transactions
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:22.738 MenuPageButtonTest:247 - actual title - All Transactions
 expected title - All Transactions
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:12.596 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:25.015 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHelpAndSupportButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:14.750 MenuPageButtonTest:263 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:26.970 MenuPageButtonTest:263 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:17.791 MenuPageButtonTest:269 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:28.830 MenuPageButtonTest:269 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:19.792 MenuPageButtonTest:275 - actual title - EMAIL US
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:30.823 MenuPageButtonTest:275 - actual title - EMAIL US
 expected title - EMAIL US
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:22.769 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:33.063 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageFAQButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:25.637 MenuPageButtonTest:291 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:35.196 MenuPageButtonTest:291 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:28.903 MenuPageButtonTest:297 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:36.928 MenuPageButtonTest:297 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:31.834 MenuPageButtonTest:303 - actual title - FAQ
-expected title - FAQ
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:40.131 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:47.103 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageLanguageSettingButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:43.734 MenuPageButtonTest:319 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:49.951 MenuPageButtonTest:319 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:49.691 MenuPageButtonTest:325 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:52.033 MenuPageButtonTest:325 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:51.921 MenuPageButtonTest:331 - actual title - Language
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:54.326 MenuPageButtonTest:331 - actual title - Language
 expected title - Language
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:53.954 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:52:56.216 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageTroubleshootButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:40:57.375 MenuPageButtonTest:348 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:53:00.509 MenuPageButtonTest:348 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:41:01.606 MenuPageButtonTest:354 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:53:02.148 MenuPageButtonTest:354 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:41:03.299 MenuPageButtonTest:360 - actual title - Troubleshoot
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:53:03.808 MenuPageButtonTest:360 - actual title - Troubleshoot
 expected title - Troubleshoot
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:41:05.368 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:53:05.724 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyBankDetailsButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:41:07.175 MenuPageButtonTest:376 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:53:07.533 MenuPageButtonTest:376 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:41:10.030 MenuPageButtonTest:382 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:53:10.433 MenuPageButtonTest:382 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:41:13.584 MenuPageButtonTest:388 - actual title - My Bank Details
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 13:53:12.655 MenuPageButtonTest:388 - actual title - My Bank Details
 expected title - My Bank Details
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:50:23.859 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:17.424 MenuPageButtonTest:117 - 
 ******** starting test:checkHomePageScrolling********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:50:47.977 MenuPageButtonTest:142 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:31.302 MenuPageButtonTest:142 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:03.929 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:45.396 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHomeButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:06.075 MenuPageButtonTest:162 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:47.477 MenuPageButtonTest:162 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:10.603 MenuPageButtonTest:168 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:50.320 MenuPageButtonTest:168 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:13.098 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:52.086 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyLoansButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:15.147 MenuPageButtonTest:184 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:54.042 MenuPageButtonTest:184 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:17.535 MenuPageButtonTest:190 - actual title - My Loans
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:56.327 MenuPageButtonTest:190 - actual title - My Loans
 expected title - My Loans
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:19.822 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:00:58.553 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyProfileButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:23.595 MenuPageButtonTest:206 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:00.532 MenuPageButtonTest:206 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:26.671 MenuPageButtonTest:212 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:03.446 MenuPageButtonTest:212 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:29.255 MenuPageButtonTest:218 - actual title - My Profile
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:06.067 MenuPageButtonTest:218 - actual title - My Profile
 expected title - My Profile
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:31.841 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:08.304 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageAllTransactionButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:37.287 MenuPageButtonTest:235 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:10.526 MenuPageButtonTest:235 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:40.095 MenuPageButtonTest:241 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:13.620 MenuPageButtonTest:241 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:42.388 MenuPageButtonTest:247 - actual title - All Transactions
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:15.319 MenuPageButtonTest:247 - actual title - All Transactions
 expected title - All Transactions
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:44.913 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:17.595 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHelpAndSupportButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:48.452 MenuPageButtonTest:263 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:19.455 MenuPageButtonTest:263 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:52.168 MenuPageButtonTest:269 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:21.256 MenuPageButtonTest:269 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:54.417 MenuPageButtonTest:275 - actual title - EMAIL US
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:23.388 MenuPageButtonTest:275 - actual title - EMAIL US
 expected title - EMAIL US
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:51:57.059 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:25.678 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageFAQButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:01.839 MenuPageButtonTest:291 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:27.466 MenuPageButtonTest:291 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:03.878 MenuPageButtonTest:297 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:29.579 MenuPageButtonTest:297 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:06.592 MenuPageButtonTest:303 - actual title - FAQ
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:32.376 MenuPageButtonTest:303 - actual title - FAQ
 expected title - FAQ
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:15.917 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:37.959 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageLanguageSettingButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:17.629 MenuPageButtonTest:319 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:40.983 MenuPageButtonTest:319 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:20.941 MenuPageButtonTest:325 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:43.232 MenuPageButtonTest:325 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:25.908 MenuPageButtonTest:331 - actual title - Language
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:45.777 MenuPageButtonTest:331 - actual title - Language
 expected title - Language
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:28.252 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:47.924 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageTroubleshootButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:32.829 MenuPageButtonTest:348 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:51.688 MenuPageButtonTest:348 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:34.187 MenuPageButtonTest:354 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:53.342 MenuPageButtonTest:354 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:36.977 MenuPageButtonTest:360 - actual title - Troubleshoot
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:55.235 MenuPageButtonTest:360 - actual title - Troubleshoot
 expected title - Troubleshoot
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:40.136 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:57.077 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyBankDetailsButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:41.525 MenuPageButtonTest:376 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:01:58.933 MenuPageButtonTest:376 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:44.251 MenuPageButtonTest:382 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:02:01.395 MenuPageButtonTest:382 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 01:52:49.421 MenuPageButtonTest:388 - actual title - My Bank Details
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 14:02:03.884 MenuPageButtonTest:388 - actual title - My Bank Details
 expected title - My Bank Details
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:39:44.757 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:04:58.976 MenuPageButtonTest:117 - 
 ******** starting test:checkHomePageScrolling********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:02.633 MenuPageButtonTest:142 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:16.858 MenuPageButtonTest:142 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:17.744 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:32.527 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHomeButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:19.749 MenuPageButtonTest:162 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:35.062 MenuPageButtonTest:162 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:22.580 MenuPageButtonTest:168 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:37.832 MenuPageButtonTest:168 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:24.424 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:39.911 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyLoansButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:26.491 MenuPageButtonTest:184 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:43.346 MenuPageButtonTest:184 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:29.014 MenuPageButtonTest:190 - actual title - My Loans
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:45.145 MenuPageButtonTest:190 - actual title - My Loans
 expected title - My Loans
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:31.259 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:47.475 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyProfileButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:33.099 MenuPageButtonTest:206 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:49.734 MenuPageButtonTest:206 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:35.106 MenuPageButtonTest:212 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:51.700 MenuPageButtonTest:212 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:37.785 MenuPageButtonTest:218 - actual title - My Profile
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:54.324 MenuPageButtonTest:218 - actual title - My Profile
 expected title - My Profile
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:40.261 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:56.764 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageAllTransactionButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:42.675 MenuPageButtonTest:235 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:05:59.209 MenuPageButtonTest:235 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:44.444 MenuPageButtonTest:241 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:02.011 MenuPageButtonTest:241 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:46.613 MenuPageButtonTest:247 - actual title - All Transactions
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:03.646 MenuPageButtonTest:247 - actual title - All Transactions
 expected title - All Transactions
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:48.816 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:06.032 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageHelpAndSupportButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:50.639 MenuPageButtonTest:263 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:07.995 MenuPageButtonTest:263 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:53.431 MenuPageButtonTest:269 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:09.605 MenuPageButtonTest:269 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:55.343 MenuPageButtonTest:275 - actual title - EMAIL US
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:11.821 MenuPageButtonTest:275 - actual title - EMAIL US
 expected title - EMAIL US
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:57.759 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:14.230 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageFAQButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:40:58.936 MenuPageButtonTest:291 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:15.870 MenuPageButtonTest:291 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:01.864 MenuPageButtonTest:297 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:19.051 MenuPageButtonTest:297 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:04.750 MenuPageButtonTest:303 - actual title - FAQ
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:21.884 MenuPageButtonTest:303 - actual title - FAQ
 expected title - FAQ
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:12.167 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:27.034 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageLanguageSettingButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:16.079 MenuPageButtonTest:319 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:30.710 MenuPageButtonTest:319 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:18.224 MenuPageButtonTest:325 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:34.735 MenuPageButtonTest:325 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:20.633 MenuPageButtonTest:331 - actual title - Language
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:36.977 MenuPageButtonTest:331 - actual title - Language
 expected title - Language
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:22.546 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:38.783 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageTroubleshootButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:26.418 MenuPageButtonTest:348 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:43.822 MenuPageButtonTest:348 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:28.003 MenuPageButtonTest:354 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:44.971 MenuPageButtonTest:354 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:29.916 MenuPageButtonTest:360 - actual title - Troubleshoot
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:46.700 MenuPageButtonTest:360 - actual title - Troubleshoot
 expected title - Troubleshoot
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:31.738 MenuPageButtonTest:117 - 
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:48.659 MenuPageButtonTest:117 - 
 ******** starting test:checkMenuPageMyBankDetailsButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:33.841 MenuPageButtonTest:376 - actual title - SmartCoin
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:50.652 MenuPageButtonTest:376 - actual title - SmartCoin
 expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:35.637 MenuPageButtonTest:382 - actual title - Welcome!
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:53.602 MenuPageButtonTest:382 - actual title - Welcome!
 expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 02:41:38.535 MenuPageButtonTest:388 - actual title - My Bank Details
-expected title - My Bank Details
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:19:20.712 MenuPageButtonTest:117 - 
-******** starting test:checkHomePageScrolling********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:19:38.201 MenuPageButtonTest:142 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:19:53.686 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageHomeButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:19:55.944 MenuPageButtonTest:162 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:19:58.165 MenuPageButtonTest:168 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:00.204 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageMyLoansButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:02.743 MenuPageButtonTest:184 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:05.060 MenuPageButtonTest:190 - actual title - My Loans
-expected title - My Loans
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:07.362 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageMyProfileButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:09.383 MenuPageButtonTest:206 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:12.423 MenuPageButtonTest:212 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:14.570 MenuPageButtonTest:218 - actual title - My Profile
-expected title - My Profile
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:16.935 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageAllTransactionButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:19.880 MenuPageButtonTest:235 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:22.855 MenuPageButtonTest:241 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:24.598 MenuPageButtonTest:247 - actual title - All Transactions
-expected title - All Transactions
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:27.105 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageHelpAndSupportButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:29.319 MenuPageButtonTest:263 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:31.662 MenuPageButtonTest:269 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:33.831 MenuPageButtonTest:275 - actual title - EMAIL US
-expected title - EMAIL US
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:36.324 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageFAQButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:38.653 MenuPageButtonTest:291 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:40.575 MenuPageButtonTest:297 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:44.616 MenuPageButtonTest:303 - actual title - FAQ
-expected title - FAQ
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:49.409 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageLanguageSettingButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:53.605 MenuPageButtonTest:319 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:55.439 MenuPageButtonTest:325 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:57.935 MenuPageButtonTest:331 - actual title - Language
-expected title - Language
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:20:59.894 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageTroubleshootButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:21:04.845 MenuPageButtonTest:348 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:21:05.873 MenuPageButtonTest:354 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:21:07.673 MenuPageButtonTest:360 - actual title - Troubleshoot
-expected title - Troubleshoot
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:21:09.747 MenuPageButtonTest:117 - 
-******** starting test:checkMenuPageMyBankDetailsButton********
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:21:11.994 MenuPageButtonTest:376 - actual title - SmartCoin
-expected title - SmartCoin
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:21:15.015 MenuPageButtonTest:382 - actual title - Welcome!
-expected title - Welcome!
-"[logsAndroid_Android Emulator INFO ] 2020-04-27 11:21:17.203 MenuPageButtonTest:388 - actual title - My Bank Details
+"[logsAndroid_Android Emulator INFO ] 2020-05-01 17:06:55.761 MenuPageButtonTest:388 - actual title - My Bank Details
 expected title - My Bank Details
 "

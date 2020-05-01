@@ -13,20 +13,22 @@ public class AddBankAccountSugestationPage extends BaseTest {
 	@AndroidFindBy (id = "in.rebase.app:id/negative_button") private MobileElement okbtn;
 	
 	public String getHelpAddBankAccountDetailsPageTitle() {
-		return getAttribute(helpaddbanktitletext, "text");
+		String title =getText(helpaddbanktitletext, "Help Add Bank Account Page Title is :- ");
+		return title;
+		
 	}
 	
 	
 	public AddBankAccountWithChequeLeafPage pressCheckLeafSuggestionPageOkButton() {
 		
-		click(okbtn);	
+		click(okbtn, "press OK button");	
 		return new AddBankAccountWithChequeLeafPage();
 	}
 	
 
 	public AddBankAccountWithIfscCodePage pressIfscCodeSuggestionPageOkButton() {
 		
-		click(okbtn);	
+		click(okbtn, "press Ok button");	
 		return new AddBankAccountWithIfscCodePage();
 	}
 

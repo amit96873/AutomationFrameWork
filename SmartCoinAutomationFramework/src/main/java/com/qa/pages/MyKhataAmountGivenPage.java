@@ -13,12 +13,13 @@ public class MyKhataAmountGivenPage extends BaseTest{
 	@AndroidFindBy (xpath = "//android.widget.ImageButton[@text='' and @index='0']") private MobileElement reversebtn;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Amount' and @index='2']") private MobileElement enteramount;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Add a Note (Optional)' and @index='2']") private MobileElement addnotetext;
-	
 
-	
+
+
 
 	public String getMyKhataAmountGivenPageTitle() {
-		return getAttribute(amountgiventitletext, "text");
+		String title = getText(amountgiventitletext, "My Khata Amount Given Page title text is:- ");
+		return title;
 	}
-	
+
 }

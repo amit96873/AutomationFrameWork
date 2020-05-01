@@ -11,15 +11,15 @@ public class LoanOffersPage extends BaseTest{
 	@AndroidFindBy (id = "in.rebase.app:id/actionButton") private MobileElement unlockhigherloanbtn;
 	@AndroidFindBy (id = "in.rebase.app:id/loan_apply_card") private MobileElement loanapplybtn;
 	public String getTitleLoanOffersPage() {	
-		return getAttribute(loanofferspagetitletext, "text");
-		
+		String title = getText(loanofferspagetitletext, "Loan Offer Page Title Text is:-");
+		return title;		
 	}
 	public UploadBankStatementsPage pressUnlockHeigherLoanBtn() {
-		click(unlockhigherloanbtn);
+		click(unlockhigherloanbtn,"Unlock Heigher Loan Button");
 		return new UploadBankStatementsPage();
 	}
 	public ApplyForLoan pressLoanApplyCardBtn() {
-		click(loanapplybtn);
+		click(loanapplybtn,"press on loan apply button");
 		return new ApplyForLoan();
 	}
 	

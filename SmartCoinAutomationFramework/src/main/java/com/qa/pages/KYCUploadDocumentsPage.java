@@ -22,89 +22,90 @@ public class KYCUploadDocumentsPage extends BaseTest{
 
 
 	public String getKYCPageTitle() {
-		return getAttribute(kycpagetitletext, "text");
+		String title = getText(kycpagetitletext, "KYC Upload Documents Page Title Text is :- ");
+		return title;
 	}
 	public UploadAdharBackSugestionPage pressUploadAdharBackBtn() {
 
-		click(addressproftakepicbtn);
+		click(addressproftakepicbtn,"Press On Address Proof take pic Button for Adhar Back");
 		return new UploadAdharBackSugestionPage();
 	}
 	public UploadUtilityBillSugestionPage pressUploadUtilityBillSBtn() {
 
-		click(addressproftakepicbtn);
+		click(addressproftakepicbtn,"press on address proof take pic button for utility bills");
 		return new UploadUtilityBillSugestionPage();
 	}
 	public UploadPanCardSuggestionPage pressUploadPanCardBtn() {
 
-		click(IdProoftakepicbtn);
+		click(IdProoftakepicbtn,"press on id proof take pic button for pan card");
 		return new UploadPanCardSuggestionPage();
 	}
 	public PermissionPageForAppHome pressUploadAdharFrontBtnWithPermission() {
-		click(IdProoftakepicbtn);
+		click(IdProoftakepicbtn,"press on id proof button with permission");
 		return new PermissionPageForAppHome();
-		
+
 	}
 	public UploadAdharFrontSugestionPage pressUploadAdharFrontBtn() {
-		click(IdProoftakepicbtn);
+		click(IdProoftakepicbtn,"press on id proof button for adhar front ");
 		return new UploadAdharFrontSugestionPage();
-		
+
 	}
 	public UploadSelfieSugestionPage pressUploadSelfieBtn() {
 
-		click(takeselfIPIC);
+		click(takeselfIPIC,"press on Upload selfee button");
 		return new UploadSelfieSugestionPage();
 	}
 
 	public UploadAdharBackSugestionPage pressHelpAdharBackBtn() {
 
-		click(helpaddressdocumentsbtn);
+		click(helpaddressdocumentsbtn,"Press on help button for Address proof by adhar");
 		return new UploadAdharBackSugestionPage();
 	}
 	public UploadUtilityBillSugestionPage pressHelpUtilityBillBtn() {
 
-		click(helpaddressdocumentsbtn);
+		click(helpaddressdocumentsbtn,"press on help button for utility bills");
 		return new UploadUtilityBillSugestionPage();
 	}
 	public UploadAdharFrontSugestionPage pressHelpAdharFrontBtn() {
 
-		click(helpiddocumentsbtn);
+		click(helpiddocumentsbtn,"press on help button for Adhar front");
 		return new UploadAdharFrontSugestionPage();
 	}
 
 	public UploadPanCardSuggestionPage pressHelpPanCardBtn() {
 
-		click(helpiddocumentsbtn);
+		click(helpiddocumentsbtn,"press on help button for Pan Card");
 		return new UploadPanCardSuggestionPage();
 	}
 	public UploadSelfieSugestionPage pressHelpUploadSelfieBtn() {
 
-		click(needhelpbtnforselfee);
+		click(needhelpbtnforselfee,"press on need help button for selfee,");
 		return new UploadSelfieSugestionPage();
 	}
 
 	public SelectIdDocumentsPage pressSelectAnotherIdDocumentsBtn() {
 
-		click(anotheriddocumentsbtn);
+		click(anotheriddocumentsbtn,"press on another Address proof documents button");
 		return new SelectIdDocumentsPage();
 	}
 	public SelectAddressDocumentsPage pressSelectAnotherAddressDocumentsBtn() {
 
-		click(anotheraddressdocumentsbtn);
+		click(anotheraddressdocumentsbtn,"press on another id proof documents button");
 		return new SelectAddressDocumentsPage();
 	}
 	public MyProfilePage pressReverseBtn() {
 
-		click(reversebtn);
+		click(reversebtn,"press on reverse button");
 		return new MyProfilePage();
 	}
 	public MyProfilePage pressContinueBtn() {
 
-		click(continuebtn);
+		click(continuebtn,"press on continue button");
 		return new MyProfilePage();
 	}
 	public ChatPage pressChatShortCutBtn() {
 
-		click(chatbtn);
+		click(chatbtn,"press on chat button");
 		return new ChatPage();
 	}
 

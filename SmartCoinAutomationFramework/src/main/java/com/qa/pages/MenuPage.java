@@ -6,8 +6,8 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class MenuPage extends BaseTest {
-	
-	
+
+
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Welcome!' and @index='1']") private MobileElement menuepagetitletext;
 	@AndroidFindBy (xpath = "//android.widget.CheckedTextView[@text='Home' and @index='0']") private MobileElement homebtn;
 	@AndroidFindBy (xpath = "//android.widget.CheckedTextView[@text='My Loans' and @index='0']") private MobileElement myloanbtn;
@@ -23,61 +23,62 @@ public class MenuPage extends BaseTest {
 
 
 	public String getTitleMenuePage() {
-		return getAttribute(menuepagetitletext, "text");
+		String title = getText(menuepagetitletext, "Menu Page Title Text is :- ");
+		return title;
 	}
 
 	public HomePageSmartCoin pressHomeBtn() {
 
-		click(homebtn);
+		click(homebtn,"Press on Home button");
 		return new HomePageSmartCoin();
 	}
 	public MyLoansPage pressMyLoanBtn() {
 
-		click(myloanbtn);
+		click(myloanbtn,"press on my loan button");
 		return new MyLoansPage();
 	}
 	public MyProfilePage pressMyProfileBtn() {
 
-		click(myprofilebtn);
+		click(myprofilebtn,"press on my profile button");
 		return new MyProfilePage();
 	}
 
 	public BankAccountPendingPage pressMyBankDetailsBtnToGetBankAccountPendingPage() {
 
-		click(mybankdetailsbtn);
+		click(mybankdetailsbtn,"press on my bank details button");
 		return new BankAccountPendingPage();
 	}
 	public MyBankDetailsPage pressMyBankDetailsBtntogetMyBankDetailsPage() {
 
-		click(mybankdetailsbtn);
+		click(mybankdetailsbtn,"press on my bank details button");
 		return new MyBankDetailsPage();
 	}
 	public AllTransactionPage pressAllTransactionBtn() {
 
-		click(alltransactionbtn);
+		click(alltransactionbtn,"press on all transaction button");
 		return new AllTransactionPage();
 	}
 	public HelpAndSupportPage pressHelpAndSupportBtn() {
 
-		click(helpandsupportbtn);
+		click(helpandsupportbtn,"press on help and support button");
 		return new HelpAndSupportPage();
 	}
 	public FAQPage pressFAQBtn() {
 
-		click(faqbtn);
+		click(faqbtn,"press on FAQ button");
 		return new FAQPage();
 	}
 	public LanguageSettingPage pressLanguageSettingBtn() {
 
-		click(languagesettingbtn);
+		click(languagesettingbtn,"press on language settings button");
 		return new LanguageSettingPage();
 	}
 	public TroubleShootPage pressTroubleShootBtn() {
 
-		click(troubleshootbtn);
+		click(troubleshootbtn,"press on troubleshoot button");
 		return new TroubleShootPage();
 	}
-	
+
 
 
 

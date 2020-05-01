@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="135948" started-at="2020-04-27T11:19:04 IST" finished-at="2020-04-27T11:21:20 IST">
+  <suite name="Suite" duration-ms="133790" started-at="2020-05-01T17:04:44 IST" finished-at="2020-05-01T17:06:58 IST">
     <groups>
     </groups>
-    <test name="KYC Documents Page Tests" duration-ms="135948" started-at="2020-04-27T11:19:04 IST" finished-at="2020-04-27T11:21:20 IST">
+    <test name="Menu Page Button Tests" duration-ms="133790" started-at="2020-05-01T17:04:44 IST" finished-at="2020-05-01T17:06:58 IST">
       <class name="com.qa.tests.MenuPageButtonTest">
-        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeSuit" is-config="true" duration-ms="5222" started-at="2020-04-27T11:18:59 IST" finished-at="2020-04-27T11:19:04 IST">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeSuit" is-config="true" duration-ms="5803" started-at="2020-05-01T17:04:39 IST" finished-at="2020-05-01T17:04:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeTest" is-config="true" duration-ms="14688" started-at="2020-04-27T11:19:04 IST" finished-at="2020-04-27T11:19:18 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeTest" is-config="true" duration-ms="12725" started-at="2020-05-01T17:04:44 IST" finished-at="2020-05-01T17:04:57 IST">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeClass" is-config="true" duration-ms="481" started-at="2020-04-27T11:19:18 IST" finished-at="2020-04-27T11:19:19 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeClass" is-config="true" duration-ms="408" started-at="2020-05-01T17:04:57 IST" finished-at="2020-05-01T17:04:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="831" started-at="2020-04-27T11:19:19 IST" finished-at="2020-04-27T11:19:20 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="730" started-at="2020-05-01T17:04:58 IST" finished-at="2020-05-01T17:04:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="102" started-at="2020-04-27T11:19:20 IST" finished-at="2020-04-27T11:19:20 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="66" started-at="2020-05-01T17:04:58 IST" finished-at="2020-05-01T17:04:59 IST">
           <params>
             <param index="0">
               <value>
@@ -56,30 +56,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkHomePageScrolling()[pri:1, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkHomePageScrolling" duration-ms="30278" started-at="2020-04-27T11:19:20 IST" description="Verify Home Page Scrolling" finished-at="2020-04-27T11:19:51 IST">
+        <test-method status="PASS" signature="checkHomePageScrolling()[pri:1, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkHomePageScrolling" duration-ms="30310" started-at="2020-05-01T17:04:59 IST" description="Verify Home Page Scrolling" finished-at="2020-05-01T17:05:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHomePageScrolling -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-27T11:19:51 IST" finished-at="2020-04-27T11:19:51 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-05-01T17:05:30 IST" finished-at="2020-05-01T17:05:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1476" started-at="2020-04-27T11:19:51 IST" finished-at="2020-04-27T11:19:53 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="1878" started-at="2020-05-01T17:05:30 IST" finished-at="2020-05-01T17:05:31 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkHomePageScrolling status=SUCCESS method=MenuPageButtonTest.checkHomePageScrolling()[pri:1, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkHomePageScrolling status=SUCCESS method=MenuPageButtonTest.checkHomePageScrolling()[pri:1, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="508" started-at="2020-04-27T11:19:53 IST" finished-at="2020-04-27T11:19:53 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="586" started-at="2020-05-01T17:05:31 IST" finished-at="2020-05-01T17:05:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-04-27T11:19:53 IST" finished-at="2020-04-27T11:19:53 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-05-01T17:05:32 IST" finished-at="2020-05-01T17:05:32 IST">
           <params>
             <param index="0">
               <value>
@@ -90,30 +90,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageHomeButton()[pri:2, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageHomeButton" duration-ms="4477" started-at="2020-04-27T11:19:53 IST" description="Verify Home Button which is peresence on Menu Page" finished-at="2020-04-27T11:19:58 IST">
+        <test-method status="PASS" signature="checkMenuPageHomeButton()[pri:2, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageHomeButton" duration-ms="5303" started-at="2020-05-01T17:05:32 IST" description="Verify Home Button which is peresence on Menu Page" finished-at="2020-05-01T17:05:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageHomeButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-27T11:19:58 IST" finished-at="2020-04-27T11:19:58 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T17:05:38 IST" finished-at="2020-05-01T17:05:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="833" started-at="2020-04-27T11:19:58 IST" finished-at="2020-04-27T11:19:59 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="902" started-at="2020-05-01T17:05:38 IST" finished-at="2020-05-01T17:05:39 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageHomeButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageHomeButton()[pri:2, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageHomeButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageHomeButton()[pri:2, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="702" started-at="2020-04-27T11:19:59 IST" finished-at="2020-04-27T11:20:00 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="644" started-at="2020-05-01T17:05:39 IST" finished-at="2020-05-01T17:05:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-04-27T11:20:00 IST" finished-at="2020-04-27T11:20:00 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-05-01T17:05:39 IST" finished-at="2020-05-01T17:05:39 IST">
           <params>
             <param index="0">
               <value>
@@ -124,30 +124,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageMyLoansButton()[pri:3, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageMyLoansButton" duration-ms="4855" started-at="2020-04-27T11:20:00 IST" description="Verify My_Loans Button which is peresence on Menu Page" finished-at="2020-04-27T11:20:05 IST">
+        <test-method status="PASS" signature="checkMenuPageMyLoansButton()[pri:3, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageMyLoansButton" duration-ms="5233" started-at="2020-05-01T17:05:39 IST" description="Verify My_Loans Button which is peresence on Menu Page" finished-at="2020-05-01T17:05:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageMyLoansButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-27T11:20:05 IST" finished-at="2020-04-27T11:20:05 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-01T17:05:46 IST" finished-at="2020-05-01T17:05:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="868" started-at="2020-04-27T11:20:05 IST" finished-at="2020-04-27T11:20:06 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="859" started-at="2020-05-01T17:05:46 IST" finished-at="2020-05-01T17:05:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageMyLoansButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageMyLoansButton()[pri:3, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageMyLoansButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageMyLoansButton()[pri:3, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="486" started-at="2020-04-27T11:20:06 IST" finished-at="2020-04-27T11:20:07 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="490" started-at="2020-05-01T17:05:46 IST" finished-at="2020-05-01T17:05:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2020-04-27T11:20:07 IST" finished-at="2020-04-27T11:20:07 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-05-01T17:05:47 IST" finished-at="2020-05-01T17:05:47 IST">
           <params>
             <param index="0">
               <value>
@@ -158,30 +158,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageMyProfileButton()[pri:4, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageMyProfileButton" duration-ms="7205" started-at="2020-04-27T11:20:07 IST" description="Verify My_Profile Button which is peresence on Menu Page" finished-at="2020-04-27T11:20:14 IST">
+        <test-method status="PASS" signature="checkMenuPageMyProfileButton()[pri:4, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageMyProfileButton" duration-ms="6848" started-at="2020-05-01T17:05:47 IST" description="Verify My_Profile Button which is peresence on Menu Page" finished-at="2020-05-01T17:05:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageMyProfileButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-27T11:20:15 IST" finished-at="2020-04-27T11:20:15 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T17:05:55 IST" finished-at="2020-05-01T17:05:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="929" started-at="2020-04-27T11:20:15 IST" finished-at="2020-04-27T11:20:16 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="915" started-at="2020-05-01T17:05:55 IST" finished-at="2020-05-01T17:05:56 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageMyProfileButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageMyProfileButton()[pri:4, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageMyProfileButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageMyProfileButton()[pri:4, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="490" started-at="2020-04-27T11:20:16 IST" finished-at="2020-04-27T11:20:16 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="597" started-at="2020-05-01T17:05:56 IST" finished-at="2020-05-01T17:05:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-04-27T11:20:16 IST" finished-at="2020-04-27T11:20:16 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-05-01T17:05:56 IST" finished-at="2020-05-01T17:05:56 IST">
           <params>
             <param index="0">
               <value>
@@ -192,30 +192,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageAllTransactionButton()[pri:5, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageAllTransactionButton" duration-ms="7661" started-at="2020-04-27T11:20:16 IST" description="Verify All_Transaction Button which is peresence on Menu Page" finished-at="2020-04-27T11:20:24 IST">
+        <test-method status="PASS" signature="checkMenuPageAllTransactionButton()[pri:5, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageAllTransactionButton" duration-ms="6880" started-at="2020-05-01T17:05:56 IST" description="Verify All_Transaction Button which is peresence on Menu Page" finished-at="2020-05-01T17:06:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageAllTransactionButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-27T11:20:25 IST" finished-at="2020-04-27T11:20:25 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T17:06:04 IST" finished-at="2020-05-01T17:06:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="948" started-at="2020-04-27T11:20:25 IST" finished-at="2020-04-27T11:20:26 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="912" started-at="2020-05-01T17:06:04 IST" finished-at="2020-05-01T17:06:05 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageAllTransactionButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageAllTransactionButton()[pri:5, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageAllTransactionButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageAllTransactionButton()[pri:5, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="686" started-at="2020-04-27T11:20:26 IST" finished-at="2020-04-27T11:20:27 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="560" started-at="2020-05-01T17:06:05 IST" finished-at="2020-05-01T17:06:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-04-27T11:20:27 IST" finished-at="2020-04-27T11:20:27 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-05-01T17:06:06 IST" finished-at="2020-05-01T17:06:06 IST">
           <params>
             <param index="0">
               <value>
@@ -226,30 +226,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageHelpAndSupportButton()[pri:6, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageHelpAndSupportButton" duration-ms="6726" started-at="2020-04-27T11:20:27 IST" description="Verify Help_And_Support Button which is peresence on Menu Page" finished-at="2020-04-27T11:20:33 IST">
+        <test-method status="PASS" signature="checkMenuPageHelpAndSupportButton()[pri:6, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageHelpAndSupportButton" duration-ms="5787" started-at="2020-05-01T17:06:06 IST" description="Verify Help_And_Support Button which is peresence on Menu Page" finished-at="2020-05-01T17:06:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageHelpAndSupportButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-27T11:20:34 IST" finished-at="2020-04-27T11:20:34 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T17:06:12 IST" finished-at="2020-05-01T17:06:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1004" started-at="2020-04-27T11:20:34 IST" finished-at="2020-04-27T11:20:35 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="902" started-at="2020-05-01T17:06:12 IST" finished-at="2020-05-01T17:06:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageHelpAndSupportButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageHelpAndSupportButton()[pri:6, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageHelpAndSupportButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageHelpAndSupportButton()[pri:6, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="492" started-at="2020-04-27T11:20:35 IST" finished-at="2020-04-27T11:20:36 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="537" started-at="2020-05-01T17:06:13 IST" finished-at="2020-05-01T17:06:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-04-27T11:20:36 IST" finished-at="2020-04-27T11:20:36 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-05-01T17:06:14 IST" finished-at="2020-05-01T17:06:14 IST">
           <params>
             <param index="0">
               <value>
@@ -260,30 +260,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageFAQButton()[pri:7, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageFAQButton" duration-ms="8290" started-at="2020-04-27T11:20:36 IST" description="Verify FAQ Button which is peresence on Menu Page" finished-at="2020-04-27T11:20:44 IST">
+        <test-method status="PASS" signature="checkMenuPageFAQButton()[pri:7, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageFAQButton" duration-ms="7653" started-at="2020-05-01T17:06:14 IST" description="Verify FAQ Button which is peresence on Menu Page" finished-at="2020-05-01T17:06:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageFAQButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-27T11:20:46 IST" finished-at="2020-04-27T11:20:46 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-01T17:06:24 IST" finished-at="2020-05-01T17:06:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1191" started-at="2020-04-27T11:20:46 IST" finished-at="2020-04-27T11:20:47 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="1849" started-at="2020-05-01T17:06:24 IST" finished-at="2020-05-01T17:06:25 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageFAQButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageFAQButton()[pri:7, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageFAQButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageFAQButton()[pri:7, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="1775" started-at="2020-04-27T11:20:47 IST" finished-at="2020-04-27T11:20:49 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="1165" started-at="2020-05-01T17:06:25 IST" finished-at="2020-05-01T17:06:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-04-27T11:20:49 IST" finished-at="2020-04-27T11:20:49 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-05-01T17:06:27 IST" finished-at="2020-05-01T17:06:27 IST">
           <params>
             <param index="0">
               <value>
@@ -294,30 +294,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageLanguageSettingButton()[pri:8, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageLanguageSettingButton" duration-ms="8524" started-at="2020-04-27T11:20:49 IST" description="Verify Language Button which is peresence on Menu Page" finished-at="2020-04-27T11:20:57 IST">
+        <test-method status="PASS" signature="checkMenuPageLanguageSettingButton()[pri:8, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageLanguageSettingButton" duration-ms="9940" started-at="2020-05-01T17:06:27 IST" description="Verify Language Button which is peresence on Menu Page" finished-at="2020-05-01T17:06:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageLanguageSettingButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-27T11:20:58 IST" finished-at="2020-04-27T11:20:58 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T17:06:37 IST" finished-at="2020-05-01T17:06:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="911" started-at="2020-04-27T11:20:58 IST" finished-at="2020-04-27T11:20:59 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="844" started-at="2020-05-01T17:06:37 IST" finished-at="2020-05-01T17:06:38 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageLanguageSettingButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageLanguageSettingButton()[pri:8, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageLanguageSettingButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageLanguageSettingButton()[pri:8, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="470" started-at="2020-04-27T11:20:59 IST" finished-at="2020-04-27T11:20:59 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="488" started-at="2020-05-01T17:06:38 IST" finished-at="2020-05-01T17:06:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-04-27T11:20:59 IST" finished-at="2020-04-27T11:20:59 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-05-01T17:06:38 IST" finished-at="2020-05-01T17:06:38 IST">
           <params>
             <param index="0">
               <value>
@@ -328,30 +328,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageTroubleshootButton()[pri:9, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageTroubleshootButton" duration-ms="7777" started-at="2020-04-27T11:20:59 IST" description="Verify Troubleshoot Button which is peresence on Menu Page" finished-at="2020-04-27T11:21:07 IST">
+        <test-method status="PASS" signature="checkMenuPageTroubleshootButton()[pri:9, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageTroubleshootButton" duration-ms="7916" started-at="2020-05-01T17:06:38 IST" description="Verify Troubleshoot Button which is peresence on Menu Page" finished-at="2020-05-01T17:06:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageTroubleshootButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-27T11:21:08 IST" finished-at="2020-04-27T11:21:08 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-01T17:06:47 IST" finished-at="2020-05-01T17:06:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1045" started-at="2020-04-27T11:21:08 IST" finished-at="2020-04-27T11:21:09 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="956" started-at="2020-05-01T17:06:47 IST" finished-at="2020-05-01T17:06:48 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageTroubleshootButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageTroubleshootButton()[pri:9, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageTroubleshootButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageTroubleshootButton()[pri:9, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="494" started-at="2020-04-27T11:21:09 IST" finished-at="2020-04-27T11:21:09 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="485" started-at="2020-05-01T17:06:48 IST" finished-at="2020-05-01T17:06:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-04-27T11:21:09 IST" finished-at="2020-04-27T11:21:09 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-05-01T17:06:48 IST" finished-at="2020-05-01T17:06:48 IST">
           <params>
             <param index="0">
               <value>
@@ -362,38 +362,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkMenuPageMyBankDetailsButton()[pri:10, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="checkMenuPageMyBankDetailsButton" duration-ms="7456" started-at="2020-04-27T11:21:09 IST" description="Verify My_Bank_Details Button which is peresence on Menu Page" finished-at="2020-04-27T11:21:17 IST">
+        <test-method status="PASS" signature="checkMenuPageMyBankDetailsButton()[pri:10, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="checkMenuPageMyBankDetailsButton" duration-ms="7102" started-at="2020-05-01T17:06:48 IST" description="Verify My_Bank_Details Button which is peresence on Menu Page" finished-at="2020-05-01T17:06:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuPageMyBankDetailsButton -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-27T11:21:18 IST" finished-at="2020-04-27T11:21:18 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T17:06:56 IST" finished-at="2020-05-01T17:06:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterMethod" is-config="true" duration-ms="923" started-at="2020-04-27T11:21:18 IST" finished-at="2020-04-27T11:21:19 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterMethod" is-config="true" duration-ms="877" started-at="2020-05-01T17:06:56 IST" finished-at="2020-05-01T17:06:57 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenuPageMyBankDetailsButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageMyBankDetailsButton()[pri:10, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenuPageMyBankDetailsButton status=SUCCESS method=MenuPageButtonTest.checkMenuPageMyBankDetailsButton()[pri:10, instance:com.qa.tests.MenuPageButtonTest@2af4129d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-04-27T11:21:19 IST" finished-at="2020-04-27T11:21:19 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-05-01T17:06:57 IST" finished-at="2020-05-01T17:06:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterTest" is-config="true" duration-ms="1081" started-at="2020-04-27T11:21:19 IST" finished-at="2020-04-27T11:21:20 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterTest" is-config="true" duration-ms="866" started-at="2020-05-01T17:06:57 IST" finished-at="2020-05-01T17:06:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.tests.MenuPageButtonTest@5ac6c4f2]" name="afterSuite" is-config="true" duration-ms="101" started-at="2020-04-27T11:21:20 IST" finished-at="2020-04-27T11:21:20 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.tests.MenuPageButtonTest@2af4129d]" name="afterSuite" is-config="true" duration-ms="51" started-at="2020-05-01T17:06:59 IST" finished-at="2020-05-01T17:06:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.qa.tests.MenuPageButtonTest -->
-    </test> <!-- KYC Documents Page Tests -->
+    </test> <!-- Menu Page Button Tests -->
   </suite> <!-- Suite -->
 </testng-results>

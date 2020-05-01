@@ -9,7 +9,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class HomePageSmartCoin extends BaseTest {
 	BaseTest bs=new BaseTest();
-	
+
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='SmartCoin' and @index='1']") private MobileElement homepagetitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/chat_shortcut") private MobileElement homepagechatshortcut;
 	@AndroidFindBy (xpath = "//android.widget.ImageButton[@content-desc='Open' and @index='0']") private MobileElement menuebutton;
@@ -28,75 +28,77 @@ public class HomePageSmartCoin extends BaseTest {
 
 
 	public String getTitleHomePage() {	
-		return getAttribute(homepagetitletext, "text");
-		
+		String title = getText(homepagetitletext, "Home Page Title Text is :- ");
+		return title;
 	}
 	public LoanOffersPage pressViewAllBtn() {
-		click(viewallbtn);
+		click(viewallbtn,"Press On View Button");
 		return new LoanOffersPage();
 	}
-	
+
 	public ApplyForLoan pressApplyBtn() {
-		click(applybtn);
+		click(applybtn,"Press On Apply Button");
 		return new ApplyForLoan();
 	}
 
 	public String getMyCoinText() {	
-		return getAttribute(mycointext, "text");
-		
+		String text = getText(mycointext, "My Coin Text is:- ");
+		return text;
+
 	}
 
 	public String getTotalCoinBalanceText() {	
-		return getAttribute(totalcoinbalancetext, "text");
-		
+		String text = getText(totalcoinbalancetext, "Total Coin Balance Text is:- ");
+		return text;
 	}
-	
+
 	public String getMyLoanOfferText() {	
-		return getAttribute(myloanoffertitletext, "text");
-		
+		String text = getText(myloanoffertitletext, "My Loan Offer Tet is:- ");
+		return text;
+
 	}
 	public MyKhataPage pressMyKhataBtn() {
-		click(mykhata);
+		click(mykhata,"Press On My Khata Button");
 		return new MyKhataPage();
 	}
 	public MyProfilePage pressMyProfileBtn() {
-		click(myprofile);
+		click(myprofile,"Press On My Profile Button");
 		return new MyProfilePage();
 	}
 	public HelpAndSupportPage pressContactUsBtn() {
-		click(contactus);
+		click(contactus,"Press On Contact_Us Button");
 		return new HelpAndSupportPage();
 	}
-	
+
 	public SmartCoinRewardsPage pressEarnBtn() {
-		click(earnbtn);
+		click(earnbtn,"Press On Earn Button");
 		return new SmartCoinRewardsPage();
 	}
-	
+
 	public MobileNumberOTPVerificationPage pressVerifyMobileNumberBtn() {
-		click(numberverificationbtn);
+		click(numberverificationbtn,"Press On Mobile_Number_Verification Button");
 		return new MobileNumberOTPVerificationPage();
 	}
 	public MenuPage pressMenuBtn() {
-		click(menuebutton);
+		click(menuebutton,"Press On Menu Button");
 		return new MenuPage();
 	}
-	
+
 	public ChatPage pressChatShortCutBtn() {
-		click(homepagechatshortcut);
+		click(homepagechatshortcut,"Press On Home Page Short Cut Button");
 		return new ChatPage();
 	}
-		public void scrollUp() {
+	public void scrollUp() {
 		BaseTest bt=new BaseTest();
 		bt.scrollToElement(myutilitytext, "up");	
 	}
-		public void scrollDown() {
-			BaseTest bt=new BaseTest();
-			bt.scrollToElement(myutilitytext, "down");	
-		}
-	
-public UploadBankStatementsPage pressUploadBankStatementBtn() {
-	click(uploadbankstatementbtn);
-	return new UploadBankStatementsPage();
-}
+	public void scrollDown() {
+		BaseTest bt=new BaseTest();
+		bt.scrollToElement(myutilitytext, "down");	
+	}
+
+	public UploadBankStatementsPage pressUploadBankStatementBtn() {
+		click(uploadbankstatementbtn,"Press On Upload Bank Statement Button");
+		return new UploadBankStatementsPage();
+	}
 }

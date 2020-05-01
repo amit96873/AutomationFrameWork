@@ -15,16 +15,17 @@ public class ChatActionPage extends BaseTest{
 
 
 	public String getTitlechatActionPageTitle() {
-		return getAttribute(chatactionpagetitletext, "text");
+		String title =  getText(chatactionpagetitletext, "Chat Action Page Title Text Is:- ");
+		return title;
 	}
 
 	public CameraPage pressTakePhotoBtn() {
-		click(takephotobtn);
+		click(takephotobtn,"Press Take Photo Button");
 		return new CameraPage();
 	}
 
 	public MobileGalryImageSelectPage pressChhosePhoto() {
-		click(choosephotobtn);
+		click(choosephotobtn,"Press On Choose Photo Button");
 		return new MobileGalryImageSelectPage();
 	}
 }

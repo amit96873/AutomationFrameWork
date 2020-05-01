@@ -14,13 +14,14 @@ public class PrivecyPolicyPage extends BaseTest {
 
 	
 	public String getTitle() {
-		return getAttribute(smartcoinprivecypolicytxt, "text");
+		String title = getText(smartcoinprivecypolicytxt, "Privecy policy title text is:- ");
+		return title;
 	}
 	
 	
 public PermissionPage presspvcBtn() {
 		
-	click(dismisspvcbutton);
+	click(dismisspvcbutton,"press dismiss SSPVC button");
 	return new PermissionPage();
 	}
 

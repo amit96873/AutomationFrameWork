@@ -6,23 +6,24 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class UploadAdharBackSugestionPage extends BaseTest {
-	
+
 
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='How to upload your Aadhaar Card (Back)?' and @index='0']") private MobileElement aadharbacktitletext;
 	@AndroidFindBy (id = "in.rebase.app:id/positive_button") private MobileElement capturebtn;
 	@AndroidFindBy (id = "in.rebase.app:id/negative_button") private MobileElement canclebtn;
-	
-	
+
+
 
 	public String getAadharBackSugestationTitle() {
-		return getAttribute(aadharbacktitletext, "text");
+		String title  = getText(aadharbacktitletext, "Upload adhar back suggestion page title text is:- ");
+		return title;
 	}
 	public CameraPage pressCaptureAdharBackBtn() {
-		click(capturebtn);
+		click(capturebtn,"press capture button");
 		return new CameraPage();
 	}
 	public KYCUploadDocumentsPage pressCancelBtn() {
-		click(canclebtn);
+		click(canclebtn,"press cancle button");
 		return new KYCUploadDocumentsPage();
 	}
 }

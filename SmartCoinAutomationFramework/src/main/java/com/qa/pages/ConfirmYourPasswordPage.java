@@ -1,11 +1,12 @@
 package com.qa.pages;
 
+import com.qa.BaseTest;
 import com.qa.BaseTestForSigninSignUp;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class ConfirmYourPasswordPage extends BaseTestForSigninSignUp {
+public class ConfirmYourPasswordPage extends BaseTest {
 
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='Confirm your 4-digit Pin' and @index='0']") private MobileElement confirmpasswordtitletext;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='1' and @index='0']") private MobileElement digitone;
@@ -19,116 +20,117 @@ public class ConfirmYourPasswordPage extends BaseTestForSigninSignUp {
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='9' and @index='0']") private MobileElement digitnine;
 	@AndroidFindBy (xpath = "//android.widget.TextView[@text='0' and @index='0']") private MobileElement digitzero;
 	@AndroidFindBy (id = "in.rebase.app:id/keyboard_button_imageview") private MobileElement deleteonedigitpassword;
-	
-	
+
+
 	public String getTitleConfirmPassword() {
-		return getAttribute(confirmpasswordtitletext, "text");
+		String title = getText(confirmpasswordtitletext, "text");
+		return title;
 	}
-	
+
 	public ConfirmYourPasswordPage pressOne() {
 
-		click(digitone);
+		click(digitone,"Press Digit One(1)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressTwo() {
 
-		click(digittwo);
+		click(digittwo,"Press Digit Two(2)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressThree() {
 
-		click(digitthree);
+		click(digitthree,"Press Digit Three(3)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressFour() {
 
-		click(digitfour);
+		click(digitfour,"Press Digit Four(4)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressFive() {
 
-		click(digitfive);
+		click(digitfive,"Press Digit Five(5)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressOSix() {
 
-		click(digitsix);
+		click(digitsix,"Press Digit Six(6)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressSeven() {
 
-		click(digitseven);
+		click(digitseven,"Press Digit Seven(7)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressEight() {
 
-		click(digiteight);
+		click(digiteight,"Press Digit Eight(8)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressNine() {
 
-		click(digitnine);
+		click(digitnine,"Press Digit Nine(9)");
 		return this;
 	}
 	public ConfirmYourPasswordPage pressZero() {
 
-		click(digitzero);
+		click(digitzero,"Press Digit Zero(0)");
 		return this;
 	}
-	public HomePageSmartCoinForSigninSignup pressOne1() {
+	public HomePageSmartCoin pressOne1() {
 
-		click(digitone);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitone,"Press Digit One(1)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressTwo2() {
+	public HomePageSmartCoin pressTwo2() {
 
-		click(digittwo);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digittwo,"Press Digit Two(2)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressThree3() {
+	public HomePageSmartCoin pressThree3() {
 
-		click(digitthree);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitthree,"Press Digit Three(3)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressFour4() {
+	public HomePageSmartCoin pressFour4() {
 
-		click(digitfour);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitfour,"Press Digit Four(4)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressFive5() {
+	public HomePageSmartCoin pressFive5() {
 
-		click(digitfive);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitfive,"Press Digit Five(5)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressOSix6() {
+	public HomePageSmartCoin pressOSix6() {
 
-		click(digitsix);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitsix,"Press Digit Six(6)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressSeven7() {
+	public HomePageSmartCoin pressSeven7() {
 
-		click(digitseven);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitseven,"Press Digit Seven(7)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressEight8() {
+	public HomePageSmartCoin pressEight8() {
 
-		click(digiteight);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digiteight,"Press Digit Seven(8)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressNine9() {
+	public HomePageSmartCoin pressNine9() {
 
-		click(digitnine);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitnine,"Press Digit Seven(9)");
+		return new HomePageSmartCoin();
 	}
-	public HomePageSmartCoinForSigninSignup pressZero0() {
+	public HomePageSmartCoin pressZero0() {
 
-		click(digitzero);
-		return new HomePageSmartCoinForSigninSignup();
+		click(digitzero,"Press Digit Seven(0)");
+		return new HomePageSmartCoin();
 	}
 	public ConfirmYourPasswordPage pressDeleteOneDigitPassword() {
 
-		click(deleteonedigitpassword);
+		click(deleteonedigitpassword,"Delete one digit password");
 		return this;
 	}
-	
+
 }

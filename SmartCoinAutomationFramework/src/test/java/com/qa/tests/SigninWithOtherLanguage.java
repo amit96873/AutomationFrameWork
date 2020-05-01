@@ -1,14 +1,14 @@
 package com.qa.tests;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import com.qa.BaseTestForSigninSignUp;
+
+import com.qa.BaseTest;
 import com.qa.listeners.AllureListener;
-import com.qa.listeners.AllureListenerForSigninSignup;
 import com.qa.pages.ConfirmYourPasswordPage;
 import com.qa.pages.ContinueLoginWithFbPage;
 import com.qa.pages.CreatePasswordPage;
 import com.qa.pages.FacebookPage;
-import com.qa.pages.HomePageSmartCoinForSigninSignup;
+import com.qa.pages.HomePageSmartCoin;
 import com.qa.pages.LanguagePage;
 import com.qa.pages.PermissionPage;
 import com.qa.pages.SignINWithGmailAndFacebookPage;
@@ -33,8 +33,8 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-@Listeners({AllureListenerForSigninSignup.class})
-public class SigninWithOtherLanguage extends BaseTestForSigninSignUp {
+@Listeners({AllureListener.class})
+public class SigninWithOtherLanguage extends BaseTest {
 	SigninPage signinPage;
 	LanguagePage languagePage;
 	PermissionPage permissionpage;
@@ -43,7 +43,7 @@ public class SigninWithOtherLanguage extends BaseTestForSigninSignUp {
 	ContinueLoginWithFbPage continueloginwithfb;
 	CreatePasswordPage createpasswordpage;
 	ConfirmYourPasswordPage confirmyourpasswordpage;
-	HomePageSmartCoinForSigninSignup homepagesmartcoin;
+	HomePageSmartCoin homepagesmartcoin;
 	InputStream datais;
 	JSONObject loginuser;
 	TestUtils utils = new TestUtils();
