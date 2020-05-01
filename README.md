@@ -2,21 +2,24 @@
 complete framework
 Appium mobile test automation framework with Page Object Model design using Java + Maven + TestNG
 
-Technologies/Tools used in building the framework:
 
+
+Technologies/Tools used in building the framework:
 Eclipse - IDE
 Appium - Mobile Automation library
 Maven - Build automation tool
 Java - Programming language
 TestNG - Test Management library
 Log4J - Logging framework
-Extent Reports - Reporting framework
+Extent Reports and Allure Report - Reporting framework
 JSON/Excel - Test Data
 XML - Static text
 GitHub - Version control
 Jenkins - CI/CD
-Framework implements below best practices:
 
+
+
+Framework implements below best practices:
 Code reusability
 Code readability
 Scalable automation (demonstrated using multiple test classes)
